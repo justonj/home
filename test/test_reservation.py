@@ -10,7 +10,7 @@ class TestIntentClassification:
         for query in tq.reservation_queries:
             assert_intent(query,
                           expected_intent='restaurant_reservation',
-                          expected_model='aneeda_en')
+                          expected_model='blank_en')
 
 
 @pytest.mark.skip(reason='No training done for reservation skill')
@@ -19,5 +19,5 @@ class TestEntityExtraction:
         for i in range(len(tq.reservation_queries)):
             query = tq.reservation_queries[i]
             mentions = tq.reservation_mentions[i]
-            assert_annotation(query, 'aneeda_en',
+            assert_annotation(query, 'blank_en',
                               'restaurant_reservation', mentions)

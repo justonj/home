@@ -48,7 +48,7 @@ def get_random_speakout(name):
 
 class RecommendationsRule(KnowledgeRetrievalRuleBase):
     intent_id = 'proactive_recommendations'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = 'DIALOGUE_COMPLETE'
     rewrite_dialogue_state = True
 

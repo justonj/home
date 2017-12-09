@@ -1,6 +1,0 @@
-intent_id,priority,awaiting_field,missing,present,aneeda_en
-disabled_intent,100,None,None,skill_name,My <skill_name> skill is coming soon. I'll alert you when it's available!
-,,,,,My <skill_name> skill is in the works. Thanks for your patience.
-,,,,,"Hang tight, my <skill_name> skill is coming soon."
-,,,,,"Sorry, I'm still working on my <skill_name> skills."
-,,,,,My <skill_name> skills will be available soon. Hold tight!

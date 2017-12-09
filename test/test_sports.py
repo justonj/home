@@ -8,19 +8,19 @@ class TestIntentClassification:
         for query in tq.sports_standings_queries:
             assert_intent(query,
                           expected_intent='sports_team_standing',
-                          expected_model='aneeda_en')
+                          expected_model='blank_en')
 
     def test_results(self):
         for query in tq.sports_results_queries:
             assert_intent(query,
                           expected_intent='sports_team_results',
-                          expected_model='aneeda_en')
+                          expected_model='blank_en')
 
     def test_schedule(self):
         for query in tq.sports_league_schedule:
             assert_intent(query,
                           expected_intent='sports_team_schedule',
-                          expected_model='aneeda_en')
+                          expected_model='blank_en')
 
 
 @pytest.mark.skip(reason="Sports skill training file is disabled")
@@ -30,7 +30,7 @@ class TestEntityExtraction:
             query = tq.sports_league_schedule[i]
             mention = tq.schedule_mentions[i]
             assert_annotation(query,
-                              'aneeda_en',
+                              'blank_en',
                               'sports_team_schedule',
                               mention)
 
@@ -39,7 +39,7 @@ class TestEntityExtraction:
             query = tq.sports_results_queries[i]
             mention = tq.results_mentions[i]
             assert_annotation(query,
-                              'aneeda_en',
+                              'blank_en',
                               'sports_team_results',
                               mention)
 
@@ -48,6 +48,6 @@ class TestEntityExtraction:
             query = tq.sports_standings_queries[i]
             mention = tq.stading_mentions[i]
             assert_annotation(query,
-                              'aneeda_en',
+                              'blank_en',
                               'sports_team_standing',
                               mention)

@@ -22,7 +22,7 @@ proactive_hints_input_dict = json.loads(proactive_hints_input)
 @requests_mock.Mocker(kw='mock')
 class TestCorrection:
     drm = None
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
 
     def setup_class(self):
         assert hasattr(pytest.response_managers, self.model_name)

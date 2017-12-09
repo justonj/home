@@ -1,9 +1,0 @@
-{
-  "id": "control_previous",
-  "fields": [
-    {
-      "id": "skill",
-      "type": "control_action"
-    }
-  ]
-}

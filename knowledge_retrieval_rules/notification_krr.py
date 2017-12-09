@@ -24,7 +24,7 @@ def isFormedDialogState(mention):
 
 class NotificationRule(KnowledgeRetrievalRuleBase):
     intent_id = 'proactive_notifications'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = 'DIALOGUE_COMPLETE'
     result_fields = ['notification']
     rewrite_dialogue_state = True

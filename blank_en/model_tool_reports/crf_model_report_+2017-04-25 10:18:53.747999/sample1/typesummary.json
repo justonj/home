@@ -1,0 +1,46 @@
+{
+    "cuisine": {
+        "false_misclassified": 0,
+        "false_negatives": 353,
+        "false_positives": 20,
+        "predicted_positives": 897,
+        "total_positives": 902,
+        "total_samples": 1475,
+        "true_misclassified": 3,
+        "true_negatives": 2929,
+        "true_positives": 874
+    },
+    "location": {
+        "false_misclassified": 3,
+        "false_negatives": 1626,
+        "false_positives": 45,
+        "predicted_positives": 305,
+        "total_positives": 326,
+        "total_samples": 1475,
+        "true_misclassified": 0,
+        "true_negatives": 1230,
+        "true_positives": 260
+    },
+    "price": {
+        "false_misclassified": 0,
+        "false_negatives": 27,
+        "false_positives": 0,
+        "predicted_positives": 33,
+        "total_positives": 33,
+        "total_samples": 1475,
+        "true_misclassified": 0,
+        "true_negatives": 83,
+        "true_positives": 33
+    },
+    "sort_by": {
+        "false_misclassified": 0,
+        "false_negatives": 100,
+        "false_positives": 12,
+        "predicted_positives": 214,
+        "total_positives": 214,
+        "total_samples": 1475,
+        "true_misclassified": 0,
+        "true_negatives": 850,
+        "true_positives": 202
+    }
+}

@@ -1,28 +1,15 @@
 import app_manager
 
 
-class AneedaApplication(app_manager.Application):
+class BlankApplication(app_manager.Application):
     def load_dialog_exit_rules(self):
         from .dialogue_exit_rules import aneeda_dialogue_exit_rules
 
     def load_entities(self):
         from .entities import address
-        from .entities import correction
-        from .entities import cross_domain
-        from .entities import custom_location
         from .entities import datetime
         from .entities import DescriptorType
-        from .entities import error
-        from .entities import music
-        from .entities import news
-        from .entities import person
         from .entities import phone_number
-        from .entities import playable_alias
-        from .entities import reservation_count
-        from .entities import service
-        from .entities import transport
-        from .entities import user_email_contacts
-        from .entities import user_phone_contact
         from .entities import yes_no
 
     def load_knowledge_retrieval_rules(self):
@@ -62,4 +49,4 @@ class AneedaApplication(app_manager.Application):
 
 
 def load_application(config):
-    return AneedaApplication(config)
+    return BlankApplication(config)

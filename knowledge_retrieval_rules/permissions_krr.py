@@ -12,7 +12,7 @@ from config import config
 
 
 class PermissionCheck(GenericRule):
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     rewrite_dialogue_state = True
     result_fields = []
 

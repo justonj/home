@@ -1,5 +1,5 @@
 import pytest
-import nlu_applications.aneeda.user_data_manager.user_entity_helpers as helper
+import nlu_applications.blank.user_data_manager.user_entity_helpers as helper
 from . import input_contacts as inputs
 
 

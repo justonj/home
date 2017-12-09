@@ -1,8 +1,8 @@
 from flask import request, jsonify
 from werkzeug.exceptions import BadRequest, UnsupportedMediaType
 
-import nlu_applications.aneeda.user_data_manager.user_entity_helpers as user_entity_helpers
-from nlu_applications.aneeda.user_data_manager.user_data_manager import get_user_data_manager
+import nlu_applications.blank.user_data_manager.user_entity_helpers as user_entity_helpers
+from nlu_applications.blank.user_data_manager.user_data_manager import get_user_data_manager
 
 from nlu_server import app
 from config import config

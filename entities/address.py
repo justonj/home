@@ -1,6 +1,6 @@
 from nlu.knowledge_base.entity_type_registry import register_entity_type
 from nlu.knowledge_base.entity_type_base import EntityTypeBase, DEFAULT_VALUE_KEY
-import nlu_applications.aneeda.web_api_hooks.google as google
+import nlu_applications.blank.web_api_hooks.google as google
 from faker import Factory
 from nlu.payload_utils import get_payload_location
 

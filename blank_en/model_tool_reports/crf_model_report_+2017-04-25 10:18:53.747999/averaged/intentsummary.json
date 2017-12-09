@@ -1,0 +1,14 @@
+{
+    "restaurant_search": {
+        "false_misclassified": 3.0,
+        "false_negatives": 2121.6666666666665,
+        "false_positives": 91.33333333333333,
+        "predicted_positives": 1458.0,
+        "total_negatives": 118.0,
+        "total_positives": 1474.3333333333333,
+        "total_samples": 1474.3333333333333,
+        "true_misclassified": 3.0,
+        "true_negatives": 7749.0,
+        "true_positives": 1363.6666666666667
+    }
+}

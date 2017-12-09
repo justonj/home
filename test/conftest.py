@@ -8,11 +8,11 @@ def pytest_namespace():
     """
     Called before running tests. adds the returned dict in pytest namespace
     """
-    test_path = 'nlu_applications/aneeda/test'
+    test_path = 'nlu_applications/blank/test'
     return {
         'QUERIES_PATH': test_path,
-        'SAMPLE_DATA_PATH': 'nlu_applications/aneeda/test/sample_response_jsons',
-        'RESPONSES_PATH': 'nlu_applications/aneeda/intent_responses_csv',
-        'TEST_RESPONSES_PATH': 'nlu_applications/aneeda/test/intent_responses_csv',
+        'SAMPLE_DATA_PATH': 'nlu_applications/blank/test/sample_response_jsons',
+        'RESPONSES_PATH': 'nlu_applications/blank/intent_responses_csv',
+        'TEST_RESPONSES_PATH': 'nlu_applications/blank/test/intent_responses_csv',
         'response_managers': load_dialogue_rule_managers()
     }

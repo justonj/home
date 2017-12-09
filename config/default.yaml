@@ -2,8 +2,8 @@
 # Copy this file to config/setup.yaml in the base nlu directory and customize
 
 ENVIRONMENT: dev
-APP_NAME: aneeda
-APP_VERSION: 0.17.2
+APP_NAME: blank
+APP_VERSION: 0.0.0
 DEFAULT_SCHEMA_VERSION: '1'
 GUNICORN_WORKERS_COUNT: 1
 
@@ -24,7 +24,7 @@ PG_PASSWORD: password
 PG_PORT: 5432
 PG_USER: iamplus_dev
 PG_NLU_DB: nlu
-PG_APP_DB: aneeda
+PG_APP_DB: blank
 
 # language
 DEFAULT_LANGUAGE: en
@@ -34,12 +34,9 @@ LEMMA_TAG_TYPES: [NOUN, PRON]
 # URLs
 GEOCODE_URL: https://maps.googleapis.com/maps/api/geocode/json
 CELERY_REDIS_HOST: redis://redis:6379
-SKILLS_ENDPOINT: http://intent-retrieve-map.aneeda.ai/skills-dev.json
 
 # keys (to be removed)
 GOOGLE_API_KEY: AIzaSyC2jyQ8vOt2F4fwIp0SvkevjbU4PhtMCl8
-SYNTH_YELP_API_KEY: 7Nxb67JklQ4G8G0-vc6N1g
-SYNTH_YELP_API_SECRET: pVNRSDKFPKJCv9li0JzzhYnc2mrelD4pjMhMjubR2CaHHqyh3G8J2V321dpA71Bp
 
 # skill timeout
 SKILL_REQUEST_TIMEOUT: 10
@@ -100,3 +97,4 @@ CR_DEFAULT_TIME_LIMIT: 600  # in seconds
 CR_DEFAULT_CONVERSATION_LIMIT: 5
 
 DEFAULT_TIMEZONE: 'US/Pacific'
+USE_LOCAL_SKILLS: True

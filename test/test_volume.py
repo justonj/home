@@ -27,7 +27,7 @@ queries_response = [
 
 class TestIntents:
     drm = None
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
 
     def setup_class(self):
         # seed dialogues

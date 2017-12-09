@@ -4,12 +4,12 @@ from nlu.knowledge_base.entity_type_registry import EntityType
 from nlu.knowledge_base.knowledge_retrieval_manager import KnowledgeRetrievalRuleBase, \
     register_retrieval_rule
 from nlu.payload_utils import get_payload_location
-import nlu_applications.aneeda.web_api_hooks.google as google
+import nlu_applications.blank.web_api_hooks.google as google
 
 
 class GetLocationTime(KnowledgeRetrievalRuleBase):
     intent_id = 'clock_time'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = []  # type: List[str]
     result_fields = ['time']
 

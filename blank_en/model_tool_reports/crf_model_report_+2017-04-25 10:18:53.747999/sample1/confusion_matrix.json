@@ -1,0 +1,26 @@
+{
+    "cuisine": {
+        "cuisine": 874.0,
+        "location": 0.0,
+        "price": 0.0,
+        "sort_by": 0.0
+    },
+    "location": {
+        "cuisine": 3.0,
+        "location": 260.0,
+        "price": 0.0,
+        "sort_by": 0.0
+    },
+    "price": {
+        "cuisine": 0.0,
+        "location": 0.0,
+        "price": 33.0,
+        "sort_by": 0.0
+    },
+    "sort_by": {
+        "cuisine": 0.0,
+        "location": 0.0,
+        "price": 0.0,
+        "sort_by": 202.0
+    }
+}

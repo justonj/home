@@ -28,13 +28,13 @@ class TestIntentClassification:
             print('query = ', query)
             assert_intent(query,
                           expected_intent='restaurant_search',
-                          expected_model='aneeda_en')
+                          expected_model='blank_en')
 
     def test_business_search(self):
         for query in tq.business_search_queries:
             assert_intent(query,
                           expected_intent='business_search',
-                          expected_model='aneeda_en')
+                          expected_model='blank_en')
 
 
 @pytest.mark.skip(reason="Yelp skill is disabled")
@@ -46,7 +46,7 @@ class TestEntityExtraction:
             query = tq.restaurant_search_queries[i]
             mentions = tq.restaurant_mentions[i]
             assert_annotation(query,
-                              'aneeda_en',
+                              'blank_en',
                               'restaurant_search',
                               mentions)
 
@@ -55,7 +55,7 @@ class TestEntityExtraction:
             query = tq.business_search_queries[i]
             mentions = tq.business_mentions[i]
             assert_annotation(query,
-                              'aneeda_en',
+                              'blank_en',
                               'business_search',
                               mentions)
 
@@ -64,7 +64,7 @@ class TestEntityExtraction:
 @requests_mock.Mocker(kw='mock')
 class TestConversation:
     drm = None
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
 
     def setup_class(self):
         # seed dialogues
@@ -104,7 +104,7 @@ class TestConversation:
             'london'], 'key': [config.GOOGLE_API_KEY]}
         expected_retrieve_request = {
             'nlu_response': {
-                'model_name': 'aneeda_en',
+                'model_name': 'blank_en',
                 'intent': 'restaurant_search',
                 'mentions': [
                     {
@@ -162,7 +162,7 @@ class TestConversation:
         expected_retrieve_request = {
             'nlu_response': {
                 'intent': 'restaurant_search',
-                'model_name': 'aneeda_en',
+                'model_name': 'blank_en',
                 'mentions': [
                     {
                         'type': 'cuisine',
@@ -201,7 +201,7 @@ class TestConversation:
 @requests_mock.Mocker(kw='mock')
 class TestCrossDomain:
     drm = None
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
 
     def setup_class(self):
         assert hasattr(pytest.response_managers, self.model_name)

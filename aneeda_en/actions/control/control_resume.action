@@ -1,9 +1,0 @@
-{
-  "id": "control_resume",
-  "fields": [
-    {
-      "id": "skill",
-      "type": "control_action"
-    }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "schema": {
-    "latitude": "float",
-    "longitude": "float",
-    "name": "text",
-    "type": "text"
-  }
-}

@@ -3,7 +3,7 @@ from nlu.knowledge_base.entity_type_registry import EntityType
 
 
 class TestDurationEntities:
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
     dialogue_state = None
 
     def setup_class(self):

@@ -1,7 +1,0 @@
-{
-  "schema": {
-    "place_id": "text",
-    "name": "text",
-    "type": "text"
-   }
-}

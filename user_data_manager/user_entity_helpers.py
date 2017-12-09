@@ -1,5 +1,5 @@
 import jsonapi_requests.data
-from nlu_applications.aneeda.user_data_manager.user_data_manager import get_user_data_manager
+from nlu_applications.blank.user_data_manager.user_data_manager import get_user_data_manager
 import glob
 import importlib.machinery
 from config import config

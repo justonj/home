@@ -1,9 +1,0 @@
-{
-  "schema": {
-    "day": "int",
-    "hours": "list",
-    "is_overnight": "boolean",
-    "name": "text",
-    "type": "text"
-  }
-}

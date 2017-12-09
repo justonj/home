@@ -1,7 +1,7 @@
 from nlu.postgres_utils import AppCursor
 from nlu.tokenizer import normalize
 from psycopg2.extras import Json
-from nlu_applications.aneeda.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
+from nlu_applications.blank.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
 
 
 class EmailContactsManager(UserDataManager):

@@ -1,9 +1,0 @@
-{
-  "id": "disabled_intent",
-  "fields": [
-    {
-      "id": "skill_name",
-      "type": "text"
-    }
-  ]
-}

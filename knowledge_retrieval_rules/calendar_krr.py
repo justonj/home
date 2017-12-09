@@ -8,7 +8,7 @@ from nlu.knowledge_base.entity_type_base import DEFAULT_VALUE_KEY
 
 class CreateCalendarFromEvent(KnowledgeRetrievalRuleBase):
     intent_id = 'calendar_create_event'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = ['event']
     allow_overwrite = True
     result_fields = ['event_date', 'event_time',

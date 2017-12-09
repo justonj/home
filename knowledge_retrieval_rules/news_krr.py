@@ -10,7 +10,7 @@ from nlu.knowledge_base.knowledge_retrieval_manager import \
 
 class AddArtistKrr(KnowledgeRetrievalRuleBase):
     intent_id = 'news_search'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = ['artist_or_topic']  # type: List[str]
     rewrite_dialogue_state = True
 

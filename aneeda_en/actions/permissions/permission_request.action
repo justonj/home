@@ -1,9 +1,0 @@
-{
-  "id": "permission_request",
-  "fields": [
-    {
-      "id": "permission",
-      "type": "permission"
-    }
-  ]
-}

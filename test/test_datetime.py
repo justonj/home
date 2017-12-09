@@ -31,7 +31,7 @@ def get_datetime_entity(request, datetime_obj):
 
 
 class TestDatetimeEntities:
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
     dialogue_state = None
 
     def setup_class(self):

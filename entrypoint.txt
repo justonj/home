@@ -1,1 +1,1 @@
-aneeda = nlu_applications.aneeda.application:load_application
+blank = nlu_applications.blank.application:load_application

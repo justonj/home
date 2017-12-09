@@ -1,0 +1,23 @@
+{
+    "f1-score": {
+        "restaurant_search": 0.5507615291632422
+    },
+    "fc_error": {
+        "restaurant_search": 0.0014115396710621265
+    },
+    "precision": {
+        "restaurant_search": 0.9347038659735306
+    },
+    "prevalence": {
+        "restaurant_search": 0.9993221870071808
+    },
+    "recall": {
+        "restaurant_search": 0.3908317303485978
+    },
+    "specificity": {
+        "restaurant_search": 0.9878523661903976
+    },
+    "tc_error": {
+        "restaurant_search": 0.03199298589369511
+    }
+}

@@ -20,7 +20,7 @@ TV_SKILL_URL = get_skill('tv').url + '/retrieve'
 @requests_mock.Mocker(kw='mock')
 class TestCrossDomain:
     drm = None
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
 
     def setup_class(self):
         assert hasattr(pytest.response_managers, self.model_name)

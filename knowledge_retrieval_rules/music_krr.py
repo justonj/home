@@ -10,7 +10,7 @@ from nlu.tokenizer import tokenize, normalize
 
 class CorrectSongArtistErrors(KnowledgeRetrievalRuleBase):
     intent_id = 'music_play'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = []  # type: List[str]
     rewrite_dialogue_state = True
 
@@ -56,7 +56,7 @@ class CorrectSongArtistErrors(KnowledgeRetrievalRuleBase):
 
 class MusicPlaySubstringMatchingInsteadOfMachineLearning(KnowledgeRetrievalRuleBase):
     intent_id = 'music_play'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = []  # type: List[str]
     result_fields = ['song', 'artist']
     extractor = CRFFeatureExtractor('en')

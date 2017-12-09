@@ -58,7 +58,7 @@ def collect_unique_matching_answer_entities(type_name, dialogue_states, conditio
 
 class MusicReplay(KnowledgeRetrievalRuleBase):
     intent_id = 'music_replay'
-    model_id = 'aneeda_en'
+    model_id = 'blank_en'
     fields_precondition = []
     result_fields = ['tracks']
 

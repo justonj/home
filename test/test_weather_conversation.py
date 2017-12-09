@@ -43,7 +43,7 @@ def read_file(filename):
 @requests_mock.Mocker(kw='mock')
 class TestConversation:
     drm = None
-    model = 'aneeda_en'
+    model = 'blank_en'
 
     def setup_class(self):
         assert hasattr(pytest.response_managers, self.model)

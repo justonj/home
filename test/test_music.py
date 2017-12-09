@@ -56,7 +56,7 @@ def read_file(filename):
 @requests_mock.Mocker(kw='mock')
 class TestIntents:
     drm = None
-    model_name = 'aneeda_en'
+    model_name = 'blank_en'
 
     def setup_class(self):
         assert hasattr(pytest.response_managers, self.model_name)
