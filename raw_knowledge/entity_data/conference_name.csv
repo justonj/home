@@ -1,0 +1,15 @@
+conference_name,League,Alias,conference_id,gn_conference_id
+American League,MLB,AL,5,137
+National League,MLB,NL,6,136
+Eastern Conference,NBA,Eastern,1,403879
+Western Conference,NBA,Western,2,403882
+American Football Conference,NFL,AFC,3,1
+National Football Conference,NFL,NFC,4,2
+AFC,NFL,AFC,3,1
+NFC,NFL,NFC,4,2
+AL,MLB,AL,5,137
+NL,MLB,NL,6,136
+Eastern,NBA,Eastern,1,403879
+Western,NBA,Western,2,403882
+Eastern Conference,NHL,Eastern,,1
+Western Conference,NHL,Western,,2

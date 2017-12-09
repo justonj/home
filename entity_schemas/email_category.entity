@@ -1,0 +1,11 @@
+{
+  "schema": {
+    "email_category": "text",
+    "name": "text",
+    "type": "text"
+  },
+  "factory_class": "generic_db",
+  "table_name": "email_category",
+  "key_column_name": "email_category",
+  "entity_response_columns": ["email_category"]
+}

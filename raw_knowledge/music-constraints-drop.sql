@@ -1,0 +1,15 @@
+ALTER TABLE music_albums DROP CONSTRAINT "music_albums_artist_id_fkey";
+ALTER TABLE music_tracks DROP CONSTRAINT "music_tracks_artist_id_fkey";
+ALTER TABLE music_tracks DROP CONSTRAINT "music_tracks_album_id_fkey";
+ALTER TABLE music_artists DROP CONSTRAINT music_artists_pkey;
+ALTER TABLE music_albums DROP CONSTRAINT music_albums_pkey;
+ALTER TABLE music_tracks DROP CONSTRAINT music_tracks_pkey;
+DROP INDEX music_albums_artist_id_idx;
+DROP INDEX music_tracks_artist_id_idx;
+DROP INDEX music_tracks_album_id_idx;
+DROP INDEX music_artists_name_idx;
+DROP INDEX music_albums_name_idx;
+DROP INDEX music_tracks_name_idx;
+DROP INDEX music_tracks_name_gin_trgm_idx;
+DROP INDEX music_albums_name_gin_trgm_idx;
+DROP INDEX music_artists_name_gin_trgm_idx;

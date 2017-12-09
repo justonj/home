@@ -1,0 +1,50 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.25,
+        "sample_size": 1000
+    },
+    "fields": [
+        {
+            "alias_for": [
+                "weather_date_range",
+                "location"
+            ],
+            "id": "place_or_day",
+            "mturk_field": "WeatherFindLocation",
+            "type": "alias"
+        },
+        {
+            "id": "location",
+            "synth_type": "city_type",
+            "type": "address"
+        },
+        {
+            "id": "weather_date_range",
+            "synth_type": "week_date",
+            "type": "datetime_range"
+        },
+        {
+            "id": "weather_time",
+            "mturk_field": "WeatherFindTime",
+            "synth_type": "common_time",
+            "type": "time"
+        },
+        {
+            "alias_for": [
+                "weather_date_range"
+            ],
+            "id": "date_range",
+            "mturk_field": "WeatherFindDate",
+            "type": "alias"
+        },
+        {
+            "id": "weather_find_condition",
+            "mturk_field": "WeatherFindCondition",
+            "type": "weather_condition"
+        }
+    ],
+    "id": "weather_find",
+    "mturk_response_fields": [
+        "WeatherFindQ"
+    ]
+}

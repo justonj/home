@@ -1,0 +1,13 @@
+{
+    "fields": [
+        {
+            "id": "remove_skill_name",
+            "mturk_field": "RemoveServiceA",
+            "type": "skill_name"
+        }
+    ],
+    "id": "remove_service",
+    "mturk_response_fields": [
+        "RemoveServiceQ"
+    ]
+}

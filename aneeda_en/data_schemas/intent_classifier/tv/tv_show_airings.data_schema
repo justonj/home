@@ -1,0 +1,15 @@
+{
+    "id": "tv_show_airings",
+    "fields": [
+        {
+          "id": "show",
+          "type": "tv_show_name",
+          "mturk_field": "TvShowAiringsShow"
+        }
+    ],
+    "mturk_response_fields": ["TvShowAiringsResponse"],
+    "data_synthesis": {
+        "sample_size": 500,
+        "context_trigger_ratio": 0.2
+    }
+}

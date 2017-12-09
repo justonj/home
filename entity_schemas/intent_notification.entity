@@ -1,0 +1,6 @@
+{
+  "schema": {
+    "intent": "text",
+    "fields": "object"
+  }
+}

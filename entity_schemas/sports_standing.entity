@@ -1,0 +1,10 @@
+{
+  "schema": {
+    "season": "season_name",
+    "team": "sports_team",
+    "id": "int",
+    "sport": "text",
+    "name": "text",
+    "type": "text"
+  }
+}

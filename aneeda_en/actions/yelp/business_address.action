@@ -1,0 +1,15 @@
+{
+  "id": "business_address",
+  "fields": [
+    {"id": "business",
+      "type": "local_business",
+      "must_resolve": true,
+      "from_context": true
+    },
+    {
+     "id": "business_address",
+     "type": "address"
+    }
+  ]
+}
+

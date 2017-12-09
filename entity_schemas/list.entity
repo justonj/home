@@ -1,0 +1,10 @@
+{
+  "schema": {
+    "name": "text",
+    "items": "array",
+    "speakout": "text",
+    "item_types": "array",
+    "type": "text"
+   },
+   "optional": ["item_types", "speakout"]
+}

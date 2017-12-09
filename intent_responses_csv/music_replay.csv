@@ -1,0 +1,20 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,entity_values,aneeda_en
+music_replay,100,None,None,None,tracks && time_range && album_artist,,Here is the music you requested from <time_range>
+music_replay,95,None,None,None,tracks && time_range && album,,Here are the albums you requested from <time_range>
+music_replay,90,None,None,None,tracks && time_range && artist,,Here are the artists you requested from <time_range>
+music_replay,85,None,None,None,tracks && time_range && collection,,Here are the collections you requested from <time_range>
+music_replay,80,None,None,None,tracks && time_range,,Here is the music I played <time_range>
+music_replay,75,None,None,None,tracks && album,,Here are recent albums you requested
+music_replay,70,None,None,None,tracks && artist,,Here are recent artists you requested
+music_replay,65,None,None,None,tracks && collection,,Here are recent collections you requested
+music_replay,60,None,None,None,tracks,,Here is recent music you requested
+music_replay,55,None,None,tracks,other_tracks && time_range && album_artist,,"I can't find that from <time_range>, but here are songs I played then"
+music_replay,50,None,None,tracks,other_tracks && time_range && album,,"I can't find albums from <time_range>, but here are songs I played then"
+music_replay,45,None,None,tracks,other_tracks && time_range && artist,,"I can't find artists from <time_range>, but here are songs I played then"
+music_replay,40,None,None,tracks,other_tracks && time_range && collection,,"I can't find playlists from <time_range>, but here are songs I played then"
+music_replay,35,None,None,tracks,other_tracks && album_artist,,"I can't find that, but here are songs I played recently"
+music_replay,30,None,None,tracks,other_tracks && album,,"I can't find albums you requested, but here are songs I played recently"
+music_replay,25,None,None,tracks,other_tracks && artist,,"I can't find artists you requested, but here are songs I played recently"
+music_replay,20,None,None,tracks,other_tracks && collection,,"I can't find playlists you requested, but here are songs I played recently"
+music_replay,15,None,None,None,time_range,,I can't find any music from that time
+music_replay,10,None,None,None,None,,It appears you haven't listened to any music yet

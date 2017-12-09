@@ -1,0 +1,20 @@
+{
+  "id": "business_rating",
+  "fields": [
+    {"id": "business",
+      "type": "local_business",
+      "mturk_field": "BusinessRatingLocalBusiness"
+    },
+    {
+     "id": "business_rating",
+     "type": "number"
+    }
+  ],
+  "mturk_response_fields": ["BusinessRatingResponse"],
+  "mturk_additional_info_fields": [],
+  "data_synthesis": {
+    "sample_size": 500,
+    "context_trigger_ratio": 0.75
+  }
+}
+

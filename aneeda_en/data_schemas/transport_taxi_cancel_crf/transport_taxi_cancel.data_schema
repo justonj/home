@@ -1,0 +1,18 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.386,
+        "sample_size": 900
+    },
+    "fields": [
+        {
+            "id": "taxi_service_id",
+            "mturk_field": "TransportTaxiCancelType",
+            "synth_type": "uber_type",
+            "type": "transport_taxi_service_type"
+        }
+    ],
+    "id": "transport_taxi_cancel",
+    "mturk_response_fields": [
+        "TransportTaxiCancelQ"
+    ]
+}

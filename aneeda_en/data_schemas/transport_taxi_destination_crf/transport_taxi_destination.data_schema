@@ -1,0 +1,18 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.442,
+        "sample_size": 1050
+    },
+    "fields": [
+        {
+            "id": "destination",
+            "mturk_field": "TransportTaxiDestination",
+            "synth_type": "sample_address",
+            "type": "custom_location_type"
+        }
+    ],
+    "id": "transport_taxi_destination",
+    "mturk_response_fields": [
+        "TransportTaxiDestinationQ"
+    ]
+}

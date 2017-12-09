@@ -1,0 +1,33 @@
+{
+  "id": "calendar_show_event",
+  "fields": [
+
+    {"id": "event_date",
+      "type": "datetime_range",
+      "synth_type": "common_date",
+      "mturk_field": "calendarDate"
+    },
+
+    {"id": "event_title",
+      "type": "text",
+      "mturk_field": "calendarTitle"
+    },
+
+    {"id": "event_attendee",
+      "type": "user_email_contacts",
+      "synth_type" : "contact_name",
+      "mturk_field": "calendarAttendee"
+    },
+
+
+    {"id": "calendar_upcoming",
+      "type": "upcoming_yn",
+      "mturk_field": "calendarUpcoming"
+    }
+  ],
+  "mturk_response_fields": ["calendarShowEvent"],
+  "data_synthesis": {
+    "sample_size": 1500,
+    "context_trigger_ratio": 0.25
+  }
+}

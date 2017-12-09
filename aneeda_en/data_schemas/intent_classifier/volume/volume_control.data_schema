@@ -1,0 +1,40 @@
+{
+  "id": "volume_control",
+  "fields": [
+    {
+      "id": "volume_up",
+      "type": "text",
+      "mturk_field": "VolumeUp"
+    },
+    {
+      "id": "volume_down",
+      "type": "text",
+      "mturk_field": "VolumeDown"
+    },
+    {
+      "id": "volume_max",
+      "type": "text",
+      "mturk_field": "VolumeMax"
+    },
+    {
+      "id": "volume_min",
+      "type": "text",
+      "mturk_field": "VolumeMin"
+    },
+    {
+      "id": "volume_level",
+      "type": "number",
+      "mturk_field": "VolumeLevel"
+    },
+    {
+      "id": "volume_incremental",
+      "type": "number",
+      "mturk_field": "VolumeIncremental"
+    }
+  ],
+  "mturk_response_fields": ["VolumeResponse"],
+  "data_synthesis": {
+    "sample_size": 300,
+    "context_trigger_ratio": 0.1
+  }
+}

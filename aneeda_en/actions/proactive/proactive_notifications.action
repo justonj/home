@@ -1,0 +1,22 @@
+{
+  "id": "proactive_notifications",
+  "fields": [
+    {
+      "id": "notification_id",
+      "type": "text"
+    },
+    {
+      "id": "notification",
+      "is_answer": true,
+      "type": "intent_notification"
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}

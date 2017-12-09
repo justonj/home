@@ -1,0 +1,73 @@
+{
+  "skill_id": "calendar",
+  "url": {
+      "dev": "https://iamplus-skills-calendar-dev.herokuapp.com",
+      "qa": "https://iamplus-skills-calendar-qa.herokuapp.com",
+      "staging": "https://iamplus-skills-calendar-stg.herokuapp.com",
+      "prod": "https://iamplus-skills-calendar.herokuapp.com"
+  },
+
+  "intent_hooks": [
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "calendar_create_event",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "calendar_events",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "calendar_check_event",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "skill_response",
+          "field_type": "text"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "calendar_show_event",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "calendar_events",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_response",
+          "field_type": "text"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    }
+  ]
+}

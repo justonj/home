@@ -1,0 +1,67 @@
+{
+  "id": "email_show",
+  "fields": [
+    {
+      "id": "email_contact_or_date",
+      "type": "alias",
+      "alias_for": ["email_contact", "email_date"],
+      "must_resolve": true
+    },
+    {
+      "id": "email_contact",
+      "type": "user_email_contacts",
+      "must_resolve": true
+    },
+    {
+      "id": "email_date",
+      "type": "datetime_range",
+      "must_resolve": true
+    },
+     {
+      "id": "email_keyword",
+      "type": "text"
+    },
+    {
+      "id": "email_subject",
+      "type": "text"
+    },
+    {
+      "id": "email_unread",
+      "type": "unread_yn",
+      "must_resolve": true
+    },
+    {
+      "id": "email_latest",
+      "type": "latest_yn",
+      "must_resolve": true
+    },
+    {
+      "id": "email_category",
+      "type": "email_category",
+      "must_resolve": true
+    },
+    {
+      "id": "email_results",
+      "type": "list",
+      "is_answer": true,
+      "item_types": ["user_email"]
+    },
+    {
+      "id": "skill_response",
+      "type": "text"
+    },
+    {
+      "id": "email_error",
+      "type": "error"
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}
+

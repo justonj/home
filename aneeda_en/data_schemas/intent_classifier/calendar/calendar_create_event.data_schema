@@ -1,0 +1,68 @@
+{
+  "id": "calendar_create_event",
+  "fields": [
+    {
+      "id": "event",
+      "type": "event",
+      "mturk_field": "calendarEvent"
+    },
+    {
+      "id": "tv_show",
+      "type": "tv_show_name",
+      "mturk_field": "calendarTvShow"
+    },
+    {
+      "id": "concert",
+      "type": "music_concert",
+      "mturk_field": "calendarConcert"
+    },
+    {
+      "id": "sports_event",
+      "type": "sports_schedule",
+      "mturk_field": "calendarSport"
+    },
+    {
+      "id": "event_attendees",
+      "type": "user_email_contacts",
+      "synth_type" : "contact_name",
+      "mturk_field": "calendarAttendees"
+    },
+    {
+      "id": "event_date",
+      "type": "date",
+      "synth_type": "common_date",
+      "mturk_field": "calendarDate"
+    },
+    {
+      "id": "event_time",
+      "type": "time",
+      "synth_type": "common_time",
+      "mturk_field": "calendarTime"
+    },
+    {
+      "id": "event_duration",
+      "type": "short_duration",
+      "mturk_field": "calendarDuration"
+    },
+    {
+      "id": "event_title",
+      "type": "text",
+      "mturk_field": "calendarTitle"
+    },
+    {
+      "id": "event_location",
+      "type": "text",
+      "mturk_field": "calendarLocation"
+    },
+    {
+      "id": "event_recurrence",
+      "type": "text",
+      "mturk_field": "calendarRecurrence"
+    }
+  ],
+  "mturk_response_fields": ["calendarCreateEvent"],
+  "data_synthesis": {
+    "sample_size": 3000,
+    "context_trigger_ratio": 0.25
+  }
+}

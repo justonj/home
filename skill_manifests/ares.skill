@@ -1,0 +1,28 @@
+{
+    "is_disabled": true,
+    "skill_id": "ares",
+    "url": {
+        "dev": "https://iamplus-skills-reservation-dev.herokuapp.com",
+        "prod": "https://iamplus-skills-reservation.herokuapp.com",
+        "qa": "https://iamplus-skills-reservation-qa.herokuapp.com",
+        "staging": "https://iamplus-skills-reservation-stg.herokuapp.com"
+    },
+
+    "intent_hooks": [
+        {
+            "model_name": "aneeda_en",
+            "intent_id": "restaurant_reservation",
+            "field_precondition": "DIALOGUE_COMPLETE",
+            "result_fields": [
+                {
+                    "field_id": "skill_exception",
+                    "field_type": "exception"
+                },
+                {
+                    "field_id": "http_error",
+                    "field_type": "http_error"
+                }
+            ]
+        }
+    ]
+}

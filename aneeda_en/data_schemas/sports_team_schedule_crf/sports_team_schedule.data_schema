@@ -1,0 +1,98 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.38,
+        "sample_size": 3000
+    },
+    "fields": [
+        {
+            "black_list": [
+                "recent",
+                "latest",
+                "last",
+                "current",
+                "division",
+                "conference"
+            ],
+            "id": "team_name_1",
+            "mturk_field": "SportsTeamScheduleTeam1",
+            "type": "sports_team"
+        },
+        {
+            "id": "venue_type",
+            "mturk_field": "SportsTeamScheduleTeam1Loc",
+            "type": "venue_type"
+        },
+        {
+            "black_list": [
+                "recent",
+                "latest",
+                "last",
+                "current",
+                "division",
+                "conference"
+            ],
+            "id": "team_name_2",
+            "mturk_field": "SportsTeamScheduleTeam2",
+            "type": "sports_team"
+        },
+        {
+            "id": "venue_type_team2",
+            "mturk_field": "SportsTeamScheduleTeam2Loc",
+            "type": "venue_type"
+        },
+        {
+            "id": "venue_name",
+            "mturk_field": "SportsTeamScheduleVenue",
+            "type": "venue_name"
+        },
+        {
+            "id": "conference_name",
+            "mturk_field": "SportsTeamScheduleConferenceName",
+            "type": "conference_name"
+        },
+        {
+            "id": "division_name",
+            "mturk_field": "SportsTeamScheduleDivisionName",
+            "type": "division_name"
+        },
+        {
+            "id": "player_name",
+            "mturk_field": "SportsTeamSchedulePlayerName",
+            "type": "player_name"
+        },
+        {
+            "id": "season_name",
+            "mturk_field": "SportsTeamScheduleSeasonName",
+            "type": "season_name"
+        },
+        {
+            "id": "season_type",
+            "mturk_field": "SportsTeamScheduleSeasonType",
+            "type": "season_type"
+        },
+        {
+            "id": "day",
+            "mturk_field": "SportsTeamScheduleDay",
+            "synth_type": "common_date",
+            "type": "datetime_range"
+        },
+        {
+            "id": "time",
+            "mturk_field": "SportsTeamScheduleTime",
+            "synth_type": "common_time",
+            "type": "time"
+        },
+        {
+            "black_list": [
+                "league"
+            ],
+            "id": "league_name",
+            "mturk_field": "SportsTeamScheduleTournament",
+            "type": "league_name"
+        }
+    ],
+    "id": "sports_team_schedule",
+    "mturk_response_fields": [
+        "SportsTeamScheduleQ"
+    ]
+}

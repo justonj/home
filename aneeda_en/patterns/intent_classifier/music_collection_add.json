@@ -1,0 +1,25 @@
+{
+  "intent_name": "music_collection_add",
+
+  "patterns": {
+    "add this song to my x playlist": {
+      "query":"add this song to my <collection> playlist",
+      "config": {"initial_lr": 0.00025},
+      "used_fields": ["collection"]
+    },
+    "add x by y to my z playlist": {
+      "query":"add <song> by <artist> to my <collection> playlist",
+      "config":{
+        "initial_lr": 0.00082,
+        "sample_size": 500
+      },
+      "used_fields": ["collection", "artist", "song"]
+    }
+  },
+
+  "entities": {
+    "collection": [],
+    "artist": [],
+    "song":[]
+  }
+}

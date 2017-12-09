@@ -1,0 +1,9 @@
+{
+  "id": "show_history",
+  "fields": [],
+  "mturk_response_fields": ["show_history_query"],
+  "data_synthesis": {
+    "sample_size": 300,
+    "context_trigger_ratio": 0.1
+  }
+}

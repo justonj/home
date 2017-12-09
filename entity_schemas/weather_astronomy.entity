@@ -1,0 +1,15 @@
+{
+  "schema": {
+    "sunrise": "text",
+    "sunset": "text",
+    "solar_noon": "text",
+    "day_length": "int",
+    "civil_twilight_begin": "text",
+    "civil_twilight_end": "text",
+    "nautical_twilight_begin": "text",
+    "nautical_twilight_end": "text",
+    "astronomical_twilight_begin": "text",
+    "astronomical_twilight_end": "text",
+    "date": "text"
+  }
+}

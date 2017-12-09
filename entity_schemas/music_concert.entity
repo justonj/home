@@ -1,0 +1,30 @@
+{
+  "schema": {
+    "artist_event_id": "int",
+    "artist": "list",
+    "datetime": "datetime",
+    "duration": "text",
+    "facebook_rsvp_url": "text",
+    "formatted_datetime": "text",
+    "formatted_location": "text",
+    "id": "int",
+    "on_sale_datetime": "text",
+    "ticket_status": "text",
+    "ticket_type": "text",
+    "ticket_url": "text",
+    "name": "text",
+    "type": "text",
+    "venue": "venue",
+    "card_token": "text"
+  },
+  "optional": ["duration", "facebook_rsvp_url", "on_sale_datetime", "ticket_status", "ticket_type", "ticket_url"],
+  "is_a": ["event"],
+  "enable_context_list_triggers": true,
+  "context_resolution_triggers" : [
+    "concert", "show",
+    "this", "this concert", "this gig",
+    "that", "that concert", "that gig",
+    "current concert", "current gig",
+    "it", "this event", "that event"
+  ]
+}

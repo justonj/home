@@ -1,0 +1,80 @@
+{
+  "skill_id": "email",
+  "url": {
+      "dev": "https://iamplus-skills-email-dev.herokuapp.com",
+      "qa": "https://iamplus-skills-email-qa.herokuapp.com",
+      "staging": "https://iamplus-skills-email-stg.herokuapp.com",
+      "prod": "https://iamplus-skills-email.herokuapp.com"
+  },
+
+  "intent_hooks": [
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "email_show",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "email_results",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_response",
+          "field_type": "text"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "email_compose",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "email_reply",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "email_default_account",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    }
+  ]
+}

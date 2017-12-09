@@ -1,0 +1,16 @@
+{
+    "input": {
+        "intent": "proactive_hints",
+	    "fields": {
+            "artist": {
+              "id": "342562",
+              "name": "drake",
+              "popularity": 1,
+              "resolve_type": "knowledge_resolution",
+              "score": 1,
+              "type": "music_artist",
+              "user_input": "drake"
+            }
+        }
+    }
+}

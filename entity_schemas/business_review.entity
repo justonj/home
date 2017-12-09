@@ -1,0 +1,10 @@
+{
+  "schema": {
+    "rating": "int",
+    "user": "text",
+    "review": "text",
+    "url": "text",
+    "name": "text",
+    "type": "text"
+  }
+}

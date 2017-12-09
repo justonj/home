@@ -1,0 +1,10 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text"
+  },
+  "factory_class": "generic_db",
+  "table_name": "control_action",
+  "key_column_name": "control_action",
+  "entity_response_columns": ["control_action"]
+}

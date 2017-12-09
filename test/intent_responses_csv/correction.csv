@@ -1,0 +1,5 @@
+"intent_id","priority","awaiting_field","unresolved","missing","present","entity_values","aneeda_en"
+"correction",100,new_value,corrected_field,new_value,old_value,,"Here's what I found for <old_value>: <corrected_field.candidates>. Which one do you want?"
+,100,candidate_value,corrected_field,candidate_value,old_value && new_value && value_changed,,"Here's what I found for <new_value>: <corrected_field.candidates>. Which one do you want?"
+,100,candidate_value,corrected_field,candidate_value && value_changed,old_value && new_value,,"Here's what I found for <old_value>: <corrected_field.candidates>. Which one do you want?"
+,97,corrected_field,None,corrected_field,old_value && correction_fields,,"Do you want <old_value> the <correction_fields>?"

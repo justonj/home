@@ -1,0 +1,17 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.2,
+        "sample_size": 500
+    },
+    "fields": [
+        {
+            "id": "show",
+            "mturk_field": "TvShowCastShow",
+            "type": "tv_show_name"
+        }
+    ],
+    "id": "tv_show_cast",
+    "mturk_response_fields": [
+        "TvShowCastResponse"
+    ]
+}

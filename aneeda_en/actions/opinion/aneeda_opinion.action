@@ -1,0 +1,13 @@
+{
+  "id": "aneeda_opinion",
+  "fields": [
+    {
+      "id": "keyword",
+      "type": "text"
+    },
+    {
+      "id": "artist",
+      "type": "music_artist"
+    }
+  ]
+}

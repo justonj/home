@@ -1,0 +1,24 @@
+{
+  "id": "music_get_more",
+  "fields": [
+    {
+      "id": "seed",
+      "type": "list",
+      "item_types": ["music_artist"]
+    },
+    {
+      "id": "tracks",
+      "is_answer": true,
+      "type": "list",
+      "item_types": ["music_track"]
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}

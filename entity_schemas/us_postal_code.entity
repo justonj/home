@@ -1,0 +1,13 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text",
+    "place_name": "text",
+    "state": "text"
+  },
+  "factory_class": "db",
+  "table_name": "us_postal_codes",
+  "key_column_name": "us_postal_code",
+  "text_columns": [0],
+  "entity_response_columns": ["us_postal_code", "place_name", "state"]
+}

@@ -1,0 +1,93 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.372,
+        "sample_size": 650
+    },
+    "fields": [
+        {
+            "black_list": [
+                "recent",
+                "latest",
+                "last",
+                "current",
+                "division",
+                "conference"
+            ],
+            "id": "team_name1",
+            "mturk_field": "SportsFollowGameTeamNameA",
+            "type": "sports_team"
+        },
+        {
+            "black_list": [
+                "recent",
+                "latest",
+                "last",
+                "current",
+                "division",
+                "conference"
+            ],
+            "id": "team_name2",
+            "mturk_field": "SportsFollowGameTeamNameB",
+            "type": "sports_team"
+        },
+        {
+            "id": "gameTime",
+            "mturk_field": "SportsFollowGameTime",
+            "synth_type": "common_time",
+            "type": "time"
+        },
+        {
+            "id": "gameDay",
+            "mturk_field": "SportsFollowGameDate",
+            "synth_type": "relative_date",
+            "synth_type_params": {
+                "future": true,
+                "past": false,
+                "present": true
+            },
+            "type": "date"
+        },
+        {
+            "id": "gameVenue",
+            "mturk_field": "SportsFollowGameVenue",
+            "type": "venue_name"
+        },
+        {
+            "id": "gameTrigger",
+            "mturk_field": "SportsFollowGameTriggerCondition",
+            "type": "text"
+        },
+        {
+            "id": "game_season",
+            "mturk_field": "SportsFollowGameSeason",
+            "type": "season_name"
+        },
+        {
+            "id": "game_player",
+            "mturk_field": "SportsFollowGamePlayer",
+            "type": "player_name"
+        },
+        {
+            "id": "game_division",
+            "mturk_field": "SportsFollowGameDivision",
+            "type": "division_name"
+        },
+        {
+            "id": "game_conference",
+            "mturk_field": "SportsFollowGameConference",
+            "type": "conference_name"
+        },
+        {
+            "black_list": [
+                "league"
+            ],
+            "id": "gameTournamentOrSports",
+            "mturk_field": "SportsFollowGameTournamentOrSports",
+            "type": "league_name"
+        }
+    ],
+    "id": "sports_follow_a_game",
+    "mturk_response_fields": [
+        "SportsFollowGameQ"
+    ]
+}

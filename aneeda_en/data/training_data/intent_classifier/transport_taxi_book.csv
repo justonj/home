@@ -1,0 +1,1634 @@
+TransportTaxiBook,TransportTaxiBookType,TransportTaxiBookOrigin,TransportTaxiBookDestination,TransportTaxiBookTime,context_uber
+"Aneeda, book a cab",,,,,
+"Aneeda, book a taxi",,,,,
+"Aneeda, book me a ride with Uber to go to Vons in Lakewood.",Uber,,Vons in Lakewood,,
+"Aneeda, Call Uber cab service and book me a cab to IGI Airport.",Uber,,IGI Airport,,
+"Aneeda, help me get a ride with Lyft Line on Thursday to Park City Mall.",,,To Park City Mall,,
+"Aneeda, please book an Uber for tomorrow to the Statue of Liberty at 3pm",Uber,,Statue of Liberty,,
+"Aneeda, please get a Lyft Line cab service to take me to the airport",,,airport,,
+"Aneeda, schedule a ride with Uber to Vons in Lakewood for 2:30.",Uber,,Vons in Lakewood,2:30,
+"Aneeda, use Uber to book me a ride this Sunday to Gravity Hill.",Uber,,Gravity Hill,,
+"Assistant, can you find a service such as Uber to pick me up at my current location and to take me to the nearest McDonalds?",Uber,current location,Nearest McDonalds,,
+"Assistant, I would liked to use Uber to pick me up in 2 hours, to take me to McDonalds",Uber,,McDonalds,2 hours,
+"Book a minivan car for address street Trakia 25, Yambol, Bulgaria at 10 AM this morning .",minivan car,,"for address street Trakia 25, Yambol, Bulgaria",10 AM,
+"Book me a OLA sharing cab for Cyber City, Gurgaon.",,,"Cyber City, Gurgaon",,
+"book Uber for Maceio, Pajucara",Uber,,"Maceio, Pajucara",,
+"Book Uber ride to 221 Oxford Place, San Diego, CA",Uber,,"221 Oxford Place, San Diego, CA",,
+"Call Uber and book a minivan car for street Trakia 25, Yambol, Bulgaria at 10 AM this morning .",Uber,,"for street Trakia 25, Yambol, Bulgaria",10 AM,
+"can you book an uber to 42 Stafford street, lynmore",uber,,"42 Stafford street, lynmore",,
+"Can you Please Book Lyft Line cab service to Wall Street, Brooklyn",,,"Wall Street, Brooklyn",,
+"connect with Uber. Destination: Maceio, Pajucara",Uber,,"Maceio, Pajucara",,
+"Book Uber from 200-4th St N, Largo Florida",Uber,"200-4th St N, Largo Florida",,,
+Book Uber from 809 N cahuenga blvd,Uber,809 N cahuenga blvd,,,
+"Could you please book me, Uber cab service to Delhi",Uber,,Delhi,,
+"Could you please book me, Uber cab service to Washington.",Uber,,Washington,,
+"Find me the number to the Super cab near me in West New York, NJ.",,,"West New York, NJ",,
+"Find me the number to the Super Taxi near me in West New York, NJ.",,,"West New York, NJ",,
+"Get me a Uber vehicle to pick me up at 200 - 4th St N, Largo Florida.",Uber,"200 - 4th St N, Largo Florida",,,
+"Hey Aneeda, Book me a Uber to the IGI Airport.",Uber,,IGI Airport,,
+"I need a Uber cab to head to the Yankee Stadium, New York.",Uber,,"Yankee Stadium, New York",,
+"I need a uber cab to take me to Yankee Stadium, New York",uber,,"Yankee Stadium, New York",,
+"I want to book an Uber to take me to Hershey, PA",Uber,,"Hershey, PA",,
+"I want to go to Washington, book  Uber cab service.",Uber,,Washington,,
+"I would like to book Uber cab service to take me from Philadelphia, PA to New York, New York.",Uber,"Philadelphia, PA","New York, New York",,
+book Uber to take me from 809 N cahuenga blvd to New York,Uber,809 N cahuenga blvd,New York,,
+"I'd like a car, please.",,,,,
+"kindly I need to book a cab service,a uber for transportation via street 88",uber,,Transportation,,
+"open Uber app, book a suv car going to Mumbai from pune",Uber,pune,Mumbai,,
+"Please help me book Uber cab service from Philadelphia, PA to New York, New York",Uber,"Philadelphia, PA","New York, New York",,
+"Please schedule Uber to take me to Akron, PA",Uber,,"Akron, PA",,
+"Request Uber to the John S. Knight Center in Akron, OH.",Uber,,"John S. Knight Center in Akron, OH",,
+alright let's go there,,,there,,
+alright let's go to my earlier location ,,,,,earlier
+alright let's go to my earlier ride ,,,,,earlier
+alright let's go to my earlier trip ,,,,,earlier
+alright let's go to my last location ,,,,,last
+alright let's go to my last ride ,,,,,last
+alright let's go to my last trip ,,,,,last
+alright let's go to my previous location ,,,,,previous
+alright let's go to my previous ride ,,,,,previous
+alright let's go to my previous trip ,,,,,previous
+Aneeda can you book UberXL to pick me up and take me to Citizens Bank Park for tomorrow at 9?,UberXL,,CItizens Bank Park,,
+Aneeda find me a uber cab to McDonalds in Chicago,uber,,McDonalds in Chicago,,
+Aneeda launch Uber and book and UberXL to take me to Citizens Bank Park,UberXL,,CItizens Bank Park,,
+Aneeda take me to uber Florida,uber,,Florida,,
+Arrange Uber SUV for Airport,Uber SUV,,Airport,,
+Arrange Uber to K-mart.,Uber,,K-mart,,
+book a cab on uber for Madison square garden,uber,,Madison square garden,,
+Book a cab on Uber to Lagos.,Uber,,Lagos,,
+Book a cab with Stance going to Abuja.,,,Abuja,,
+book a cab,,,,,
+book a car  from Uber Suv for MG road,Uber Suv,,MG Road,,
+book a car on uber to Shiv Colony from my location,uber,my location,Shiv colony,,
+book a car,,,,,
+Book a journey back to my place,,,,,back
+book a lyft to take me to Beverly hills.,,,Beverly hills,,
+book a passenger car from Uber app going to pune,Uber,,pune,,
+Book a ride back to my place,,,,,back
+book a ride to get back,,,,,get back
+book a ride to go back,,,,,go back
+Book a ride to the library with Pool.,Pool,,library,,
+book a taxi,,,,,
+Book a trip back to my place,,,,,back
+Book a trip to location2 using Lyft Line.,Lyft Line,,location2,,
+Book a uber back to my place,uber,,,,back
+Book a Uber cab service going to Lagos,Uber,,Lagos,,
+Book again with same details,,,,,again
+book again with same details,,,,,again
+Book an SUV to Hotel Avenue in Uber now,SUV,,Hotel Avenue,,
+book an uber again,,,,,again
+Book an Uber car pickup from home to Cheltenham Town Hall.,Uber,home,Cheltenham Town Hall,,
+Book an uber for dodger stadium at 4pm,uber,,dodger stadium,4pm,
+Book an uber for lax at 7pm,uber,,lax,7pm,
+Book an Uber Go from 4 MG Road to Mount Road,Uber Go,4 MG Road,Mount Road,,
+book an uber go to Central Park,uber go,,central park,,
+Book an uber home,uber,,home,,
+book an uber pool,uber pool,,,,
+book an uber pool,uber pool,,,,
+book an uber pool,uber pool,,,,
+book an uber pool,uber pool,,,,
+Book an Uber ride to 281 River St.,Uber,,281 River St,,
+Book an Uber ride to the National Library,Uber,,National Library,,
+Book an Uber ride to work,Uber,,work,,
+Book an Uber SApp to take me to,Uber,,,,
+Book an Uber SUV for me.,Uber SUV,,,,
+book an uber suv,uber suv,,,,
+book an uber there,uber,,there,,
+book an uber there,uber,,there,,
+book an uber there,uber,,there,,
+Book an uber to bob hope airport at 1pm,uber,,bob hope airport,1pm,
+Book an uber to Burbank airport at 4am,uber,,Burbank airport,4am,
+Book an uber to Disney concert hall at 3pm,uber,,Disney concert hall,3pm,
+Book an uber to dulles at 5pm,uber,,dulles,5pm,
+book an uber to get back,uber,,,,get back
+book an uber to go back,uber,,,,go back
+Book an uber to john f Kennedy airport at 5am,uber,,john f Kennedy airport,5am,
+Book an uber to Kennedy airport at 5pm tomorrow,uber,,Kennedy airport,5pm tomorrow,
+Book an uber to la guardia at 2pm,uber,,la guardia,2pm,
+Book an uber to lax at 5am tomorrow,uber,,lax,5am tomorrow,
+Book an uber to lax tomorrow 5am,uber,,lax,tomorrow 5am,
+Book an uber to long beach airport at 2am,uber,,long beach airport,2am,
+Book an uber to midway at 1am,uber,,midway,1am,
+book an uber to my earlier location,uber,,,,earlier
+book an uber to my earlier ride,uber,,,,earlier
+book an uber to my earlier trip,uber,,,,earlier
+book an uber to my last location,uber,,,,last
+book an uber to my last ride,uber,,,,last
+book an uber to my last trip,uber,,,,last
+book an uber to my previous location,uber,,,,previous
+book an uber to my previous ride,uber,,,,previous
+book an uber to my previous trip,uber,,,,previous
+Book an uber to Nobu at 6pm,uber,,Nobu,6pm,
+Book an uber to Nobu Malbu at 5pm,uber,,Nobu Malbu,5pm,
+Book an uber to O'Hare airport at 3am,uber,,O'Hare airport,3am,
+Book an uber to Ontario airport at 6pm,uber,,Ontario airport,6pm,
+Book an Uber to pick me up at home in an hour.,Uber,Home,,hour,
+book an uber to pick me up from rodeo drive.,uber,rodeo drive,,,
+Book an uber to signature creative at 6am,uber,,signature creative,6am,
+book an uber to take me to Crenshaw.,uber,,Crenshaw,,
+book an uber to that one,uber,,that one,,
+book an uber to that one,uber,,that one,,
+book an uber to that place,uber,,that place,,
+book an uber to that place,uber,,that place,,
+book an uber to that restaurant,uber,,that restaurant,,
+book an uber to that updated location,uber,,that,,
+book an uber to that updated location,uber,,that,,
+book an uber to that venue,uber,,that venue,,
+book an uber to that,uber,,that,,
+Book an uber to the broad museum tonight 6pm,uber,,broad,6pm,
+book an uber to the first one,uber,,the first one,,
+Book an uber to the grove at 5pm pickup,uber,,grove,5pm,
+book an uber to the last one,uber,,the last one,,
+book an uber to the mall,uber,,mall,,
+book an uber to the second one,uber,,the second one,,
+book an uber to this updated location,uber,,this,,
+book an uber to this updated location,uber,,this,,
+book an uber to this,uber,,this,,
+Book an uber to Venice beach for 6pm today,uber,,Venice beach,6pm,
+book an UberGo,UberGo,,,,
+book an UberGo,UberGo,,,,
+book an UberPool,UberPool,,,,
+book an UberPool,UberPool,,,,
+book an uberx,uberx,,,,
+book an uberx,uberx,,,,
+Book an UberXL to pick me up and take me to the Wells Fargo Center,UberXL,,Wells Fargo Center,,
+Book Cab Service Uber SUV to Goa,Uber SUV,,Goa,,
+book cab,,,,,
+book car,,,,,
+book for a cab service to my favourite destination,,,favourite destination,,
+Book for cab service on uber to go to Bangalore,uber,,Bangalore,,
+Book for cab service on uber to go to Chennai,uber,,Chennai,,
+Book for me the uber service to Delhi,uber,,Delhi,,
+book it again,,,,,again
+Book lyft line to central park,,,To central park,,
+book me a cab uber,uber,,,,
+Book me a cab using UberSelect to reach Delhi.,UberSelect,,Delhi,,
+Book me a lift from Lyft to take me home,,,Home,,
+book me a lyft for this evening to pick me up from work,,work,,,
+Book me a Uber SUV to Times Square,Uber SUV,,Times Square,,
+Book me a Uber to Ground zero,Uber,,Ground zero,,
+book me an uber black from 32 curson street for Ontario airport at 6pm,uber black,32 curson street,Ontario airport,6pm,
+Book me an Uber Black from 32 S curson avenue to bob hope airport,Uber Black,32 S curson avenue,bob hope airport,,
+book me an uber black,uber black,,,,
+book me an uber home,uber,,home,,
+book me an uber pool for bob hope airport at 1pm,uber pool,,bob hope airport,1pm,
+book me an uber pool for Burbank airport at 4am,uber pool,,Burbank airport,4am,
+book me an uber pool for Disney concert hall at 3pm,uber pool,,Disney concert hall,3pm,
+book me an uber pool for dodger stadium at 4pm,uber pool,,dodger stadium,4pm,
+book me an uber pool for dulles at 5pm,uber pool,,dulles,5pm,
+book me an uber pool for john f Kennedy airport at 5am,uber pool,,john f Kennedy airport,5am,
+book me an uber pool for Kennedy airport at 5pm tomorrow,uber pool,,Kennedy airport,5pm tomorrow,
+book me an uber pool for la guardia at 2pm,uber pool,,la guardia,2pm,
+book me an uber pool for lax at 5am tomorrow,uber pool,,lax,5am tomorrow,
+book me an uber pool for lax at 7pm,uber pool,,lax,7pm,
+book me an uber pool for lax tomorrow 5am,uber pool,,lax,tomorrow 5am,
+book me an uber pool for long beach airport at 2am,uber pool,,long beach airport,2am,
+book me an uber pool for midway at 1am,uber pool,,midway,1am,
+book me an uber pool for Nobu at 6pm,uber pool,,Nobu,6pm,
+book me an uber pool for Nobu Malbu at 5pm,uber pool,,Nobu Malbu,5pm,
+book me an uber pool for O'Hare airport at 3am,uber pool,,O'Hare airport,3am,
+book me an uber pool for Ontario airport at 6pm,uber pool,,Ontario airport,6pm,
+book me an uber pool for signature creative at 6am,uber pool,,signature creative,6am,
+book me an uber pool for the broad museum tonight 6pm,uber pool,,broad,6pm,
+book me an uber pool for the grove at 5pm pickup,uber pool,,grove,5pm,
+book me an uber pool for Venice beach for 6pm today,uber pool,,Venice beach,6pm,
+book me an uber pool,uber pool,,,,
+Book me an Uber ride to Doreah's BBQ on Downey Street.,Uber,,Doreah's BBQ on Downey Street,,
+Book me an Uber ride to Pukinmaki.,Uber,,Pukinmaki,,
+Book me an uber ride up to the capital building,uber,,capital building,,
+Book me an Uber SUV to the airport.,Uber SUV,,Airport,,
+Book me an Uber SUV to Times Square?,Uber SUV,,Times Square,,
+book me an uber suv,uber suv,,,,
+book me an uber there,uber,,there,,
+book me an uber there,uber,,there,,
+Book me an Uber to Fifth and Oak,Uber,,Fifth and Oak,,
+Book me an uber to my home,uber,,home,,
+book me an uber to that one,uber,,that one,,
+book me an uber to that one,uber,,that one,,
+book me an uber to that place,uber,,that place,,
+book me an uber to that place,uber,,that place,,
+book me an uber to that restaurant,uber,,that restaurant,,
+book me an uber to that restaurant,uber,,that restaurant,,
+book me an uber to that updated location,uber,,that,,
+book me an uber to that updated location,uber,,that,,
+book me an uber to that updated location,uber,,that,,
+book me an uber to that venue,uber,,that venue,,
+book me an uber to that venue,uber,,that venue,,
+book me an uber to that,uber,,that,,
+book me an uber to the first one,uber,,the first one,,
+book me an uber to the first one,uber,,the first one,,
+book me an uber to the last one,uber,,the last one,,
+book me an uber to the last one,uber,,the last one,,
+book me an uber to the second one,uber,,the second one,,
+book me an uber to the second one,uber,,the second one,,
+book me an uber to this updated location,uber,,this,,
+book me an uber to this,uber,,this,,
+book me an UberGo for bob hope airport at 1pm,UberGo,,bob hope airport,1pm,
+book me an UberGo for Burbank airport at 4am,UberGo,,Burbank airport,4am,
+book me an UberGo for Disney concert hall at 3pm,UberGo,,Disney concert hall,3pm,
+book me an UberGo for dodger stadium at 4pm,UberGo,,dodger stadium,4pm,
+book me an UberGo for dulles at 5pm,UberGo,,dulles,5pm,
+book me an UberGo for john f Kennedy airport at 5am,UberGo,,john f Kennedy airport,5am,
+book me an UberGo for Kennedy airport at 5pm tomorrow,UberGo,,Kennedy airport,5pm tomorrow,
+book me an UberGo for la guardia at 2pm,UberGo,,la guardia,2pm,
+book me an UberGo for lax at 5am tomorrow,UberGo,,lax,5am tomorrow,
+book me an UberGo for lax at 7pm,UberGo,,lax,7pm,
+book me an UberGo for lax tomorrow 5am,UberGo,,lax,tomorrow 5am,
+book me an UberGo for long beach airport at 2am,UberGo,,long beach airport,2am,
+book me an UberGo for midway at 1am,UberGo,,midway,1am,
+book me an UberGo for Nobu at 6pm,UberGo,,Nobu,6pm,
+book me an UberGo for Nobu Malbu at 5pm,UberGo,,Nobu Malbu,5pm,
+book me an UberGo for O'Hare airport at 3am,UberGo,,O'Hare airport,3am,
+book me an UberGo for Ontario airport at 6pm,UberGo,,Ontario airport,6pm,
+book me an UberGo for signature creative at 6am,UberGo,,signature creative,6am,
+book me an UberGo for the broad museum tonight 6pm,UberGo,,broad,6pm,
+book me an UberGo for the grove at 5pm pickup,UberGo,,grove,5pm,
+book me an UberGo for Venice beach for 6pm today,UberGo,,Venice beach,6pm,
+book me an UberPool for bob hope airport at 1pm,UberPool,,bob hope airport,1pm,
+book me an UberPool for Burbank airport at 4am,UberPool,,Burbank airport,4am,
+book me an UberPool for Disney concert hall at 3pm,UberPool,,Disney concert hall,3pm,
+book me an UberPool for dodger stadium at 4pm,UberPool,,dodger stadium,4pm,
+book me an UberPool for dulles at 5pm,UberPool,,dulles,5pm,
+book me an UberPool for john f Kennedy airport at 5am,UberPool,,john f Kennedy airport,5am,
+book me an UberPool for Kennedy airport at 5pm tomorrow,UberPool,,Kennedy airport,5pm tomorrow,
+book me an UberPool for la guardia at 2pm,UberPool,,la guardia,2pm,
+book me an UberPool for lax at 5am tomorrow,UberPool,,lax,5am tomorrow,
+book me an UberPool for lax at 7pm,UberPool,,lax,7pm,
+book me an UberPool for lax tomorrow 5am,UberPool,,lax,tomorrow 5am,
+book me an UberPool for long beach airport at 2am,UberPool,,long beach airport,2am,
+book me an UberPool for midway at 1am,UberPool,,midway,1am,
+book me an UberPool for Nobu at 6pm,UberPool,,Nobu,6pm,
+book me an UberPool for Nobu Malbu at 5pm,UberPool,,Nobu Malbu,5pm,
+book me an UberPool for O'Hare airport at 3am,UberPool,,O'Hare airport,3am,
+book me an UberPool for Ontario airport at 6pm,UberPool,,Ontario airport,6pm,
+book me an UberPool for signature creative at 6am,UberPool,,signature creative,6am,
+book me an UberPool for the broad museum tonight 6pm,UberPool,,broad,6pm,
+book me an UberPool for the grove at 5pm pickup,UberPool,,grove,5pm,
+book me an UberPool for Venice beach for 6pm today,UberPool,,Venice beach,6pm,
+book me an uberx for bob hope airport at 1pm,uberx,,bob hope airport,1pm,
+book me an uberx for Burbank airport at 4am,uberx,,Burbank airport,4am,
+book me an uberx for Disney concert hall at 3pm,uberx,,Disney concert hall,3pm,
+book me an uberx for dodger stadium at 4pm,uberx,,dodger stadium,4pm,
+book me an uberx for dulles at 5pm,uberx,,dulles,5pm,
+book me an uberx for john f Kennedy airport at 5am,uberx,,john f Kennedy airport,5am,
+book me an uberx for Kennedy airport at 5pm tomorrow,uberx,,Kennedy airport,5pm tomorrow,
+book me an uberx for la guardia at 2pm,uberx,,la guardia,2pm,
+book me an uberx for lax at 5am tomorrow,uberx,,lax,5am tomorrow,
+book me an uberx for lax at 7pm,uberx,,lax,7pm,
+book me an uberx for lax tomorrow 5am,uberx,,lax,tomorrow 5am,
+book me an uberx for long beach airport at 2am,uberx,,long beach airport,2am,
+book me an uberx for 432 S curson avenue from 809 N cahuenga blvd,uberx,809 N cahuenga blvd,432 S curson avenue,,
+book me an uberx for midway at 1am,uberx,,midway,1am,
+book me an uberx for Nobu at 6pm,uberx,,Nobu,6pm,
+book me an uberx for Nobu Malbu at 5pm,uberx,,Nobu Malbu,5pm,
+book me an uberx for O'Hare airport at 3am,uberx,,O'Hare airport,3am,
+book me an uberx for Ontario airport at 6pm,uberx,,Ontario airport,6pm,
+book me an uberx for signature creative at 6am,uberx,,signature creative,6am,
+book me an uberx for the broad museum tonight 6pm,uberx,,broad,6pm,
+book me an uberx for the grove at 5pm pickup,uberx,,grove,5pm,
+book me an uberx for Venice beach for 6pm today,uberx,,Venice beach,6pm,
+Book me an UberX from 211 P.N.Malia Road to bob hope airport,UberX,211 P.N.Malia Road,bob hope airport,,
+book me uber now to down town,uber,,down town,,
+book my journey back,,,,,back
+book my return journey,,,,,return
+book my return ride,,,,,return
+book my return trip,,,,,return
+book my ride back,,,,,back
+book my trip back,,,,,back
+book my uber back,uber,,,,back
+book my uber return,uber,,,,return
+Book OLA cab for Delhi international airport for tomorrow,,,Delhi international airport,,
+book rental cab using a SUV to Milan for tomorrow,SUV,,Milan,tomorrow,
+Book ride by Uber to K-mart.,Uber,,K-mart,,
+book taxi,,,,,
+Book the nearest Uber,Uber,,,,
+book uber 5th avenue,uber,,book uber 5th avenue,,
+book uber again,,,,,again
+book uber black,uber black,,,,
+BOOK Uber cab for airport for 1 me immediately,Uber,,Airport,,
+Book uber cab from MG road to ST street at 9pm,uber,MG road,ST street,9pm,
+book uber cab now,uber,,,,
+book uber cab to new York,uber,,new York,,
+Book Uber for Heathrow.,Uber,,Heathrow,,
+Book Uber for me to Lucas Oil Stadium at 10am.,Uber,,Lucas Oil Stadium,,
+Book uber for whyte ave. Edmonton,uber,,whyte ave. Edmonton,,
+book uber now destination Pizza Luce,uber,,Pizza Luce,,
+Book uber pool from downtown to Mount Road,uber pool,downtown,Mount Road,,
+book uber pool,uber pool,,,,
+Book Uber ride to Home,Uber,,Home,,
+book Uber SUV for me for Monday 5pm to go to airport,Uber SUV,,airport,,
+book uber suv please,uber suv,,,,
+Book Uber SUV to location1.,Uber SUV,,location1,,
+book uber suv,uber suv,,,,
+book uber there,uber,,there,,
+Book Uber to 281 River St.,Uber,,281 River St,,
+book uber to 2nd street,uber,,2nd street,,
+book uber to go to 2nd street,uber,,2nd street,,
+book uber to go to new York city,uber,,new York city,,
+book uber to my earlier location,uber,,,,earlier
+book uber to my earlier ride,uber,,,,earlier
+book uber to my earlier trip,uber,,,,earlier
+book uber to my last location,uber,,,,last
+book uber to my last ride,uber,,,,last
+book uber to my last trip,uber,,,,last
+book uber to my previous location,uber,,,,previous
+book uber to my previous ride,uber,,,,previous
+book uber to my previous trip,uber,,,,previous
+book uber to new York city,uber,,new York city,,
+book uber x,uber x,,,,
+book uber,uber,,,,
+Book Uber,Uber,,,,
+book uber,uber,,,,
+book uber,uber,,,,
+Book UberGo from downtown to Mount Road,UberGo,downtown,Mount Road,,
+book UberGo,UberGo,,,,
+Book UberPool from downtown to Mount Road,UberPool,downtown,Mount Road,,
+book UberPool,UberPool,,,,
+Book UBERX from downtown to Mount Road,UBERX,downtown,Mount Road,,
+book uberx,uberx,,,,
+booked a u  from Uber Suv for MG road,Uber Suv,,MG Road,,
+cab service on downtown Edmonton,,,downtown Edmonton,,
+cab!,,,,,
+Call a SUV cab to Thodupuzha through Uber,SUV,,Thodupuzha,,
+Call a SUV taxi to Thodupuzha through Uber,SUV,,Thodupuzha,,
+call an uber pool,uber pool,,,,
+call an uber pool,uber pool,,,,
+call an uber pool,uber pool,,,,
+call an uber pool,uber pool,,,,
+call an uber suv,uber suv,,,,
+call an uber there,uber,,there,,
+call an uber there,uber,,there,,
+call an uber to take me to mariner's stadium,uber,,mariner's stadium,,
+Call an Uber to take me to the airport,Uber,,airport,,
+call an uber to that one,uber,,that one,,
+call an uber to that one,uber,,that one,,
+call an uber to that place,uber,,that place,,
+call an uber to that place,uber,,that place,,
+call an uber to that restaurant,uber,,that restaurant,,
+call an uber to that updated location,uber,,that,,
+call an uber to that updated location,uber,,that,,
+call an uber to that venue,uber,,that venue,,
+call an uber to the first one,uber,,the first one,,
+call an uber to the last one,uber,,the last one,,
+call an uber to the second one,uber,,the second one,,
+call an uber to this updated location,uber,,this,,
+call an uber to this updated location,uber,,this,,
+call an UberGo,UberGo,,,,
+call an UberGo,UberGo,,,,
+call an UberPool,UberPool,,,,
+call an UberPool,UberPool,,,,
+call an uberx,uberx,,,,
+call an uberx,uberx,,,,
+Call and Uber from here to Bar Louie,Uber,here,Bar Louie,,
+Call for Uber to Bond Street.,Uber,,Bond Street,,
+Call me a radio cab to take me to 128 East Broadway,,,128 East Broadway,,
+call me an uber black,uber black,,,,
+call me an uber pool,uber pool,,,,
+call me an uber suv,uber suv,,,,
+call me an uber there,uber,,there,,
+call me an uber to get there,uber,,there,,
+call me an uber to get there,uber,,there,,
+call me an uber to get to that one,uber,,that one,,
+call me an uber to get to that one,uber,,that one,,
+call me an uber to get to that place,uber,,that place,,
+call me an uber to get to that place,uber,,that place,,
+call me an uber to get to that restaurant,uber,,that restaurant,,
+call me an uber to get to that restaurant,uber,,that restaurant,,
+call me an uber to get to that updated location,uber,,that,,
+call me an uber to get to that updated location,uber,,that,,
+call me an uber to get to that venue,uber,,that venue,,
+call me an uber to get to that venue,uber,,that venue,,
+call me an uber to get to the first one,uber,,the first one,,
+call me an uber to get to the first one,uber,,the first one,,
+call me an uber to get to the last one,uber,,the last one,,
+call me an uber to get to the last one,uber,,the last one,,
+call me an uber to get to the second one,uber,,the second one,,
+call me an uber to get to the second one,uber,,the second one,,
+call me an uber to get to this updated location,uber,,this,,
+call me an uber to get to this updated location,uber,,this,,
+Call me an uber to go to waterloo station,uber,,waterloo station,,
+Call me an Uber to pick me up at my current location.,Uber,my current location,,,
+call me an uber to that one,uber,,that one,,
+call me an uber to that place,uber,,that place,,
+call me an uber to that restaurant,uber,,that restaurant,,
+call me an uber to that updated location,uber,,that,,
+call me an uber to that venue,uber,,that venue,,
+call me an uber to the corner store,uber,,corner store,,
+call me an uber to the first one,uber,,the first one,,
+call me an uber to the last one,uber,,the last one,,
+Call me an Uber to the library,Uber,,library,,
+call me an uber to the second one,uber,,the second one,,
+call me an uber to this updated location,uber,,this,,
+call uber black,uber black,,,,
+call uber pool,uber pool,,,,
+Call Uber SUV and book me a car for a travel to Milan for tomorrow morning,Uber SUV,,Milan,tomorrow morning,
+call uber suv please,uber suv,,,,
+call uber suv,uber suv,,,,
+call uber there,uber,,there,,
+Call Uber to book transport from home to work,Uber,home,work,,
+Call Uber to get a ride,Uber,,,,
+Call Uber to go to Philadelphia's city hall,Uber,,Philadelphia's city hall,,
+Call Uber to take me home,Uber,,home,,
+call Uber to take me to Cooper Surgical center,Uber,,Cooper Surgical center,,
+call uber to that one,uber,,that one,,
+call uber to that place,uber,,that place,,
+call uber to that restaurant,uber,,that restaurant,,
+call uber to that updated location,uber,,that,,
+call uber to that venue,uber,,that venue,,
+call uber to the first one,uber,,the first one,,
+call uber to the last one,uber,,the last one,,
+call uber to the second one,uber,,the second one,,
+call uber to this updated location,uber,,this,,
+call uber x,uber x,,,,
+call uber,uber,,,,
+call UberGo,UberGo,,,,
+call UberPool,UberPool,,,,
+call uberx,uberx,,,,
+Can I book an Uber ride to City Hall?,Uber,,City Hall,,
+Can I book an Uber ride to the Harbor Bridge?,Uber,,Harbor Bridge,,
+Can I get a Lyft Line to the Bank of America?,,,Bank of America,,
+can you Book again with same details,,,,,again
+Can you book an Uber to take me to Starbucks.,Uber,,Starbucks,,
+can you book me  the Uber service to ground zero,Uber,,ground zero,,
+Can you book me a cab service to thirty Gardner Street Gloucester?,,,thirty Gardner Street Gloucester,,
+Can you book me a Uber SUV now,Uber SUV,,,,
+Can you book me an Uber car to Cheltenham Town Hall,Uber,,Cheltenham Town Hall,,
+Can you book me an Uber to go to the movies?,Uber,,movies,,
+Can you book me an Uber to take me to the Town Festival tonight?,Uber,,Town Festival,,
+can you book my uber again with same details,,,,,again
+can you book my uber again,,,,,again
+Can you book the uber with this updated destination,uber,,this,,
+Can you book this ride,,,,,
+can you find a cab to get back,,,,,get back
+can you find a cab to get back,,,,,get back
+can you find a cab to go back,,,,,go back
+can you find a cab to go back,,,,,go back
+can you find a cab to return,,,,,return
+can you find a cab to return,,,,,return
+can you find a taxi to get back,,,,,get back
+can you find a taxi to go back,,,,,go back
+can you find a taxi to return,,,,,return
+can you find an uber to get back,uber,,,,get back
+can you find an uber to go back,uber,,,,go back
+can you find an uber to return,uber,,,,return
+Can you find me a ride going to Technohub.,,,Technohub,,
+Can you get a lyft to pick me up where I am now,,where I am,,now,
+Can you get an Uber SUV to the bar next to me?,Uber SUV,,bar,,
+can you get me an uber to get back,uber,,,,get back
+can you get me an uber to go back,uber,,,,go back
+Can you get me an Uber to Publix?,Uber,,Publix,,
+can you get me an uber to return,uber,,,,return
+can you get me my uber again with same details,,,,,again
+can you get me my uber again,,,,,again
+can you get me there,,,there,,
+can you get me to my earlier location ,,,,,earlier
+can you get me to my earlier ride ,,,,,earlier
+can you get me to my earlier trip ,,,,,earlier
+can you get me to my last location ,,,,,last
+can you get me to my last ride ,,,,,last
+can you get me to my last trip ,,,,,last
+can you get me to my previous location ,,,,,previous
+can you get me to my previous ride ,,,,,previous
+can you get me to my previous trip ,,,,,previous
+Can you me call an Uber to State Street?,Uber,,State Street,,
+Can you please book again with same details,,,,,again
+Can you please book this ride with UBer SUV,UBer SUV,,,,
+can you request an uber to safeway,uber,,safeway,,
+can you take me  there,,,there,,
+can you take me  to my earlier location ,,,,,earlier
+can you take me  to my earlier ride ,,,,,earlier
+can you take me  to my earlier trip ,,,,,earlier
+can you take me  to my last location ,,,,,last
+can you take me  to my last ride ,,,,,last
+can you take me  to my last trip ,,,,,last
+can you take me  to my previous location ,,,,,previous
+can you take me  to my previous ride ,,,,,previous
+can you take me  to my previous trip ,,,,,previous
+can you take me there,,,there,,
+can you take me there,,,there,,
+can you take me to my earlier location,,,,,earlier
+can you take me to my earlier location,,,,,earlier
+can you take me to my earlier ride,,,,,earlier
+can you take me to my earlier ride,,,,,earlier
+can you take me to my earlier trip,,,,,earlier
+can you take me to my earlier trip,,,,,earlier
+can you take me to my last location,,,,,last
+can you take me to my last location,,,,,last
+can you take me to my last ride,,,,,last
+can you take me to my last ride,,,,,last
+can you take me to my last trip,,,,,last
+can you take me to my last trip,,,,,last
+can you take me to my previous location,,,,,previous
+can you take me to my previous location,,,,,previous
+can you take me to my previous ride,,,,,previous
+can you take me to my previous ride,,,,,previous
+can you take me to my previous trip,,,,,previous
+can you take me to my previous trip,,,,,previous
+can you take us there,,,there,,
+can you take us to my earlier location,,,,,earlier
+can you take us to my earlier ride,,,,,earlier
+can you take us to my earlier trip,,,,,earlier
+can you take us to my last location,,,,,last
+can you take us to my last ride,,,,,last
+can you take us to my last trip,,,,,last
+can you take us to my previous location,,,,,previous
+can you take us to my previous ride,,,,,previous
+can you take us to my previous trip,,,,,previous
+central park uber go,uber go,,central park,,
+check cheapest uber cab to new York and book it,uber,,new York,,
+check if any uber rides are available here and book one for me.,uber,,,,
+check uber pool from  MG street to Mount Road,uber pool,MG Street,Mount Road,,
+check UberGo from  MG street to Mount Road,UberGo,MG Street,Mount Road,,
+check UberPool from  MG street to Mount Road,UberPool,MG Street,Mount Road,,
+check UBERX from  MG street to Mount Road,UBERX,MG Street,Mount Road,,
+Contact the Uber closest to me,Uber,,,,
+Could you find a cab to the park?,,,park,,
+Drive me to that place by uber Pool,uber Pool,,that place,,
+Drive me to that place by uber,uber,,that place,,
+Drive me to that place by uberGo,uberGo,,that place,,
+Drive me to that place by uberx,uberx,,that place,,
+Drive me to that place by uberxl,uberxl,,that place,,
+Drive me to that place,,,that place,,
+Drop me at world trade center Colombo 01,,,world trade center Colombo 01,,
+fetch a cab on uber for Madison square garden,uber,,Madison square garden,,
+Find a book a cab going to Abuja today.,,,Abuja,,
+Find a ride home,,,home,,
+Find a uber.,uber,,,,
+find an ola and book it for me,,,,,
+find an uber home for me,uber,,home,,
+Find an Uber to get me to the airport,Uber,,airport,,
+Find me a lyft please,,,,,
+Find me a Uber to ride home,Uber,,home,,
+Find me an UberXL to MSP.,UberXL,,MSP,,
+find me the closest cab near my way.,,,,,
+find me the closest taxi near my way.,,,,,
+Find me Uber cab for Mumbai airport for today,Uber,,Mumbai airport,today,
+Find me Uber taxi for Mumbai airport for today,Uber,,Mumbai airport,today,
+get a car there,,,there,,
+get a car to my earlier location ,,,,,earlier
+get a car to my earlier ride ,,,,,earlier
+get a car to my earlier trip ,,,,,earlier
+get a car to my last location ,,,,,last
+get a car to my last ride ,,,,,last
+get a car to my last trip ,,,,,last
+get a car to my previous location ,,,,,previous
+get a car to my previous ride ,,,,,previous
+get a car to my previous trip ,,,,,previous
+Get a hold of an uber pool to take me to work,uber pool,,work,,
+Get a hold of an UberGo to take me to work,UberGo,,work,,
+Get a hold of an UberPool to take me to work,UberPool,,work,,
+Get a hold of an UberX to take me to work,UberX,,work,,
+get a ride there,,,there,,
+get a ride to my earlier location ,,,,,earlier
+get a ride to my earlier ride ,,,,,earlier
+get a ride to my last location ,,,,,last
+get a ride to my last ride ,,,,,last
+get a ride to my previous location ,,,,,previous
+get a ride to my previous ride ,,,,,previous
+get a trip to my earlier trip ,,,,,earlier
+get a trip to my last trip ,,,,,last
+get a trip to my previous trip ,,,,,previous
+get a uber x please,uber x,,,,
+Get an uber Black from 117 Nobu Malbu to guisados,uber Black,117 Nobu Malbu,guisados,,
+Get an uber pool to 537  st andrews place,uber pool,,537 st andrews place,,
+Get an uber pool to 6543 west Hollywood,uber pool,,6543 west Hollywood,,
+Get an uber pool to 709 n lane street,uber pool,,709 n lane street,,
+Get an uber pool to 76 m street,uber pool,,76 m street,,
+Get an uber pool to 7th and K st,uber pool,,7th and K st,,
+Get an uber pool to 987 K st,uber pool,,987 K st,,
+Get an uber pool to Broadway and 76th,uber pool,,Broadway and 76th,,
+Get an uber pool to cedars Sinai hospital,uber pool,,cedars Sinai hospital,,
+Get an uber pool to Chinatown square,uber pool,,Chinatown square,,
+Get an uber pool to Clinton and president,uber pool,,Clinton and president,,
+Get an uber pool to grant park,uber pool,,grant park,,
+Get an uber pool to guisados,uber pool,,guisados,,
+Get an uber pool to lax,uber pool,,lax,,
+Get an uber pool to London Heathrow,uber pool,,London Heathrow,,
+Get an uber pool to O'Hare,uber pool,,O'Hare,,
+Get an uber pool to the mint,uber pool,,mint,,
+Get an uber pool to the perch,uber pool,,perch,,
+Get an uber pool to the us bank building,uber pool,,us bank building,,
+Get an uber pool to the white house,uber pool,,white house,,
+Get an uber pool to Venice beach,uber pool,,Venice beach,,
+get an uber pool,uber pool,,,,
+get an uber there,uber,,there,,
+get an uber there,uber,,there,,
+get an uber to get there,uber,,there,,
+get an uber to get to that one,uber,,that one,,
+get an uber to get to that place,uber,,that place,,
+get an uber to get to that restaurant,uber,,that restaurant,,
+get an uber to get to that updated location,uber,,that,,
+get an uber to get to that venue,uber,,that venue,,
+get an uber to get to the first one,uber,,the first one,,
+get an uber to get to the last one,uber,,the last one,,
+get an uber to get to the second one,uber,,the second one,,
+get an uber to get to this updated location,uber,,this,,
+get an uber x,uber x,,,,
+Get an UberGo to 537  st andrews place,UberGo,,537 st andrews place,,
+Get an UberGo to 6543 west Hollywood,UberGo,,6543 west Hollywood,,
+Get an UberGo to 709 n lane street,UberGo,,709 n lane street,,
+Get an UberGo to 76 m street,UberGo,,76 m street,,
+Get an UberGo to 7th and K st,UberGo,,7th and K st,,
+Get an UberGo to 987 K st,UberGo,,987 K st,,
+Get an UberGo to Broadway and 76th,UberGo,,Broadway and 76th,,
+Get an UberGo to cedars Sinai hospital,UberGo,,cedars Sinai hospital,,
+Get an UberGo to Chinatown square,UberGo,,Chinatown square,,
+Get an UberGo to Clinton and president,UberGo,,Clinton and president,,
+Get an UberGo to grant park,UberGo,,grant park,,
+Get an UberGo to guisados,UberGo,,guisados,,
+Get an UberGo to lax,UberGo,,lax,,
+Get an UberGo to London Heathrow,UberGo,,London Heathrow,,
+Get an UberGo to O'Hare,UberGo,,O'Hare,,
+Get an UberGo to the mint,UberGo,,mint,,
+Get an UberGo to the perch,UberGo,,perch,,
+Get an UberGo to the us bank building,UberGo,,us bank building,,
+Get an UberGo to the white house,UberGo,,white house,,
+Get an UberGo to Venice beach,UberGo,,Venice beach,,
+Get an UberPool to 537  st andrews place,UberPool,,537 st andrews place,,
+Get an UberPool to 6543 west Hollywood,UberPool,,6543 west Hollywood,,
+Get an UberPool to 709 n lane street,UberPool,,709 n lane street,,
+Get an UberPool to 76 m street,UberPool,,76 m street,,
+Get an UberPool to 7th and K st,UberPool,,7th and K st,,
+Get an UberPool to 987 K st,UberPool,,987 K st,,
+Get an UberPool to Broadway and 76th,UberPool,,Broadway and 76th,,
+Get an UberPool to cedars Sinai hospital,UberPool,,cedars Sinai hospital,,
+Get an UberPool to Chinatown square,UberPool,,Chinatown square,,
+Get an UberPool to Clinton and president,UberPool,,Clinton and president,,
+Get an UberPool to grant park,UberPool,,grant park,,
+Get an UberPool to guisados,UberPool,,guisados,,
+Get an UberPool to lax,UberPool,,lax,,
+Get an UberPool to London Heathrow,UberPool,,London Heathrow,,
+Get an UberPool to O'Hare,UberPool,,O'Hare,,
+Get an UberPool to the mint,UberPool,,mint,,
+Get an UberPool to the perch,UberPool,,perch,,
+Get an UberPool to the us bank building,UberPool,,us bank building,,
+Get an Uber Pool to the us bank building from 89 B Nahuenga blvd,Uber Pool,89 B Nahuenga blvd,us bank building,,
+Get an UberPool to the white house,UberPool,,white house,,
+Get an UberPool to Venice beach,UberPool,,Venice beach,,
+Get an uberx to 537  st andrews place,uberx,,537 st andrews place,,
+Get an uberx to 6543 west Hollywood,uberx,,6543 west Hollywood,,
+Get an uberx to 709 n lane street,uberx,,709 n lane street,,
+Get an uberx to 76 m street,uberx,,76 m street,,
+Get an uberx to 7th and K st,uberx,,7th and K st,,
+Get an uberx to 987 K st,uberx,,987 K st,,
+Get an uberx to Broadway and 76th,uberx,,Broadway and 76th,,
+Get an uberx to cedars Sinai hospital,uberx,,cedars Sinai hospital,,
+Get an uberx to Chinatown square,uberx,,Chinatown square,,
+Get an uberx to Clinton and president,uberx,,Clinton and president,,
+Get an uberx to grant park,uberx,,grant park,,
+Get an uberx to guisados,uberx,,guisados,,
+Get an uberx to lax,uberx,,lax,,
+Get an uberx to London Heathrow,uberx,,London Heathrow,,
+Get an uberx to O'Hare,uberx,,O'Hare,,
+Get an uberx to the mint,uberx,,mint,,
+Get an uberx to the perch,uberx,,perch,,
+Get an uberx to the us bank building,uberx,,us bank building,,
+Get an uberx to the white house,uberx,,white house,,
+Get an uberx to Venice beach,uberx,,Venice beach,,
+get me  there,,,there,,
+get me  to my earlier location ,,,,,earlier
+get me  to my earlier ride ,,,,,earlier
+get me  to my earlier trip ,,,,,earlier
+get me  to my last location ,,,,,last
+get me  to my last ride ,,,,,last
+get me  to my last trip ,,,,,last
+get me  to my previous location ,,,,,previous
+get me  to my previous ride ,,,,,previous
+get me  to my previous trip ,,,,,previous
+Get me a cab to the SF Airport.,,,SF airport,,
+Get me a car from Uber to take me to the airport.,Uber,,airport,,
+Get me a Grab Car to take me to the National Library,,,National Library,,
+Get me a ride home.,,,home,,
+Get me a ride with Uber to home,Uber,,home,,
+Get me a ride with uber to the Toyota center,uber,,Toyota center,,
+Get me a uber car now to go to the park,uber,,park,,
+get me a uber there,uber,,there,,
+Get me a Uber to 2009 Wrightsville beach.,Uber,,Wrightsville beach,,
+get me a uber to that one,uber,,that one,,
+get me a uber to that place,uber,,that place,,
+get me a uber to that updated location,uber,,that,,
+get me a uber to this updated location,uber,,this,,
+Get me an Lyft Line to Bank of America,,,Bank of America,,
+Get me an Uber Black from 32 S curson avenue to LAX airport,Uber Black,32 S curson avenue,LAX airport,,
+Get me an Uber black ride to koramangla,Uber black,,koramangla,,
+get me an uber black,uber black,,,,
+Get me an Uber cab to Miggins Street,Uber,,Miggins Street,,
+Get me an uber español ride to 4th Avenue,uber español,,4th Avenue,,
+Get me an Uber from 432 S curson avenue to LAX airport,Uber,432 S curson avenue,LAX airport,,
+Get me an Uber español from 809 N cahuenga blvd to 432 S curson avenue,Uber español,809 N cahuenga blvd,432 S curson avenue,,
+Get me an Uber go ride to tin factory,Uber go,,tin factory,,
+get me an uber over that updated location,uber,,that,,
+get me an uber over there,uber,,there,,
+get me an uber over this updated location,uber,,this,,
+get me an uber over to that one,uber,,that one,,
+get me an uber over to that place,uber,,that place,,
+get me an uber over to that restaurant,uber,,that restaurant,,
+get me an uber over to that venue,uber,,that venue,,
+get me an uber over to that,uber,,that,,
+get me an uber over to the first one,uber,,the first one,,
+get me an uber over to the first one,uber,,the first one,,
+get me an uber over to this,uber,,this,,
+Get me an uber pool home,uber pool,,home,,
+Get me an uber pool to 3029 south Quinn,uber pool,,3029 south Quinn,,
+Get me an uber pool to 537 n st andrews place,uber pool,,n st andrews place,,
+Get me an uber pool to 6211 hill street,uber pool,,6211 hill street,,
+Get me an uber pool to 72 w sunset,uber pool,,72 w sunset,,
+Get me an uber pool to 72553 Oregon street,uber pool,,72553 Oregon street,,
+Get me an uber pool to 7263 Robertson,uber pool,,7263 Robertson,,
+Get me an uber pool to 7281 s Halsted,uber pool,,7281 s Halsted,,
+Get me an uber pool to 765 L street,uber pool,,765 L street,,
+Get me an uber pool to 8371 doheny avenue,uber pool,,8371 doheny avenue,,
+Get me an uber pool to 86 melrose place,uber pool,,86 melrose place,,
+Get me an uber pool to 907 calbert st,uber pool,,907 calbert st,,
+Get me an uber pool to 920 main,uber pool,,920 main,,
+Get me an uber pool to 97 Hudson boulevard,uber pool,,97 Hudson boulevard,,
+Get me an uber pool to 996 park lane,uber pool,,996 park lane,,
+Get me an uber pool to Griffith Park,uber pool,,Griffith park,,
+Get me an uber pool to Komodo's in Venice,uber pool,,komodo's in Venice,,
+Get me an uber pool to Malibu Canyon,uber pool,,Malibu canyon,,
+Get me an uber pool to Nobu ,uber pool,,nobu,,
+Get me an uber pool to Nobu Malibu,uber pool,,nobu Malibu,,
+Get me an uber pool to the Line hotel,uber pool,,line hotel,,
+Get me an uber pool to Vons,uber pool,,Vons,,
+Get me an Uber Pool to work,Uber Pool,,work,,
+get me an uber pool,uber pool,,,,
+Get me an Uber ride to 5th street and Main.,Uber,,5th Street and Main,,
+get me an uber suv,uber suv,,,,
+get me an uber suv,uber suv,,,,
+get me an uber there,uber,,there,,
+get me an uber there,uber,,there,,
+get me an uber there,uber,,there,,
+get me an uber to  that one,uber,,that one,,
+get me an uber to  that one,uber,,that one,,
+get me an uber to  that place,uber,,that place,,
+get me an uber to  that restaurant,uber,,that restaurant,,
+get me an uber to  that venue,uber,,that venue,,
+get me an uber to  the first one,uber,,the first one,,
+get me an uber to  the last one,uber,,the last one,,
+get me an uber to  the second one,uber,,the second one,,
+Get me an uber to 100 south main street,uber,,100 south main street,,
+Get me an uber to 3029 S Quinn,uber,,3029 s Quinn,,
+Get me an uber to 35th and Park avenue,uber,,35th and park avenue,,
+Get me an uber to 555 Jones Avenue,uber,,555 jones avenue,,
+Get me an uber to 6512 Main,uber,,6512 main,,
+Get me an uber to 809 N Cahuenga Blvd,uber,,809 n cahuenga blvd,,
+Get me an uber to 9902 w sunset,uber,,9902 w sunset,,
+Get me an uber to central park west,uber,,central park west,,
+Get me an uber to city hall,uber,,city hall,,
+Get me an uber to dodger stadium,uber,,dodger stadium,,
+Get me an Uber to fifth and oak,Uber,,fifth and oak,,
+Get me an uber to fifth avenue,uber,,fifth avenue,,
+get me an uber to go home,uber,,home,,
+Get me an uber to LAX,uber,,LAX,,
+Get me an uber to long beach airport,uber,,long beach airport,,
+Get me an uber to Madison square garden,uber,,Madison square garden,,
+Get me an uber to Mars Bar,uber,,Mars Bar,,
+get me an uber to my earlier location ,uber,,,,earlier
+get me an uber to my earlier ride ,uber,,,,earlier
+get me an uber to my earlier trip ,uber,,,,earlier
+get me an uber to my last location ,uber,,,,last
+get me an uber to my last ride ,uber,,,,last
+get me an uber to my last trip ,uber,,,,last
+get me an uber to my previous location ,uber,,,,previous
+get me an uber to my previous ride ,uber,,,,previous
+get me an uber to my previous trip ,uber,,,,previous
+Get me an uber to pico and Robertson,uber,,pico and Robertson,,
+Get me an uber to Santa Monica pier,uber,,Santa Monica pier,,
+Get me an uber to shake shack,uber,,shake shack,,
+Get me an uber to Starbucks on sunset,uber,,Starbucks on sunset,,
+Get me an uber to sunset and vine,uber,,sunset and vine,,
+Get me an Uber to take me to Kiwanis Park,Uber,,Kiwanis Park,,
+Get me an Uber to take me to Madison Square Garden.,Uber,,Madison Square Garden,,
+get me an uber to that one,uber,,that one,,
+get me an uber to that place,uber,,that place,,
+get me an uber to that place,uber,,that place,,
+get me an uber to that restaurant,uber,,that restaurant,,
+get me an uber to that updated location,uber,,that,,
+get me an uber to that updated location,uber,,that,,
+get me an uber to that updated location,uber,,that,,
+get me an uber to that updated location,uber,,that,,
+get me an uber to that updated location,uber,,that,,
+get me an uber to that venue,uber,,that venue,,
+get me an uber to that,uber,,that,,
+get me an uber to that,uber,,that,,
+Get me an uber to the airport,uber,,airport,,
+Get me an Uber to the corner of 4th and Monroe.,Uber,,corner of 4th and Monroe,,
+Get me an uber to the downtown Marriott,uber,,downtown Marriott,,
+get me an uber to the first one,uber,,the first one,,
+get me an uber to the first one,uber,,the first one,,
+Get me an uber to the grove mall,uber,,grove mall,,
+Get me an uber to the grove,uber,,grove,,
+Get me an uber to the Hilton LAX,uber,,Hilton lax,,
+Get me an uber to the long beach convention center,uber,,long beach convention center,,
+Get me an uber to the nearest In and Out,uber,,In and Out,,
+Get me an Uber to the nearest Thai Restaurant.,Uber,,Thai Restaurant,,
+Get me an uber to the Poke Shack,uber,,poke shack,,
+get me an uber to the superdome,uber,,superdome,,
+get me an uber to there,uber,,there,,
+get me an uber to there,uber,,there,,
+get me an uber to this updated location,uber,,this,,
+get me an uber to this,uber,,this,,
+get me an uber to this,uber,,this,,
+Get me an uber to Venice beach,uber,,Venice beach,,
+Get me an uber to Walgreens,uber,,Walgreens,,
+get me an uber,uber,,,,
+Get me an UberBlack from 32 curson road to LAX airport,UberBlack,32 curson road,LAX airport,,
+Get me an UberGo home,UberGo,,home,,
+Get me an UberGo to 3029 south Quinn,UberGo,,3029 south Quinn,,
+Get me an UberGo to 537 n st andrews place,UberGo,,n st andrews place,,
+Get me an UberGo to 6211 hill street,UberGo,,6211 hill street,,
+Get me an UberGo to 72 w sunset,UberGo,,72 w sunset,,
+Get me an UberGo to 72553 Oregon street,UberGo,,72553 Oregon street,,
+Get me an UberGo to 7263 Robertson,UberGo,,7263 Robertson,,
+Get me an UberGo to 7281 s Halsted,UberGo,,7281 s Halsted,,
+Get me an UberGo to 765 L street,UberGo,,765 L street,,
+Get me an UberGo to 8371 doheny avenue,UberGo,,8371 doheny avenue,,
+Get me an UberGo to 86 melrose place,UberGo,,86 melrose place,,
+Get me an UberGo to 907 calbert st,UberGo,,907 calbert st,,
+Get me an UberGo to 920 main,UberGo,,920 main,,
+Get me an UberGo to 97 Hudson boulevard,UberGo,,97 Hudson boulevard,,
+Get me an UberGo to 996 park lane,UberGo,,996 park lane,,
+Get me an UberGo to Griffith Park,UberGo,,Griffith park,,
+Get me an UberGo to Komodo's in Venice,UberGo,,komodo's in Venice,,
+Get me an UberGo to Malibu Canyon,UberGo,,Malibu canyon,,
+Get me an UberGo to Nobu ,UberGo,,nobu,,
+Get me an UberGo to Nobu Malibu,UberGo,,nobu Malibu,,
+Get me an UberGo to the Line hotel,UberGo,,line hotel,,
+Get me an UberGo to Vons,UberGo,,Vons,,
+Get me an UberPool home,UberPool,,home,,
+Get me an UberPool to 3029 south Quinn,UberPool,,3029 south Quinn,,
+Get me an UberPool to 537 n st andrews place,UberPool,,n st andrews place,,
+Get me an UberPool to 6211 hill street,UberPool,,6211 hill street,,
+Get me an UberPool to 72 w sunset,UberPool,,72 w sunset,,
+Get me an UberPool to 72553 Oregon street,UberPool,,72553 Oregon street,,
+Get me an UberPool to 7263 Robertson,UberPool,,7263 Robertson,,
+Get me an UberPool to 7281 s Halsted,UberPool,,7281 s Halsted,,
+Get me an UberPool to 765 L street,UberPool,,765 L street,,
+Get me an UberPool to 8371 doheny avenue,UberPool,,8371 doheny avenue,,
+Get me an UberPool to 86 melrose place,UberPool,,86 melrose place,,
+Get me an UberPool to 907 calbert st,UberPool,,907 calbert st,,
+Get me an UberPool to 920 main,UberPool,,920 main,,
+Get me an UberPool to 97 Hudson boulevard,UberPool,,97 Hudson boulevard,,
+Get me an UberPool to 996 park lane,UberPool,,996 park lane,,
+Get me an UberPool to Griffith Park,UberPool,,Griffith park,,
+Get me an UberPool to Komodo's in Venice,UberPool,,komodo's in Venice,,
+Get me an UberPool to Malibu Canyon,UberPool,,Malibu canyon,,
+Get me an UberPool to Nobu ,UberPool,,nobu,,
+Get me an UberPool to Nobu Malibu,UberPool,,nobu Malibu,,
+Get me an UberPool to the Line hotel,UberPool,,line hotel,,
+Get me an UberPool to Vons,UberPool,,Vons,,
+Get me an UberX from 4 MG Road to Mount Road,UberX,4 MG Road,Mount Road,,
+Get me an uberx home,uberx,,home,,
+Get me an uberx to 3029 south Quinn,uberx,,3029 south Quinn,,
+Get me an uberx to 537 n st andrews place,uberx,,n st andrews place,,
+Get me an uberx to 6211 hill street,uberx,,6211 hill street,,
+Get me an uberx to 72 w sunset,uberx,,72 w sunset,,
+Get me an uberx to 72553 Oregon street,uberx,,72553 Oregon street,,
+Get me an uberx to 7263 Robertson,uberx,,7263 Robertson,,
+Get me an uberx to 7281 s Halsted,uberx,,7281 s Halsted,,
+Get me an uberx to 765 L street,uberx,,765 L street,,
+Get me an uberx to 8371 doheny avenue,uberx,,8371 doheny avenue,,
+Get me an uberx to 86 melrose place,uberx,,86 melrose place,,
+Get me an uberx to 907 calbert st,uberx,,907 calbert st,,
+Get me an uberx to 920 main,uberx,,920 main,,
+Get me an uberx to 97 Hudson boulevard,uberx,,97 Hudson boulevard,,
+Get me an uberx to 996 park lane,uberx,,996 park lane,,
+Get me an uberx to Griffith Park,uberx,,Griffith park,,
+Get me an uberx to Komodo's in Venice,uberx,,komodo's in Venice,,
+Get me an uberx to Malibu Canyon,uberx,,Malibu canyon,,
+Get me an uberx to Nobu Malibu,uberx,,nobu Malibu,,
+Get me an uberx to Nobu,uberx,,nobu,,
+Get me an uberx to the Line hotel,uberx,,line hotel,,
+Get me an uberx to Vons,uberx,,Vons,,
+get me an uber x,uber x,,,,
+get me back now,,,,,back
+get me back,,,,,back
+get me lyft destination Tucson mall,,,Tucson mall,,
+get me my car again with same details,,,,,again
+get me my car again,,,,,again
+get me my ride again with same details,,,,,again
+get me my ride again,,,,,again
+get me there by uber,uber,,there,,
+get me there please,,,there,,
+get me there via uber,uber,,there,,
+get me there,,,there,,
+get me there,,,there,,
+Get me to Britney's house,,,Britney's house,,
+get me to my earlier location  please,,,,,earlier
+get me to my earlier location ,,,,,earlier
+get me to my earlier location ,,,,,earlier
+get me to my earlier ride  please,,,,,earlier
+get me to my earlier ride ,,,,,earlier
+get me to my earlier ride ,,,,,earlier
+get me to my earlier trip  please,,,,,earlier
+get me to my earlier trip ,,,,,earlier
+get me to my earlier trip ,,,,,earlier
+get me to my last location  please,,,,,last
+get me to my last location ,,,,,last
+get me to my last location ,,,,,last
+get me to my last ride  please,,,,,last
+get me to my last ride ,,,,,last
+get me to my last ride ,,,,,last
+get me to my last trip  please,,,,,last
+get me to my last trip ,,,,,last
+get me to my last trip ,,,,,last
+get me to my previous location  please,,,,,previous
+get me to my previous location ,,,,,previous
+get me to my previous location ,,,,,previous
+get me to my previous ride  please,,,,,previous
+get me to my previous ride ,,,,,previous
+get me to my previous ride ,,,,,previous
+get me to my previous trip  please,,,,,previous
+get me to my previous trip ,,,,,previous
+get me to my previous trip ,,,,,previous
+get me to that one by uber,uber,,that one,,
+get me to that one via uber,uber,,that one,,
+get me to that place by uber,uber,,that place,,
+get me to that place via uber,uber,,that place,,
+get me to that restaurant by uber,uber,,that restaurant,,
+get me to that restaurant via uber,uber,,that restaurant,,
+get me to that updated location by uber,uber,,that,,
+get me to that updated location via uber,uber,,that,,
+get me to that venue by uber,uber,,that venue,,
+get me to that venue via uber,uber,,that venue,,
+get me to that via uber,uber,,that,,
+get me to the first one by uber,uber,,the first one,,
+get me to the first one via uber,uber,,the first one,,
+get me to the last one by uber,uber,,the last one,,
+get me to the last one via uber,uber,,the last one,,
+get me to the second one by uber,uber,,the second one,,
+get me to the second one via uber,uber,,the second one,,
+get me to this updated location by uber,uber,,this,,
+get me to this updated location via uber,uber,,this,,
+get me to this via uber,uber,,this,,
+get me uber set destination Tucson mall,uber,,Tucson mall,,
+get my uber again,,,,,again
+get the uber pool,uber pool,,,,
+get the UberGo,UberGo,,,,
+get the UberPool,UberPool,,,,
+get the uberx,uberx,,,,
+get there by uber,uber,,there,,
+get there via uber,uber,,there,,
+get there,,,there,,
+get there,,,there,,
+get there,,,there,,
+get to my earlier location ,,,,,earlier
+get to my earlier location,,,,,earlier
+get to my earlier location,,,,,earlier
+get to my earlier ride ,,,,,earlier
+get to my earlier ride,,,,,earlier
+get to my earlier ride,,,,,earlier
+get to my earlier trip ,,,,,earlier
+get to my earlier trip,,,,,earlier
+get to my earlier trip,,,,,earlier
+get to my last location ,,,,,last
+get to my last location,,,,,last
+get to my last location,,,,,last
+get to my last ride ,,,,,last
+get to my last ride,,,,,last
+get to my last ride,,,,,last
+get to my last trip ,,,,,last
+get to my last trip,,,,,last
+get to my last trip,,,,,last
+get to my previous location ,,,,,previous
+get to my previous location,,,,,previous
+get to my previous location,,,,,previous
+get to my previous ride ,,,,,previous
+get to my previous ride,,,,,previous
+get to my previous ride,,,,,previous
+get to my previous trip ,,,,,previous
+get to my previous trip,,,,,previous
+get to my previous trip,,,,,previous
+get to that one by uber,uber,,that one,,
+get to that one via uber,uber,,that one,,
+get to that place by uber,uber,,that place,,
+get to that place via uber,uber,,that place,,
+get to that updated location by uber,uber,,that,,
+get to that updated location via uber,uber,,that,,
+get to there,,,there,,
+get to this updated location by uber,uber,,this,,
+get to this updated location via uber,uber,,this,,
+get to to my earlier location ,,,,,earlier
+get to to my earlier ride ,,,,,earlier
+get to to my earlier trip ,,,,,earlier
+get to to my last location ,,,,,last
+get to to my last ride ,,,,,last
+get to to my last trip ,,,,,last
+get to to my previous location ,,,,,previous
+get to to my previous ride ,,,,,previous
+get to to my previous trip ,,,,,previous
+get Uber and go to John Hopkins Hospital,Uber,,John Hopkins Hospital,,
+Get Uber black ride to koramangla,Uber black,,koramangla,,
+get uber black,uber black,,,,
+Get uber español ride to Indiranagar,uber español,,Indiranagar,,
+Get uber español ride from 432 S curson avenue to Indiranagar,uber español,432 S curson avenue,Indiranagar,,
+get uber pool,uber pool,,,,
+get uber pool,uber pool,,,,
+get uber suv please,uber suv,,,,
+get uber suv,uber suv,,,,
+get uber there,uber,,there,,
+get uber to that one,uber,,that one,,
+get uber to that place,uber,,that place,,
+get uber to that restaurant,uber,,that restaurant,,
+get uber to that updated location,uber,,that,,
+get uber to that venue,uber,,that venue,,
+get uber to the first one,uber,,the first one,,
+get uber to the last one,uber,,the last one,,
+get uber to the second one,uber,,the second one,,
+get uber to this updated location,uber,,this,,
+Get Uber X ride to tin factory,Uber X,,tin factory,,
+get uber x,uber x,,,,
+get uber pool,uber pool,,,,
+get UberGo,UberGo,,,,
+get UberPool,UberPool,,,,
+get uberx,uberx,,,,
+get us there,,,there,,
+get us to my earlier location ,,,,,earlier
+get us to my earlier ride ,,,,,earlier
+get us to my earlier trip ,,,,,earlier
+get us to my last location ,,,,,last
+get us to my last ride ,,,,,last
+get us to my last trip ,,,,,last
+get us to my previous location ,,,,,previous
+get us to my previous ride ,,,,,previous
+get us to my previous trip ,,,,,previous
+give me info about cab services available to reach Railway station,,,Railway Station,,
+go there please,,,there,,
+go there,,,there,,
+go there,,,there,,
+go there,,,there,,
+go to my earlier location  please,,,,,earlier
+go to my earlier location ,,,,,earlier
+go to my earlier location ,,,,,earlier
+go to my earlier location ,,,,,earlier
+go to my earlier ride  please,,,,,earlier
+go to my earlier ride ,,,,,earlier
+go to my earlier ride ,,,,,earlier
+go to my earlier ride ,,,,,earlier
+go to my earlier trip  please,,,,,earlier
+go to my earlier trip ,,,,,earlier
+go to my earlier trip ,,,,,earlier
+go to my earlier trip ,,,,,earlier
+go to my last location  please,,,,,last
+go to my last location ,,,,,last
+go to my last location ,,,,,last
+go to my last location ,,,,,last
+go to my last ride  please,,,,,last
+go to my last ride ,,,,,last
+go to my last ride ,,,,,last
+go to my last ride ,,,,,last
+go to my last trip  please,,,,,last
+go to my last trip ,,,,,last
+go to my last trip ,,,,,last
+go to my last trip ,,,,,last
+go to my previous location  please,,,,,previous
+go to my previous location ,,,,,previous
+go to my previous location ,,,,,previous
+go to my previous location ,,,,,previous
+go to my previous ride  please,,,,,previous
+go to my previous ride ,,,,,previous
+go to my previous ride ,,,,,previous
+go to my previous ride ,,,,,previous
+go to my previous trip  please,,,,,previous
+go to my previous trip ,,,,,previous
+go to my previous trip ,,,,,previous
+go to my previous trip ,,,,,previous
+Go to Uber and book a car to go to Bangalore,Uber,,Bangalore,,
+Go to Uber and book a car to go to Chennai,Uber,,Chennai,,
+Have a Lyft pick me up and take me to the mall.,,,mall,,
+Have a Lyft sent to my house right away.,,,My house,,
+Have an uber come take me home,uber,,home,,
+Have Uber take me to work,Uber,,work,,
+help me to book cab service?,,,,,
+hey Aneeda book me a uber cab to McDonalds in Chicago,uber,,Chicago,,
+hey Aneeda book uber SUV from Kroger to home,uber SUV,Kroger,home,,
+hey Aneeda open uber and book uber SUV for Kroger from home,uber SUV,home,Kroger,,
+I need a cab ride to downtown Tampa from Clearwater,,Clearwater,Tampa,,
+I need a cab,,,,,
+I need a Lyft to Britney's house,,,Britney's house,,
+I need a Lyft to Wal-Mart.,,,Wal-Mart,,
+I need a ride,,,,,
+I need a ride again with same details,,,,,again
+I need a ride again,,,,,again
+I need a ride home.,,,home,,
+I need a ride to the airport.  Book Lyft Line to pick me up at noon.,,,airport,noon,
+I need a ride to the library,,,library,,
+I need a ride to the surgical center,,,surgical center,,
+I need a ride to Town Hall,,,Town hall,,
+I need a Taxi ride to downtown Tampa from Clearwater,,Clearwater,Tampa,,
+I NEED A UBER TO SUMMIT MALL IN AKRON,UBER,,SUMMIT MALL IN AKRON,,
+I need an Uber Black from Indiranagar to Tin Factory,Uber Black,Indiranagar,Tin Factory,,
+I need an Uber driver to get to Main Street,Uber,,Main street,,
+I need an Uber driver to pick me up at the Triangle Square mall and take me home.,Uber,Triangle Square mall,home,,
+I need an Uber for tomorrow to take me to the concert.,Uber,,concert,,
+I need an uber now at my current location,uber,,current location,,
+I need an Uber Pool,Uber Pool,,,,
+I need an Uber ride to Pukinmaki.,Uber,,Pukinmaki,,
+I need an uber ride to take me to the capital building right now,uber,,capital building,,
+I NEED AN UBER SERVICE TO CHASE BANK ON WEST MARKET STREET,UBER,,CHASE BANK ON WEST MARKET STREET,,
+I need an Uber SUV,Uber SUV,,,,
+I need an Uber to get to work,Uber,,Work,,
+I need an uber to mariner's stadium right now,uber,,mariner's stadium,,
+I need an Uber to pick me up in the next half hour.,Uber,,,next half hour,
+I need an Uber to take me home.,Uber,,home,,
+I need an Uber to take me to the grocery store,Uber,,Grocery store,,
+I need an uber,uber,,,,
+I need an uberGo,uberGo,,,,
+I need an UberXL to the airport.,UberXL,,airport,,
+I need an UberXL,UberXL,,,,
+I need Lyft Line to JFK International.,,,JFK International,,
+I need to book a ride on Uber to downtown Tampa from Clearwater,Uber,Clearwater,Tampa,,
+I need to book an Uber service to 22 North Main avenue,Uber,,22 North Main avenue,,
+I need to book an Uber to get me home,Uber,,home,,
+I need to get to the gas station using Uber,Uber,,gas station,,
+I need transport for 4 with luggage to the airport.,,,airport,,
+I need you to book me a car ride from Uber to go to Phoenix,Uber,,Phoenix,,
+I need you to book me an Uber to go to the movies please.,Uber,,movies,,
+I want an uber cab to go to ST street,uber,,ST street,,
+I want to book a car with Uber to Windsor.,Uber,,Windsor,,
+I want to book a journey with Uber.,Uber,,,,
+I want to book a Lyft car to local train station,,,local train station,,
+I want to book a ride on any service to local train station,,,local train station,,
+I want to book a service of Uber to Austin downtown,Uber,,Austin downtown,,
+I want to book an Uber ride to City Hall.,Uber,,City Hall,,
+I want to book an Uber ride to the Harbor Bridge.,Uber,,Harbor Bridge,,
+I want to book uber,uber,,,,
+I want to go by Uber to Bath Road,Uber,,Bath Road,,
+I want to go there,,,there,,
+I want to go to my earlier location ,,,,,earlier
+I want to go to my earlier ride ,,,,,earlier
+I want to go to my earlier trip ,,,,,earlier
+I want to go to my last location ,,,,,last
+I want to go to my last ride ,,,,,last
+I want to go to my last trip ,,,,,last
+I want to go to my previous location ,,,,,previous
+I want to go to my previous ride ,,,,,previous
+I want to go to my previous trip ,,,,,previous
+I want to schedule an Uber pickup.,Uber,,,,
+I want to schedule an uber suv to pick me up from my location at 10pm,uber suv,my location,,10pm,
+I want to schedule an uber suv to pick me up from the town bar at 10pm,uber suv,town bar,,10pm,
+I want Uber to take me to work,Uber,,work,,
+I will need a ride to the Quezon Memorial Circle,,,Quezon Memorial Circle,,
+I would like to book a cab service,,,,,
+I would like to book a Lyft driver to take me to SFO International departures.,,,SFO international departures,,
+I would like to choose uber to take a commute,uber,,,,
+I'd like to take a Lyft to the Empire State Building please.,,,Empire State Building,,
+im at work and I need a lyft,,,work,,
+In need an Uber to take me to work.,Uber,,work,,
+kindly book a Ola cab for me to Lucknow city,,,Lucknow city,,
+kindly I need to book a transport service from street 88,,street 88,,,
+let us go there,,,there,,
+let us go to my earlier location ,,,,,earlier
+let us go to my earlier ride ,,,,,earlier
+let us go to my earlier trip ,,,,,earlier
+let us go to my last location ,,,,,last
+let us go to my last ride ,,,,,last
+let us go to my last trip ,,,,,last
+let us go to my previous location ,,,,,previous
+let us go to my previous ride ,,,,,previous
+let us go to my previous trip ,,,,,previous
+let's get there,,,there,,
+let's get to my earlier location ,,,,,earlier
+let's get to my earlier ride ,,,,,earlier
+let's get to my earlier trip ,,,,,earlier
+let's get to my last location ,,,,,last
+let's get to my last ride ,,,,,last
+let's get to my last trip ,,,,,last
+let's get to my previous location ,,,,,previous
+let's get to my previous ride ,,,,,previous
+let's get to my previous trip ,,,,,previous
+let's go there,,,there,,
+let's go there,,,there,,
+let's go there,,,there,,
+let's go to my earlier location ,,,,,earlier
+let's go to my earlier location ,,,,,earlier
+let's go to my earlier ride ,,,,,earlier
+let's go to my earlier ride ,,,,,earlier
+let's go to my earlier trip ,,,,,earlier
+let's go to my earlier trip ,,,,,earlier
+let's go to my last location ,,,,,last
+let's go to my last location ,,,,,last
+let's go to my last ride ,,,,,last
+let's go to my last ride ,,,,,last
+let's go to my last trip ,,,,,last
+let's go to my last trip ,,,,,last
+let's go to my previous location ,,,,,previous
+let's go to my previous location ,,,,,previous
+let's go to my previous ride ,,,,,previous
+let's go to my previous ride ,,,,,previous
+let's go to my previous trip ,,,,,previous
+let's go to my previous trip ,,,,,previous
+Look for an Uber that can pick me up at State Street.,Uber,State Street,,,
+Lyft to work,,,work,,
+make a booking for car on uber to go to bus stand from my location,uber,my location,bus stand,,
+Make a booking for Uber from here to 22 North Main avenue,Uber,here,22 North Main avenue,,
+ok go there,,,there,,
+open a uber cab service to go to MG Road,uber,,MG Road,,
+open uber & book for MG Road,uber,,MG Road,,
+Open Uber and set destination for the movies.,Uber,,Movies,,
+Open Uber app and set up destination for home.,Uber,,home,,
+Order a cab for me to reach the office.,,,Office,,
+Order a taxi for me to reach the office.,,,Office,,
+Order an Uber to take me to the Washington Monument.,Uber,,Washington Monument,,
+Order Uber SUV at current location,Uber SUV,current location,,,
+pick a cab from Uber Suv MG Road,Uber Suv,MG Road,,,
+Please book a car for me on uber from my location to airport,uber,my location,airport,,
+please book a car for uber suv on los angels?,uber suv,,los angels,,
+please book an ola suv for oxford street,suv,,oxford street,,
+Please book an uber home,uber,,home,,
+Please book an uber SUV to pick me up at the corner 212th and Broadway for 2 pm today,uber SUV,212th and Broadway,,2 pm today,
+Please book me an uber ride to the airport,uber,,airport,,
+Please book me an UberXL to take me to the Wells Fargo Center.,UberXL,,Wells Fargo Center,,
+please book my uber again with same details,,,,,again
+please book my uber again,,,,,again
+Please book the first one now,,,the first one,,
+Please book the first one with Uber Pool,Uber Pool,,the first one,,
+Please book the first one with UberGo,UberGo,,the first one,,
+Please book the first one with UberX,UberX,,the first one,,
+Please book the first one,,,the first one,,
+Please book the last one now,,,the last one,,
+Please book the last one with Uber Pool,Uber Pool,,the last one,,
+Please book the last one with UberGo,UberGo,,the last one,,
+Please book the last one with UberX,UberX,,the last one,,
+Please book the second one now,,,the second one,,
+Please book the second one with Uber Pool,Uber Pool,,the second one,,
+Please book the second one with UberGo,UberGo,,the second one,,
+Please book the second one with UberX,UberX,,the second one,,
+Please book the second one,,,the second one,,
+Please book the third one now,,,the third one,,
+Please book the third one with Uber Pool,Uber Pool,,the third one,,
+Please book the third one with UberGo,UberGo,,the third one,,
+Please book the third one with UberX,UberX,,the third one,,
+Please book the third one,,,the third one,,
+Please book uber again,,,,,again
+Please book uber for home..,uber,,home,,
+Please book uber pool for Delhi.,uber pool,,Delhi,,
+Please Book UberGo cab service Now at 156 High Street Santa Cruz,UberGo,,156 High Street Santa Cruz,,
+Please book UberPool for Delhi.,UberPool,,Delhi,,
+Please call Lyft and arrange pick up for me from Applebees,,Applebees,,,
+please call uber to home,uber,,home,,
+Please contact Uber to pick me up in front of the Starbucks on Capital Blvd and take me to Spring Forest Rd.,Uber,Starbucks on Capital Blvd,Spring Forest Rd,,
+Please get me a lyft,,,,,
+please get me an uber ride to 1552 south Madison avenue west,uber,,1552 south Madison avenue west,,
+please get me an uber ride to 76  west main,uber,,76 west main,,
+please get me an uber ride to 77 Massachusetts avenue,uber,,77 Massachusetts avenue,,
+please get me an uber ride to 9872 Hudson avenue,uber,,9872 Hudson avenue,,
+please get me an uber ride to Cambridge galleria,uber,,Cambridge galleria,,
+please get me an uber ride to Harvard square,uber,,Harvard square,,
+please get me an uber ride to lax,uber,,lax,,
+please get me an uber ride to los angeles city hall,uber,,los angeles city hall,,
+please get me an uber ride to melrose and vine,uber,,melrose and vine,,
+please get me an uber ride to MIT,uber,,MIT,,
+please get me an uber ride to my office,uber,,office,,
+please get me an uber ride to Santa Monica city hall,uber,,Santa Monica city hall,,
+please get me an uber ride to the courthouse,uber,,courthouse,,
+Please get me an uber ride to the gas station.,uber,,gas station,,
+please get me an uber ride to the hotel,uber,,hotel,,
+please get me an uber ride to the spotted pig,uber,,spotted pig,,
+Please get me the nearest Uber to go to work,Uber,,work,,
+please get me there,,,there,,
+please get me to my earlier location ,,,,,earlier
+please get me to my earlier ride ,,,,,earlier
+please get me to my earlier trip ,,,,,earlier
+please get me to my last location ,,,,,last
+please get me to my last ride ,,,,,last
+please get me to my last trip ,,,,,last
+please get me to my previous location ,,,,,previous
+please get me to my previous ride ,,,,,previous
+please get me to my previous trip ,,,,,previous
+Please help me book a service of Uber to the White House,Uber,,White House,,
+Please let me know if you book service for an Uber car when it will arrive so that I can go to Fort Lauderdale.,Uber,,Fort Lauderdale,,
+Please order me a lyft to the mall,,,mall,,
+Please schedule an Uber SUV to arrive outside of the adjacent bar.,Uber SUV,,bar,,
+please take me there,,,there,,
+please take me to my earlier location ,,,,,earlier
+please take me to my earlier ride ,,,,,earlier
+please take me to my earlier trip ,,,,,earlier
+please take me to my last location ,,,,,last
+please take me to my last ride ,,,,,last
+please take me to my last trip ,,,,,last
+please take me to my previous location ,,,,,previous
+please take me to my previous ride ,,,,,previous
+please take me to my previous trip ,,,,,previous
+please take us there,,,there,,
+please take us to my earlier location ,,,,,earlier
+please take us to my earlier ride ,,,,,earlier
+please take us to my earlier trip ,,,,,earlier
+please take us to my last location ,,,,,last
+please take us to my last ride ,,,,,last
+please take us to my last trip ,,,,,last
+please take us to my previous location ,,,,,previous
+please take us to my previous ride ,,,,,previous
+please take us to my previous trip ,,,,,previous
+register a cab from Uber Suv MG Road,Uber Suv,,MG Road,,
+request a car for 4,,,,,
+request a ride on lyft to go to the Reinvention center,,,Reinvention center,,
+Request and Uber to Bar Louie,Uber,,Bar Louie,,
+Request to book Uber SUV to Delhi,Uber SUV,,Delhi,,
+Request Uber pick up at Stan Hywet Hall for  Gardens in Akron.,Uber,Stan Hywet Hall,Gardens in Akron,,
+Schedule a Lyft Line to pick me up at 7 pm and take me to FedEx Field,,,Fedex Field,7 PM,
+schedule an uber pickup for dodger stadium at 4pm,uber,,dodger stadium,4pm,
+schedule an uber pickup for lax at 7pm,uber,,lax,7pm,
+schedule an uber pickup to bob hope airport at 1pm,uber,,bob hope airport,1pm,
+schedule an uber pickup to Burbank airport at 4am,uber,,Burbank airport,4am,
+schedule an uber pickup to Disney concert hall at 3pm,uber,,Disney concert hall,3pm,
+schedule an uber pickup to dulles at 5pm,uber,,dulles,5pm,
+schedule an uber pickup to john f Kennedy airport at 5am,uber,,john f Kennedy airport,5am,
+schedule an uber pickup to Kennedy airport at 5pm tomorrow,uber,,Kennedy airport,5pm tomorrow,
+schedule an uber pickup to la guardia at 2pm,uber,,la guardia,2pm,
+schedule an uber pickup to lax at 5am tomorrow,uber,,lax,5am tomorrow,
+schedule an uber pickup to lax tomorrow 5am,uber,,lax,5am,
+schedule an uber pickup to long beach airport at 2am,uber,,long beach airport,2am,
+schedule an uber pickup to midway at 1am,uber,,midway,1am,
+schedule an uber pickup to Nobu at 6pm,uber,,Nobu,6pm,
+schedule an uber pickup to Nobu Malbu at 5pm,uber,,Nobu Malbu,5pm,
+schedule an uber pickup to O'Hare airport at 3am,uber,,O'Hare airport,3am,
+schedule an uber pickup to Ontario airport at 6pm,uber,,Ontario airport,6pm,
+schedule an uber pickup to signature creative at 6am,uber,,signature creative,6am,
+schedule an uber pickup to the broad museum tonight 6pm,uber,,broad,6pm,
+schedule an uber pickup to the grove at 5pm pickup,uber,,grove,5pm,
+schedule an uber pickup to Venice beach for 6pm today,uber,,Venice beach,6pm,
+schedule an uber pool for dodger stadium at 4pm,uber pool,,dodger stadium,4pm,
+schedule an uber pool for lax at 7pm,uber pool,,lax,7pm,
+schedule an uber pool to bob hope airport at 1pm,uber pool,,bob hope airport,1pm,
+schedule an uber pool to Burbank airport at 4am,uber pool,,Burbank airport,4am,
+schedule an uber pool to Disney concert hall at 3pm,uber pool,,Disney concert hall,3pm,
+schedule an uber pool to dulles at 5pm,uber pool,,dulles,5pm,
+schedule an uber pool to john f Kennedy airport at 5am,uber pool,,john f Kennedy airport,5am,
+schedule an uber pool to Kennedy airport at 5pm tomorrow,uber pool,,Kennedy airport,5pm tomorrow,
+schedule an uber pool to la guardia at 2pm,uber pool,,la guardia,2pm,
+schedule an uber pool to lax at 5am tomorrow,uber pool,,lax,5am tomorrow,
+schedule an uber pool to lax tomorrow 5am,uber pool,,lax,tomorrow 5am,
+schedule an uber pool to long beach airport at 2am,uber pool,,long beach airport,2am,
+schedule an uber pool to midway at 1am,uber pool,,midway,1am,
+schedule an uber pool to Nobu at 6pm,uber pool,,Nobu,6pm,
+schedule an uber pool to Nobu Malbu at 5pm,uber pool,,Nobu Malbu,5pm,
+schedule an uber pool to O'Hare airport at 3am,uber pool,,O'Hare airport,3am,
+schedule an uber pool to Ontario airport at 6pm,uber pool,,Ontario airport,6pm,
+schedule an uber pool to signature creative at 6am,uber pool,,signature creative,6am,
+schedule an uber pool to the broad museum tonight 6pm,uber pool,,broad,6pm,
+schedule an uber pool to the grove at 5pm pickup,uber pool,,grove,5pm,
+schedule an uber pool to Venice beach for 6pm today,uber pool,,Venice beach,6pm,
+schedule an UberGo for dodger stadium at 4pm,UberGo,,dodger stadium,4pm,
+schedule an UberGo for lax at 7pm,UberGo,,lax,7pm,
+schedule an UberGo to bob hope airport at 1pm,UberGo,,bob hope airport,1pm,
+schedule an UberGo to Burbank airport at 4am,UberGo,,Burbank airport,4am,
+schedule an UberGo to Disney concert hall at 3pm,UberGo,,Disney concert hall,3pm,
+schedule an UberGo to dulles at 5pm,UberGo,,dulles,5pm,
+schedule an UberGo to john f Kennedy airport at 5am,UberGo,,john f Kennedy airport,5am,
+schedule an UberGo to Kennedy airport at 5pm tomorrow,UberGo,,Kennedy airport,5pm tomorrow,
+schedule an UberGo to la guardia at 2pm,UberGo,,la guardia,2pm,
+schedule an UberGo to lax at 5am tomorrow,UberGo,,lax,5am tomorrow,
+schedule an UberGo to lax tomorrow 5am,UberGo,,lax,tomorrow 5am,
+schedule an UberGo to long beach airport at 2am,UberGo,,long beach airport,2am,
+schedule an UberGo to midway at 1am,UberGo,,midway,1am,
+schedule an UberGo to Nobu at 6pm,UberGo,,Nobu,6pm,
+schedule an UberGo to Nobu Malbu at 5pm,UberGo,,Nobu Malbu,5pm,
+schedule an UberGo to O'Hare airport at 3am,UberGo,,O'Hare airport,3am,
+schedule an UberGo to Ontario airport at 6pm,UberGo,,Ontario airport,6pm,
+schedule an UberGo to signature creative at 6am,UberGo,,signature creative,6am,
+schedule an UberGo to the broad museum tonight 6pm,UberGo,,broad,6pm,
+schedule an UberGo to the grove at 5pm pickup,UberGo,,grove,5pm,
+schedule an UberGo to Venice beach for 6pm today,UberGo,,Venice beach,6pm,
+schedule an UberPool for dodger stadium at 4pm,UberPool,,dodger stadium,4pm,
+schedule an UberPool for lax at 7pm,UberPool,,lax,7pm,
+schedule an UberPool to bob hope airport at 1pm,UberPool,,bob hope airport,1pm,
+schedule an UberPool to Burbank airport at 4am,UberPool,,Burbank airport,4am,
+schedule an UberPool to Disney concert hall at 3pm,UberPool,,Disney concert hall,3pm,
+schedule an UberPool to dulles at 5pm,UberPool,,dulles,5pm,
+schedule an UberPool to john f Kennedy airport at 5am,UberPool,,john f Kennedy airport,5am,
+schedule an UberPool to Kennedy airport at 5pm tomorrow,UberPool,,Kennedy airport,5pm tomorrow,
+schedule an UberPool to la guardia at 2pm,UberPool,,la guardia,2pm,
+schedule an UberPool to lax at 5am tomorrow,UberPool,,lax,5am tomorrow,
+schedule an UberPool to lax tomorrow 5am,UberPool,,lax,tomorrow 5am,
+schedule an UberPool to long beach airport at 2am,UberPool,,long beach airport,2am,
+schedule an UberPool to midway at 1am,UberPool,,midway,1am,
+schedule an UberPool to Nobu at 6pm,UberPool,,Nobu,6pm,
+schedule an UberPool to Nobu Malbu at 5pm,UberPool,,Nobu Malbu,5pm,
+schedule an UberPool to O'Hare airport at 3am,UberPool,,O'Hare airport,3am,
+schedule an UberPool to Ontario airport at 6pm,UberPool,,Ontario airport,6pm,
+schedule an UberPool to signature creative at 6am,UberPool,,signature creative,6am,
+schedule an UberPool to the broad museum tonight 6pm,UberPool,,broad,6pm,
+schedule an UberPool to the grove at 5pm pickup,UberPool,,grove,5pm,
+schedule an UberPool to Venice beach for 6pm today,UberPool,,Venice beach,6pm,
+schedule an uberx for dodger stadium at 4pm,uberx,,dodger stadium,4pm,
+schedule an uberx for lax at 7pm,uberx,,lax,7pm,
+schedule an uberx to bob hope airport at 1pm,uberx,,bob hope airport,1pm,
+schedule an uberx to Burbank airport at 4am,uberx,,Burbank airport,4am,
+schedule an uberx to Disney concert hall at 3pm,uberx,,Disney concert hall,3pm,
+schedule an uberx to dulles at 5pm,uberx,,dulles,5pm,
+schedule an uberx to john f Kennedy airport at 5am,uberx,,john f Kennedy airport,5am,
+schedule an uberx to Kennedy airport at 5pm tomorrow,uberx,,Kennedy airport,5pm tomorrow,
+schedule an uberx to la guardia at 2pm,uberx,,la guardia,2pm,
+schedule an uberx to lax at 5am tomorrow,uberx,,lax,5am tomorrow,
+schedule an uberx to lax tomorrow 5am,uberx,,lax,tomorrow 5am,
+schedule an uberx to long beach airport at 2am,uberx,,long beach airport,2am,
+schedule an uberx to midway at 1am,uberx,,midway,1am,
+schedule an uberx to Nobu at 6pm,uberx,,Nobu,6pm,
+schedule an uberx to Nobu Malbu at 5pm,uberx,,Nobu Malbu,5pm,
+schedule an uberx to O'Hare airport at 3am,uberx,,O'Hare airport,3am,
+schedule an uberx to Ontario airport at 6pm,uberx,,Ontario airport,6pm,
+schedule an uberx to signature creative at 6am,uberx,,signature creative,6am,
+schedule an uberx to the broad museum tonight 6pm,uberx,,broad,6pm,
+schedule an uberx to the grove at 5pm pickup,uberx,,grove,5pm,
+schedule an uberx to Venice beach for 6pm today,uberx,,Venice beach,6pm,
+Schedule lyft line to central park,,,To central park,,
+Schedule Uber service,Uber,,,,
+Schedule Uber to visit city hall in Philadelphia,Uber,,City hall in Philadelphia,,
+Send an Uber to my location.,Uber,,My location,,
+Send me a Lyft Plus to carry me to Central Park?,,,Central Park,,
+Send me a Lyft to the Vols stadium when the game ends,,,Vols stadium,,
+Send me an uber to Neyland Stadium,uber,,Neyland Stadium,,
+Set up an Uber to get me to Walmart.,Uber,,Walmart,,
+Set up Uber to pick me up as soon as possible at Barry's,Uber,Barry's,,,
+take an uber there,uber,,there,,
+take an uber there,uber,,there,,
+Take me back now,,,,,back
+Take me back,,,,,back
+Take me home by a reliable cab service,,,home,,
+take me there via uber,uber,,there,,
+take me there,,,there,,
+take me there,,,there,,
+take me there,,,there,,
+take me there,,,there,,
+take me there,,,there,,
+take me there,,,there,,
+take me to downtown uber,uber,,downtown,,
+take me to my destination again with same details,,,,,again
+take me to my destination again,,,,,again
+take me to my earlier location ,,,,,earlier
+take me to my earlier location ,,,,,earlier
+take me to my earlier location ,,,,,earlier
+take me to my earlier location,,,,,earlier
+take me to my earlier ride ,,,,,earlier
+take me to my earlier ride ,,,,,earlier
+take me to my earlier ride ,,,,,earlier
+take me to my earlier ride,,,,,earlier
+take me to my earlier trip ,,,,,earlier
+take me to my earlier trip ,,,,,earlier
+take me to my earlier trip ,,,,,earlier
+take me to my earlier trip,,,,,earlier
+take me to my last location ,,,,,last
+take me to my last location ,,,,,last
+take me to my last location ,,,,,last
+take me to my last location,,,,,last
+take me to my last ride ,,,,,last
+take me to my last ride ,,,,,last
+take me to my last ride ,,,,,last
+take me to my last ride,,,,,last
+take me to my last trip ,,,,,last
+take me to my last trip ,,,,,last
+take me to my last trip ,,,,,last
+take me to my last trip,,,,,last
+take me to my previous location ,,,,,previous
+take me to my previous location ,,,,,previous
+take me to my previous location ,,,,,previous
+take me to my previous location,,,,,previous
+take me to my previous ride ,,,,,previous
+take me to my previous ride ,,,,,previous
+take me to my previous ride ,,,,,previous
+take me to my previous ride,,,,,previous
+take me to my previous trip ,,,,,previous
+take me to my previous trip ,,,,,previous
+take me to my previous trip ,,,,,previous
+take me to my previous trip,,,,,previous
+take me to that one via uber,uber,,that one,,
+take me to that place via uber,uber,,that place,,
+take me to that restaurant via uber,uber,,that restaurant,,
+take me to that updated location via uber,uber,,that,,
+take me to that venue via uber,uber,,that venue,,
+Take me to the Eiffel Tower using Uber,Uber,,Eiffel Tower,,
+take me to the first one via uber,uber,,the first one,,
+take me to the last one via uber,uber,,the last one,,
+take me to the second one via uber,uber,,the second one,,
+take me to this updated location via uber,uber,,this,,
+take us there,,,there,,
+take us there,,,there,,
+take us there,,,there,,
+take us to my earlier location ,,,,,earlier
+take us to my earlier location ,,,,,earlier
+take us to my earlier ride ,,,,,earlier
+take us to my earlier ride ,,,,,earlier
+take us to my earlier trip ,,,,,earlier
+take us to my earlier trip ,,,,,earlier
+take us to my last location ,,,,,last
+take us to my last location ,,,,,last
+take us to my last ride ,,,,,last
+take us to my last ride ,,,,,last
+take us to my last trip ,,,,,last
+take us to my last trip ,,,,,last
+take us to my previous location ,,,,,previous
+take us to my previous location ,,,,,previous
+take us to my previous ride ,,,,,previous
+take us to my previous ride ,,,,,previous
+take us to my previous trip ,,,,,previous
+take us to my previous trip ,,,,,previous
+Taxi service on downtown Edmonton,,,downtown Edmonton,,
+Taxi!,,,,,
+Uber  me to Times Square,Uber,,Times Square,,
+Uber booking,Uber,,,,
+uber car booking NY 10005,uber,,NY 10005,,
+Uber car rental destination the wall street inn new York,Uber,,wall street inn new York,,
+uber drop off at  Pizza Luce for now,uber,,Pizza Luce,,
+uber home,uber,,home,,
+Uber home,Uber,,home,,
+Uber I need to book a limo service for fifth and Broadway in one hour,Uber,,fifth and Broadway in one hour,,
+Uber I need to book limo service at fifth and Broadway,Uber,,fifth and Broadway,,
+Uber me home,Uber,,home,,
+uber me there,uber,,there,,
+Uber me to 11 park lane,Uber,,11 park lane,,
+Uber me to 123 abc street,Uber,,123 abc street,,
+Uber me to 22 hollis park,Uber,,22 hollis park,,
+Uber me to 44 and time square,Uber,,44 and time square,,
+Uber me to 654 Chicago ave,Uber,,654 Chicago ave,,
+Uber me to 654 school street,Uber,,654 school street,,
+Uber me to 765 pine street,Uber,,765 pine street,,
+Uber me to 7653 Morris town,Uber,,7653 Morris town,,
+Uber me to 77 mass ave,Uber,,77 mass ave,,
+Uber me to 908 Anderson drive,Uber,,908 Anderson drive,,
+Uber me to 908 Tyler ave,Uber,,908 Tyler ave,,
+Uber me to airport,Uber,,airport,,
+Uber me to atelier crenn,Uber,,atelier crenn,,
+Uber me to big ben,Uber,,big ben,,
+Uber me to Broadway and 76,Uber,,Broadway and 76,,
+Uber me to Chiltern firehouse,Uber,,Chiltern firehouse,,
+Uber me to el matador beach,Uber,,el matador beach,,
+Uber me to Hollywood sign,Uber,,Hollywood sign,,
+Uber me to home,Uber,,home,,
+Uber me to hospital,Uber,,hospital,,
+Uber me to Kensington park,Uber,,Kensington park,,
+Uber me to main street,Uber,,main street,,
+Uber me to mall of America,Uber,,mall of America,,
+Uber me to Miami beach,Uber,,Miami beach,,
+Uber me to my favorite restaurant,Uber,,favorite restaurant,,
+Uber me to my house.,Uber,,My house,,
+Uber me to Nobu,Uber,,Nobu,,
+Uber me to Starbucks,Uber,,Starbucks,,
+uber me to that one,uber,,that one,,
+uber me to that place,uber,,that place,,
+uber me to that restaurant,uber,,that restaurant,,
+uber me to that updated location,uber,,that,,
+uber me to that venue,uber,,that venue,,
+uber me to that,uber,,that,,
+Uber me to the beach,Uber,,beach,,
+uber me to the first one,uber,,the first one,,
+Uber me to the high line,Uber,,high line,,
+uber me to the last one,uber,,the last one,,
+Uber me to the McCormick convention center,Uber,,McCormick convention center,,
+Uber me to the nearest gas station,Uber,,nearest gas station,,
+Uber me to the office,Uber,,office,,
+Uber me to the park,Uber,,park,,
+Uber me to the ritz,Uber,,ritz,,
+uber me to the second one,uber,,the second one,,
+Uber me to the space museum,Uber,,space museum,,
+Uber me to the train station,Uber,,train station,,
+Uber me to the us mall,Uber,,us mall,,
+Uber me to The White House,Uber,,White House,,
+Uber me to the zoo,Uber,,zoo,,
+uber me to this updated location,uber,,this,,
+uber me to this,uber,,this,,
+Uber me to union square,Uber,,union square,,
+Uber me to union station,Uber,,union station,,
+Uber me to united center,Uber,,united center,,
+Uber me to water tower,Uber,,water tower,,
+Uber me to west Hollywood,Uber,,west Hollywood,,
+Uber me to work,Uber,,work,,
+Uber ride to Shallotte NC.,Uber,,Shallotte NC,,
+Uber take me to world trade center Colombo 01,Uber,,world trade center Colombo 01,,
+uber there,uber,,there,,
+uber to 58 park avenue,uber,,58 park avenue,,
+uber to 6 central park west,uber,,6 central park west,,
+uber to 6 park lane,uber,,6 park lane,,
+uber to 625 Matthews street,uber,,625 Matthews street,,
+uber to 666 harris lane,uber,,666 harris lane,,
+uber to 73664 gains st,uber,,73664 gains st,,
+uber to hillstone steakshouse,uber,,hillstone steakshouse,,
+uber to my earlier location ,uber,,,,earlier
+uber to my earlier ride ,uber,,,,earlier
+uber to my earlier trip ,uber,,,,earlier
+uber to my last location ,uber,,,,last
+uber to my last ride ,uber,,,,last
+uber to my last trip ,uber,,,,last
+uber to my previous location ,uber,,,,previous
+uber to my previous ride ,uber,,,,previous
+uber to my previous trip ,uber,,,,previous
+uber to my two cents,uber,,my two cents,,
+uber to Nobu,uber,,Nobu,,
+uber to Roosevelt high school,uber,,Roosevelt high school,,
+uber to roscoe's,uber,,roscoe's,,
+uber to Santa Monica pier,uber,,Santa Monica pier,,
+uber to shake shack,uber,,shake shack,,
+uber to Sheridan elementary,uber,,Sheridan elementary,,
+uber to Starbucks,uber,,Starbucks,,
+uber to the airport,uber,,airport,,
+uber to the grove,uber,,grove,,
+uber to the office,uber,,office,,
+uber to variety boys and girls club,uber,,variety boys and girls club,,
+uber to viper room,uber,,viper room,,
+uber to waffle house,uber,,waffle house,,
+uber to work,uber,,work,,
+Uber,Uber,,,,
+Use Uber to go to the Eiffel Tower,Uber,,Eiffel Tower,,
+Uber Pick me from 432 S curson avenue and drop me at LAX airport,Uber,432 S curson avenue,LAX airport,,
+Uber Pick me up from 72 W curson Street and drop me at LAX airport,Uber,72 W curson Street,LAX airport,,
+UberX Pick me up from 670 Sunset W Blvd and drop me at Universal Studios,UberX,670 Sunset W Blvd,Universal Studios,,

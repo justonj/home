@@ -1,0 +1,17 @@
+{
+   "hotel": ["hotels", "motels", "inns", "cheap hotels", "bed and breakfast",
+             "luxury hotels", "large hotels", "small hotels"
+   ],
+   "restaurant": ["fancy restaurants", "cozy restaurants", "amazing restaurants",
+                  "comfortable restaurants", "expensive restaurants", "cheap restaurants",
+                  "indian restaurants", "italian restaurants", "kosher restaurants",
+                  "mexican restaurants", "chinese restaurants", "mediterranean restaurants",
+                  "French restaurants", "bars", "night clubs with food", "sports bars"
+   ],
+   "airport": ["closest airport", "airports"
+   ],
+   "retail": ["stores near me", "big department stores", "best department stores",
+              "music stores near me", "electronics stores near me", "video game stores",
+              "make-up stores", "cosmetic shops", "grocery stores", "organic grocery stores"
+   ]
+}

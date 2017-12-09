@@ -1,0 +1,71 @@
+{
+  "id": "sports_follow_a_game",
+  "fields": [
+    {
+      "id": "team_name1",
+      "black_list": ["recent","latest","last","current","division","conference"],
+      "type": "sports_team",
+      "mturk_field": "SportsFollowGameTeamNameA"
+    },
+    {
+      "id": "team_name2",
+      "type": "sports_team",
+      "black_list": ["recent","latest","last","current","division","conference"],
+      "mturk_field": "SportsFollowGameTeamNameB"
+    },
+	{
+      "id": "gameTime",
+      "synth_type": "common_time",
+      "type": "time",
+      "mturk_field": "SportsFollowGameTime"
+    },
+	{
+      "id": "gameDay",
+      "type": "date",
+      "synth_type": "relative_date",
+      "synth_type_params": {"past": false, "present": true, "future": true},
+      "mturk_field": "SportsFollowGameDate"
+    },
+	{
+      "id": "gameVenue",
+      "type": "venue_name",
+      "mturk_field": "SportsFollowGameVenue"
+    },
+	{
+      "id": "gameTrigger",
+      "type": "text",
+      "mturk_field": "SportsFollowGameTriggerCondition"
+    },
+	{
+      "id": "game_season",
+      "type": "season_name",
+      "mturk_field": "SportsFollowGameSeason"
+    },
+	{
+      "id": "game_player",
+      "type": "player_name",
+      "mturk_field": "SportsFollowGamePlayer"
+    },
+	{
+      "id": "game_division",
+      "type": "division_name",
+      "mturk_field": "SportsFollowGameDivision"
+    },
+	{
+      "id": "game_conference",
+      "type": "conference_name",
+      "mturk_field": "SportsFollowGameConference"
+    },
+	{
+      "id": "gameTournamentOrSports",
+      "type": "league_name",
+      "black_list": ["league"],
+      "mturk_field": "SportsFollowGameTournamentOrSports"
+    }
+  ],
+  "mturk_response_fields": ["SportsFollowGameQ"],
+  "data_synthesis": {
+    "sample_size": 650,
+    "context_trigger_ratio": 0.372
+  }
+}

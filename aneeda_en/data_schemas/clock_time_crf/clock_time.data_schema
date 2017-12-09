@@ -1,0 +1,18 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.1,
+        "sample_size": 1500
+    },
+    "fields": [
+        {
+            "id": "clock_location",
+            "mturk_field": "Answer.ClockTimeLocation",
+            "synth_type": "national_type",
+            "type": "address"
+        }
+    ],
+    "id": "clock_time",
+    "mturk_response_fields": [
+        "Answer.OpenAnswer1"
+    ]
+}

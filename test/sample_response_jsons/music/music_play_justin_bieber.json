@@ -1,0 +1,169 @@
+{
+  "intent": "music_play",
+  "fields": {
+    "tracks": {
+      "type": "list",
+      "name": "justin bieber songs",
+      "card_token":"play_justin_bieber_response",
+      "item_types": [
+                "music_track"
+            ],
+      "items": [
+        {
+          "type": "music_track",
+          "id": "49990546",
+          "card_token": "49990546",
+          "name": "What Do You Mean?",
+          "album": {
+            "id": "4923937",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49990664",
+          "card_token": "49990664",
+          "name": "The Feeling",
+          "album": {
+            "id": "4923937",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49990402",
+          "card_token": "49990402",
+          "name": "No Pressure",
+          "album": {
+            "id": "4923937",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49990388",
+          "card_token": "49990388",
+          "name": "Company",
+          "album": {
+            "id": "4923937",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49990563",
+          "card_token": "49990563",
+          "name": "Sorry",
+          "album": {
+            "id": "4923937",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist",
+              "value": "Justin Bieber"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49990487",
+          "card_token": "49990487",
+          "name": "Purpose",
+          "album": {
+            "id": "4923937",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49990373",
+          "card_token": "49990373",
+          "name": "Love Yourself",
+          "album": {
+            "id": "4923923",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49930753",
+          "card_token": "49930753",
+          "name": "Sorry",
+          "album": {
+            "id": "4923923",
+            "name": "Sorry",
+            "type": "music_album",
+            "artist": {
+              "id": "3075303",
+              "name": "Justin Bieber / J. Balvin",
+              "popularity": 0.40,
+              "type": "music_artist"
+            }
+          }
+        },
+        {
+          "type": "music_track",
+          "id": "49990335",
+          "card_token": "49990335",
+          "name": "I'll Show You",
+          "album": {
+            "id": "4923923",
+            "name": "Purpose",
+            "type": "music_album",
+            "artist": {
+              "id": "374352",
+              "name": "Justin Bieber",
+              "popularity": 0.94,
+              "type": "music_artist"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

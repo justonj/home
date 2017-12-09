@@ -1,0 +1,13 @@
+{
+  "schema": {
+    "name": "text",
+    "ticker": "text",
+    "market_name": "text",
+    "type": "text"
+  },
+  "factory_class": "db",
+  "table_name": "stock_names",
+  "key_column_name": "ticker",
+  "text_columns": [1],
+  "entity_response_columns": ["stock_name", "ticker", "market_name"]
+}

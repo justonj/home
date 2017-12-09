@@ -1,0 +1,28 @@
+{
+  "input": {
+    "intent": "proactive_hints",
+    "language": "en",
+    "fields": {
+      "artist": {
+        "name": "Poolside",
+        "value": "Poolside",
+        "image_url": "",
+        "card_token": "969525",
+        "type": "music_artist",
+        "id": "969525"
+      }
+    }
+  },
+  "user": {
+    "access_tokens": [
+      {
+        "provider": "iamplus",
+        "refresh_token": "b9314926126175a2bccebe5f6681fd5d15b874ce9bd709a94e111740248d33d2",
+        "value": "f483016c6d3bcfef12bea0a0ff5bdbaea480e61a947ff7954f731d440f07c771",
+        "expiry": 1512352577
+      }
+    ],
+    "id": "philip.ganchev@iamplus.com",
+    "name": "philip.ganchev@iamplus.com"
+  }
+}

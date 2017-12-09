@@ -1,0 +1,11 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text",
+    "value": "text"
+  },
+  "factory_class": "generic_db",
+  "table_name": "venue_type",
+  "key_column_name": "venue_type",
+  "entity_response_columns": ["venue_type", "value"]
+}

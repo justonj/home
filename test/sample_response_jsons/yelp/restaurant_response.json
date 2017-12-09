@@ -1,0 +1,575 @@
+{
+    "entities": [
+      {
+        "type": "local_business",
+        "id": "the-pokè-shack-los-angeles-4",
+        "card_token": "the-pokè-shack-los-angeles-4",
+        "phone_number": "+13232669259",
+        "price_range": {
+          "type": "price_range",
+          "range": 2,
+          "currency": "$",
+          "value": "$$"
+        },
+        "rating": 4.5,
+        "name": "The Pokè Shack",
+        "address": {
+          "type": "address",
+          "street_address": "7257 Melrose Ave",
+          "city": "Los Angeles",
+          "postal_code": "99211",
+          "region": "CA",
+          "country": "US",
+          "lat": 34.0836204741121,
+          "lon": -118.347814357986,
+          "coordinates": {
+            "type": "geo_location",
+            "latitude": 34.0836204741121,
+            "longitude": -118.347814357986},
+            "value": "7257 Melrose Ave, Los Angeles, CA, 99211"
+        },
+        "reviews": [{
+              "type": "business_review",
+              "rating": 5,
+              "user": "Alessio C.",
+              "review": "Ariana, Jacob, and Clay; you make my lunches better, dinners brighter, and belly fuller! Best, food, fish, and service in town! \n\nPs the new spicy tuna is...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=Bev6_XKNBV5LVOmJXKxsUg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 1,
+              "user": "Alex C.",
+              "review": "i've been to both locations. venice there is little/no human interaction to get the poke. lovvvved it at this location. melrose the girl serving was lovely...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=h_4TcawC-HbSYJEsQasQMg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 3,
+              "user": "Kell S.",
+              "review": "With the poke craze that's hit LA, it's likely that you've tried a few poke bowls. With so many other better options, pass on this place.\n\nThis place was...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=S898IIrOapTvrP2i5WjI-Q&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            }],
+        "categories": ["Coffee & Tea", "Coffee shop"],
+        "hours": [
+          {
+            "type": "weekday_business_hours",
+            "day": 0,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 1,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 2,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 3,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 4,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 5,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 6,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          }
+        ],
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/lk9gNGjUcoLr5g1I-7iCKQ/o.jpg",
+        "value": "The Pokè Shack"
+      },
+      {
+        "type": "local_business",
+        "id": "farmboy-kitchen-los-angeles",
+        "card_token": "farmboy-kitchen-los-angeles",
+        "phone_number": "+13238484790",
+        "price_range": {
+          "type": "price_range",
+          "range": 2,
+          "currency": "$",
+          "value": "$$"
+        },
+        "rating": 4,
+        "name": "Farmboy Kitchen",
+        "address": {
+          "type": "address",
+          "street_address": "1050 Vine St",
+          "city": "Los Angeles",
+          "postal_code": "99211",
+          "region": "CA",
+          "country": "US",
+          "lat": 34.0900899,
+          "lon": -118.32624,
+          "coordinates": {
+            "type": "geo_location",
+            "latitude": 34.0900899,
+            "longitude": -118.32624},
+            "value": "1050 Vine St, Los Angeles, CA, 99211"
+        },
+        "reviews": [{
+              "type": "business_review",
+              "rating": 5,
+              "user": "Alessio C.",
+              "review": "Ariana, Jacob, and Clay; you make my lunches better, dinners brighter, and belly fuller! Best, food, fish, and service in town! \n\nPs the new spicy tuna is...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=Bev6_XKNBV5LVOmJXKxsUg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 1,
+              "user": "Alex C.",
+              "review": "i've been to both locations. venice there is little/no human interaction to get the poke. lovvvved it at this location. melrose the girl serving was lovely...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=h_4TcawC-HbSYJEsQasQMg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 3,
+              "user": "Kell S.",
+              "review": "With the poke craze that's hit LA, it's likely that you've tried a few poke bowls. With so many other better options, pass on this place.\n\nThis place was...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=S898IIrOapTvrP2i5WjI-Q&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            }],
+        "categories": ["Coffee & Tea", "Coffee shop"],
+        "hours": [
+          {
+            "type": "weekday_business_hours",
+            "day": 0,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 1,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 2,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 3,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 4,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 5,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 6,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          }
+        ],
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/e949Ir_S6WawtRnY1lUh7Q/o.jpg",
+        "value": "Farmboy Kitchen"
+      },
+      {
+        "type": "local_business",
+        "id": "ammo-on-melrose-los-angeles",
+        "card_token": "ammo-on-melrose-los-angeles",
+        "phone_number": "+13239302666",
+        "price_range": {
+          "type": "price_range",
+          "range": 2,
+          "currency": "$",
+          "value": "$$"
+        },
+        "rating": 5,
+        "name": "AMMO on Melrose",
+        "address": {
+          "type": "address",
+          "street_address": "6909 Melrose Ave",
+          "city": "Los Angeles",
+          "postal_code": "99211",
+          "region": "CA",
+          "country": "US",
+          "lat": 34.0900899,
+          "lon": -118.32624,
+          "coordinates": {
+            "type": "geo_location",
+            "latitude": 34.0900899,
+            "longitude": -118.32624},
+            "value": "6909 Melrose Ave, Los Angeles, CA, 99211"
+        },
+        "reviews": [{
+              "type": "business_review",
+              "rating": 5,
+              "user": "Alessio C.",
+              "review": "Ariana, Jacob, and Clay; you make my lunches better, dinners brighter, and belly fuller! Best, food, fish, and service in town! \n\nPs the new spicy tuna is...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=Bev6_XKNBV5LVOmJXKxsUg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 1,
+              "user": "Alex C.",
+              "review": "i've been to both locations. venice there is little/no human interaction to get the poke. lovvvved it at this location. melrose the girl serving was lovely...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=h_4TcawC-HbSYJEsQasQMg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 3,
+              "user": "Kell S.",
+              "review": "With the poke craze that's hit LA, it's likely that you've tried a few poke bowls. With so many other better options, pass on this place.\n\nThis place was...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=S898IIrOapTvrP2i5WjI-Q&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            }],
+        "categories": ["Coffee & Tea", "Coffee shop"],
+        "hours": [
+          {
+            "type": "weekday_business_hours",
+            "day": 0,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 1,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 2,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 3,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 4,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 5,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 6,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          }
+        ],
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/bhcHflQfvvs6mc0uE4AG9w/o.jpg",
+        "value": "AMMO on Melrose"
+      },
+      {
+        "type": "local_business",
+        "id": "kali-restaurant-los-angeles",
+        "card_token": "kali-restaurant-los-angeles",
+        "phone_number": "+13238714160",
+        "price_range": {
+          "type": "price_range",
+          "range": 3,
+          "currency": "$",
+          "value": "$$$"
+        },
+        "rating": 4.5,
+        "name": "Kali Restaurant",
+        "address": {
+          "type": "address",
+          "street_address": "5722 Melrose Ave",
+          "city": "Los Angeles",
+          "postal_code": "99211",
+          "region": "CA",
+          "country": "US",
+          "lat": 34.0900899,
+          "lon": -118.32624,
+          "coordinates": {
+            "type": "geo_location",
+            "latitude": 34.0900899,
+            "longitude": -118.32624},
+            "value": "5722 Melrose Ave, Los Angeles, CA, 99211"
+        },
+        "reviews": [{
+              "type": "business_review",
+              "rating": 5,
+              "user": "Alessio C.",
+              "review": "Ariana, Jacob, and Clay; you make my lunches better, dinners brighter, and belly fuller! Best, food, fish, and service in town! \n\nPs the new spicy tuna is...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=Bev6_XKNBV5LVOmJXKxsUg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 1,
+              "user": "Alex C.",
+              "review": "i've been to both locations. venice there is little/no human interaction to get the poke. lovvvved it at this location. melrose the girl serving was lovely...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=h_4TcawC-HbSYJEsQasQMg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 3,
+              "user": "Kell S.",
+              "review": "With the poke craze that's hit LA, it's likely that you've tried a few poke bowls. With so many other better options, pass on this place.\n\nThis place was...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=S898IIrOapTvrP2i5WjI-Q&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            }],
+        "categories": ["Coffee & Tea", "Coffee shop"],
+        "hours": [
+          {
+            "type": "weekday_business_hours",
+            "day": 0,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 1,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 2,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 3,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 4,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 5,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 6,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          }
+        ],
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/--PTkoA4h5R6e1WfMr5oNg/o.jpg",
+        "value": "Kali Restaurant"
+      },
+      {
+        "type": "local_business",
+        "id": "burgerim-los-angeles",
+        "card_token": "burgerim-los-angeles",
+        "phone_number": "+13238484848",
+        "price_range": {
+          "type": "price_range",
+          "range": 2,
+          "currency": "$",
+          "value": "$$"
+        },
+        "rating": 4,
+        "name": "Burgerim",
+        "address": {
+          "type": "address",
+          "street_address": "5001 Melrose Ave",
+          "city": "Los Angeles",
+          "postal_code": "99211",
+          "region": "CA",
+          "country": "US",
+          "lat": 34.0900899,
+          "lon": -118.32624,
+          "coordinates": {
+            "type": "geo_location",
+            "latitude": 34.0900899,
+            "longitude": -118.32624},
+            "value": "5001 Melrose Ave, Los Angeles, CA, 99211"
+        },
+        "reviews": [{
+              "type": "business_review",
+              "rating": 5,
+              "user": "Alessio C.",
+              "review": "Ariana, Jacob, and Clay; you make my lunches better, dinners brighter, and belly fuller! Best, food, fish, and service in town! \n\nPs the new spicy tuna is...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=Bev6_XKNBV5LVOmJXKxsUg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 1,
+              "user": "Alex C.",
+              "review": "i've been to both locations. venice there is little/no human interaction to get the poke. lovvvved it at this location. melrose the girl serving was lovely...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=h_4TcawC-HbSYJEsQasQMg&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            },
+            {
+              "type": "business_review",
+              "rating": 3,
+              "user": "Kell S.",
+              "review": "With the poke craze that's hit LA, it's likely that you've tried a few poke bowls. With so many other better options, pass on this place.\n\nThis place was...",
+              "url": "https://www.yelp.com/biz/the-pok%C3%A8-shack-los-angeles-4?hrid=S898IIrOapTvrP2i5WjI-Q&adjust_creative=7Nxb67JklQ4G8G0-vc6N1g&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_reviews&utm_source=7Nxb67JklQ4G8G0-vc6N1g"
+            }],
+        "categories": ["Coffee & Tea", "Coffee shop"],
+        "hours": [
+          {
+            "type": "weekday_business_hours",
+            "day": 0,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 1,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 2,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 3,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 4,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 5,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          },
+          {
+            "type": "weekday_business_hours",
+            "day": 6,
+            "hours": ["11am-12pm"],
+            "is_overnight": false,
+            "value": "11am-12pm"
+          }
+        ],
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/X2Fk1tWKhbB_B0wqdQXMlg/o.jpg",
+        "value": "Burgerim"
+      }
+    ],
+    "debugInfo": {
+      "actionsTimer": [
+        {
+          "action": "searchquery",
+          "time": 357.2514499537647
+        },
+        {
+          "action": "getdetails",
+          "time": null
+        },
+        {
+          "action": "reviews",
+          "time": null
+        },
+        {
+          "action": "getdetails",
+          "time": null
+        },
+        {
+          "action": "reviews",
+          "time": null
+        },
+        {
+          "action": "getdetails",
+          "time": null
+        },
+        {
+          "action": "reviews",
+          "time": null
+        },
+        {
+          "action": "getdetails",
+          "time": null
+        },
+        {
+          "action": "reviews",
+          "time": null
+        },
+        {
+          "action": "getdetails",
+          "time": null
+        },
+        {
+          "action": "reviews",
+          "time": null
+        }
+      ],
+      "input": null,
+      "typeRequest": "SkillRetrieve",
+      "totalProcessTimeInMilli": 501.0233959183097
+    }
+}

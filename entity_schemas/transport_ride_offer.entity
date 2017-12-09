@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "fare_estimate": "text",
+    "trip_duration": "int",
+    "name": "text",
+    "fare_id": "text",
+    "product_id": "text",
+    "time_till_pickup": "int",
+    "type": "text"
+  },
+  "optional": ["time_till_pickup"]
+}

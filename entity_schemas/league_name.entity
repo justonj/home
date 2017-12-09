@@ -1,0 +1,13 @@
+{
+  "schema": {
+    "name": "text",
+    "alias": "text",
+    "sport": "text",
+    "country": "text",
+    "type": "text"
+  },
+  "factory_class": "generic_db",
+  "table_name": "league_name",
+  "key_column_name": "league_name",
+  "entity_response_columns": ["league_name", "name", "alias", "sport", "country"]
+}

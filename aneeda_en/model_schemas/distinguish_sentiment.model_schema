@@ -1,0 +1,19 @@
+{
+     "model_id": "distinguish_sentiment",
+     "scope": "sentiment",
+     "architecture": "intent_classifier",
+     "evaluator": "classifier",
+     "sources": {
+         "directories": ["*"],
+         "files": ["*"],
+         "database": {}
+      },
+      "maps": ["token-ids", "classifier_labels"],
+      "serialization_fields":["model", "weights"],
+      "language": "en",
+      "dialogue_state_filed_name": "sentiment",
+      "training_config": {
+           "initial_lr": 0.01,
+           "activation": "tanh"
+       }
+}

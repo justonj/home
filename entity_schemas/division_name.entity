@@ -1,0 +1,23 @@
+{
+  "schema": {
+    "type": "text",
+    "division_alias": "text",
+    "conference_alias": "text",
+    "conference_name": "text",
+    "league": "text",
+    "conference_id": "int",
+    "division_id": "int",
+    "gn_conference_id": "int",
+    "gn_division_id": "int"
+  },
+  "factory_class": "generic_db",
+  "table_name": "division_name",
+  "key_column_name": "division_name",
+  "entity_response_columns": [
+    "division_name",
+    "division_alias", "conference_alias",
+    "conference_name", "league",
+    "conference_id", "division_id",
+    "gn_conference_id", "gn_division_id"
+  ]
+}

@@ -1,0 +1,1 @@
+aneeda = nlu_applications.aneeda.application:load_application

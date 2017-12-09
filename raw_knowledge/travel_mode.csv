@@ -1,0 +1,29 @@
+travel_mode,values
+driving,driving
+drive,driving
+walk,walking
+car,driving
+Subway,transit
+foot,walking
+bus,transit
+public transport,transit
+train,transit
+walking,walking
+city bus,transit
+Cab,driving
+Public transportation,transit
+Cycle,bicycling
+Uber,driving
+bike ,bicycling
+bicycle,bicycling
+Metro,transit
+cycled,bicycling
+cycling,bicycling
+public,transit
+buses,transit
+biking,bicycling
+rail,transit
+drove,driving
+feet,walking
+bicycling,bicycling
+transit,transit

@@ -1,0 +1,28 @@
+{
+  "id": "transport_taxi_estimate_travel_fare",
+  "fields": [
+    {
+       "id": "taxi_service_id",
+       "type": "transport_taxi_service_type",
+       "synth_type": "uber_type",
+       "mturk_field": "TransportTaxiEstimateTravelFareTaxiType"
+    },
+    {
+       "id": "origin",
+       "type": "custom_location_type",
+       "synth_type": "sample_address",
+       "mturk_field": "TransportTaxiEstimateTravelFareOrigin"
+    },
+    {
+       "id": "destination",
+       "type": "custom_location_type",
+       "synth_type": "sample_address",
+       "mturk_field": "TransportTaxiEstimateTravelFareDestination"
+    }
+  ],
+  "mturk_response_fields": ["TransportTaxiEstimateTravelFareQ"],
+    "data_synthesis": {
+    "sample_size": 3000,
+    "context_trigger_ratio": 0.335
+  }
+}

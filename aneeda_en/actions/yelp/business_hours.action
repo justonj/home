@@ -1,0 +1,19 @@
+{
+  "id": "business_hours",
+  "fields": [
+    {"id": "business",
+      "type": "local_business",
+      "must_resolve": true,
+      "from_context": true
+    },
+    {
+     "id": "business_hours",
+     "type": "hours"
+    },
+    {
+    "id": "open_now",
+    "type": "boolean"
+    }
+  ]
+}
+

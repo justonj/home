@@ -1,0 +1,39 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.36,
+        "sample_size": 750
+    },
+    "fields": [
+        {
+            "id": "location",
+            "mturk_field": "WeatherSetAlertLocation",
+            "synth_type": "city",
+            "type": "address"
+        },
+        {
+            "id": "weather_time",
+            "mturk_field": "WeatherSetTime",
+            "type": "time"
+        },
+        {
+            "id": "weather_date_range",
+            "mturk_field": "WeatherSetAlertDate",
+            "synth_type": "common_event_date",
+            "synth_type_params": {
+                "future": true,
+                "past": false,
+                "present": true
+            },
+            "type": "date"
+        },
+        {
+            "id": "weather_find_condition",
+            "mturk_field": "WeatherSetAlertCondition",
+            "type": "weather_condition"
+        }
+    ],
+    "id": "weather_set_alert",
+    "mturk_response_fields": [
+        "WeatherSetAlertQ"
+    ]
+}

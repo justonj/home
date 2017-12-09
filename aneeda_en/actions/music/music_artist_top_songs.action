@@ -1,0 +1,23 @@
+{
+  "id": "music_artist_top_songs",
+  "fields": [
+    {
+      "id": "artist",
+      "type": "music_artist"
+    },
+    {
+      "id": "tracks",
+      "is_answer": true,
+      "type": "list",
+      "item_types": ["music_track"]
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}

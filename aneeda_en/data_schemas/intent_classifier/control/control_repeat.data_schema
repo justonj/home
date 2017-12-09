@@ -1,0 +1,20 @@
+{
+  "id": "control_repeat",
+  "fields": [
+    {
+      "id": "skill",
+      "type": "control_action",
+      "mturk_field": "ControlRepeatSkill"
+    },
+    {
+      "id": "all",
+      "type": "boolean",
+      "mturk_field": "ControlRepeatAll"
+    }
+  ],
+  "mturk_response_fields": ["ControlRepeatResponse"],
+  "data_synthesis": {
+    "sample_size": 300,
+    "context_trigger_ratio": 0.1
+  }
+}

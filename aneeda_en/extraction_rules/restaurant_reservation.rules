@@ -1,0 +1,8 @@
+reserve|book a table <venue>
+reserve|book me a table <venue>
+get me a reservation|table <venue>
+make me a reservation|booking <venue>
+reserve|book a table
+reserve|book me a table
+get me a reservation|table
+make me a reservation|booking

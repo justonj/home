@@ -1,0 +1,12 @@
+{
+    "schema": {
+        "name": "text",
+        "type": "text",
+        "time_window": "number"
+    },
+    "optional": ["time_window"],
+    "context_resolution_triggers": [
+        "him", "her", "them", "their", "it", "his",
+        "that artist", "group", "artist"
+    ]
+}

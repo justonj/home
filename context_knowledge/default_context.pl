@@ -1,0 +1,2 @@
+person(user).
+person(agent).

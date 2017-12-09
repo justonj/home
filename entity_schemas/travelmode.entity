@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "value": "text",
+    "name": "text",
+    "type": "text"
+  },
+  "factory_class": "db",
+  "table_name": "travel_mode",
+  "key_column_name": "travel_mode",
+  "text_columns": [0],
+  "entity_response_columns": ["travel_mode", "value"]
+}

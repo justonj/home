@@ -1,0 +1,11 @@
+{
+  "schema": {
+    "card_token": "text",
+    "name": "text",
+    "id": "text",
+    "type": "text",
+    "top_songs": "list",
+    "albums": "list",
+    "similar_artists": "list"
+  }
+}

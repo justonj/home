@@ -1,0 +1,247 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,entity_values,aneeda_en
+transport_taxi_book,100,origin,None,origin,None,,What is your pickup location?
+,,,,,,,What is the pickup location?
+,,,,,,,Where are you starting from?
+,,,,,,,Tell me your pickup location
+,95,origin,origin,None,None,"[('origin', 'home')]",home is not configured for your account. please tell valid address.
+,94,origin,origin,None,None,"[('origin', 'work')]",work is not configured for your account. please tell valid address.
+,93,origin,origin,None,None,,Please tell me a valid pickup location
+,,,,,,,Can you give me a valid pickup address?
+,,,,,,,"Sorry, can you give me a valid address?"
+,90,taxi_service_id,None,taxi_service_id,origin,,Which type of Uber do you want?
+,,,,,,,What type of Uber do you prefer?
+,,,,,,,Which Uber car do you want to book?
+,,,,,,,What kind of Uber do you want?
+,85,taxi_service_id,taxi_service_id,None,None,,Please choose from these Uber types: <taxi_service_id.candidates>.
+,,,,,,,The Uber you want isn't available. Please pick one of these: <taxi_service_id.candidates>. 
+,,,,,,,"Sorry, that's not available. Please pick one of these: <taxi_service_id.candidates>.   "
+,80,num_people,None,num_people,taxi_service_id && is_pool,"[('is_pool', True)]",How many passengers do you have?
+,,,,,,,Do you have 1 or 2 passengers?
+,,,,,,,Do you have 1 or 2 riders?
+,75,num_people,num_people,None,None,,UberPool can have a max of 2 riders. Please pick 1 or 2.
+,,,,,,,Please choose either 1 or 2 passengers
+,,,,,,,You can have either 1 or 2 passengers. What will it be?
+,,,,,,,"With UberPool, you can have 1 or 2 passengers. How many are you?"
+,70,num_people,None,None,taxi_service_id && is_pool && skill_exception,"[('skill_exception', '316')]",Number of seats exceeds max capacity. Please specify a lesser number
+,69,destination,None,destination,None,,Where would you like to go?
+,,,,,,,What's your destination?
+,,,,,,,Where are you going?
+,,,,,,,Tell me your destination.
+,68,destination,destination,None,None,"[('destination', 'home')]",home is not configured for your account. please tell valid address.
+,67,destination,destination,None,None,"[('destination', 'work')]",work is not configured for your account. please tell valid address.
+,65,destination,None,None,skill_exception,"[('skill_exception', '318')]",Where would you like to go?
+,60,destination,destination,None,None,,Please tell me a valid address
+,,,,,,,"Sorry, can you give me a valid destination?"
+,,,,,,,I don't recognize that location. Can you try another address?
+,,,,,,,I can't find that address. Can you tell me a valid location?
+,55,none,None,None,destination && skill_exception,"[('skill_exception', '317')]",The destination is outside the service area for the requested ride.
+,55,none,None,None,skill_exception,"[('skill_exception', '319')]",The distance between start and end location exceeds 100 miles.
+,55,none,None,None,destination && skill_exception,"[('skill_exception', '320')]",Pickup and Dropoff can't be the same. Please try again
+,55,none,None,None,taxi_service_id && is_pool && skill_exception,"[('skill_exception', '321')]",The destination is not supported for UberPOOL
+,50,none,None,None,destination && origin && taxi_service_id && available_ride && skill_exception,"[('skill_exception', '313')]",Surge pricing is currently in effect for the requested ride.
+,50,booking_confirmation,None,booking_confirmation,destination && origin && taxi_service_id && available_ride,,<available_ride>
+,45,booking_confirmation,booking_confirmation,None,None,,Please provide a confirmation in Yes or No
+,,,,,,,I didn't catch that. Please say Yes or No to confirm
+,,,,,,,Was that a yes or no?
+,,,,,,,Just say yes or no
+,,,,,,,Say yes or no to book your ride.
+,40,none,None,None,skill_exception,"[('skill_exception', '312')]",You are already on a trip.
+,40,none,None,None,skill_exception,"[('skill_exception', '301')]",Please update your payment method for your uber account
+,40,none,None,None,skill_exception,"[('skill_exception', '302')]",You have outstanding balances. Please update your billing info
+,40,none,None,None,skill_exception,"[('skill_exception', '303')]",There is insufficient balance on your account. Please add the sufficient amount.
+,40,none,None,None,skill_exception,"[('skill_exception', '305')]",You are forbidden from making a request. Please contact uber support team at https://help.uber.com or support@uber.com
+,40,none,None,None,skill_exception,"[('skill_exception', '306')]",Uber being requested is not available now. Please select a different uber type.
+,40,none,None,None,skill_exception,"[('skill_exception', '307')]",Your account has been banned. Please contact uber support team at https://help.uber.com or support@uber.com
+,40,none,None,None,skill_exception,"[('skill_exception', '308')]",Your account has been temporarily blocked due to too many cancellations.
+,40,none,None,None,skill_exception,"[('skill_exception', '309')]",Please update your account with national ID or passport number using Uber app.
+,40,none,None,None,skill_exception,"[('skill_exception', '310')]",Please add a payment method by using uber app or by visiting https://riders.uber.com.
+,40,none,None,None,skill_exception,"[('skill_exception', '311')]","The fare has updated for the requested ride. Please try again."
+,40,none,None,None,skill_exception,"[('skill_exception', '313')]","Surge pricing is currently in effect for the requested service.Please try again later"
+,40,none,None,None,skill_exception,"[('skill_exception', '314')]",Please try again.
+,40,none,None,None,skill_exception,"[('skill_exception', '315')]",The fare has updated for the requested ride. Please try again
+,40,none,None,None,skill_exception,"[('skill_exception', '322')]",Please try again.
+,40,none,None,None,skill_exception,"[('skill_exception', '300')]",Please update your email address and mobile number for your uber account
+,40,none,None,None,skill_exception,"[('skill_exception', '304')]",Your request could not be processed. Please try again
+,40,none,None,None,skill_exception,"[('skill_exception', '325')]",Your request could not be processed. Please try again
+,40,none,None,None,skill_exception,"[('skill_exception', '327')]",Please provide valid User credentials
+,40,none,None,None,skill_exception,"[('skill_exception', '328')]",Please provide valid Origin location
+,40,none,None,None,skill_exception,"[('skill_exception', '329')]",Please provide valid Destination location
+,40,none,None,None,skill_exception,"[('skill_exception', '330')]",Please remove and add your uber account to continue requesting uber services
+,40,none,None,None,skill_exception,"[('skill_exception', '331')]",Home is not configured for your uber account.
+,40,none,None,None,skill_exception,"[('skill_exception', '332')]",Work is not configured for your uber account
+,37,None,None,None,taxi_service_id,"[('taxi_service_id','UBER_TYPE_UNKNOWN')]",Currently there are no services available in this area.Please try again later
+,35,none,None,None,booking_confirmation && taxi_service_id,"[('booking_confirmation','yes')]",Booking your <taxi_service_id> now
+,,,,,,,Calling your <taxi_service_id> now
+,,,,,,,Looking for your <taxi_service_id> 
+,,,,,,,Searching for your <taxi_service_id> 
+,,,,,,,One moment as I look for your <taxi_service_id>
+,30,none,None,None,booking_confirmation && taxi_service_id,"[('booking_confirmation','no')]",<taxi_service_id> canceled
+,,,,,,,Canceling <taxi_service_id>
+,,,,,,,"Alright, I'll stop looking"
+,,,,,,,"No problem, canceling the <taxi_service_id>"
+transport_taxi_ride_history,100,none,None,None,skill_exception,"[('skill_exception', '327')]",Please provide valid User credentials
+,100,none,None,None,skill_exception,"[('skill_exception', '330')]",Please remove and add your uber account to continue requesting uber services
+,90,none,None,None,None,,Loading your ride history
+,,,,,,,Looking up your past rides
+,,,,,,,Pulling up your Uber history
+,,,,,,,Looking into your ride history
+transport_taxi_cancel,100,cancel_confirmation,None,cancel_confirmation,None,,Please tell me Yes or No
+,100,cancel_confirmation,cancel_confirmation,None,None,,Please tell me Yes or No
+,,,,,,,I didn't catch that. Please say Yes or No to confirm
+,,,,,,,Was that a yes or no?
+,,,,,,,Just say yes or no
+,,,,,,,Say yes or no to cancel your ride.
+,90,none,None,None,cancel_confirmation,"[('cancel_confirmation','yes')]","OK, canceling your ride."
+,,,,,,,I've canceled your ride.
+,,,,,,,Your ride is canceled.
+,,,,,,,Your Uber has been canceled.
+,85,none,None,None,cancel_confirmation,"[('cancel_confirmation','no')]","OK, not canceling your ride."
+,,,,,,,I've not canceled your ride.
+,,,,,,,Your ride is not canceled.
+,,,,,,,Your Uber has not been canceled.
+,80,none,None,None,skill_exception,"[('skill_exception', '323')]",Your request could not be processed. Please try again
+,80,none,None,None,skill_exception,"[('skill_exception', '324')]",You are currently not on a trip.
+,80,none,None,None,skill_exception,"[('skill_exception', '325')]",Your request could not be processed. Please try again
+,80,none,None,None,skill_exception,"[('skill_exception', '331')]",Home is not configured for your uber account.
+,80,none,None,None,skill_exception,"[('skill_exception', '332')]",Work is not configured for your uber account
+,80,none,None,None,skill_exception,"[('skill_exception', '305')]",You are forbidden from making a request. Please contact uber support team at https://help.uber.com or support@uber.com
+transport_taxi_destination,100,destination,None,destination,None,,Please tell me your destination.
+,,,,,,,Where will you be going?
+,,,,,,,What's your destination?
+,,,,,,,Where are you going?
+,,,,,,,Where would you like to go?
+,95,destination,destination,None,None,"[('destination', 'home')]",home is not configured for your account. Please tell me a valid address
+,94,destination,destination,None,None,"[('destination', 'work')]",work is not configured for your account. Please tell me a valid address
+,93,destination,destination,None,None,,Please tell me a valid address
+,,,,,,,"Sorry, can you give me a valid destination?"
+,,,,,,,I don't recognize that location. Can you try another address?
+,,,,,,,I can't find that address. Can you tell me a valid location?
+,90,none,None,None,skill_exception,"[('skill_exception', '323')]",Your request could not be processed. Please try again
+,90,none,None,None,skill_exception,"[('skill_exception', '324')]",You are currently not on a trip.
+,90,none,None,None,skill_exception,"[('skill_exception', '325')]",Your request could not be processed. Please try again
+,90,none,None,None,skill_exception,"[('skill_exception', '305')]",You are forbidden from making a request. Please contact uber support team at https://help.uber.com or support@uber.com
+,90,none,None,None,skill_exception,"[('skill_exception', '306')]",Uber being requested is not available now. Please select a different uber type.
+,90,none,None,None,skill_exception,"[('skill_exception', '326')]",Failed to update destination
+,90,none,None,None,skill_exception,"[('skill_exception', '327')]",Please provide valid User credentials
+,90,none,None,None,skill_exception,"[('skill_exception', '329')]",Please provide valid Destination location
+,90,none,None,None,skill_exception,"[('skill_exception', '330')]",Please remove and add your uber account to continue requesting uber services
+,90,none,None,None,skill_exception,"[('skill_exception', '331')]",Home is not configured for your uber account.
+,90,none,None,None,skill_exception,"[('skill_exception', '332')]",Work is not configured for your uber account
+,85,none,None,None,destination,,Updating your destination to <destination>
+,,,,,,,I've changed your destination to <destination>
+,,,,,,,Changing your destination to <destination>
+transport_taxi_current_status,100,origin,None,origin,None,,What is your pickup location?
+,,,,,,,What is the pickup location?
+,,,,,,,Where are you starting from?
+,,,,,,,Tell me your pickup location
+,95,origin,origin,None,None,"[('origin', 'home')]",home is not configured for your account. Please tell me a valid address
+,94,origin,origin,None,None,"[('origin', 'work')]",work is not configured for your account. Please tell me a valid address
+,93,origin,origin,None,None,,Please tell me a valid pickup location
+,,,,,,,Can you give me a valid pickup address?
+,,,,,,,"Sorry, can you give me a valid address?"
+,90,none,None,None,skill_exception,"[('skill_exception', '323')]",Your request could not be processed. Please try again
+,90,none,None,None,skill_exception,"[('skill_exception', '324')]",You are currently not on a trip.
+,90,none,None,None,skill_exception,"[('skill_exception', '305')]",You are forbidden from making a request. Please contact uber support team at https://help.uber.com or support@uber.com
+,90,none,None,None,skill_exception,"[('skill_exception', '327')]",Please provide valid User credentials
+,90,none,None,None,skill_exception,"[('skill_exception', '328')]",Please provide valid Origin location
+,90,none,None,None,skill_exception,"[('skill_exception', '329')]",Please provide valid Destination location
+,90,none,None,None,skill_exception,"[('skill_exception', '330')]",Please remove and add your uber account to continue requesting uber services
+,90,none,None,None,skill_exception,"[('skill_exception', '306')]",Uber being requested is not available now. Please select a different uber type.
+,90,none,None,None,skill_exception,"[('skill_exception', '331')]",Home is not configured for your uber account.
+,90,none,None,None,skill_exception,"[('skill_exception', '332')]",Work is not configured for your uber account
+,90,None,None,None,taxi_service_id,"[('taxi_service_id','UBER_TYPE_UNKNOWN')]",Currently there are no services available in this area.Please try again later
+,90,none,None,None,taxi_service_id,,Looking up your ride status
+,,,,,,,Let me check on your ride status
+,,,,,,,Let's see
+,90,none,None,None,taxi_service_id && ride_status,,<ride_status>
+,85,none,None,None,None,,Let me check on that
+,,,,,,,Here's the update on your ride
+,,,,,,,"Ride status, coming up "
+,,,,,,,Here's the latest on your ride
+transport_taxi_estimate_travel_fare,100,origin,None,origin,None,,What is your pickup location?
+,,,,,,,What is the pickup location?
+,,,,,,,Where are you starting from?
+,,,,,,,Tell me your pickup location
+,95,origin,origin,None,None,"[('origin', 'home')]",home is not configured for your account. Please tell me a valid address
+,94,origin,origin,None,None,"[('origin', 'work')]",work is not configured for your account. Please tell me a valid address
+,93,origin,origin,None,None,,Sorry I didn't understand your pickup location. Can you say it again?
+,,,,,,,I didn't catch that. Please tell me a valid pickup location.
+,,,,,,,I need a valid address. Can you try again?
+,92,destination,None,destination,None,,And what's the destination?
+,,,,,,,Where would you like to go?
+,,,,,,,What's the destination address?
+,,,,,,,And where are you going?
+,91,destination,destination,None,None,"[('destination', 'home')]",home is not configured for your account. Please tell me a valid address
+,90,destination,destination,None,None,"[('destination', 'work')]",work is not configured for your account. Please tell me a valid address
+,89,destination,destination,None,None,,"Sorry, can you tell me a valid address?"
+,,,,,,,I can't find that address. Can you tell me a valid location?
+,,,,,,,I didn't get that. Please tell me a valid address.
+,85,taxi_service_id,None,taxi_service_id,origin && destination,,Which Uber type would you like to know the fare for?
+,,,,,,,For which Uber type?
+,,,,,,,Which Uber type do you want the cost for?
+,,,,,,,Can you choose an Uber type?
+,85,taxi_service_id,taxi_service_id,None,None,,Please pick from these Uber types: <taxi_service_id.candidates>
+,,,,,,,Pick one of these types: <taxi_service_id.candidates>
+,,,,,,,Here is a list of Ubers you can take: <taxi_service_id.candidates>. 
+,,,,,,,Choose from these types: <taxi_service_id.candidates>.
+,80,none,None,None,taxi_service_id,"[('taxi_service_id','UBER_TYPE_UNKNOWN')]",Currently there are no services available in this area.Please try again later
+,75,num_people,None,num_people,taxi_service_id && is_pool,"[('is_pool', True)]",How many passengers do you have?
+,,,,,,,Do you have 1 or 2 passengers?
+,,,,,,,Do you have 1 or 2 riders?
+,70,num_people,num_people,None,None,,UberPool can have a max of 2 riders. Please pick 1 or 2.
+,,,,,,,Please choose either 1 or 2 passengers
+,,,,,,,You can have either 1 or 2 passengers. What will it be?
+,,,,,,,"With UberPool, you can have 1 or 2 passengers. How many are you?"
+,55,none,None,None,skill_exception,"[('skill_exception', '317')]",The destination is outside the service area.
+,55,none,None,None,skill_exception,"[('skill_exception', '319')]",The distance between start and end location exceeds 100 miles.
+,55,none,None,None,skill_exception,"[('skill_exception', '306')]",Uber being requested is not available now. Please select a different uber type.
+,55,none,None,None,skill_exception,"[('skill_exception', '312')]",You are already on a trip
+,55,none,None,None,skill_exception,"[('skill_exception', '327')]",Please provide valid User credentials
+,55,none,None,None,skill_exception,"[('skill_exception', '328')]",Please provide valid Origin location
+,55,none,None,None,skill_exception,"[('skill_exception', '329')]",Please provide valid Destination location
+,55,none,None,None,skill_exception,"[('skill_exception', '331')]",Home is not configured for your uber account.
+,55,none,None,None,skill_exception,"[('skill_exception', '332')]",Work is not configured for your uber account
+,55,none,None,None,skill_exception,"[('skill_exception', '330')]",Please remove and add your uber account to continue requesting uber services
+,55,none,None,None,skill_exception,"[('skill_exception', '331')]",Home is not configured for your uber account.
+,55,none,None,None,skill_exception,"[('skill_exception', '332')]",Work is not configured for your uber account
+,50,None,None,None,destination && origin && taxi_service_id && available_ride,,<available_ride>
+transport_taxi_estimate_travel_time,100,origin,None,origin,None,,What is your pickup location?
+,,,,,,,What is the pickup location?
+,,,,,,,Where are you starting from?
+,,,,,,,Tell me your pickup location
+,,,,,,,What's your starting address?
+,95,origin,origin,None,None,,I didn't catch that. Can you tell me a valid address?
+,,,,,,,I don't recognize that location. Can you try another address?
+,,,,,,,"Sorry, can you give me a valid address?"
+,95,origin,origin,None,None,"[('origin', 'home')]",home is not configured for your account. Please tell me a valid address
+,94,origin,origin,None,None,"[('origin', 'work')]",work is not configured for your account. Please tell me a valid address
+,93,destination,None,destination,None,,And what's the destination?
+,,,,,,,Where would you like to go?
+,,,,,,,What's the destination address?
+,,,,,,,And where are you going?
+,92,destination,destination,None,None,"[('destination', 'home')]",home is not configured for your account. Please tell me a valid address
+,91,destination,destination,None,None,"[('destination', 'work')]",work is not configured for your account. Please tell me a valid address
+,90,destination,destination,None,None,,"Sorry, can you tell me a valid address?"
+,,,,,,,I can't find that address. Can you tell me a valid location?
+,,,,,,,I didn't get that. Please tell me a valid address.
+,85,taxi_service_id,None,taxi_service_id,origin,,Which Uber type do you want?
+,,,,,,,Which Uber type were you planning to take?
+,,,,,,,What's your Uber preference ?
+,80,taxi_service_id,taxi_service_id,None,None,,Please pick from these Uber types: <taxi_service_id.candidates>
+,,,,,,,Pick one of these types: <taxi_service_id.candidates>
+,,,,,,,Here is a list of Ubers you can take: <taxi_service_id.candidates>. 
+,,,,,,,Choose from these types: <taxi_service_id.candidates>. 
+,75,none,None,None,taxi_service_id,"[('taxi_service_id','UBER_TYPE_UNKNOWN')]",Currently there are no services available in this area.Please try again later
+,60,none,None,None,destination && skill_exception,"[('skill_exception', '317')]",The destination is outside the service area.
+,60,none,None,None,skill_exception,"[('skill_exception', '304')]",Your request could not be processed. Please try again
+,60,none,None,None,skill_exception,"[('skill_exception', '327')]",Please provide valid User credentials
+,60,none,None,None,skill_exception,"[('skill_exception', '328')]",Please provide valid Origin location
+,60,none,None,None,skill_exception,"[('skill_exception', '329')]",Please provide valid Destination location
+,60,none,None,None,skill_exception,"[('skill_exception', '330')]",Please remove and add your uber account to continue requesting uber services
+,60,none,None,None,skill_exception,"[('skill_exception', '306')]",Uber being requested is not available now. Please select a different uber type.
+,60,none,None,None,skill_exception,"[('skill_exception', '312')]",You are already on a trip.
+,60,none,None,None,skill_exception,"[('skill_exception', '319')]",The distance between start and end location exceeds 100 miles.
+,60,none,None,None,skill_exception,"[('skill_exception', '320')]",Pickup and Dropoff can't be the same. Please try again
+,60,none,None,None,skill_exception,"[('skill_exception', '331')]",Home is not configured for your uber account.
+,60,none,None,None,skill_exception,"[('skill_exception', '332')]",Work is not configured for your uber account
+,50,None,None,None,destination && origin && taxi_service_id && available_ride,,<available_ride>

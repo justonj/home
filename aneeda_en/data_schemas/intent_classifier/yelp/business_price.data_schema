@@ -1,0 +1,16 @@
+{
+  "id": "business_price",
+  "fields": [
+    {"id": "business",
+      "type": "local_business",
+      "mturk_field": "BusinessPriceLocalBusiness"
+    }
+  ],
+  "mturk_response_fields": ["BusinessPriceResponse"],
+  "mturk_additional_info_fields": [],
+  "data_synthesis": {
+    "sample_size": 500,
+    "context_trigger_ratio": 0.75
+  }
+}
+

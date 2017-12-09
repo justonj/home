@@ -1,0 +1,10 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,aneeda_en
+control_next,100,none,None,None,None,
+control_pause,100,none,None,None,None,
+control_previous,100,none,None,None,None,
+control_resume,100,none,None,None,None,
+control_stop,100,none,None,None,None,
+control_repeat,100,none,None,None,None,
+control_help,100,none,None,None,None,
+control_get_details,100,none,None,None,None,
+control_next_list,100,none,None,None,None,

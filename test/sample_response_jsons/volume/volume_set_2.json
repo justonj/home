@@ -1,0 +1,16 @@
+{
+  "intent":"",
+  "fields": {
+	  "volume_level" :{
+		  "name": "2",
+		  "user_input": "2",
+		  "type": "number"
+	  },
+	 "volume_control":{
+		  "name": "2.0",
+		  "option": 3,
+		  "progress": 0,
+		  "type": "volume_control"
+	  }
+  }
+}

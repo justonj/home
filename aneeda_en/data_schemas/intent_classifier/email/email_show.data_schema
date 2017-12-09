@@ -1,0 +1,53 @@
+{
+  "id": "email_show",
+  "fields": [
+    {
+      "id": "email_contact_or_date",
+      "type": "alias",
+      "alias_for": ["email_contact", "email_date"],
+      "mturk_field": "emailContactDate"
+    },
+    {
+      "id": "email_contact",
+      "type": "user_email_contacts",
+      "synth_type" : "contact_name",
+      "mturk_field": "emailContact"
+    },
+    {
+      "id": "email_date",
+      "type": "datetime_range",
+      "mturk_field": "emailDate"
+    },
+     {
+      "id": "email_keyword",
+      "type": "text",
+      "mturk_field": "emailKeyword"
+    },
+    {
+      "id": "email_subject",
+      "type": "text",
+      "mturk_field": "emailSubject"
+    },
+    {
+      "id": "email_unread",
+      "type": "unread_yn",
+      "mturk_field": "emailUnread"
+    },
+    {
+      "id": "email_latest",
+      "type": "latest_yn",
+      "mturk_field": "emailLatest"
+    },
+    {
+      "id": "email_category",
+      "type": "email_category",
+      "mturk_field": "emailCategory"
+    }
+  ],
+  "mturk_response_fields": ["emailShow"],
+  "data_synthesis": {
+    "sample_size": 1500,
+    "context_trigger_ratio": 0.3
+  }
+}
+

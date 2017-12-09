@@ -1,0 +1,23 @@
+{
+  "id": "music_album_tracks",
+  "fields": [
+    {
+      "id": "album",
+      "type": "music_album"
+    },
+    {
+      "id": "tracks",
+      "is_answer": true,
+      "type": "list",
+      "item_types": ["music_track"]
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}

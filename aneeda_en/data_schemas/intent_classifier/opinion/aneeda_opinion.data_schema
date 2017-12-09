@@ -1,0 +1,16 @@
+{
+  "id": "aneeda_opinion",
+  "fields": [
+    {
+      "id": "keyword",
+      "type": "text",
+      "mturk_field": "AneedaOpinionKeyword"
+    },
+    {
+      "id": "artist",
+      "type": "music_artist",
+      "mturk_field": "AneedaOpinionArtist"
+    }
+  ],
+  "mturk_response_fields": ["AneedaOpinionResponse"]
+}

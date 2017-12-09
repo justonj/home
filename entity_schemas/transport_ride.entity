@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "card_token": "text",
+    "name": "text",
+    "city": "text",
+    "distance": "float",
+    "start_date": "text",
+    "start_time": "text",
+    "status": "text",
+    "type": "text"
+  }
+}

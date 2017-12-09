@@ -1,0 +1,364 @@
+tv_genre,gracenote_name
+Action,Action
+Adventure,Adventure
+Biography,Biography
+biographies,Biography
+biographical,Biography
+Comedy,Comedy
+comedies,Comedy
+funny,Comedy
+Crime drama,Crime drama
+crime dramas,Crime drama
+police,Crime drama
+detective,Crime drama
+Dark comedy,Dark comedy
+dark comedies,Dark comedy
+Docudrama,Docudrama
+docudramas,Docudrama
+Documentary,Documentary
+documentaries,Documentary
+Drama,Drama
+dramas,Drama
+Erotic,Erotic
+Fantasy,Fantasy
+fantasies,Fantasy
+Historical drama,Historical drama
+historical dramas,Historical drama
+Horror,Horror
+scary,Horror
+Musical,Musical
+musicals,Musical
+Mystery,Mystery
+mysteries,Mystery
+Romance,Romance
+romantic,Romance
+Romantic comedy,Romantic comedy
+romantic comedies,Romantic comedy
+Science fiction,Science fiction
+science fictions ,Science fiction
+sci fi,Science fiction
+sci-fi,Science fiction
+Thriller,Thriller
+thrillers,Thriller
+War,War
+Western,Western
+westerns,Western
+comedic drama,Comedy drama
+Musical comedy,Musical comedy
+musical comedies,Musical comedy
+Adults only,Adults only
+Aerobics,Aerobics
+aerobic,Aerobics
+Agriculture,Agriculture
+Animals,Animals
+animal,Animals
+pets,Animals
+wildlife ,Animals
+Animated,Animated
+animation,Animated
+animations,Animated
+cartoon ,Animated
+cartoons,Animated
+Anime,Anime
+Anthology,Anthology
+anthologies,Anthology
+Archery,Archery
+Arm wrestling,Arm wrestling
+Art,Art
+arts and crafts,Arts/crafts
+crafts,Arts/crafts
+Auction,Auction
+Auto,Auto
+automobile,Auto
+car,Auto
+cars,Auto
+Auto racing,Auto racing
+car racing ,Auto racing
+racing,Auto racing
+NASCAR,Auto racing
+Aviation,Aviation
+Awards,Awards
+award,Awards
+Badminton,Badminton
+Ballet,Ballet
+Baseball,Baseball
+Basketball,Basketball
+Beach soccer,Beach soccer
+Beach volleyball,Beach volleyball
+Biathlon,Biathlon
+Bicycle,Bicycle
+Bicycle racing,Bicycle racing
+bike racing ,Bicycle racing
+Billiards,Billiards
+Blackjack,Blackjack
+Boat,Boat
+Boat racing,Boat racing
+Bobsled,Bobsled
+bobsledding,Bobsled
+Bodybuilding,Bodybuilding
+Bowling,Bowling
+Boxing,Boxing
+Bullfighting,Bullfighting
+business,Bus./financial
+financial,Bus./financial
+finance,Bus./financial
+Canoe,Canoe
+Card games,Card games
+Cheerleading,Cheerleading
+Children,Children
+childrens,Children
+children's,Children
+child-friendly,Children
+child friendly,Children
+kids,Children
+kid's,Children
+kid friendly,Children
+kid-friendly,Children
+family friendly,Children
+family-friendly,Children
+family,Children
+Children-music,Children-music
+Children-special,Children-special
+Children-talk,Children-talk
+Collectibles,Collectibles
+Community,Community
+Computers,Computers
+Consumer,Consumer
+Cooking,Cooking
+Food,Cooking
+cookery,Cooking
+Cricket,Cricket
+Crime,Crime
+Curling,Curling
+Dance,Dance
+Dancing,Dance
+Darts,Darts
+Debate,Debate
+Diving,Diving
+Dog racing,Dog racing
+Dog show,Dog show
+dog shows,Dog show
+Dog sled,Dog sled
+Drag racing,Drag racing
+Educational,Educational
+education,Educational
+Entertainment,Entertainment
+Environment,Environment
+environmental,Environment
+Equestrian,Equestrian
+Event,Event
+Exercise,Exercise
+exercising,Exercise
+Action sports,Action sports
+Fashion,Fashion
+Fencing,Fencing
+Field hockey,Field hockey
+Figure skating,Figure skating
+Fishing,Fishing
+Football,Football
+French,French
+Fundraiser,Fundraiser
+Gaelic football,Gaelic football
+Game show,Game show
+game shows,Game show
+gay ,Gay/lesbian
+lesbian,Gay/lesbian
+Golf,Golf
+golfing,Golf
+Gymnastics,Gymnastics
+Handball,Handball
+Health,Health
+History,History
+Hockey,Hockey
+Holiday,Holiday
+christmas,Holiday 
+children's holiday,Holiday-children
+children's holiday specials,Holiday-children special
+Holiday music,Holiday music
+Holiday music special,Holiday music special
+Holiday special,Holiday special
+holiday specials,Holiday special
+Home improvement,Home improvement
+Horse,Horse
+house,House/garden
+home ,House/garden
+garden ,House/garden
+home and garden,House/garden
+How-to,How-to
+how to ,How-to
+DIY,How-to
+do it yourself,How-to
+Hunting,Hunting
+Hurling,Hurling
+Hydroplane racing,Hydroplane racing
+Indoor soccer,Indoor soccer
+Interview,Interview
+Interviews,Interview
+Intl basketball,Intl basketball
+international basketball ,Intl basketball
+Intl hockey,Intl hockey
+international hockey,Intl hockey
+Intl soccer,Intl soccer
+international soccer,Intl soccer
+Kayaking,Kayaking
+Lacrosse,Lacrosse
+Law,Law
+legal drama,Law
+legal dramas,Law
+lawyer,Law
+lawyers,Law
+Luge,Luge
+Martial arts,Martial arts
+Medical,Medical
+medical drama,Medical
+medical dramas,Medical
+doctor,Medical
+doctors,Medical
+medicine,Medical
+hospital,Medical
+Miniseries,Miniseries
+mini series,Miniseries
+Motorcycle,Motorcycle
+Motorcycle racing,Motorcycle racing
+Motorsports,Motorsports
+Mountain biking,Mountain biking
+Music,Music
+singing,Music
+Music specials,Music special
+Music talk,Music talk
+Nature,Nature
+News,News
+Newsmagazine,Newsmagazine
+news magazine,Newsmagazine
+Olympics,Olympics
+Olympic,Olympics
+Opera,Opera
+operas,Opera
+Outdoors,Outdoors
+Parade,Parade
+parades,Parade
+Paranormal,Paranormal
+Parenting,Parenting
+Pelota vasca,Pelota vasca
+Performing arts,Performing arts
+arts,Performing arts
+playoffs,Playoff sports
+playoff ,Playoff sports
+Poker,Poker
+Politics,Politics
+political,Politics
+political dramas,Politics
+Polo,Polo
+Pool,Pool
+Pro wrestling,Pro wrestling
+WWE,Pro wrestling
+Public affairs,Public affairs
+Racquet,Racquet
+Reality,Reality
+Reality TV,Reality
+Reality television ,Reality
+Religious,Religious
+religion ,Religious
+Ringuette,Ringuette
+Rodeo,Rodeo
+Roller derby,Roller derby
+Rowing,Rowing
+Rugby,Rugby
+Running,Running
+Sailing,Sailing
+Science,Science
+Self improvement,Self improvement
+self help ,Self improvement
+Shooting,Shooting
+Shopping,Shopping
+Sitcom,Sitcom
+sitcoms,Sitcom
+situation comedy ,Sitcom
+situation comedies,Sitcom
+Skateboarding,Skateboarding
+Skating,Skating
+Skeleton,Skeleton
+Skiing,Skiing
+Snooker,Snooker
+Snowboarding,Snowboarding
+Snowmobile,Snowmobile
+Soap,Soap
+soaps,Soap
+soap opera,Soap
+soap operas,Soap
+Soap special,Soap special
+Soap talk,Soap talk
+Soccer,Soccer
+european football,Soccer
+Softball,Softball
+Spanish,Spanish
+Special,Special
+specials,Special
+sports talk ,sports talk 
+sports news,sports talk 
+Speed skating,Speed skating
+Squash,Squash
+Standup,Standup
+standup comedy ,Standup
+Sumo wrestling,Sumo wrestling
+Surfing,Surfing
+Suspense,Suspense
+suspenseful,Suspense
+Swimming,Swimming
+Table tennis,Table tennis
+Talk,Talk
+Tennis,Tennis
+Theater,Theater
+theatre,Theater
+track and field,Track/field
+Travel,Travel
+traveling ,Travel
+travelling,Travel
+Triathlon,Triathlon
+triathlons,Triathlon
+Variety,Variety
+Volleyball,Volleyball
+Water polo,Water polo
+Water skiing,Water skiing
+Watersports,Watersports
+Weather,Weather
+Weightlifting,Weightlifting
+Wrestling,Wrestling
+Yacht racing,Yacht racing
+Gaming,Gaming
+Military,Military
+Mixed martial arts,Mixed martial arts
+MMA,Mixed martial arts
+Technology,Technology
+tech,Technology
+Teleroman,Teleroman
+Drift racing,Drift racing
+Floorball,Floorball
+Futsal,Futsal
+Harness racing,Harness racing
+Netball,Netball
+Rugby league,Rugby league
+Rugby union,Rugby union
+Shinty,Shinty
+Australian rules football,Australian rules football
+Bowls,Bowls
+Bull riding,Bull riding
+Cross-country skiing,Cross-country skiing
+Cycling,Cycling
+Horse racing,Horse racing
+Judo,Judo
+Marathon,Marathon
+marathons,Marathon
+Modern pentathlon,Modern pentathlon
+Synchronized swimming,Synchronized swimming
+Taekwondo,Taekwondo
+Alpine skiing,Alpine skiing
+Ski Jumping,Ski Jumping
+Freestyle Skiing,Freestyle Skiing
+Nordic Combined,Nordic Combined
+Sepak takraw,Sepak takraw
+Bandy,Bandy
+Filmreihe,Filmreihe
+Dokusoap,Dokusoap
+Cabaret,Cabaret
+Komödie,Komödie

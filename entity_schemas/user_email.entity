@@ -1,0 +1,14 @@
+{
+  "schema": {
+    "body": "text",
+    "card_token": "text",
+    "cc_list": "array",
+    "from": "text",
+    "name": "text",
+    "subject": "text",
+    "timestamp": "datetime",
+    "to_list": "array",
+    "type": "text"
+  },
+  "enable_context_list_triggers": true
+}

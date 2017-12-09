@@ -1,0 +1,183 @@
+{
+  "skill_id": "music",
+  "url": {
+      "dev": "https://iamplus-skills-music-dev.herokuapp.com",
+      "qa": "https://iamplus-skills-music-qa.herokuapp.com",
+      "staging": "https://iamplus-skills-music-stg.herokuapp.com",
+      "prod": "https://iamplus-skills-music.herokuapp.com"
+  },
+
+  "intent_hooks": [
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_albums",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "albums",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_collection_add",
+      "field_precondition": ["song", "collection"],
+      "result_fields": [
+        {
+          "field_id": "tracks",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_collection_view",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "collections",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_info_similar_artists",
+      "field_precondition": ["artist"],
+      "result_fields": [
+        {
+          "field_id": "artists",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_play",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "tracks",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_get_more",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "tracks",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_artist_summary",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "summary",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_album_tracks",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "tracks",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    },
+    {
+      "model_name": "aneeda_en",
+      "intent_id": "music_artist_top_songs",
+      "field_precondition": "DIALOGUE_COMPLETE",
+      "result_fields": [
+        {
+          "field_id": "tracks",
+          "field_type": "list"
+        },
+        {
+          "field_id": "skill_exception",
+          "field_type": "exception"
+        },
+        {
+          "field_id": "http_error",
+          "field_type": "http_error"
+        }
+      ]
+    }
+  ]
+}

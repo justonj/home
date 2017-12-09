@@ -1,0 +1,76 @@
+{
+  "id": "sports_team_results",
+  "fields": [
+    {
+      "id": "team_name_1",
+      "type": "sports_team",
+      "black_list": ["recent","latest","last","current","division","conference"],
+      "mturk_field": "SportsTeamResultsTeamName1"
+    },
+    {
+      "id": "team_name_2",
+      "type": "sports_team",
+      "black_list": ["recent","latest","last","current","division","conference"],
+      "mturk_field": "SportsTeamResultsTeamName2"
+    },
+	{
+      "id": "league_name",
+      "type": "league_name",
+      "black_list": ["league"],
+      "mturk_field": "SportsTeamResultsLeague"
+    },
+    {
+      "id": "conference_name",
+      "type": "conference_name",
+      "mturk_field": "SportsTeamResultsConference"
+    },
+    {
+      "id": "division_name",
+      "type": "division_name",
+      "mturk_field": "SportsTeamResultsDivision"
+    },
+    {
+      "id": "player_name",
+      "type": "player_name",
+      "mturk_field": "SportsTeamResultsPlayerName"
+    },
+    {
+      "id": "season_name",
+      "type": "season_name",
+      "mturk_field": "SportsTeamResultsSeason"
+    },
+    {
+      "id": "season_type",
+      "type": "season_type",
+      "mturk_field": "SportsTeamResultsSeasonType"
+    },
+    {
+      "id": "venue_name",
+      "type": "venue_name",
+      "mturk_field": "SportsTeamResultsVenue"
+    },
+    {
+      "id": "venue_type",
+      "type": "venue_type",
+      "mturk_field": "SportsTeamResultshome_away"
+    },
+    {
+      "id": "day",
+      "type": "datetime_range",
+      "synth_type": "common_date",
+      "synth_type_params": {"past": true, "present": true, "future": false},
+      "mturk_field": "SportsTeamResultsGameDay"
+    },
+    {
+      "id": "time",
+      "type": "time",
+      "synth_type": "common_time",
+      "mturk_field": "SportsTeamResultsGameTime"
+    }
+  ],
+  "mturk_response_fields": ["SportsTeamResultsQ"],
+  "data_synthesis": {
+    "sample_size": 3000,
+    "context_trigger_ratio": 0.315
+  }
+}

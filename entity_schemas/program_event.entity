@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "tv_show_name": "tv_show_name",
+    "datetime": "text",
+    "name": "text",
+    "duration": "text",
+    "extra_data": "object",
+    "card_token": "text",
+    "type": "text"
+  },
+  "is_a": ["event"]
+}

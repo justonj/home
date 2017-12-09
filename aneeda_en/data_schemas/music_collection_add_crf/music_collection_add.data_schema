@@ -1,0 +1,27 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.425,
+        "sample_size": 1000
+    },
+    "fields": [
+        {
+            "id": "collection",
+            "mturk_field": "MusicCollectionAddCollection",
+            "type": "music_collection"
+        },
+        {
+            "id": "song",
+            "mturk_field": "MusicCollectionAddSong",
+            "type": "music_track"
+        },
+        {
+            "id": "artist",
+            "mturk_field": "MusicCollectionAddArtist",
+            "type": "music_artist"
+        }
+    ],
+    "id": "music_collection_add",
+    "mturk_response_fields": [
+        "MusicCollectionAddResponse"
+    ]
+}

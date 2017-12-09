@@ -1,0 +1,14 @@
+{
+  "schema": {
+    "name": "text",
+    "place": "text",
+    "region": "text",
+    "city": "text",
+    "country": "text",
+    "lat": "float",
+    "lon": "float",
+    "type": "text"
+  },
+  "optional": ["region"],
+  "is_a": ["address"]
+}

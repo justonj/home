@@ -1,0 +1,12 @@
+{
+  "schema": {
+      "description": "text",
+      "image_url": "text",
+      "name": "text",
+      "source": "text",
+      "article_url": "text",
+      "card_token": "text",
+      "type": "text"
+  },
+  "optional": ["image_url"]
+}

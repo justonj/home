@@ -1,0 +1,16 @@
+{
+  "schema": {
+    "title": "text",
+    "start_time": "datetime",
+    "end_time": "datetime",
+    "location": "text",
+    "description": "text",
+    "attendee_list": "array",
+    "provider": "object",
+    "timestamp": "text",
+    "name": "text",
+    "card_token": "text",
+    "type": "text"
+  },
+  "optional": ["attendee_list"]
+}

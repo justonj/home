@@ -1,0 +1,41 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.36,
+        "sample_size": 3000
+    },
+    "fields": [
+        {
+            "id": "taxi_service_id",
+            "mturk_field": "TransportTaxiBookType",
+            "synth_type": "uber_type",
+            "type": "transport_taxi_service_type"
+        },
+        {
+            "id": "origin",
+            "mturk_field": "TransportTaxiBookOrigin",
+            "synth_type": "sample_address",
+            "type": "custom_location_type"
+        },
+        {
+            "id": "destination",
+            "mturk_field": "TransportTaxiBookDestination",
+            "synth_type": "sample_address",
+            "type": "custom_location_type"
+        },
+        {
+            "id": "taxi_book_time",
+            "mturk_field": "TransportTaxiBookTime",
+            "synth_type": "common_time",
+            "type": "datetime"
+        },
+        {
+            "id": "context_uber",
+            "mturk_field": "context_uber",
+            "type": "transport_context_uber"
+        }
+    ],
+    "id": "transport_taxi_book",
+    "mturk_response_fields": [
+        "TransportTaxiBook"
+    ]
+}

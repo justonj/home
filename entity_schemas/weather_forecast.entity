@@ -1,0 +1,17 @@
+{
+  "schema": {
+    "weekday": "text",
+    "condition": "text",
+    "hour": "text",
+    "temp" : "text",
+    "high": "text",
+    "low": "text",
+    "wind": "text",
+    "humidity": "text",
+    "pop": "text",
+    "type": "text",
+    "name": "text",
+    "card_token": "text"
+  },
+  "optional": ["weekday", "hour", "high", "low", "temp"]
+}

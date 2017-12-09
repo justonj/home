@@ -1,0 +1,15 @@
+{
+  "id": "business_reviews",
+  "fields": [
+    {"id": "business",
+      "type": "local_business",
+      "must_resolve": true,
+      "from_context": true
+    },
+    {
+     "id": "business_reviews",
+     "type": "number"
+    }
+  ]
+}
+

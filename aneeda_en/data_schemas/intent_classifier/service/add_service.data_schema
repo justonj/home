@@ -1,0 +1,12 @@
+{
+    "id": "add_service",
+    "fields":
+    [
+        {
+            "id": "add_skill_name",
+            "type": "skill_name",
+            "mturk_field": "AddServiceA"
+        }
+    ],
+"mturk_response_fields": ["AddServiceQ"]
+}

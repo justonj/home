@@ -1,0 +1,15 @@
+{
+  "id": "email_reply",
+  "fields": [
+    {
+      "id": "email_body",
+      "type": "text",
+      "mturk_field": "emailBody"
+    }
+  ],
+  "mturk_response_fields": ["emailReply"],
+  "data_synthesis": {
+    "sample_size": 1500,
+    "context_trigger_ratio": 0.2
+  }
+}

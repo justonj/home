@@ -1,0 +1,15 @@
+{
+  "schema": {
+    "season_name": "text",
+    "league": "sports_league",
+    "alias": "text",
+    "sport": "text",
+    "country": "text",
+    "name": "text",
+    "type": "text"
+  },
+  "factory_class": "generic_db",
+  "table_name": "season_name",
+  "key_column_name": "season_name",
+  "entity_response_columns": ["season_name", "league"]
+}

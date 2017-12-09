@@ -1,0 +1,148 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,entity_values,aneeda_en
+email_compose,100,email_from_account,email_from_account,,is_any_email_acc_configured,"[('is_any_email_acc_configured', 'no')]",Tell me which email account you want to use : <email_from_account.candidates>?
+,99,email_from_account,email_from_account,None,None,None,Please select valid account you want to send from : <email_from_account.candidates>?
+,,,,,,,Which email account would you like to use <email_from_account.candidates>?
+,,,,,,,Tell me what email account you want to use <email_from_account.candidates>?.
+,,,,,,,What email account do you want to use <email_from_account.candidates>?
+,,,,,,,Select the email account you want to send from <email_from_account.candidates>?
+,,,,,,,Let me know which email account to use to send <email_from_account.candidates>?.
+,98,none,None,None,email_error,,I don't see any contacts in your account. Please add contacts before I can send emails 
+,,,,,,,Please add some contacts to your account before I can help you send emails.
+,,,,,,,"Sorry, I don't see any contacts in your account. Please add some in order to send emails."
+,,,,,,,"Sorry, you need to add some contacts to your account before you can use me for emails"
+,,,,,,,"Sorry, I can only send emails if you have existing contacts in your account. Please add some."
+,97,none,None,None,skill_exception,"[('skill_exception', '1003')]","You haven't added an email account yet. Please say ""Add Gmail/Outlook"" to add a new account."
+,97,none,None,None,skill_exception,"[('skill_exception', '1004')]","At present, we support only Gmail/Outlook. Please say ""Add Gmail/Outlook"" to add a new account."
+,96,none,None,None,skill_exception,,Couldn't complete the action. Please try again later.
+,95,email_contact,None,email_contact,None,,Who would you like to email?
+,,,,,,,Who is this email going to?
+,,,,,,,Who are you emailing?
+,,,,,,,Who are you writing to?
+,90,email_contact,email_contact,None,None,,I found multiple entries for <email_contact>: <email_contact.candidates>. Tell me which contact you want?
+,,,,,,,There's more than one contact with the name <email_contact>. Which one of these is correct? <email_contact.candidates>
+,,,,,,,Which <email_contact> do you mean? I found these matches: <email_contact.candidates> 
+,,,,,,,Can you tell me which contact you mean: <email_contact.candidates> 
+,85,email_contact,email_contact,None,None,,"Sorry, I don't see that in the contacts for this email account. Can you tell me a valid name?"
+,,,,,,,Can you give me a valid name? I don't see that in the contacts for this email account.
+,,,,,,,"Sorry, I can't find that in the contacts for this email account. Can you try another name?"
+,80,email_subject,None,email_subject,None,,What should the subject be?
+,,,,,,,What's the subject line?
+,,,,,,,What's the subject?
+,75,email_body,None,email_body,None,,What should the email say?
+,,,,,,,What do you want to say?
+,,,,,,,What's the email body?
+,,,,,,,What's the message?
+,70,email_contactCC,email_contactCC,None,None,,Please provide a valid contact name or email address.
+,,,,,,,"Sorry, can you give me a valid contact name."
+,,,,,,,I can't find that in the contacts for this email accounts. Can you try another name?
+,65,continue,None,email_confirmation,email_contact && email_body && email_subject,,Writing to <email_contact> with subject <email_subject> saying <email_body>
+,,,,,,,Emailing <email_contact> with subject <email_subject> saying <email_body>
+,,,,,,,Email to <email_contact> with subject <email_subject> saying <email_body>
+,65,continue,None,email_confirmation,email_contact && email_body && email_subject,"[('email_contact','')]",Writing to <email_contact.email_address> with subject <email_subject> saying <email_body>
+,,,,,,,Emailing <email_contact.email_address> with subject <email_subject> saying <email_body>
+,,,,,,,Email to <email_contact.email_address> with subject <email_subject> saying <email_body>
+,55,email_confirmation,None,email_confirmation,email_contact && email_body,,Shall I send it?
+,,,,,,,Ready to send this?
+,,,,,,,Want me to send this email?
+,,,,,,,Can I send this?
+,50,email_confirmation,email_confirmation,None,None,,Please confirm with Yes or No.
+,,,,,,,Just tell me Yes or No to send your email.
+,,,,,,,Was that a yes or no?
+,,,,,,,Please say Yes or No
+,45,none,None,None,email_confirmation,"[('email_confirmation','yes')]",Your email has been sent.
+,,,,,,,Email sent!
+,,,,,,,I've sent your email.
+,,,,,,,Your email is sent.
+,40,none,None,None,email_confirmation,"[('email_confirmation','no')]","OK, your email has been canceled."
+,,,,,,,"No problem, email canceled."
+,,,,,,,Email canceled.
+,,,,,,,Canceling your email.
+email_reply,100,none,None,None,email_error,,I don't see any contacts in your account. Please add contacts before I can send emails.
+,,,,,,,Please add some contacts to your account before I can help you send emails.
+,,,,,,,"Sorry, I don't see any contacts in your account. Please add some in order to send emails."
+,99,none,None,None,skill_exception,"[('skill_exception', '1002')]",Emails need to be retrieved before you can reply.
+,98,none,None,None,skill_exception,,Couldn't complete the action. Please try again later.
+,95,email_body,None,email_body,None,,What do you want the reply to say?
+,,,,,,,What's your reply?
+,,,,,,,What should the reply say?
+,,,,,,,What's your message?
+,90,email_confirmation,None,email_confirmation,email_body,,"Your reply is <email_body>
+Should I send it?"
+,,,,,,,"You said <email_body>
+ Shall I send it?"
+,,,,,,,"Here's your reply: <email_body>
+ Want to send it?"
+,,,,,,,"You responded <email_body>
+ Can I send this?"
+,85,email_confirmation,email_confirmation,None,None,,Please confirm with a yes or no.
+,,,,,,,I didn't catch that. Please say yes or no to confirm.
+,,,,,,,Please tell me yes or no.
+,,,,,,,Was that a yes or no?
+,80,none,None,None,email_confirmation,"[('email_confirmation','yes')]","OK, sending your reply."
+,,,,,,,Your reply is sent.
+,,,,,,,I've sent your reply.
+,,,,,,,Email reply sent.
+,75,none,,,email_confirmation,"[('email_confirmation','no')]","No problem, your reply is canceled."
+,,,,,,,Reply canceled.
+,,,,,,,Canceling your reply.
+email_show,100,none,None,None,email_error,,I don't see any contacts in your account. Please add contacts before I can search through your emails.
+,,,,,,,Please add some contacts to your account before I can help you with emails.
+,98,none,None,None,skill_exception,,Couldn't complete the action. Please try again later.
+,97,none,None,None,skill_response,None,<skill_response>
+,95,email_contact,email_contact,None,None,,I found multiple contacts for <email_contact>: <email_contact.candidates>. Who are you interested in?
+,,,,,,,I see a few contacts for <email_contact>: <email_contact.candidates> Which one are you looking for?
+,,,,,,,"Hmm, which <email_contact> do you mean? <email_contact.candidates> "
+,90,email_date,email_date,None,None,,Please tell me a valid date
+,,,,,,,"Sorry, what date did you say?"
+,,,,,,,"Sorry, which day do you mean?"
+,87,none,email_category,None,None,,<email_category> Email category not found 
+,85,none,None,None,email_error,,"Sorry, I'm getting this error message: <email_error>"
+,,,,,,,I'm unable to read your emails because of this error: <email_error>
+,,,,,,,There seems to be an error. I'm getting this message: <email_error>
+,,,,,,,"Apologies, I can't retrieve your emails due to this error: <email_error>"
+,83,none,None,None,email_contact,"[('email_contact','')]",Let me check.
+,,,,,,,Give me a moment.
+,,,,,,,One moment as I search
+,,,,,,,Searching your emails from <email_contact.email_address>
+,,,,,,,Checking for emails from <email_contact.email_address>
+,80,none,None,None,email_contact,,Let me check.
+,,,,,,,Give me a moment.
+,,,,,,,One moment as I search
+,,,,,,,Searching your emails from <email_contact>: <email_contact.email_address>
+,,,,,,,Checking for emails from <email_contact>: <email_contact.email_address>
+,75,none,None,None,None,,Searching your inbox
+,,,,,,,I'm on it
+,,,,,,,Opening your inbox
+,,,,,,,Checking your emails
+,,,,,,,Let's take a look
+email_default_account,100,none,None,None,email_error,,No account found
+,95,email_from_account,None,email_from_account,None,,Please provide email account to be set as default
+,,,,,,,Choose the email account you want as your default
+,,,,,,,Which email account do you want as your default
+,,,,,,,Tell me the email account you want to use as your default
+,94,email_from_account,email_from_account,None,None,,Please provide a valid email account
+,,,,,,,I didn't catch what email account you want
+,,,,,,,Can you repeat which email account you said
+,,,,,,,I didn't understand which email account you said
+,93,none,None,None,skill_exception,"[('skill_exception', '1007')]",Requested account is not found or not present.
+,93,none,None,None,skill_exception,"[('skill_exception', '1004')]",Requested provider is not supported. Only Google and Microsoft accounts are supported.
+,93,none,None,None,skill_exception,"[('skill_exception', '1003')]",You don't have any accounts to set the default account. Please add an account by saying Add my Gmail account/Add my Work account.
+,93,none,None,None,skill_exception,"[('skill_exception', '999')]",Couldn't complete the action. Please try again later.
+,92,set_confirmation,None,set_confirmation,None,,Do you want to make this your default email account?
+,,,,,,,Shall I make this the default account?
+,90,set_confirmation,set_confirmation,None,None,,Please provide a confirmation in Yes or No.
+,,,,,,,Let me know with a yes or no
+,,,,,,,Did you say yes or no?
+,,,,,,,Please confirm with a yes or no.
+,,,,,,,Was that a yes or no?
+,,,,,,,Was that a yes or no confirmation?
+,85,none,None,None,set_confirmation && email_from_account,"[('set_confirmation','yes')]",Setting <email_from_account> as default email account
+,,,,,,,Okay <email_from_account> is your default email account
+,,,,,,,"Great, I've set <email_from_account> as your default account"
+,,,,,,,<email_from_account> is set as your default email account
+,,,,,,,"Alright, I've set <email_from_account> as your default email account"
+,85,none,None,None,set_confirmation,"[('set_confirmation','no')]",Ok. Your default email account setting has been cancelled.
+,,,,,,,Got it. Your account email setting is cancelled.
+,,,,,,,Okay. I've cancelled your request.
+,,,,,,,Okay. Your account email settings are cancelled.
+,,,,,,,"Alright, I've cancelled your account email default setting."

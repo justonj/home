@@ -1,0 +1,31 @@
+{
+  "schema": {
+    "location": "text",
+    "city": "text",
+    "date_asked": "text",
+    "temp" : "text",
+    "high_temp_0": "text",
+    "low_temp_0": "text",
+    "high_temp_x": "text",
+    "low_temp_x": "text",
+    "temp_unit": "text",
+    "temp_unit_long": "text",
+    "condition_0": "text",
+    "condition_x": "text",
+    "condition_now": "text",
+    "is_day": "boolean",
+    "astronomy": "weather_astronomy",
+    "daily_forecast": "list",
+    "hourly_forecast": "list",
+    "type": "text",
+    "name": "text",
+    "card_token": "text"
+  },
+  "optional": ["astronomy"],
+  "value_field": "weather_condition.weather_condition",
+  "context_resolution_triggers": [
+    "climate", "weather condition", "raining",
+    "cold", "temperature",
+    "that place", "this place", "there", "here"
+  ]
+}

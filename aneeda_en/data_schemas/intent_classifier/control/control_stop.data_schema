@@ -1,0 +1,15 @@
+{
+  "id": "control_stop",
+  "fields": [
+    {
+      "id": "skill",
+      "type": "control_action",
+      "mturk_field": "ControlStopSkill"
+    }
+  ],
+  "mturk_response_fields": ["ControlStopResponse"],
+  "data_synthesis": {
+    "sample_size": 300,
+    "context_trigger_ratio": 0.1
+  }
+}

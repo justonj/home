@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "name": "text",
+    "gracenote_name": "text",
+    "type": "text"
+  },
+  "factory_class": "db",
+  "table_name": "tv_channel_names",
+  "key_column_name": "tv_channel_name",
+  "text_columns": [0],
+  "entity_response_columns": ["tv_channel_name", "gracenote_name"]
+}

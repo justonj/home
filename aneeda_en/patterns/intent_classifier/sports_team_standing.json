@@ -1,0 +1,30 @@
+{
+  "intent_name": "sports_team_standing",
+
+  "config": {
+    "initial_lr": 0.00135
+  },
+
+  "patterns": {
+    "how team name": {
+      "query": "how are the <team_name_1> doing this season?",
+      "config": {
+        "initial_lr": 0.00025,
+        "sample_size": 500
+      },
+      "used_fields": ["team_name"]
+    },
+    "highest ranted div": {"query": "Who's the highest ranked team in the <division_name> this year?",
+      "config": {
+        "initial_lr": 0.00085,
+        "sample_size": 500
+      },
+      "used_fields": ["division_name"]
+    }
+  },
+
+  "entities": {
+    "team_name": ["Lakers", "Falcons", "Golden State", "Patriots", "Yankees"],
+    "division_name": ["NFL", "NHL", "NBA"]
+  }
+}

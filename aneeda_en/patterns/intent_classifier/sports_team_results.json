@@ -1,0 +1,29 @@
+{
+  "intent_name": "sports_team_results",
+
+  "config": {
+    "initial_lr": 0.00312
+  },
+
+  "patterns": {
+    "who won vs game": {
+      "query": "who won the <team_name_1> versus <team_name_1> game <day>?",
+      "config": {
+        "initial_lr": 0.00025,
+        "sample_size": 500
+      },
+      "used_fields": ["team_name1", "day"]
+    },
+    "who won division": {"query": "who won the the <division_name> finals on <day>?",
+      "config": {
+        "initial_lr": 0.00325,
+        "sample_size": 500
+      },
+      "used_fields": ["division_name", "day"]
+    }
+  },
+
+  "entities": {
+    "team_name_1": ["Lakers", "Falcons", "Golden State", "Patriots", "Yankees"]
+  }
+}

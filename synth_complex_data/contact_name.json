@@ -1,0 +1,28 @@
+{
+    "sub_types" : [
+        {
+            "type" : "full_name",
+            "ratio" : 10
+        },
+        {
+            "type" : "short_contact",
+            "ratio" : 10
+        },
+        {
+            "type" : "surname",
+            "ratio": 40
+        },
+        {
+            "type" : "namechinese",
+            "ratio": 5
+        },
+        {
+            "type" : "nameindian",
+            "ratio": 5
+        },
+        {
+            "type" : "synth_emailcontact",
+            "ratio": 20
+        }
+    ]
+}

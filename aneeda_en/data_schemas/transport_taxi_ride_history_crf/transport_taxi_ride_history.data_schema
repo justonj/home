@@ -1,0 +1,14 @@
+{
+    "fields": [
+        {
+            "id": "taxi_service_id",
+            "mturk_field": "TransportTaxiRideHistoryType",
+            "synth_type": "uber_type",
+            "type": "transport_taxi_service_type"
+        }
+    ],
+    "id": "transport_taxi_ride_history",
+    "mturk_response_fields": [
+        "TransportTaxiRideHistoryQ"
+    ]
+}

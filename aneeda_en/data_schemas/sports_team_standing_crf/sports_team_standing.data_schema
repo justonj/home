@@ -1,0 +1,72 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.315,
+        "sample_size": 3000
+    },
+    "fields": [
+        {
+            "black_list": [
+                "recent",
+                "latest",
+                "last",
+                "current",
+                "division",
+                "conference"
+            ],
+            "id": "team_name",
+            "mturk_field": "SportsTeamStandingTeamName",
+            "type": "sports_team"
+        },
+        {
+            "id": "year",
+            "mturk_response_fields": [
+                "SportsTeamStandingDate"
+            ],
+            "type": "datetime"
+        },
+        {
+            "black_list": [
+                "league"
+            ],
+            "id": "league_name",
+            "mturk_field": "SportsTeamStandingLeagueName",
+            "type": "league_name"
+        },
+        {
+            "id": "conference_name",
+            "mturk_field": "SportsTeamStandingConferenceName",
+            "type": "conference_name"
+        },
+        {
+            "id": "division_name",
+            "mturk_field": "SportsTeamStandingDivisionName",
+            "type": "division_name"
+        },
+        {
+            "id": "player_name",
+            "mturk_field": "SportsTeamStandingPlayerName",
+            "type": "player_name"
+        },
+        {
+            "id": "season_name",
+            "mturk_field": "SportsTeamStandingSeasonName",
+            "type": "season_name"
+        },
+        {
+            "id": "season_type",
+            "mturk_field": "SportsTeamStandingSeasonType",
+            "type": "season_type"
+        },
+        {
+            "id": "sports_standing",
+            "item_types": [
+                "sports_standing"
+            ],
+            "type": "list"
+        }
+    ],
+    "id": "sports_team_standing",
+    "mturk_response_fields": [
+        "SportsTeamStandingQ"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "schema": {
+    "id": "text",
+    "phone_number": "phone_number",
+    "price_range": "price_range",
+    "rating": "float",
+    "name": "text",
+    "address": "address",
+    "reviews": "list",
+    "categories": "list",
+    "hours": "list",
+    "image_url": "text",
+    "type": "text"
+  },
+  "optional": ["hours", "reviews", "price_range"],
+  "enable_context_list_triggers": true,
+  "context_resolution_triggers": [
+    "it", "this", "that", "there",
+    "the place", "that place", "this place",
+    "the venue", "this venue", "that venue",
+    "their", "its"
+  ]
+}

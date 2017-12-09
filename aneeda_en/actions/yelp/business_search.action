@@ -1,0 +1,31 @@
+{
+  "id": "business_search",
+  "fields": [
+    {"id": "location",
+      "type": "address",
+      "must_resolve": true
+    },
+    {"id": "keyword",
+      "type": "text"
+    },
+    {"id": "price",
+      "type": "text"
+    },
+    {"id": "sort_by",
+      "type": "text"
+    },
+    {
+      "id": "business_listings",
+      "type": "list",
+      "item_types": ["local_business"]
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}

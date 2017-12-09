@@ -1,0 +1,24 @@
+{
+  "intent_name": "music_albums",
+
+  "patterns": {
+    "show me by artist": {
+      "query": "show me albums by <artist>",
+      "config": {
+        "initial_lr": 0.000435
+      },
+      "used_fields": ["artist"]
+    },
+    "artist discography": {
+      "query": "show me <artist> discography",
+      "config": {
+        "initial_lr": 0.000285,
+        "sample_size": 500
+      },
+      "used_fields": ["artist"]}
+  },
+
+  "entities": {
+    "artist":["usher", "michael_jackson", "lil_wayne"]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "intent_name": "music_id",
+
+  "patterns": {
+  },
+
+  "entities": {
+    "song": [],
+    "album": [],
+    "artist":[]
+  }
+}

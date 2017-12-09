@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text",
+    "seasonname": "text",
+    "sportname": "text"
+  },
+  "factory_class": "generic_db",
+  "table_name": "series_type",
+  "key_column_name": "series_type",
+  "entity_response_columns": ["series_type", "seasonname", "sportname"]
+}

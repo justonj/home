@@ -1,0 +1,21 @@
+{
+  "intent":"",
+  "fields": {
+	  "volume_max" :{
+		  "name": "all the way",
+		  "user_input": "all the way",
+		  "type": "text"
+	  },
+	  "volume_down":{
+		  "name": "down",
+		  "type": "text",
+		  "user_input": "down"
+	  },
+	  "volume_control":{
+		  "name": "1.0",
+		  "option": 3,
+		  "progress": 0,
+		  "type": "volume_control"
+	  }
+  }
+}

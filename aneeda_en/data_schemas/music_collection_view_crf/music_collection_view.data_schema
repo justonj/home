@@ -1,0 +1,21 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.375,
+        "sample_size": 500
+    },
+    "fields": [
+        {
+            "from_context": true,
+            "id": "collections",
+            "is_answer": true,
+            "item_types": [
+                "text"
+            ],
+            "type": "list"
+        }
+    ],
+    "id": "music_collection_view",
+    "mturk_response_fields": [
+        "MusicCollectionViewResponse"
+    ]
+}

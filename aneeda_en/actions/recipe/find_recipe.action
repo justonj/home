@@ -1,0 +1,18 @@
+{
+	"id": "find_recipe",
+	"fields": [
+		{
+			"id": "recipe_name",
+			"type": "text"
+		},
+		{
+			"id": "recipe_incl",
+			"type": "text"
+
+		},
+		{
+			"id": "recipe_excl",
+			"type": "text"
+		}
+	]
+}

@@ -1,0 +1,4 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,aneeda_en
+proactive_recommendations,100,None,None,None,None,Here are your recommendations.
+proactive_hints,100,None,None,None,None,
+proactive_notifications,100,None,None,None,None,

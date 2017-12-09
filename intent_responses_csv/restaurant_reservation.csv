@@ -1,0 +1,13 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,entity_values,aneeda_en
+restaurant_reservation,100,venue,None,venue,None,,For which restaurant?
+,100,venue,venue,None,None,,Please tell me a valid restaurant name
+,95,date,None,date,None,,For which day?
+,95,date,date,None,None,,Please tell me what day you want for the reservation 
+,85,time,None,time,None,,For what time?
+,85,time,time,None,None,,Please tell me a valid time 
+,75,num_people,None,num_people,None,,For how many people?
+,75,num_people,num_people,None,None,,Please tell me a number
+,68,user_phone_number,None,user_phone_number,None,,What is your phone number?
+,68,user_phone_number,user_phone_number,None,None,,Please tell me a valid phone number
+,67,None,None,None,venue && date && time && num_people && skill_exception,"[('skill_exception', '201')]","Unfortunately, I'm not able to make a reservation right now."
+,66,None,None,None,venue && date && time && num_people,,"Alright, I'm going to call <venue> with your reservation for <num_people> people on <date> <time>. I'll get back to you shortly. "

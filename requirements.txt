@@ -1,0 +1,5 @@
+# Maintain this file in sorted order.
+-e git+https://b0440b7d321665df32aa5040475c6dcb8fe91aac@github.com/iAmPlus/timestring.git#egg=timestring
+jsonapi-requests==0.2.1
+parsedatetime==2.1.0
+pytz==2013b

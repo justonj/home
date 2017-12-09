@@ -1,0 +1,16 @@
+{
+    "sub_types" : [
+        {
+            "type" : "country_type",
+            "ratio" : 20
+        },
+        {
+            "type" : "state_type",
+            "ratio" : 40
+        },
+        {
+            "type" : "city_type",
+            "ratio": 40
+        }
+    ]
+}

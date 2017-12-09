@@ -1,0 +1,221 @@
+venue_name,city,state,country,league,id,gn_id
+Tom Benson Hall of Fame Stadium,Canton,OH,USA,NFL,4213,
+Georgia Dome,Atlanta,GA,USA,NFL,533,10
+Lincoln Financial Field,Philadelphia,PA,USA,NFL,3494,13
+Gillette Stadium,Foxborough,MA,USA,NFL,3392,24
+MetLife Stadium,East Rutherford,NJ,USA,NFL,9286,534
+M&T Bank Stadium,Baltimore,MD,USA,NFL,545,27
+Soldier Field,Chicago,IL,USA,NFL,507,17
+Heinz Field,Pittsburgh,PA,USA,NFL,551,25
+MetLife Stadium,East Rutherford,NJ,USA,NFL,9242,
+Paul Brown Stadium,Cincinnati,OH,USA,NFL,549,29
+Lambeau Field,Green Bay,WI,USA,NFL,513,12
+University of Phoenix Stadium,Glendale,AZ,USA,NFL,4943,446
+Arrowhead Stadium,Kansas City,MO,USA,NFL,516,22
+New Era Field,Orchard Park,NY,USA,NFL,506,33
+Los Angeles Memorial Coliseum,Los Angeles,CA,USA,NFL,517,53
+Nissan Stadium,Nashville,TN,USA,NFL,547,34
+Levi's Stadium,Santa Clara,CA,USA,NFL,13672,1004
+Ford Field,Detroit,MI,USA,NFL,3394,9
+FirstEnergy Stadium,Cleveland,OH,USA,NFL,548,23
+CenturyLink Field,Seattle,WA,USA,NFL,3395,38
+FedEx Field,Landover,MD,USA,NFL,543,8
+AT&T Stadium,Arlington,TX,USA,NFL,8087,499
+Qualcomm Stadium,San Diego,CA,USA,NFL,527,31
+Lucas Oil Stadium,Indianapolis,IN,USA,NFL,6670,495
+EverBank Field,Jacksonville,FL,USA,NFL,538,21
+NRG Stadium,Houston,TX,USA,NFL,2791,3
+Sports Authority Field at Mile High,Denver,CO,USA,NFL,550,26
+Camping World Stadium,Orlando,FL,USA,NFL,3007,139
+Bank of America Stadium,Charlotte,NC,USA,NFL,536,243
+Mercedes-Benz Superdome,New Orleans,LA,USA,NFL,522,19
+Raymond James Stadium,Tampa,FL,USA,NFL,546,15
+Oakland Coliseum,Oakland,CA,USA,NFL,537,28
+U.S. Bank Stadium,Minneapolis,MN,USA,NFL,15139,1050
+Hard Rock Stadium,Hard Rock Stadium,FL,USA,NFL,519,30
+Wembley Stadium,London,,ENG,NFL,5859,473
+Twickenham Stadium,Twickenham,,ENG,NFL,15160,1052
+Estadio Azteca,Mexico City,,MEX,NFL,4413,1053
+Rogers Arena,Vancouver,BC,CAN,NBA,29,
+CenturyLink Center,Bossier City,LA,USA,NBA,2145,
+United Center,Chicago,IL,USA,NBA,4,538092
+FedExForum,Memphis,TN,USA,NBA,4265,634720
+American Airlines Center,Dallas,TX,USA,NBA,2757,562915
+Scotiabank Saddledome,Calgary,AB,CAN,NBA,3229,
+Talking Stick Resort Arena,Phoenix,AZ,USA,NBA,21,634919
+Moda Center at the Rose Quarter,Portland,OR,USA,NBA,22,538101
+William D. Mullins Center,Amherst,MA,USA,NBA,1886,
+Verizon Center,Washington,DC,USA,NBA,27,288198
+Smoothie King Center,New Orleans,LA,USA,NBA,3403,388809
+Toyota Center,Houston,TX,USA,NBA,3491,538105
+Honda Center,Anaheim,CA,USA,NBA,2104,
+ORACLE Arena,Oakland,CA,USA,NBA,9,538099
+Quicken Loans Arena,Cleveland,OH,USA,NBA,5,388804
+Staples Center,Los Angeles,CA,USA,NBA,12,538103
+Wells Fargo Center,Philadelphia,PA,USA,NBA,20,538093
+Bankers Life Fieldhouse,Indianapolis,IN,USA,NBA,11,388798
+Barclays Center,Brooklyn,NY,USA,NBA,10615,635526
+Greensboro Coliseum,Greensboro,NC,USA,NBA,1906,
+SAP Center at San Jose,San Jose,CA,USA,NBA,3238,
+Staples Center,Los Angeles,CA,USA,NBA,13,538103
+Mohegan Sun Arena,Uncasville,CT,USA,NBA,3702,
+Madison Square Garden,New York,NY,USA,NBA,18,288906
+Sprint Center,Kansas City,MO,USA,NBA,5945,
+Kohl Center,Madison,WI,USA,NBA,3597,
+AT&T Center,San Antonio,TX,USA,NBA,3404,538102
+Mercedes-Benz Arena,Shanghai,,CHN,NBA,10815,
+Citizens Business Bank Arena,Ontario,CA,USA,NBA,7172,
+Spectrum Center,Charlotte,NC,USA,NBA,4630,635262
+Philips Arena,Atlanta,GA,USA,NBA,1,538089
+The Palace of Auburn Hills,Auburn Hills,MI,USA,NBA,8,534928
+AmericanAirlines Arena,Miami,FL,USA,NBA,14,388795
+LeSports Center,Beijing,,CHN,NBA,10814,
+Amway Center,Orlando,FL,USA,NBA,9545,538091
+Ford Center,Evansville,IN,USA,NBA,10167,
+Pinnacle Bank Arena,Lincoln,NE,USA,NBA,13199,
+Vivint Smart Home Arena,Salt Lake City,UT,USA,NBA,26,538096
+Bank of Oklahoma Center,Tulsa,OK,USA,NBA,7162,
+T-Mobile Arena,Las Vegas,NV,USA,NBA,15339,
+Pepsi Center,Denver,CO,USA,NBA,7,538100
+Rupp Arena,Lexington,KY,USA,NBA,1895,
+KFC Yum! Center,Louisville,KY,USA,NBA,9574,
+BMO Harris Bradley Center,Milwaukee,WI,USA,NBA,15,288308
+Chesapeake Energy Arena,Oklahoma City,OK,USA,NBA,3755,635449
+TD Garden,Boston,MA,USA,NBA,2,388802
+Value City Arena,Columbus,OH,USA,NBA,2121,
+Golden 1 Center,Sacramento,CA,USA,NBA,15210,635708
+Target Center,Minneapolis,MN,USA,NBA,16,538104
+Valley View Casino Center,San Diego,CA,USA,NBA,4599,
+CenturyLink Center Omaha,Omaha,NE,USA,NBA,3779,
+Air Canada Centre,Toronto,ON,CAN,NBA,28,388793
+O2 Arena,London,,ENG,NBA,6031,
+Mexico City Arena,Mexico City,,MEX,NBA,10812,
+Champion Stadium,Kissimmee,FL,USA,MLB,2781,
+Joker Marchant Stadium,Lakeland,FL,USA,MLB,2776,
+Bright House Field,Clearwater,FL,USA,MLB,3582,
+Goodyear Ballpark,Goodyear,AZ,USA,MLB,7927,
+Ed Smith Stadium,Sarasota,FL,USA,MLB,2778,
+JetBlue Park at Fenway South,Fort Myers,FL,USA,MLB,10270,
+George M. Steinbrenner Field,Tampa,FL,USA,MLB,2768,
+McKechnie Field,Bradenton,FL,USA,MLB,2766,
+Charlotte Sports Park,Port Charlotte,FL,USA,MLB,7921,
+Florida Auto Exchange Stadium,Dunedin,FL,USA,MLB,2763,
+Surprise Stadium,Surprise,AZ,USA,MLB,3455,
+Scottsdale Stadium,Scottsdale,AZ,USA,MLB,2783,
+Salt River Fields at Talking Stick,Scottsdale,AZ,USA,MLB,9742,
+Peoria Sports Complex,Peoria,AZ,USA,MLB,2782,
+Roger Dean Stadium,Jupiter,FL,USA,MLB,2770,
+Minute Maid Park,Houston,TX,USA,MLB,435,3003
+Dodger Stadium,Los Angeles,CA,USA,MLB,410,2983
+AT&T Park,San Francisco,CA,USA,MLB,434,3001
+Citizens Bank Park,Philadelphia,PA,USA,MLB,3569,3010
+Nationals Park,Washington,DC,USA,MLB,6423,3056
+Marlins Park,Miami,FL,USA,MLB,10257,3568
+Globe Life Park in Arlington,Arlington,TX,USA,MLB,404,2993
+Chase Field,Phoenix,AZ,USA,MLB,421,2984
+PETCO Park,San Diego,CA,USA,MLB,3568,3011
+Oakland-Alameda County Coliseum,Oakland,CA,USA,MLB,402,
+Angel Stadium of Anaheim,Anaheim,CA,USA,MLB,394,2995
+PNC Park,Pittsburgh,PA,USA,MLB,438,3006
+Tropicana Field,St. Petersburg,FL,USA,MLB,422,2976
+Space Coast Stadium,Viera,FL,USA,MLB,2775,
+Camelback Ranch-Glendale,Glendale,AZ,USA,MLB,7928,
+Maryvale Baseball Park,Phoenix,AZ,USA,MLB,2786,
+Tempe Diablo Stadium,Tempe,AZ,USA,MLB,2790,
+Hammond Stadium,Fort Myers,FL,USA,MLB,2771,
+Osceola County Stadium,Kissimmee,FL,USA,MLB,2774,
+Tradition Field,Port St. Lucie,FL,USA,MLB,2769,
+HoHoKam Stadium,Mesa,AZ,USA,MLB,2788,
+Sloan Park,Mesa,AZ,USA,MLB,13450,
+Alamodome,San Antonio,TX,USA,MLB,24,
+Estadio Fray Nano,Mexico City,,MEX,MLB,15044,
+Cashman Field,Las Vegas,NV,USA,MLB,428,
+Olympic Stadium,Montreal,PQ,CAN,MLB,411,
+Victory Field,Indianapolis,IN,USA,MLB,4759,
+Ewing M. Kauffman Stadium,Kansas City,MO,USA,MLB,398,
+Yankee Stadium,Bronx,NY,USA,MLB,7920,3066
+Miller Park,Milwaukee,WI,USA,MLB,437,3005
+Oriole Park at Camden Yards,Baltimore,MD,USA,MLB,392,2975
+Turner Field,Atlanta,GA,USA,MLB,420,
+Great American Ball Park,Cincinnati,OH,USA,MLB,3454,3007
+Progressive Field,Cleveland,OH,USA,MLB,396,2996
+Comerica Park,Detroit,MI,USA,MLB,436,3002
+Citi Field,Flushing,NY,USA,MLB,7919,3065
+U.S. Cellular Field,Chicago,IL,USA,MLB,395,
+Coors Field,Denver,CO,USA,MLB,418,2972
+Rogers Centre,Toronto,ON,CAN,MLB,405,3000
+Safeco Field,Seattle,WA,USA,MLB,432,3004
+Fenway Park,Boston,MA,USA,MLB,393,2982
+Target Field,Minneapolis,MN,USA,MLB,9024,3068
+Busch Stadium,St. Louis,MO,USA,MLB,4781,3045
+Wrigley Field,Chicago,IL,USA,MLB,407,2998
+Fort Bragg Ballpark,Fort Bragg,NC,USA,MLB,15133,
+Emirates Stadium,London,,ENG,EPL,5570,623
+Vitality Stadium,Bournemouth,,ENG,EPL,6143,1158
+Turf Moor,Burnley,,ENG,EPL,6118,1095
+Stamford Bridge,London,,ENG,EPL,5197,628
+Selhurst Park,London,,ENG,EPL,6122,1061
+Goodison Park,Liverpool,,ENG,EPL,5200,634
+KCOM Stadium,Kingston Upon Hull,,ENG,EPL,6123,1060
+King Power Stadium,Leicester,,ENG,EPL,5438,1094
+Anfield,Liverpool,,ENG,EPL,5204,629
+Etihad Stadium,Manchester,,ENG,EPL,5435,636
+Old Trafford,Manchester,,ENG,EPL,5206,624
+Riverside Stadium,Middlesbrough,,ENG,EPL,5207,1190
+St. Mary's Stadium,Southampton,,ENG,EPL,5246,1020
+bet365 Stadium,Stoke-on-Trent,,ENG,EPL,6128,640
+Stadium Of Light,Sunderland,,ENG,EPL,5210,630
+Liberty Stadium,Swansea,,WLS,EPL,6132,584
+White Hart Lane,London,,ENG,EPL,5211,631
+Vicarage Road,Watford,,ENG,EPL,5569,1157
+The Hawthorns,West Bromwich,,ENG,EPL,5383,639
+Olympic Stadium,London,,ENG,EPL,14307,1192
+Budweiser Gardens,London,Ontario, CAN,NHL,,106
+BB&T Center, Sunrise, Sunrise, USA,NHL,,12
+Air Canada Centre, Toronto, Toronto, CAN,NHL,,1
+Bell Centre, Montreal, Montreal, CAN,NHL,,37
+SaskTel Centre, Saskatoon, Saskatchewan, CAN,NHL,,117
+Amalie Arena, Tampa, Tampa, USA,NHL,,6
+PNC Arena, Raleigh, Raleigh, USA,NHL,,14
+Madison Square Garden, New York, New York, USA,NHL,,8
+TD Garden, Boston, Boston, USA,NHL,,38
+KeyBank Center, Buffalo, Buffalo, USA,NHL,,5
+Canadian Tire Centre, Ottawa, Ottawa, CAN,NHL,,39
+PPG PAINTS Arena, Pittsburgh, Pittsburgh, USA,NHL,,10
+Joe Louis Arena, Detroit, Detroit, USA,NHL,,22
+Investors Group Field, Winnipeg, Manitoba, CAN,NHL,,306
+T-Mobile Arena, Las Vegas, Nevada, USA,NHL,,360
+Webster Bank Arena, Bridgeport, Connecticut, USA,NHL,,44
+Meridian Centre, St. Catharines, Ontario, CAN,NHL,,271
+FirstOntario Centre, Hamilton, Ontario, CAN,NHL,,68
+PPL Center, Allentown, Pennsylvania, USA,NHL,,269
+Lakeview Arena, Marquette, Michigan, USA,NHL,,359
+Kal Tire Place, Vernon, British Columbia, CAN,NHL,,361
+Pegula Ice Arena, State College, Pennsylvania, USA,NHL,,258
+Tate Rink, West Point, New York, USA,NHL,,159
+Scotiabank Centre, Halifax, Nova Scotia, CAN,NHL,,148
+Centre Videotron, Quebec City, Quebec, CAN,NHL,,287
+BMO Field, Toronto, Ontario, CAN,NHL,,304
+Busch Stadium, St. Louis, Missouri, USA,NHL,,305
+Sprint Center, Kansas City, Missouri, USA,NHL,,228
+Essar Centre, Sault Ste. Marie, Ontario, CAN,NHL,,111
+Wells Fargo Center, Philadelphia, Philadelphia, USA,NHL,,15
+Honda Center, Anaheim, Anaheim, USA,NHL,,72
+Bridgestone Arena, Nashville, Nashville, USA,NHL,,18
+United Center, Chicago, Chicago, USA,NHL,,29
+Staples Center, Los Angeles, Los Angeles, USA,NHL,,28
+Verizon Center, Washington, Washington, USA,NHL,,9
+American Airlines Center, Dallas, Dallas, USA,NHL,,16
+Prudential Center, Newark, Newark, USA,NHL,,2
+Nationwide Arena, Columbus, Columbus, USA,NHL,,23
+Heinz Field, Pittsburgh, Pittsburgh, USA,NHL,,217
+Rogers Arena, Vancouver, Vancouver, CAN,NHL,,218
+Pepsi Center, Denver, Denver, USA,NHL,,25
+Gila River Arena, Glendale, Glendale, USA,NHL,,21
+Xcel Energy Center, Saint Paul, Saint Paul, USA,NHL,,30
+Scottrade Center, St. Louis, St. Louis, USA,NHL,,27
+MTS Centre, Winnipeg, Winnipeg, CAN,NHL,,65
+Scotiabank Saddledome, Calgary, Calgary, CAN,NHL,,24
+SAP Center at San Jose, San Jose, San Jose, USA,NHL,,19
+Rogers Place, Edmonton, Edmonton, CAN,NHL,,303
+Barclays Center, Brooklyn, Brooklyn, USA,NHL,,256

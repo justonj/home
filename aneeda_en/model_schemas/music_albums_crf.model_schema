@@ -1,0 +1,45 @@
+{
+    "architecture": "crf_model",
+    "dialogue_state_filed_name": "mentions",
+    "evaluator": "crf_model",
+    "language": "en",
+    "maps": [
+        "basic_features",
+        "spacy_ner_features",
+        "lm_features_prefix_1",
+        "lm_features_prefix_2",
+        "lm_features_prefix_3",
+        "lm_features_suffix_1",
+        "lm_features_suffix_2",
+        "lm_features_suffix_3",
+        "lm_features_dependency",
+        "lm_features_lemma",
+        "lm_features_like_num",
+        "lm_features_like_email",
+        "kb_features",
+        "mention_model_labels"
+    ],
+    "model_id": "music_albums_crf",
+    "scope": "extraction",
+    "segmentation_config": {
+        "false_field": "X",
+        "field": "labels",
+        "name": "fields",
+        "values": [
+            "*"
+        ]
+    },
+    "serialization_fields": [
+        "model_file"
+    ],
+    "sources": {
+        "database": {},
+        "directories": [
+            "*"
+        ],
+        "files": [
+            "*"
+        ]
+    },
+    "training_config": {}
+}

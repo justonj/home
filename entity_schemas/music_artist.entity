@@ -1,0 +1,22 @@
+{
+  "schema": {
+    "id": "text",
+    "name": "text",
+    "popularity": "float",
+    "type": "text",
+    "card_token": "text"
+  },
+  "is_a": ["news_topic"],
+  "optional": ["popularity", "card_token"],
+  "context_resolution_triggers" : [
+    "this", "that", "it", "him", "her", "them",
+    "artist", "band", "singer",
+    "that band", "some of that",
+    "she", "he", "his", "their", "they",
+    "this artist",
+    "current singer", "that artist", "this band", "that singer",
+    "this musician", "that musician", "this performer", "that performer"
+  ],
+  "type_identifiers": ["artist", "singer", "musician", "performer", "band"],
+  "enable_context_list_triggers": true
+}

@@ -1,0 +1,37 @@
+division_name,division_alias,conference_alias,conference_name,league,conference_id,division_id,gn_conference_id,gn_division_id
+AFC East,East,AFC,American Football Conference,NFL,3,1,1,1
+AFC North,North,AFC,American Football Conference,NFL,3,4,1,10
+AFC South,South,AFC,American Football Conference,NFL,3,5,1,11
+AFC West,West,AFC,American Football Conference,NFL,3,3,1,12
+NFC East,East,NFC,National Football Conference,NFL,4,1,2,6
+NFC North,North,NFC,National Football Conference,NFL,4,4,2,7
+NFC South,South,NFC,National Football Conference,NFL,4,5,2,8
+NFC West,West,NFC,National Football Conference,NFL,4,3,2,9
+Atlantic Division,Atlantic,Eastern,Eastern Conference,NBA,1,1,403879,403880
+Central Division,Central,Eastern,Eastern Conference,NBA,1,2,403879,403881
+Southeast Division,Southeast,Eastern,Eastern Conference,NBA,1,5,403879,664418
+Northwest Division,Northwest,Western,Western Conference,NBA,2,7,403882,664420
+Pacific Division,Pacific,Western,Western Conference,NBA,2,4,403882,403884
+Southwest Division,Southwest,Western,Western Conference,NBA,2,6,403882,664419
+Atlantic,Atlantic,Eastern,Eastern Conference,NBA,1,1,403879,403880
+Central,Central,Eastern,Eastern Conference,NBA,1,2,403879,403881
+Southeast,Southeast,Eastern,Eastern Conference,NBA,1,5,403879,664418
+Northwest,Northwest,Western,Western Conference,NBA,2,7,403882,664420
+Pacific,Pacific,Western,Western Conference,NBA,2,4,403882,403884
+Southwest,Southwest,Western,Western Conference,NBA,2,6,403882,664419
+AL Central Division,Central,AL,American League,MLB,5,13,137,350
+AL East Division,East,AL,American League,MLB,5,12,137,348
+AL West Division,West,AL,American League,MLB,5,14,137,351
+NL Central Division,Central,NL,National League,MLB,6,13,136,349
+NL East Division,East,NL,National League,MLB,6,12,136,347
+NL West Division,West,NL,National League,MLB,6,14,136,346
+AL Central,Central,AL,American League,MLB,5,13,137,350
+AL East,East,AL,American League,MLB,5,12,137,348
+AL West,West,AL,American League,MLB,5,14,137,351
+NL Central,Central,NL,National League,MLB,6,13,136,349
+NL East ,East,NL,National League,MLB,6,12,136,347
+NL West ,West,NL,National League,MLB,6,14,136,346
+Metropolitan,Metropolitan,Eastern,Eastern Conference,NHL,,,1,42
+Central, Central,Western,Western Conference,NHL,,,2,4
+Pacific, Pacific,Western,Western Conference,NHL,,,2,6
+Atlantic, Atlantic,Eastern,Eastern Conference,NHL,,,1,1

@@ -1,0 +1,10 @@
+{
+  "context": "music",
+  "classes":
+  [
+    {"grammar_class": "ADJ", "values":["hot", "fresh", "new", "cool", "swank", "dope", "lit", "popular"]},
+    {"grammar_class": "NOUN","values":["album", "CD", "record", "LP", "tape"]},
+    {"grammar_class": "PROPN", "values":["Kanye West", "Yeezy", "Ye", "Yehovah", "Yeezus", "Kanye"]},
+    {"grammar_class": "NOUN", "values": ["song", "track", "tune", "piece"]}
+  ]
+}

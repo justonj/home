@@ -1,0 +1,18 @@
+{
+  "id": "set_alarm",
+  "fields": [
+    {"id": "alarm_recurring",
+      "type": "yes_no",
+      "mturk_field": "Answer.AlarmRecurring"},
+    {"id": "alarm_date",
+      "type": "date",
+      "synth_type": "comment_event_date",
+      "synth_type_params": {"past": false, "present": true, "future": true},
+      "mturk_field": "Answer.AlarmDate"},
+    {"id": "alarm_time",
+      "type": "time",
+      "synth_type": "common_time",
+      "mturk_field": "Answer.AlarmTime"}
+  ],
+  "mturk_response_fields": ["Answer.OpenAnswer1"]
+}

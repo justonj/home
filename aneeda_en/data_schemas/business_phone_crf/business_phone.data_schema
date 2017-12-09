@@ -1,0 +1,18 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.75,
+        "sample_size": 500
+    },
+    "fields": [
+        {
+            "id": "business",
+            "mturk_field": "BusinessPhoneLocalBusiness",
+            "type": "local_business"
+        }
+    ],
+    "id": "business_phone",
+    "mturk_additional_info_fields": [],
+    "mturk_response_fields": [
+        "BusinessPhoneResponse"
+    ]
+}

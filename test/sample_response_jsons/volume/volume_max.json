@@ -1,0 +1,16 @@
+{
+  "intent":"",
+  "fields": {
+	  "volume_max" :{
+		  "name": "maximum",
+		  "user_input": "maximum",
+		  "type": "text"
+	  },
+	 "volume_control":{
+		  "name": "10.0",
+		  "option": 3,
+		  "progress": 0,
+		  "type": "volume_control"
+	  }
+  }
+}

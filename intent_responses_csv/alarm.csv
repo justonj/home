@@ -1,0 +1,8 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,aneeda_en
+set_alarm,100,None,None,None,None,Setting an alarm is not supported yet.
+,95,alarm_date,None,alarm_date,None,When would you like to set your alarm for?
+,95,alarm_date,alarm_date,None,None,What day would you like to set the alarm for?
+,95,continue,None,None,alarm_date,
+,90,alarm_time,None,alarm_time,None,What time would you like to set the alarm for?
+,90,alarm_time,alarm_time,None,None,What time would you like to set the alarm for?
+,85,none,None,None,alarm_date && alarm_time,Setting you alarm for <alarm_date> at <alarm_time>...

@@ -1,0 +1,102 @@
+# Fefault configuration for this NLU app
+# Copy this file to config/setup.yaml in the base nlu directory and customize
+
+ENVIRONMENT: dev
+APP_NAME: aneeda
+APP_VERSION: 0.17.2
+DEFAULT_SCHEMA_VERSION: '1'
+GUNICORN_WORKERS_COUNT: 1
+
+# switches
+NLU_TEST_MODE: False
+ENABLE_WEBHOOKS: True
+SYNTH_MODE: False
+CLASSIFY_ON_UNRESOLVED: False
+ENABLE_IN_DIALOG_CONVERSATION_SWITCHING: True
+ENABLE_RESUME_PROMPT: False
+NUM_ENTITY_TRIALS_BEFORE_EXITING_DIALOGUE_STATE: 3
+EXIT_DIALOGUE_ON_STUCK_STATE: False
+ENTITY_PRIORITIZATION_REQUIRE_RESOLVED: False
+
+# database
+PG_HOST: db
+PG_PASSWORD: password
+PG_PORT: 5432
+PG_USER: iamplus_dev
+PG_NLU_DB: nlu
+PG_APP_DB: aneeda
+
+# language
+DEFAULT_LANGUAGE: en
+ALL_LANGUAGES: [en]
+LEMMA_TAG_TYPES: [NOUN, PRON]
+
+# URLs
+GEOCODE_URL: https://maps.googleapis.com/maps/api/geocode/json
+CELERY_REDIS_HOST: redis://redis:6379
+SKILLS_ENDPOINT: http://intent-retrieve-map.aneeda.ai/skills-dev.json
+
+# keys (to be removed)
+GOOGLE_API_KEY: AIzaSyC2jyQ8vOt2F4fwIp0SvkevjbU4PhtMCl8
+SYNTH_YELP_API_KEY: 7Nxb67JklQ4G8G0-vc6N1g
+SYNTH_YELP_API_SECRET: pVNRSDKFPKJCv9li0JzzhYnc2mrelD4pjMhMjubR2CaHHqyh3G8J2V321dpA71Bp
+
+# skill timeout
+SKILL_REQUEST_TIMEOUT: 10
+
+# zipkin
+ZIPKIN_ENABLE: True
+ZIPKIN_SERVER_URL: http://zipkin.iamplus.xyz/api/v1/spans
+ZIPKIN_TIMEOUT: 2
+ZIPKIN_PORT: 42
+ZIPKIN_SAMPLE_RATE: 100
+
+# training
+FUZZY_MATCHING_SIMILARITY_THRESHOLD: 0.6
+INTENT_CLASSIFIER_PROBABILITY_THRESHOLD: 0.70
+NUMBER_OF_GPUS: 1
+REPEATED_RESPONSES_TO_TRIGGER_AGENT_REDIRECT: 2
+
+# classification
+MODEL_TYPE: token-ids
+SPELLCHECKER_MIN_WORD_OCCURRENCE: 8
+SPELLCHECKER_EDIT_DISTANCE: 2
+CRF_KNOWLEDGE_FEATURES_MAX_WINDOW: 5
+MAX_PREV_RESPONSES_FOR_CONTEXT: 5
+ENTITY_RESOLUTION_ITERATIONS: 2
+ML_WORKER_CONCURRENCY: 1
+IO_WORKER_CONCURRENCY: 10
+
+# logging
+LOG_LEVEL: INFO
+LOG_TO_STDOUT: True
+LOG_FILE_PATH: nlu.log
+CELERY_LOG_FILE_PATH: task-server.out
+LOG_FILE_MAX_BYTES: 40485760
+LOG_FILE_BACKUP_COUNT: 20
+
+# dialogue responses
+DIALOGUE_RESPONSE_CACHE_TTL_SECONDS: 600000000000
+ALLOW_JSON_RESPONSES: False
+
+#chatbot context
+CONTEXT_KNOWLEDGE_CERTAINTY_THRESHOLD: 0.75
+CONTEXT_KNOWLEDGE_MAX_RESULT_CANDIDATES: 3
+SHORT_TERM_MEMORY_LIFETIME_SECONDS: 30
+
+# tokenizer
+TOKENIZER_OPTIONS:
+  en:
+    separators: " ,.?:!$'\"()[]"
+    rules: ["whitelist", "possessives", "word_interior_characters"]
+    options:
+      whitelist:
+        token_whitelist: ["will.i.am"]
+      word_interior_characters:
+        interior_characters: "$."
+
+CR_DEFAULT_ORDER: ['display', 'recent', 'background']
+CR_DEFAULT_TIME_LIMIT: 600  # in seconds
+CR_DEFAULT_CONVERSATION_LIMIT: 5
+
+DEFAULT_TIMEZONE: 'US/Pacific'

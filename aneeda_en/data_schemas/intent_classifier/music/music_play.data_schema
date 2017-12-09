@@ -1,0 +1,78 @@
+{
+  "id": "music_play",
+  "fields": [
+    {
+      "id": "song_album",
+      "type": "alias",
+      "alias_for": ["song", "album"],
+      "mturk_field": "MusicPlaySongAlbum"
+    },
+    {
+      "id": "artist_album",
+      "type": "alias",
+      "alias_for": ["artist", "album"],
+      "mturk_field": "MusicPlayAlbumArtist"
+    },
+    {
+      "id": "playable",
+      "type": "alias",
+      "alias_for": ["artist", "song", "album"],
+      "mturk_field": "MusicPlayAlbumArtistSong"
+    },
+    {
+      "id": "song",
+      "type": "music_track",
+      "mturk_field": "MusicPlaySong"
+    },
+    {
+      "id": "artist",
+      "type": "music_artist",
+      "mturk_field": "MusicPlayArtist"
+    },
+    {
+      "id": "album",
+      "type": "music_album",
+      "mturk_field": "MusicPlayAlbum"
+    },
+    {
+      "id": "collection",
+      "type": "music_collection",
+      "mturk_field": "MusicPlayCollection"
+    },
+    {
+      "id": "genre",
+      "type": "music_genre",
+      "mturk_field": "MusicPlayGenre"
+    },
+    {
+      "id": "mood",
+      "type": "music_mood",
+      "mturk_field": "MusicPlayMood"
+    },
+    {
+      "id": "era",
+      "type": "music_era",
+      "mturk_field": "MusicPlayEra"
+    },
+    {
+      "id": "keyword",
+      "type": "text",
+      "mturk_field": "MusicPlayKeyword"
+    },
+    {
+      "id": "new",
+      "type": "text",
+      "mturk_field": "MusicPlayNew"
+    },
+    {
+      "id": "similar",
+      "type": "text",
+      "mturk_field": "MusicPlaySimilar"
+    }
+  ],
+  "mturk_response_fields": ["MusicPlayResponse"],
+  "data_synthesis": {
+    "sample_size": 2000,
+    "context_trigger_ratio": 0.2
+  }
+}

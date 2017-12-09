@@ -1,0 +1,109 @@
+intent_id,priority,awaiting_field,unresolved,missing,present,aneeda_en,entity_values
+calendar_create_event,100,none,None,None,email_error,You don't have any contacts in your account. You'll need to add some.,
+,100,None,None,None,skill_exception,"Sorry, Couldn't complete the action. Please try again later","[('skill_exception', '999')]"
+,100,None,None,None,skill_exception,"Date or Time format is wrong.","[('skill_exception', '1000')]"
+,100,None,None,None,skill_exception,"Unable to send event.Could not find email address.Please try again later.","[('skill_exception', '1001')]"
+,100,None,None,None,skill_exception,"Ok event creation canceled.","[('skill_exception', '1005')]"
+,99,None,None,None,skill_exception,"Couldn't Complete the action. Please try again later.",None
+,95,event_attendees,event_attendees,None,None,I found multiple contacts for <event_attendees>:  <event_attendees.candidates>. Whom did you want to invite?,
+,,,,,,Which <event_attendees> do you mean? I see these in your contacts: <event_attendees.candidates> ,
+,,,,,,There's more than one person with the name <event_attendees>. Which one of these is right?  <event_attendees.candidates>,
+,,,,,,Sorry I can't find that name in your contacts.  Can you try a different name?,
+,,,,,,I don't see the contact name you mentioned. Can you give me a valid name?,
+,,,,,,That name doesn't seem to be in your contacts. Can you tell me a valid name to look for?,
+,90,event_date,None,event_date,None,What's the date for your event?,
+,,,,,,What's the date?,
+,,,,,,For which day?,
+,,,,,,Can you give me a date,
+,,,,,,What's the date of your event?,
+,,,,,,For what day?,
+,85,event_date,event_date,None,None,Please tell me a valid date,
+,,,,,,"I didn't get that, can you give me a valid date?",
+,,,,,,I need a valid date for your event.,
+,,,,,,"Hmm, can we try again? Please give me a valid date.",
+,80,event_time,None,event_time,None,What time should the event be scheduled?,
+,,,,,,What time is your event?,
+,,,,,,What time will your event be?,
+,,,,,,And what time?,
+,,,,,,What time is it for?,
+,75,event_time,event_time,None,None,Please tell me a valid time,
+,,,,,,I missed what you said. Please give me a time for your event.,
+,,,,,,"I didn't understand that, can you give me a valid time?",
+,70,event_title,None,event_title,None,What is the event title?,
+,,,,,,What should the event be called?,
+,,,,,,What's the title of your event?,
+,,,,,,What should I name your event?,
+,,,,,,Can I have a name for your event?,
+,60,none,None,event_attendees,event_date && event_time && event_title,Saving this to your calendar.,
+,,,,,,Your event is saved!,
+,,,,,,I've saved your event,
+,,,,,,I've penciled in your event.,
+,55,event_confirmation,None,event_confirmation,event_date && event_time && event_title && event_attendees,Would you like to send this event?,
+,,,,,,Are you ready to send this event?,
+,,,,,,Shall I send this event?,
+,50,event_confirmation,event_confirmation,None,event_date && event_time && event_title && event_attendees,Please confirm with yes or no.,
+,,,,,,I didn't catch that. Please tell me yes or no.,
+,,,,,,Was that a yes or no?,
+,,,,,,Just say yes or no,
+,,,,,,Say yes or no to confirm your event.,
+,45,none,None,None,event_date && event_time && event_title && event_attendees && event_confirmation,Sending your event.,"[('event_confirmation','yes')]"
+,,,,,,"OK, event sent.",
+,,,,,,I've shared your event.,
+,,,,,,Your event has been sent!,
+,40,none,None,None,event_date && event_time && event_title && event_attendees && event_confirmation,"OK, event canceled.","[('event_confirmation','no')]"
+,,,,,,"Alright, I've canceled your event.",
+,,,,,,"Sure, event canceled.",
+calendar_show_event,100,none,None,None,email_error,You don't have any contacts in your account. You'll need to add some.,
+,100,None,None,None,skill_exception,"Sorry, Couldn't complete the action. Please try again later","[('skill_exception', '999')]"
+,100,None,None,None,skill_exception,"Date or Time format is wrong.","[('skill_exception', '1000')]"
+,100,None,None,None,skill_exception,"Unable to send event.Could not find email address.Please try again later.","[('skill_exception', '1001')]"
+,100,None,None,None,skill_exception,"Ok event creation canceled.","[('skill_exception', '1005')]"
+,99,None,None,None,skill_exception,"Couldn't Complete the action. Please try again later.",None
+,98,None,None,None,skill_response,<skill_response>,None
+,95,none,event_date,None,None,Which date did you say?,
+,,,,,,I'm having trouble understanding. Please tell me a proper date.,
+,,,,,,For which date?,
+,90,none,None,None,event_date,Let me see what you have scheduled for <event_date>,
+,,,,,,Checking your schedule for <event_date>,
+,,,,,,Pulling up your calendar.,
+,85,none,none,none,event_title,Searching your calendar for <event_title>,
+,,,,,,Let me check for you.,
+,,,,,,One moment as I check for you.,
+,80,none,event_attendee,none,none,I can't find that name in your contacts. Can  you provide another name?,
+,,,,,,"Sorry, I don't see that contact. Can you provide a valid name?",
+,75,none,none,none,event_attendee,Searching for events with <event_attendee>,
+,,,,,,"One moment, let me check",
+,,,,,,Checking your calendar,
+,70,none,None,None,None,Here's your schedule,
+,,,,,,Let me check your schedule,
+,,,,,,Checking your calendar,
+calendar_check_event,100,none,None,None,email_error,You don't have any contacts in your account. You'll need to add some.,
+,100,None,None,None,skill_exception,"Sorry, Couldn't complete the action. Please try again later","[('skill_exception', '999')]"
+,100,None,None,None,skill_exception,"Date or Time format is wrong.","[('skill_exception', '1000')]"
+,100,None,None,None,skill_exception,"Unable to send event.Could not find email address.Please try again later.","[('skill_exception', '1001')]"
+,100,None,None,None,skill_exception,"Ok event creation canceled.","[('skill_exception', '1005')]"
+,99,None,None,None,skill_exception,"Couldn't Complete the action. Please try again later.",None
+,98,None,None,None,skill_response,<skill_response>,None
+,97,event_date,None,event_date && event_time,None,For which day?,
+,,,,,,Tell me the date you want,
+,,,,,,Which date are you checking for?,
+,,,,,,For what day?,
+,95,event_date,event_date,None,None,Can you tell me a valid date?,
+,,,,,,Please tell me a valid date. ,
+,,,,,,I'll need a valid date.,
+,90,event_time,event_time,None,None,At which time?,
+,,,,,,What time of day?,
+,,,,,,What time should I check for?,
+,85,none,None,None,event_date && event_time,Here's your schedule,
+,,,,,,Here's what you've got,
+,,,,,,Checking your calendar,
+,,,,,,Let's see,
+,,,,,,Let me check real quick,
+,,,,,,One moment,
+,80,none,None,None,event_date,Let me check,
+,,,,,,Checking your schedule for <event_date>,
+,,,,,,Looking up your <event_date>,
+,75,none,None,None,event_time,Checking for <event_time>,
+,,,,,,I'll check your calendar,
+,,,,,,Looking at <event_time>,
+

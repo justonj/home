@@ -1,0 +1,21 @@
+{
+  "intent": "proactive_hints",
+  "fields": {
+    "hints": {
+      "name": "hints for you",
+      "type": "list",
+      "items": [
+        {
+          "name": "Van Morrison Announces New Album 'Versatile'",
+          "type": "news_item",
+          "source": "Rolling Stone",
+          "image_url": "",
+          "card_token": "2b1dfded-5d94-4478-9651-cdec01852097",
+          "article_url": "",
+          "description": "Van Morrison announced...",
+          "published_at": "2017-11-06T10:01:27.000+00:00"
+        }
+      ]
+    }
+  }
+}

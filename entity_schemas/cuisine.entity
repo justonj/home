@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "name": "text",
+    "category": "text",
+    "type": "text"
+  },
+  "factory_class": "db",
+  "table_name": "cuisines",
+  "key_column_name": "name",
+  "text_columns": [0],
+  "entity_response_columns": ["name", "category"]
+}

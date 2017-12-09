@@ -1,0 +1,280 @@
+sports_team,Alias,league,id,gn_id
+Bills,Buf,NFL,324,12
+Dolphins,Mia,NFL,345,9
+Patriots,NE,NFL,348,18
+Jets,NYJ,NFL,352,25
+Broncos,Den,NFL,332,21
+Chiefs,KC,NFL,339,3
+Raiders,Oak,NFL,341,26
+Chargers,SD,NFL,357,11
+Ravens,Bal,NFL,366,24
+Bengals,Cin,NFL,327,20
+Browns,Cle,NFL,329,21
+Steelers,Pit,NFL,356,14
+Texans,Hou,NFL,325,32
+Colts,Ind,NFL,338,13
+Jaguars,Jax,NFL,365,30
+Titans,Ten,NFL,336,10
+Cowboys,Dal,NFL,331,28
+Giants,NYG,NFL,351,8
+Eagles,Phi,NFL,354,7
+Redskins,Was,NFL,363,27
+Cardinals,Ari,NFL,355,23
+Rams,LA,NFL,343,22
+49ers,SF,NFL,359,5
+Seahawks,Sea,NFL,361,19
+Bears,Chi,NFL,326,16
+Lions,Det,NFL,334,1
+Packers,GB,NFL,335,17
+Vikings,Min,NFL,347,6
+Falcons,Atl,NFL,323,2
+Panthers,Car,NFL,364,29
+Saints,NO,NFL,350,4
+Buccaneers,TB,NFL,362,15
+Bucs,TB,NFL,362,15
+Buffalo Bills,Buf,NFL,324,12
+Miami Dolphins,Mia,NFL,345,9
+New England Patriots,NE,NFL,348,18
+New York Jets,NYJ,NFL,352,25
+Denver Broncos,Den,NFL,332,19
+Kansas City Chiefs,KC,NFL,339,3
+Oakland Raiders,Oak,NFL,341,26
+San Diego Chargers,SD,NFL,357,11
+Baltimore Ravens,Bal,NFL,366,24
+Cincinnati Bengals,Cin,NFL,327,20
+Cleveland Browns,Cle,NFL,329,31
+Pittsburgh Steelers,Pit,NFL,356,14
+Houston Texans,Hou,NFL,325,32
+Indianapolis Colts,Ind,NFL,338,13
+Jacksonville Jaguars,Jax,NFL,365,30
+Tennessee Titans,Ten,NFL,336,10
+Dallas Cowboys,Dal,NFL,331,28
+New York Giants,NYG,NFL,351,8
+Philadelphia Eagles,Phi,NFL,354,7
+Washington Redskins,Was,NFL,363,27
+Arizona Cardinals,Ari,NFL,355,23
+Los Angeles Rams,LA,NFL,343,22
+San Francisco 49ers,SF,NFL,359,5
+Seattle Seahawks,Sea,NFL,361,19
+Chicago Bears,Chi,NFL,326,16
+Da Bears,Chi,NFL,326,16
+Detroit Lions,Det,NFL,334,1
+Green Bay Packers,GB,NFL,335,17
+Minnesota Vikings,Min,NFL,347,6
+Atlanta Falcons,Atl,NFL,323,2
+Carolina Panthers,Car,NFL,364,29
+New Orleans Saints,NO,NFL,350,4
+Tampa Bay Buccaneers,TB,NFL,362,15
+Celtics,Bos,NBA,2,404169
+Nets,Bkn,NBA,17,404117
+Knicks,NY,NBA,18,404288
+76ers,Phi,NBA,20,404083
+Raptors,Tor,NBA,28,404330
+Bulls,Chi,NBA,4,404198
+Cavaliers,Cle,NBA,5,404213
+Pistons,Det,NBA,8,404153
+Pacers,Ind,NBA,11,404155
+Bucks,Mil,NBA,15,404011
+Hawks,Atl,NBA,1,404085
+Hornets,Cha,NBA,5312,664421
+Heat,Mia,NBA,14,404171
+Magic,Orl,NBA,19,404013
+Wizards,Was,NBA,27,404067
+Warriors,GS,NBA,9,404119
+Clippers,LAC,NBA,12,404135
+Lakers,LAL,NBA,13,403977
+Suns,Pho,NBA,21,404029
+Kings,Sac,NBA,23,403975
+Mavericks,Dal,NBA,6,404047
+Rockets,Hou,NBA,10,404137
+Grizzlies,Mem,NBA,29,404049
+Pelicans,NO,NBA,3,404101
+Spurs,SA,NBA,24,404302
+Nuggets,Den,NBA,7,404065
+Timberwolves,Min,NBA,16,403995
+Thunder,OKC,NBA,25,404316
+Trail Blazers,Por,NBA,22,403993
+Jazz,Uta,NBA,26,404031
+Boston Celtics,Bos,NBA,2,404169
+Brooklyn Nets,Bkn,NBA,17,404117
+New York Knicks,NY,NBA,18,404288
+Philadelphia 76ers,Phi,NBA,20,404083
+Toronto Raptors,Tor,NBA,28,404330
+Chicago Bulls,Chi,NBA,4,404198
+Cleveland Cavaliers,Cle,NBA,5,404213
+Detroit Pistons,Det,NBA,8,404153
+Indiana Pacers,Ind,NBA,11,404155
+Milwaukee Bucks,Mil,NBA,15,404011
+Atlanta Hawks,Atl,NBA,1,404085
+Charlotte Hornets,Cha,NBA,5312,664421
+Miami Heat,Mia,NBA,14,404171
+Orlando Magic,Orl,NBA,19,404013
+Washington Wizards,Was,NBA,27,404067
+Golden State Warriors,GS,NBA,9,404119
+Los Angeles Clippers,LAC,NBA,12,404135
+Los Angeles Lakers,LAL,NBA,13,403977
+LA Clippers,LAC,NBA,12,404135
+LA Lakers,LAL,NBA,13,403977
+Phoenix Suns,Pho,NBA,21,404029
+Sacramento Kings,Sac,NBA,23,403975
+Dallas Mavericks,Dal,NBA,6,404047
+Houston Rockets,Hou,NBA,10,404137
+Memphis Grizzlies,Mem,NBA,29,404049
+New Orleans Pelicans,NO,NBA,3,404101
+San Antonio Spurs,SA,NBA,24,404302
+Denver Nuggets,Den,NBA,7,404065
+Minnesota Timberwolves,Min,NBA,16,403995
+Oklahoma City Thunder,OKC,NBA,25,404316
+Portland Trail Blazers,Por,NBA,22,403993
+Utah Jazz,Uta,NBA,26,404031
+Rockies,Col,MLB,251,2956
+Diamondbacks,Ari,MLB,253,2968
+Dodgers,LAD,MLB,243,2967
+Padres,SD,MLB,249,2955
+Giants,SF,MLB,250,2962
+Marlins,Mia,MLB,252,2963
+Braves,Atl,MLB,239,2957
+Nationals,Was,MLB,244,2972
+Mets,NYM,MLB,245,2964
+Phillies,Phi,MLB,246,2958
+Brewers,Mil,MLB,232,2976
+Cubs,ChC,MLB,240,2982
+Reds,Cin,MLB,241,2961
+Pirates,Pit,MLB,247,2971
+Cardinals,StL,MLB,248,2975
+Rays,TB,MLB,254,2960
+Orioles,Bal,MLB,225,2959
+Red Sox,Bos,MLB,226,2966
+Yankees,NYY,MLB,234,2970
+Blue Jays,Tor,MLB,238,2984
+Angels,LAA,MLB,227,2979
+Athletics,Oak,MLB,235,2969
+Mariners,Sea,MLB,236,2973
+Rangers,Tex,MLB,237,2977
+Astros,Hou,MLB,242,2981
+White Sox,CWS,MLB,228,2974
+Indians,Cle,MLB,229,2980
+Tigers,Det,MLB,230,2978
+Royals,KC,MLB,231,2965
+Twins,Min,MLB,233,2983
+Colorado Rockies,Col,MLB,251,2956
+Arizona Diamondbacks,Ari,MLB,253,2968
+Los Angeles Dodgers,LAD,MLB,243,2967
+LA Dodgers,LAD,MLB,243,2967
+San Diego Padres,SD,MLB,249,2955
+San Francisco Giants,SF,MLB,250,2962
+Miami Marlins,Mia,MLB,252,2963
+Atlanta Braves,Atl,MLB,239,2957
+Washington Nationals,Was,MLB,244,2972
+New York Mets,NYM,MLB,245,2964
+Philadelphia Phillies,Phi,MLB,246,2958
+Milwaukee Brewers,Mil,MLB,232,2976
+Chicago Cubs,ChC,MLB,240,2982
+Cincinnati Reds,Cin,MLB,241,2961
+Pittsburgh Pirates,Pit,MLB,247,2971
+St Louis Cardinals,StL,MLB,248,2975
+Tampa Bay Rays,TB,MLB,254,2960
+Baltimore Orioles,Bal,MLB,225,2959
+Boston Red Sox,Bos,MLB,226,2966
+New York Yankees,NYY,MLB,234,2970
+Toronto Blue Jays,Tor,MLB,238,2984
+Los Angeles Angels,LAA,MLB,227,2979
+Oakland Athletics,Oak,MLB,235,2969
+Seattle Mariners,Sea,MLB,236,2973
+Texas Rangers,Tex,MLB,237,2977
+Houston Astros,Hou,MLB,242,2981
+Chicago White Sox,CWS,MLB,228,2974
+Cleveland Indians,Cle,MLB,229,2980
+Detroit Tigers,Det,MLB,230,2978
+Kansas City Royals,KC,MLB,231,2965
+Minnesota Twins,Min,MLB,233,2983
+Arsenal,ARS,EPL,6145,569
+Gunners,ARS,EPL,6145,569
+Bournemouth,BOU,EPL,8260,2276
+Burnley,BUR,EPL,8240,2199
+Chelsea,CHE,EPL,6159,580
+Crystal Palace,CRY,EPL,7131,2139
+Everton,EVE,EPL,6149,568
+Hull City,HUL,EPL,7145,2138
+Leicester City,LEI,EPL,7127,2198
+Liverpool,LIV,EPL,6140,565
+Manchester City,MCI,EPL,6158,573
+Manchester United,MUN,EPL,6157,562
+Red Devils,MUN,EPL,6157,562
+Man U,MUN,EPL,6157,562
+Middlesbrough,MID,EPL,6146,2294
+Southampton,SOU,EPL,7128,2108
+Stoke City,STK,EPL,8246,578
+Sunderland,SUN,EPL,7129,575
+Swansea City,SWA,EPL,8248,675
+Tottenham Hotspur,TOT,EPL,6154,564
+Spurs,TOT,EPL,6154,564
+Tottenham,TOT,EPL,6154,564
+Watford,WAT,EPL,6148,2275
+West Bromwich Albion,WBA,EPL,7139,665
+West Brom,WBA,EPL,7139,665
+Bromwich Albion,WBA,EPL,7139,665
+West Ham United,WHU,EPL,6143,571
+West Ham,WHU,EPL,6143,571
+Senators,OTT,NHL,,9
+Sabres,BUF,NHL,,10
+Canadiens,MON,NHL,,11
+Bruins,BOS,NHL,,3
+Panthers,FLA,NHL,,14
+Maple Leafs,TOR,NHL,,8
+Lightning,TB,NHL,,17
+Red Wings,DET,NHL,,2
+Rangers,NYR,NHL,,6
+Penguins,PIT,NHL,,7
+Hurricanes,CAR,NHL,,5
+Flyers,PHI,NHL,,12
+Islanders,NYI,NHL,,4
+Devils,NJ,NHL,,13
+Capitals,WAS,NHL,,15
+Blue Jackets,CLB,NHL,,30
+Blackhawks,CHI,NHL,,22
+Predators,NAS,NHL,,27
+Jets,WIN,NHL,,28
+Wild,MIN,NHL,,29
+Blues,STL,NHL,,16
+Avalanche,COL,NHL,,1
+Stars,DAL,NHL,,20
+Flames,CAL,NHL,,18
+Ducks,ANA,NHL,,25
+Coyotes,ARI,NHL,,19
+Oilers,EDM,NHL,,24
+Canucks,VAN,NHL,,26
+Kings,LA,NHL,,23
+Sharks,SJ,NHL,,21
+Ottawa Senators,OTT,NHL,,9
+Buffalo Sabres,BUF,NHL,,10
+Montreal Canadiens,MON,NHL,,11
+Boston Bruins,BOS,NHL,,3
+Florida Panthers,FLA,NHL,,14
+Toronto Maple Leafs,TOR,NHL,,8
+Tampa Bay Lightning,TB,NHL,,17
+Detroit Red Wings,DET,NHL,,2
+NY Rangers,NYR,NHL,,6
+New York Rangers,NYR,NHL,,6
+Pittsburgh Penguins,PIT,NHL,,7
+Carolina Hurricanes,CAR,NHL,,5
+Philadelphia Flyers,PHI,NHL,,12
+NY Islanders,NYI,NHL,,4
+New York Islanders,NYI,NHL,,4
+New Jersey Devils,NJ,NHL,,13
+Washington Capitals,WAS,NHL,,15
+Columbus Blue Jackets,CLB,NHL,,30
+Chicago Blackhawks,CHI,NHL,,22
+Nashville Predators,NAS,NHL,,27
+Winnipeg Jets,WIN,NHL,,28
+Minnesota Wild,MIN,NHL,,29
+St Louis Blues,STL,NHL,,16
+Colorado Avalanche,COL,NHL,,1
+Dallas Stars,DAL,NHL,,20
+Calgary Flames,CAL,NHL,,18
+Anaheim Ducks,ANA,NHL,,25
+Arizona Coyotes,ARI,NHL,,19
+Edmonton Oilers,EDM,NHL,,24
+Vancouver Canucks,VAN,NHL,,26
+Los Angeles Kings,LA,NHL,,23
+San Jose Sharks,SJ,NHL,,21

@@ -1,0 +1,21 @@
+{
+  "id": "calendar_check_event",
+  "fields": [
+
+    {"id": "event_date",
+      "type": "datetime_range",
+      "synth_type": "common_date",
+      "mturk_field": "calendarDate"
+    },
+    {"id": "event_time",
+      "type": "time",
+      "synth_type": "common_time",
+      "mturk_field": "calendarTime"
+    }
+  ],
+  "mturk_response_fields": ["calendarCheckEvent"],
+  "data_synthesis": {
+    "sample_size": 700,
+    "context_trigger_ratio": 0.25
+  }
+}

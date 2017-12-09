@@ -1,0 +1,40 @@
+{
+    "sub_types" : [
+        {
+            "type" : "airport",
+            "ratio" : 10
+        },
+        {
+            "type" : "art_gallery",
+            "ratio" : 10
+        },
+        {
+            "type" : "bank",
+            "ratio": 10
+        },
+        {
+            "type" : "hotel",
+            "ratio": 10
+        },
+        {
+            "type" : "neighborhood",
+            "ratio": 10
+        },
+        {
+            "type" : "restaurant",
+            "ratio": 10
+        },
+        {
+            "type" : "restaurant_chain",
+            "ratio": 10
+        },
+        {
+            "type" : "shopping_mall",
+            "ratio": 10
+        },
+        {
+            "type" : "customlocation",
+            "ratio": 10
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": {
+      "audio_url": "text",
+      "background_image_url": "text",
+      "clip_duration": "number",
+      "name": "text",
+      "card_token": "text",
+      "type": "text"
+  }
+}

@@ -1,0 +1,28 @@
+{
+     "model_id": "intent_classifier",
+     "scope": "classify",
+     "architecture": "intent_classifier",
+     "evaluator": "classifier",
+     "segmentation_config": {"name":"intents",
+       "field": "labels",
+       "values":["*"],
+       "false_field": "no_intent_found"
+     },
+     "sources": {
+         "directories": ["*"],
+         "files": ["*"],
+         "database": {}
+      },
+      "serialization_fields":["model", "weights"],
+      "maps": ["token-ids", "classifier_labels"],
+      "language": "en",
+      "dialogue_state_filed_name": "intent",
+      "training_config": {
+           "initial_lr": 0.01,
+           "activation": "tanh",
+           "batch_size": 750,
+           "shuffle": true,
+           "epochs": 20,
+           "callbacks": ["TensorBoardCB", "history"]
+       }
+}

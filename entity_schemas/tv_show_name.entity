@@ -1,0 +1,19 @@
+{
+  "schema": {
+    "gracenote_name": "text",
+    "name": "text",
+    "type": "text"
+  },
+  "factory_class": "db",
+  "table_name": "tv_show_names",
+  "key_column_name": "tv_show_name",
+  "text_columns": [0],
+  "entity_response_columns": ["tv_show_name", "gracenote_name"],
+  "context_resolution_triggers": [
+    "it", "this", "that", "show", "program",
+    "this show", "this tv show", "this program", "this tv program",
+    "that show", "that tv show", "that program", "that tv program",
+    "the show", "the tv show", "the program", "the tv program"
+  ],
+  "enable_context_list_triggers": true
+}

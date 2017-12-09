@@ -1,0 +1,37 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.15,
+        "sample_size": 1250
+    },
+    "fields": [
+        {
+            "black_list": [
+                "hungry"
+            ],
+            "id": "location",
+            "mturk_field": "RestaurantSearchLocation",
+            "synth_type": "neighborhood_type",
+            "type": "address"
+        },
+        {
+            "id": "cuisine",
+            "mturk_field": "RestaurantSearchCuisine",
+            "type": "cuisine"
+        },
+        {
+            "id": "price",
+            "mturk_field": "RestaurantSearchPrice",
+            "type": "text"
+        },
+        {
+            "id": "sort_by",
+            "mturk_field": "RestaurantSearchSortBy",
+            "type": "text"
+        }
+    ],
+    "id": "restaurant_search",
+    "mturk_additional_info_fields": [],
+    "mturk_response_fields": [
+        "RestaurantSearchResponse"
+    ]
+}

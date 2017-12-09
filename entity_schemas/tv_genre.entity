@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text",
+    "gracenote_name": "text"
+  },
+  "factory_class": "db",
+  "table_name": "tv_genres",
+  "key_column_name": "tv_genre",
+  "text_columns": [0],
+  "entity_response_columns": ["tv_genre", "gracenote_name"]
+}

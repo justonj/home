@@ -1,0 +1,42 @@
+version: "2"
+services:
+  nlu:
+    build: .
+    environment:
+      - LC_ALL=C.UTF-8
+      - LC_CTYPE=C.UTF-8
+      - PYTHONIOENCODING=utf-8
+      - POSTGRES_HOST=db
+    volumes:
+      - ../nlu:/nlu
+      - .:/nlu/nlu_applications/aneeda
+      - ./config/default.yaml:/nlu/config/setup.yaml
+    links:
+      - db
+      - redis
+    command:
+      - ./init_application.sh
+    ports:
+      - "8080:8080"
+  db:
+    image: quay.io/iamplus/nlu-postgres-docker:master
+    environment:
+      - NLU_DB=nlu
+      - APP_DB=aneeda
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_USER=iamplus_dev
+      - POSTGRES_DB=nlu
+      - MONITOR_USER=iamplus_read_only
+      - MONITOR_PASSWORD=iampassword
+      - TEST_DB=iamplus_test
+      - TEST_APP_DB=test_app
+      - TEST_USER=iamplus_test
+      - TEST_PASSWORD=password
+    ports:
+      - "5432:5432"
+    restart: "always"
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+    restart: "always"

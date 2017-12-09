@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "name": "text",
+    "value": "text",
+    "type": "text"
+  },
+  "factory_class": "db",
+  "table_name": "call_history_type",
+  "key_column_name": "call_history_type",
+  "text_columns": [0],
+  "entity_response_columns": ["call_history_type", "value"]
+}

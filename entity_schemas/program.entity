@@ -1,0 +1,13 @@
+{
+  "schema": {
+    "tv_show_name": "tv_show_name",
+    "cast": "text",
+    "description": "text",
+    "extra_data": "object",
+    "card_token": "text",
+    "type": "text",
+    "name": "text"
+  },
+  "optional": ["cast", "description"],
+  "enable_context_list_triggers": true
+}

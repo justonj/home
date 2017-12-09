@@ -1,0 +1,21 @@
+{
+  "intent":"",
+  "fields": {
+	  "volume_incremental" :{
+		  "name": "2",
+		  "user_input": "2",
+		  "type": "number"
+	  },
+	  "volume_down":{
+		  "name": "decrease",
+		  "type": "text",
+		  "user_input": "decrease"
+	  },
+	  "volume_control":{
+		  "name": "2.0",
+		  "option": 2,
+		  "progress": 0,
+		  "type": "volume_control"
+	  }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "id": "control_stop",
+  "fields": [
+    {
+      "id": "skill",
+      "type": "control_action"
+    }
+  ]
+}

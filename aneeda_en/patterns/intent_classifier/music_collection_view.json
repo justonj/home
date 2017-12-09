@@ -1,0 +1,12 @@
+{
+  "intent_name": "music_collections_view",
+
+  "patterns": {
+  },
+
+  "entities": {
+    "song": [],
+    "album": [],
+    "artist":[]
+  }
+}

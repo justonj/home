@@ -1,0 +1,36 @@
+{
+  "id": "music_info_concerts",
+  "fields": [
+    {
+      "id": "artist",
+      "type": "music_artist",
+      "mturk_field": "MusicInfoConcertsArtist"
+    },
+    {
+      "id": "location",
+      "type": "address",
+      "synth_type": "city_type",
+      "mturk_field": "MusicInfoConcertsLocation"
+    },
+    {
+      "id": "venue",
+      "type": "text"
+    },
+    {
+      "id": "date",
+      "type": "DateTime",
+      "synth_type": "common_date",
+      "mturk_field": "MusicInfoConcertsDate"
+    },
+    {
+      "id": "concerts",
+      "type": "list",
+      "item_types": ["music_concert"]
+    }
+  ],
+  "mturk_response_fields": ["MusicInfoConcertsResponse"],
+  "data_synthesis": {
+    "sample_size": 1250,
+    "context_trigger_ratio": 0.415
+  }
+}

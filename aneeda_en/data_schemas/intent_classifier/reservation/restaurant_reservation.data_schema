@@ -1,0 +1,29 @@
+{
+  "id": "restaurant_reservation",
+  "fields": [
+    {"id": "venue",
+      "type": "local_business",
+      "mturk_field": "MakeResVenue"
+    },
+    {"id": "date",
+      "type": "date",
+      "synth_type": "common_event_date",
+      "synth_type_params": {"past": false, "present": true, "future": true},
+      "mturk_field": "MakeResDate"
+    },
+    {"id": "time",
+      "type": "time",
+      "synth_type": "common_time",
+      "mturk_field": "MakeResTime"
+    },
+    {"id": "num_people",
+      "type": "number",
+      "mturk_field": "MakeResPeople"
+    }
+  ],
+  "mturk_response_fields": ["MakeResQuery1"],
+  "data_synthesis": {
+    "sample_size": 750,
+    "context_trigger_ratio": 0.3
+  }
+}

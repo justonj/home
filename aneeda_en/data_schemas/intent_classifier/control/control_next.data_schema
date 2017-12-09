@@ -1,0 +1,15 @@
+{
+  "id": "control_next",
+  "fields": [
+    {
+      "id": "skill",
+      "type": "control_action",
+      "mturk_field": "ControlNextSkill"
+    }
+  ],
+  "mturk_response_fields": ["ControlNextResponse"],
+  "data_synthesis": {
+    "sample_size": 300,
+    "context_trigger_ratio": 0.1
+  }
+}

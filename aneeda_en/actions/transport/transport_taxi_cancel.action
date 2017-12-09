@@ -1,0 +1,15 @@
+{
+  "id": "transport_taxi_cancel",
+  "fields": [
+      {
+        "id": "taxi_service_id",
+        "type": "transport_taxi_service_type",
+        "must_resolve" : true
+      },
+      {
+        "id": "cancel_confirmation",
+        "type": "yes_no",
+        "must_resolve": true
+      }
+  ]
+}

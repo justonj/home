@@ -1,0 +1,34 @@
+{
+    "id": "correction",
+    "fields": [
+        {
+            "id": "new_value",
+            "type": "text"
+        },
+        {
+            "id": "candidate_value",
+            "type": "text"
+        },
+        {
+            "id": "old_value",
+            "type": "text"
+        },
+        {
+            "id":"prev_intent",
+            "type":"text"
+        },
+        {
+            "id": "correction_fields",
+            "type": "list",
+            "item_types": ["correction_field"]
+        },
+        {
+            "id": "corrected_field",
+            "type": "correction_field"
+        },
+        {
+            "id":"value_changed",
+            "type":"boolean"
+        }
+    ]
+}

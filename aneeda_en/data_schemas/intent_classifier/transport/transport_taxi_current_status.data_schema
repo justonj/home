@@ -1,0 +1,21 @@
+{
+  "id": "transport_taxi_current_status",
+  "fields": [
+    {"id": "taxi_service_id",
+      "type": "transport_taxi_service_type",
+      "synth_type": "uber_type",
+      "mturk_field": "TransportTaxiCurrentStatusType"
+    },
+    {
+    "id": "origin",
+    "type": "custom_location_type",
+    "synth_type": "sample_address",
+    "mturk_field": "TransportTaxiCurrentStatusArrivalTimeOrigin"
+    }
+  ],
+  "mturk_response_fields": ["TransportTaxiCurrentStatusQ"],
+  "data_synthesis": {
+    "sample_size": 900,
+    "context_trigger_ratio": 0.386
+  }
+}

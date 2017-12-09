@@ -1,0 +1,16 @@
+{
+  "intent":"",
+  "fields": {
+	  "volume_min" :{
+		  "name": "minimum",
+		  "user_input": "minimum",
+		  "type": "text"
+	  },
+	 "volume_control":{
+		  "name": "1.0",
+		  "option": 3,
+		  "progress": 0,
+		  "type": "volume_control"
+	  }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "intent_name": "music_play",
+
+  "config": {
+    "initial_lr": 0.00025
+  },
+
+  "patterns": {
+    "play x_by_y": {"query": "play <album|song> by <artist>",
+      "config": {
+        "initial_lr": 0.00025,
+        "sample_size": 500
+      },
+      "used_fields": ["album", "song", "artist"]
+    },
+    "play x": {"query": "play <album|artist|song>",
+      "config": {
+        "initial_lr": 0.00325,
+        "sample_size": 500
+      },
+      "used_fields": ["album", "artist", "song"]
+    },
+    "play_x's y's":{"query": "play <artist>'s <song>",
+      "config": {
+        "sample_size": 500
+      },
+      "used_fields": ["album", "artist", "song"]
+    },
+    "play some x y music ":{"query": "play some <era> <genre> music",
+      "config": {
+        "sample_size": 500
+      },
+      "used_fields": ["era", "genre"]
+    },
+    "can you play x ":{"query": "can you play <artist>",
+      "config": {
+        "sample_size": 500
+      },
+      "used_fields": ["artist"]
+    }
+  },
+
+  "entities": {
+    "song": ["what's love got to do with it", "billie Jean", "thriller", "rock with you"],
+    "album": ["thriller", "bad", "off the wall"],
+    "artist":["michael jackson", "will.i.am"]
+  }
+}

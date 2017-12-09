@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "transport_context_uber": "text",
+    "name": "text",
+    "type": "text"
+  },
+  "value_field": "name",
+  "factory_class": "generic_db",
+  "table_name": "transport_context_uber",
+  "key_column_name": "transport_context_uber",
+  "entity_response_columns": ["transport_context_uber", "name"]
+}

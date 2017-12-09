@@ -1,0 +1,55 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0,
+        "sample_size": 2000
+    },
+    "fields": [
+        {
+            "id": "artist",
+            "mturk_field": "MusicReplayArtist",
+            "type": "music_artist"
+        },
+        {
+            "id": "album",
+            "mturk_field": "MusicReplayAlbum",
+            "type": "music_album"
+        },
+        {
+            "alias_for": [
+                "album",
+                "artist"
+            ],
+            "id": "album_artist",
+            "mturk_field": "MusicReplayAlbumArtist",
+            "type": "alias"
+        },
+        {
+            "id": "collection",
+            "mturk_field": "MusicReplayCollection",
+            "type": "music_collection"
+        },
+        {
+            "id": "time_range",
+            "mturk_field": "MusicReplayTimeRange",
+            "type": "datetime_range"
+        },
+        {
+            "id": "tracks",
+            "item_types": [
+                "music_track"
+            ],
+            "type": "list"
+        },
+        {
+            "id": "other_tracks",
+            "item_types": [
+                "music_track"
+            ],
+            "type": "list"
+        }
+    ],
+    "id": "music_replay",
+    "mturk_response_fields": [
+        "MusicReplayQuery"
+    ]
+}

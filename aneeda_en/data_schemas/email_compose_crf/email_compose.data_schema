@@ -1,0 +1,45 @@
+{
+    "data_synthesis": {
+        "context_trigger_ratio": 0.25,
+        "sample_size": 2000
+    },
+    "fields": [
+        {
+            "id": "email_body",
+            "mturk_field": "emailBody",
+            "type": "text"
+        },
+        {
+            "id": "email_subject",
+            "mturk_field": "emailSubject",
+            "type": "text"
+        },
+        {
+            "id": "email_contact",
+            "mturk_field": "emailContact",
+            "synth_type": "contact_name",
+            "type": "user_email_contacts"
+        },
+        {
+            "id": "email_from_account",
+            "mturk_field": "emailFrom",
+            "synth_type": "synth_email_provider",
+            "type": "skill_name"
+        },
+        {
+            "id": "email_contactCC",
+            "mturk_field": "emailContactCC",
+            "synth_type": "contact_name",
+            "type": "user_email_contacts"
+        },
+        {
+            "id": "email_confirmation",
+            "mturk_field": "emailConfirmation",
+            "type": "yes_no"
+        }
+    ],
+    "id": "email_compose",
+    "mturk_response_fields": [
+        "emailCompose"
+    ]
+}

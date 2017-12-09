@@ -1,0 +1,10 @@
+{
+  "context": "news",
+  "classes":
+  [
+    {"grammar_class": "ADJ", "values":["happening", "new", "latest", "breaking", "hot off the press"]},
+    {"grammar_class": "ADJ","values":["important", "impactful", "can't miss", "urgent", "major"]},
+    {"grammar_class": "NOUN", "values":["story", "scoop", "gossip"]},
+    {"grammar_class": "IDIOM", "values": ["tell me ", "report", "fill me in on", "update me on", "what's the down low"]}
+  ]
+}

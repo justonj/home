@@ -1,0 +1,22 @@
+{
+	"id": "find_recipe",
+	"fields": [
+		{
+			"id": "recipe_name",
+			"type": "text",
+		  	"mturk_field": "recipe_name"
+		},
+		{
+			"id": "recipe_incl",
+			"type": "text",
+			"mturk_field": "recipe_incl"
+
+		},
+		{
+			"id": "recipe_excl",
+			"type": "text",
+			"mturk_field": "recipe_excl"
+		}
+	],
+	"mturk_response_fields": ["FindRecipe"]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "control_help",
+  "fields": [
+    {
+      "id": "skill",
+      "type": "control_help",
+      "mturk_field": "Skill"
+    }
+  ],
+  "mturk_response_fields": ["HelpQuery"],
+  "data_synthesis": {
+    "sample_size": 300,
+    "context_trigger_ratio": 0.1
+  }
+}

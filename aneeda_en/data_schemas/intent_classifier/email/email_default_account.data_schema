@@ -1,0 +1,9 @@
+{
+  "id": "email_default_account",
+  "fields": [
+    {"id": "email_from_account",
+      "type": "skill_name",
+      "mturk_field": "emailDefaultAccount"}
+  ],
+  "mturk_response_fields": ["emailDefaultQ"]
+}

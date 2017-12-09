@@ -1,0 +1,22 @@
+{
+  "id": "music_artist_summary",
+  "fields": [
+    {
+      "id": "artist",
+      "type": "music_artist"
+    },
+    {
+      "id": "summary",
+      "is_answer": true,
+      "type": "music_artist_summary"
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+	"app_name": "aneeda",
+	"app_version": "v0.9.8-198-gca18487",
+	"debugInfo": {
+		"NLUResponseTime": 1.2305142879486084,
+		"annotationTime": 0.011704444885253906,
+		"classificationTime": 0.09119009971618652,
+		"skillHookTime": 1.0904781818389893
+	},
+	"intent": "news_search"
+	"fields": {
+		"artist_or_topic":{
+			"name": "trump"
+			"type": "alias",
+			"user_input": "trump"
+		},
+		"topic":{
+			"name": "trump"
+			"id": "topic",
+			"type": "news_topic"
+		},
+		"news_listings": {
+			"items": [
+				{
+					"article_url": "http://www.todayonline.com/world/europe/macron-says-was-ready-out-trump-trump-handshake",
+					"description": "A combination photo shows US President Donald Trump (L) trying twice to let go of a handshake with France's President Emmanuel Macron (R) as Macron holds tight, before a working lunch ahead of a NATO Summit in Brussels, Belgium. Photo: Reuters",
+					"image_url": "http://www.todayonline.com/sites/default/files/styles/og_images_meta_property/public/photos/43_images/29777722.JPG?itok=mp3eblTz",
+					"name": "Macron says was ready to out-Trump Trump in handshake",
+					"published_at": "2017-05-29T00:25:17.000+00:00",
+					"source": "Today",
+					"type": "news_item",
+					"value": "Macron says was ready to out-Trump Trump in handshake"
+				},
+				{
+					"article_url": "http://feedproxy.google.com/~r/trdnews/~3/Ly-jI34j55k/148200-trump-soho-suffers-trump-slump-announces-layoffs",
+					"description": "The hotel (where rooms had cost over $700 a night) announced recently that its restaurant Koi is closing. There were a lot of people we had, our regulars, who'd go to the hotel but are not affiliated with Trump,” said Jonathan Grullon, a host at the restaurant, told Grub Street. Now, five months after the election, room prices at the hotel can be had for under $400 a night, according to WNYC. Corporate clients have also abandoned to hotel, according to documents reviewed by WNYC. “I have to believe that a lot of organizations would not want to have meetings at a Trump Hotel just to not have to deal with it.”",
+					"image_url": "http://www.llnyc.com/wp-content/uploads/2017/05/so-push-offers_park-stay.jpg",
+					"name": "Trump Soho suffers Trump slump, announces layoffs",
+					"published_at": "2017-05-27T13:03:14.000+00:00",
+					"source": "The Real Deal",
+					"type": "news_item",
+					"value": "Trump Soho suffers Trump slump, announces layoffs"
+				},
+				{
+					"article_url": "http://www.spokesman.com/stories/2017/may/25/tax-cuts/",
+					"description": "Recently, President Trump's “Biggest Individual and Business Tax Cut in American History” was released on a simple one page sheet. Rather than looking at how it would effect the average taxpayer, let's see how it would effect Trump. On his 2005 return Trump paid $38 million. But, to Trump, assuming he really is worth $11 billion, it is de minimis. Trump's proposal also eliminates the 3.8 percent Affordable Care Acts Medicare tax, the tax on foreign profits of U.S. corporations and the estate tax, which only largest 0.2 percent of estates.",
+					"image_url": "http://media.spokesman.com/img/logos/sr200-tower.png",
+					"name": "Trump plan helps Trump",
+					"published_at": "2017-05-25T15:54:02.000+00:00",
+					"source": "Spokesman Review",
+					"type": "news_item"
+				},
+				{
+					"article_url": "http://www.richmond.com/news/national-world/government-politics/ap/trump-celebrates-student-model-rocket-named-trump/article_4cdd6363-37aa-5273-966b-af0d64027e5e.html",
+					"description": "WASHINGTON (AP) â President Donald Trump is celebrating a student model rocket named after ... him.Trump asked the students from Victory Christian Center School in Charlotte, North Carolina, why the rocket was named for him.A student replied, \"Simply because it conquers all.\" Trump then said \"they're never going to put that on television,\" referring to the reporters who were brought into the Oval Office for the visit.The students are among 100 teams scheduled to compete Saturday in the finals of the Team America Rocketry Challenge, a national competition being held in Northern Virginia.Trump said the rocket \"better work well.\" He also told the students to come back to the White House for a celebration if they win.",
+					"image_url": "http://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/editorial/5/e6/5e6ee120-d9d0-5821-a732-27846f5e987e/5916148c3fb7c.image.jpg?resize=512%2C341",
+					"name": "Trump celebrates student model rocket named ... Trump",
+					"published_at": "2017-05-12T20:09:38.000+00:00",
+					"source": "Richmond",
+					"type": "news_item"
+				},
+				{
+					"article_url": "http://theweek.com/articles/692862/how-trump-trumped-trump",
+					"description": "Along with everything else the election hath wrought, some of the less obvious casualties have been things I never thought I'd lose, like the ability to enjoy purely silly frivolity, or, say, use words without fearing their meanings have been co-opted by another force. \"There are these resonances between the playing-card association and Trump's desired brand, his concept of 'winning,'\" Martin says, referring to the John Oliver bit in which the comedian argues we should use Trump's ancestral name and call him \"Drumpf\" instead of the word so many associate with power and money. \"My instinct is that even though there might be a stronger passion now than with George W. Bush, it's fundamentally about the strength of the core meaning of the word, and the distance of the core meaning of the word from the concepts you associate with the person,\" she explains. \"With trump, you have a less strong core concept and you have a closer relationship between the word and the person.\" Lexicographically, a new trump would be a different word, etymologically distinct, \"but it's not impossible that there would be a verb that would be associated with Donald Trump, meaning, say, 'to unexpectedly win an election.'",
+					"image_url": "http://api.theweek.com/sites/default/files/styles/tw_image_9_4/public/Trumptrumptrump_0.jpg?itok=Ejytlv5q",
+					"name": "How Trump trumped trump",
+					"published_at": "2017-05-11T10:00:34.000+00:00",
+					"source": "The Week",
+					"type": "news_item"
+				},
+				{
+					"article_url": "https://www.fool.com/investing/2017/05/09/trumps-buy-american-plan-has-pipeline-companies-fl.aspx?source=iedfolrf0000001",
+					"description": "Oil has fallen today as it was reported that U.S. crude output rose to 9.29 million barrels per day on average last month, the highest level since August 2015, according to the Energy Information Administration, which is the federal government agency, this is not the French EIA, or whatever. O'Reilly: He is, and he's trying to get our midstream oil pipeline operators to use American steel for all the pipelines. O'Reilly: Being the good old American patriotic boy that I am, I do wonder why U.S. steel companies and component manufacturers don't make these things. O'Reilly: Popping back up north here to Canadian oil sands, Suncor Energy, which is known for being a Canadian oil-sands producer, and Warren Buffett actually used to own shares in the company, I don't think he does anymore. They're looking at deals, basically looking to pick up a few assets in the Canadian oil sands that are basically being sold by other international energy companies that are not domestic in Canada.",
+					"image_url": "https://g.foolcdn.com/assets/images/fool/tmf-logo.png",
+					"name": "Trump's",
+					"published_at": "2017-05-09T18:18:31.000+00:00",
+					"source": "The Motley Fool",
+					"type": "news_item"
+				},
+				{
+					"article_url": "http://rss.cnn.com/~r/rss/cnn_topstories/~3/a6adruPPAWo/sally-yates-hearing-donald-trump-reaction-tweets-murray-ac.cnn",
+					"description": "",
+					"image_url": "http://i2.cdn.cnn.com/cnnnext/dam/assets/170501100421-04-donald-trump-file-0425-super-tease.jpg",
+					"name": "Trump tweets: Russia-Trump collusion a hoax - Video",
+					"published_at": "2017-05-09T02:12:20.000+00:00",
+					"source": "CNN",
+					"type": "news_item"
+				},
+				{
+					"article_url": "http://www.huffingtonpost.com/congresswoman-terri-sewell-/a-healthcare-bill-by-trump-for-trump_b_16473608.html?utm_hp_ref=black-voices&ir=Black+Voices",
+					"description": "The reason the repeal bill is widely disliked among women, rural Americans, and anyone who doesn't spend more time golfing than working is fairly straight forward: It will make health care cost more for less coverage and fewer protections. While the Affordable Care Act (ACA) prohibited insurance groups from raising rates on women in need of maternity and childbirth care, the repeal bill allows states to opt-out of those protections. The new bill gives insurance companies the go-ahead to price women out of health care coverage when they need it most. To make things worse, the GOP health care repeal eliminates essential benefits requirements, allowing insurance companies to provide plans that fail to cover health care options women need. In exchange for eliminating and rationing care for women, rural Americans, and families in need, the GOP health care repeal bill funds a massive tax cut for the wealthiest households.",
+					"image_url": "http://img.huffingtonpost.com/asset/1910_1000/590f89441400000b17f8baa9.jpg",
+					"name": "A Health Care Bill By Trump, For Trump",
+					"published_at": "2017-05-07T22:34:14.000+00:00",
+					"source": "Huffington Post US",
+					"type": "news_item"
+				},
+				{
+					"article_url": "http://thehill.com/homenews/administration/331878-trump-friend-sometimes-trumps-bluster-works",
+					"description": "President Trump's close friend, Christopher Ruddy, in an op-ed Thursday touted the president's leadership style and his accomplishments thus far in office. Sometimes it works,\" Ruddy offered a defense for Trump's style of governing. Ruddy said there have been signs the president's \"antagonistic approach\" toward China has \"opened the door to strategic cooperation\" on the problem of North Korea. The president has also shown he can learn on the job, Ruddy wrote, and has used his office to \"begin changing sclerotic domestic policies and politics.\" At the end of the day, Donald Trump Donald TrumpTrump friend: Sometimes Trump's bluster works Warren: 'I wonder if America will ever be ready for a male president again' Maxine Waters: I'm putting my 'career on the line' to resist Trump MORE is a dealmaker.\"",
+					"image_url": "http://thehill.com/sites/default/files/trumpdonald_042517gn2_lead.jpg",
+					"name": "Trump friend: Sometimes Trump's bluster works",
+					"published_at": "2017-05-04T12:15:35.000+00:00",
+					"source": "Hill",
+					"type": "news_item"
+				}
+			],
+			"type": "list"
+		}],
+	"model_name": "aneeda_en",
+	"query_status": "success",
+	"response": "Here's the latest about trump",
+	"response_code": "0",
+	"response_language": "en",
+	"skill_metadata": [
+		{}
+	],
+	"version": "v0.10.3-20-gd906fe0"
+}

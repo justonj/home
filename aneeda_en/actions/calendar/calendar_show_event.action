@@ -1,0 +1,47 @@
+{
+  "id": "calendar_show_event",
+  "fields": [
+
+    {"id": "event_date",
+      "type": "datetime_range",
+      "must_resolve": true
+    },
+
+    {"id": "event_title",
+      "type": "text",
+      "must_resolve": true
+    },
+
+    {"id": "event_attendee",
+      "type": "user_email_contacts",
+      "must_resolve": true
+    },
+
+
+    {"id": "calendar_upcoming",
+      "type": "upcoming_yn",
+      "must_resolve": true
+    },
+    { "id": "email_error",
+      "type": "error"
+    },
+    {
+      "id": "calendar_events",
+      "is_answer": true,
+      "type": "list",
+      "item_types": ["calendar_event"]
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    },
+    {
+      "id": "skill_response",
+      "type": "text"
+    }
+  ]
+}
