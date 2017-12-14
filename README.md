@@ -55,7 +55,7 @@ e.g. to run just `type_manager_test.py`:
 
 ```docker-compose run nlu test/run -vv test/type_manager_test.py test```
 
-or any other valid command on the PATH of the aneeda container
+or any other valid command on the PATH of this application's container
 
 ### Troubleshooting
 
