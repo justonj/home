@@ -3,7 +3,7 @@ import app_manager
 
 class BlankApplication(app_manager.Application):
     def load_dialog_exit_rules(self):
-        from .dialogue_exit_rules import aneeda_dialogue_exit_rules
+        pass
 
     def load_entities(self):
         from .entities import address
@@ -32,7 +32,8 @@ class BlankApplication(app_manager.Application):
         from .raw_knowledge import build_raw_knowlegde
 
     def load_model_analyzers(self):
-        from .model_analyzers import analyzers
+        pass
+        #from .model_analyzers import analyzers
 
     def load_stratification_filters(self):
         from .stratification_filters import music_filters
