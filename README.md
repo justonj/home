@@ -1,13 +1,13 @@
-## AneedA voice assistant
+## Skeleton NLU Application
 
 ### Docker deploy instructions
 
-AneedA depends on and inherits from the [NLU service|https://github.com/iAmPlus/nlu]. It relies on the [NLU database image|https://github.com/iAmPlus/nlu-postgres-docker] to provide a wrapped blank database instance for data to be loaded.
+This application depends on and inherits from the [NLU Core module](https://github.com/iAmPlus/nlu). It relies on the [NLU database image](https://github.com/iAmPlus/nlu-postgres-docker) to provide a wrapped blank database instance for data to be loaded.
 
 #### Installing Docker locally
 
-[Ubuntu|https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/]
-[OSX|https://www.docker.com/docker-mac]
+[Ubuntu](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+[OSX](https://www.docker.com/docker-mac)
 
 #### Quay.io
 
