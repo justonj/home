@@ -11,22 +11,20 @@ This application depends on and inherits from the [NLU Core module](https://gith
 
 #### Quay.io
 
-Quay.io is our container repository. If you haven't used docker and Quay.io locally before, follow instructions [here|https://iamplus.atlassian.net/wiki/spaces/NE/pages/108958457/Docker+Setup] to authenticate.
+Quay.io is our container repository. If you haven't used docker and Quay.io locally before, follow instructions [here](https://iamplus.atlassian.net/wiki/spaces/NE/pages/108958457/Docker+Setup) to authenticate.
 
 #### Running locally with docker
 
-Use a FRESH CHECKOUT of nlu and aneeda. Check them out under the same directory:
+Use a FRESH CHECKOUT of the NLU core and this application. Check them out under the same directory:
 
 ```
 $PATH_TO_DEV_DIR/nlu
-$PATH_TO_DEV_DIR/aneeda
+$PATH_TO_DEV_DIR/blank
 ```
-
-*DO NOT try to check this out over prior working directories.* There is enough cached state left in the Git repo by prior (local) runs of the NLU and Aneeda that you will encounter all kinds of wild problems; it is *not an efficient use of time* to try to solve them. Please just use a FRESH checkout.
 
 Ensure the env directory is populated with
     - nlu.env (nlu-specific environment)
-    - aneeda.env (aneeda-specific environment)
+    - blank.env (this-application-specific environment)
     - postgres.env (env needed by the postgres image at launch)
 
 Then:
@@ -35,7 +33,7 @@ Then:
 
 docker-compose will bind the NLU to localhost:8080 and you may execute queries of form
 
-```localhost:8080/query?user_id=somebody&text=what%27s%20new%20with%20adele```
+```localhost:8080/query?user_id=somebody&text=what%20time%20is%20it```
 
 #### Applying a Code Change
 
@@ -59,12 +57,6 @@ e.g. to run just `type_manager_test.py`:
 
 or any other valid command on the PATH of the aneeda container
 
-#### Running in Kubernetes
-
-Use the env-appropriate deployment file and your own kubeconfig to launch the service to a cluster:
-
-```kubectl --kubeconfig path/to/your/kubeconfig --namespace $NLU_NAMESPACE create -f deployments/$ENV/aneeda_$env.json```
-
 ### Troubleshooting
 
 make sure supporting containers are up to date with
@@ -73,4 +65,4 @@ make sure supporting containers are up to date with
 
 ### Legacy deploy instructions
 
-Confluence docs are [here|https://iamplus.atlassian.net/wiki/display/NE/NLU+build+process]
+Confluence docs are [here](https://iamplus.atlassian.net/wiki/display/NE/NLU+build+process)
