@@ -1,4 +1,0 @@
-intent_id,priority,awaiting_field,unresolved,missing,present,aneeda_en
-news_search,100,None,None,artist_or_topic,None,Getting the latest from NPR.
-,90,None,None,None,artist_or_topic,Getting you the latest news about <artist_or_topic>
-,105,None,None,artist_or_topic,skill_exception,Sorry. I cant find headline.

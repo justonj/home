@@ -1,9 +1,0 @@
-{
-  "intent":"",
-  "fields": {
-      "skill_exception": {
-        "type": "exception",
-        "name": 207
-      }
-    }
-}

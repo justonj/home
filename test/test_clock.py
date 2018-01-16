@@ -52,6 +52,8 @@ class TestIntents:
 
         for query, tz, expected_output in queries_response:
             print('Query: ', query)
+            print('tz: ', tz)
+            print('expected: ', expected_output)
 
             m.register_uri('GET', TIMEZONE_API, text=tz)
             m.register_uri('GET', GEOCODE_API, text=geocode_response)

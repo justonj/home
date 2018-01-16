@@ -35,7 +35,6 @@
         },
         {
           "long_name": "United Kingdom",
-          "short_name": "GB",
           "types": [
             "country",
             "political"
