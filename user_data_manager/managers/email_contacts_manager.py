@@ -1,4 +1,4 @@
-from nlu.postgres_utils import AppCursor
+from app_manager import get_application
 from nlu.tokenizer import normalize
 from psycopg2.extras import Json
 from nlu_applications.blank.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
@@ -64,14 +64,14 @@ class EmailContactsManager(UserDataManager):
 
     def add_into_database_table(self, user_id, account_type, account_id, search_key, data):
         params = '(userId, accountType, accountId, searchKey, data) values (%s,%s,%s,%s,%s)'
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute(
                 'INSERT INTO user_email_contacts ' + params + 'ON CONFLICT DO NOTHING',
                 [user_id, account_type, account_id, normalize(search_key), Json(data)])
 
     def delete_from_database_table(self, user_id, account_type, account_id):
         params = "WHERE userId = %s and accountType = %s and accountId = %s "
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute(
                 'DELETE FROM user_email_contacts ' + params,
                 [user_id, account_type, account_id])
@@ -99,7 +99,7 @@ class EmailContactsManager(UserDataManager):
             search_text = '%' + contact_name + '%'
             params = ' WHERE userId = %s and accountType = %s and searchKey LIKE %s'
 
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute('SELECT data FROM user_email_contacts' + params, [user_id, account_type, search_text])
             return [dict(row[0]) for row in cur.fetchall()]
 
@@ -108,7 +108,7 @@ class EmailContactsManager(UserDataManager):
           'jsonb_array_elements(t.data -> \'contacts\') ' \
           'item WHERE item -> \'email\' = \'\"{0}\"\';'.format(email_id)
 
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute(cmd, [user_id, account_type])
             return [dict(row[0]) for row in cur.fetchall()]
 
@@ -117,7 +117,7 @@ class EmailContactsManager(UserDataManager):
             return []
         user_id = user_id.lower()
         param = ' WHERE userId = %s'
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute('SELECT DISTINCT accountType FROM user_email_contacts' + param, [user_id])
             return [row[0] for row in cur.fetchall()]
 

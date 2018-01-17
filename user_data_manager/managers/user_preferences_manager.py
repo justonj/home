@@ -1,4 +1,4 @@
-from nlu.postgres_utils import AppCursor
+from app_manager import get_application
 from nlu_applications.blank.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
 import json
 
@@ -23,14 +23,14 @@ class UserPreferencesManager(UserDataManager):
 
     def add_user_preferences_into_table(self, user_id, music_genres, music_artists, nickname, first_name, last_name):
         params = '(user_id, music_genres, music_artists, nickname, first_name, last_name) values (%s,%s,%s,%s,%s,%s)'
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute(
                 'INSERT INTO user_preferences ' + params,
                 [user_id, json.dumps(music_genres), json.dumps(music_artists), nickname, first_name, last_name])
 
     def delete_user_from_user_preferences_table(self, user_id):
         params = "WHERE user_id = %s"
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute(
                 'DELETE FROM user_preferences ' + params,
                 [user_id])
@@ -38,7 +38,7 @@ class UserPreferencesManager(UserDataManager):
     def get_json_for_user_id(self, user_id):
         user_id = user_id.lower()
 
-        with AppCursor() as cur:
+        with get_application().get_app_cursor() as cur:
             cur.execute('SELECT music_genres, music_artists, nickname, first_name, last_name, user_id '
                         'FROM user_preferences WHERE user_id = %s', [user_id])
 
