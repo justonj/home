@@ -1,5 +1,4 @@
-# Fefault configuration for this NLU app
-# Copy this file to config/setup.yaml in the base nlu directory and customize
+# Default configuration for this NLU app
 
 ENVIRONMENT: dev
 APP_NAME: blank
@@ -17,6 +16,7 @@ ENABLE_RESUME_PROMPT: False
 NUM_ENTITY_TRIALS_BEFORE_EXITING_DIALOGUE_STATE: 3
 EXIT_DIALOGUE_ON_STUCK_STATE: False
 ENTITY_PRIORITIZATION_REQUIRE_RESOLVED: False
+STRICT_VALIDATE_ENTITIES: True
 
 # database
 PG_HOST: db
