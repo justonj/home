@@ -38,7 +38,7 @@ class TestIntents:
         assert hasattr(pytest.response_managers, self.model_name)
         self.drm = getattr(pytest.response_managers, self.model_name)
         add_dialogue_rules_from_csv(
-            os.path.join(pytest.TEST_RESPONSES_PATH, 'clock.csv'),
+            os.path.join(pytest.TEST_RESPONSES_PATH, 'clock_time.csv'),
             self.model_name,
             self.drm
         )
