@@ -1,92 +1,92 @@
 {
-    "id": "open_close",
-    "fields": [
-        {
-          "id": "name_1",
-          "type": "text",
-          "mturk_field": "OpenCloseName1"
-        },
-        {
-          "id": "group_1",
-          "type": "text",
-          "mturk_field": "OpenCloseGroup1"
-        },
-        {
-          "id": "type_1",
-          "type": "text",
-          "mturk_field": "OpenCloseType1"
-        },
-        {
-          "id": "name_group_1",
-          "type": "alias",
-          "mturk_field": "OpenCloseNameGroup1"
-        },
-        {
-          "id": "name_type_1",
-          "type": "alias",
-          "mturk_field": "OpenCloseNameType1"
-        },
-        {
-          "id": "group_type_1",
-          "type": "alias",
-          "mturk_field": "OpenCloseTGroupType1"
-        },
-        {
-          "id": "name_group_type_1",
-          "type": "alias",
-          "mturk_field": "OpenCloseNameGroupType1"
-        },
-        {
-          "id": "state_1",
-          "type": "text",
-          "mturk_field": "OpenCloseState1"
-        },
-        {
-          "id": "name_2",
-          "type": "text",
-          "mturk_field": "OpenCloseName2"
-        },
-        {
-          "id": "group_2",
-          "type": "text",
-          "mturk_field": "OpenCloseGroup2"
-        },
-        {
-          "id": "type_2",
-          "type": "text",
-          "mturk_field": "OpenCloseType2"
-        },
-        {
-          "id": "name_group_2",
-          "type": "alias",
-          "mturk_field": "OpenCloseNameGroup2"
-        },
-        {
-          "id": "name_type_2",
-          "type": "alias",
-          "mturk_field": "OpenCloseNameType2"
-        },
-        {
-          "id": "group_type_2",
-          "type": "alias",
-          "mturk_field": "OpenCloseGroupType2"
-        },
-        {
-          "id": "name_group_type_2",
-          "type": "alias",
-          "mturk_field": "OpenCloseNameGroupType2"
-        },
-        {
-          "id": "state_2",
-          "type": "text",
-          "mturk_field": "OpenCloseState2"
-        }
-    ],
-    "mturk_response_fields": [
-        "OpenCloseQuery"
-    ],
-    "data_synthesis": {
-        "context_trigger_ratio": 0.3,
-        "sample_size": 100
+  "id": "open_close",
+  "fields": [
+    {
+      "id": "name_1",
+      "type": "text",
+      "mturk_field": "OpenCloseName1"
+    },
+    {
+      "id": "group_1",
+      "type": "text",
+      "mturk_field": "OpenCloseGroup1"
+    },
+    {
+      "id": "type_1",
+      "type": "text",
+      "mturk_field": "OpenCloseType1"
+    },
+    {
+      "id": "name_group_1",
+      "type": "alias",
+      "mturk_field": "OpenCloseNameGroup1"
+    },
+    {
+      "id": "name_type_1",
+      "type": "alias",
+      "mturk_field": "OpenCloseNameType1"
+    },
+    {
+      "id": "group_type_1",
+      "type": "alias",
+      "mturk_field": "OpenCloseTGroupType1"
+    },
+    {
+      "id": "name_group_type_1",
+      "type": "alias",
+      "mturk_field": "OpenCloseNameGroupType1"
+    },
+    {
+      "id": "state_1",
+      "type": "text",
+      "mturk_field": "OpenCloseState1"
+    },
+    {
+      "id": "name_2",
+      "type": "text",
+      "mturk_field": "OpenCloseName2"
+    },
+    {
+      "id": "group_2",
+      "type": "text",
+      "mturk_field": "OpenCloseGroup2"
+    },
+    {
+      "id": "type_2",
+      "type": "text",
+      "mturk_field": "OpenCloseType2"
+    },
+    {
+      "id": "name_group_2",
+      "type": "alias",
+      "mturk_field": "OpenCloseNameGroup2"
+    },
+    {
+      "id": "name_type_2",
+      "type": "alias",
+      "mturk_field": "OpenCloseNameType2"
+    },
+    {
+      "id": "group_type_2",
+      "type": "alias",
+      "mturk_field": "OpenCloseGroupType2"
+    },
+    {
+      "id": "name_group_type_2",
+      "type": "alias",
+      "mturk_field": "OpenCloseNameGroupType2"
+    },
+    {
+      "id": "state_2",
+      "type": "text",
+      "mturk_field": "OpenCloseState2"
     }
+  ],
+  "mturk_response_fields": [
+      "OpenCloseQuery"
+  ],
+  "data_synthesis": {
+      "context_trigger_ratio": 0.3,
+      "sample_size": 100
+  }
 }
