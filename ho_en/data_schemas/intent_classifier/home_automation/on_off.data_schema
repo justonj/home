@@ -1,0 +1,92 @@
+{
+  "id": "on_off",
+  "fields": [
+    {
+      "id": "name_1",
+      "type": "text",
+      "mturk_field": "OnOffName1"
+    },
+    {
+      "id": "group_1",
+      "type": "text",
+      "mturk_field": "OnOffGroup1"
+    },
+    {
+      "id": "type_1",
+      "type": "text",
+      "mturk_field": "OnOffType1"
+    },
+    {
+      "id": "name_group_1",
+      "type": "alias",
+      "mturk_field": "OnOffNameGroup1"
+    },
+    {
+      "id": "name_type_1",
+      "type": "alias",
+      "mturk_field": "OnOffNameType1"
+    },
+    {
+      "id": "group_type_1",
+      "type": "alias",
+      "mturk_field": "OnOffGroupType1"
+    },
+    {
+      "id": "name_group_type_1",
+      "type": "alias",
+      "mturk_field": "OnOffNameGroupType1"
+    },
+    {
+      "id": "state_1",
+      "type": "text",
+      "mturk_field": "OnOffState1"
+    },
+    {
+      "id": "name_2",
+      "type": "text",
+      "mturk_field": "OnOffName2"
+    },
+    {
+      "id": "group_2",
+      "type": "text",
+      "mturk_field": "OnOffGroup2"
+    },
+    {
+      "id": "type_2",
+      "type": "text",
+      "mturk_field": "OnOffType2"
+    },
+    {
+      "id": "name_group_2",
+      "type": "alias",
+      "mturk_field": "OnOffNameGroup2"
+    },
+    {
+      "id": "name_type_2",
+      "type": "alias",
+      "mturk_field": "OnOffNameType2"
+    },
+    {
+      "id": "group_type_2",
+      "type": "alias",
+      "mturk_field": "OnOffGroupType2"
+    },
+    {
+      "id": "name_group_type_2",
+      "type": "alias",
+      "mturk_field": "OnOffNameGroupType2"
+    },
+    {
+      "id": "state_2",
+      "type": "text",
+      "mturk_field": "OnOffState2"
+    }
+  ],
+  "mturk_response_fields": [
+      "OnOffQuery"
+  ],
+  "data_synthesis": {
+      "context_trigger_ratio": 0.3,
+      "sample_size": 100
+  }
+}

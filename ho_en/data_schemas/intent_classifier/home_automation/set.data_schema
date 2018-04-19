@@ -1,0 +1,92 @@
+{
+  "id": "set",
+  "fields": [
+    {
+      "id": "name_1",
+      "type": "text",
+      "mturk_field": "SetName1"
+    },
+    {
+      "id": "group_1",
+      "type": "text",
+      "mturk_field": "SetGroup1"
+    },
+    {
+      "id": "type_1",
+      "type": "text",
+      "mturk_field": "SetType1"
+    },
+    {
+      "id": "name_group_1",
+      "type": "alias",
+      "mturk_field": "SetNameGroup1"
+    },
+    {
+      "id": "name_type_1",
+      "type": "alias",
+      "mturk_field": "SetNameType1"
+    },
+    {
+      "id": "group_type_1",
+      "type": "alias",
+      "mturk_field": "SetSetType1"
+    },
+    {
+      "id": "name_group_type_1",
+      "type": "alias",
+      "mturk_field": "SetNameGroupType1"
+    },
+    {
+      "id": "value_1",
+      "type": "text",
+      "mturk_field": "SetValue1"
+    },
+    {
+      "id": "name_2",
+      "type": "text",
+      "mturk_field": "SetName2"
+    },
+    {
+      "id": "group_2",
+      "type": "text",
+      "mturk_field": "SetGroup2"
+    },
+    {
+      "id": "type_2",
+      "type": "text",
+      "mturk_field": "SetType2"
+    },
+    {
+      "id": "name_group_2",
+      "type": "alias",
+      "mturk_field": "SetNameGroup2"
+    },
+    {
+      "id": "name_type_2",
+      "type": "alias",
+      "mturk_field": "SetNameType2"
+    },
+    {
+      "id": "group_type_2",
+      "type": "alias",
+      "mturk_field": "SetGroupType2"
+    },
+    {
+      "id": "name_group_type_2",
+      "type": "alias",
+      "mturk_field": "SetNameGroupType2"
+    },
+    {
+      "id": "value_2",
+      "type": "text",
+      "mturk_field": "SetValue2"
+    }
+  ],
+  "mturk_response_fields": [
+      "SetQuery"
+  ],
+  "data_synthesis": {
+      "context_trigger_ratio": 0.3,
+      "sample_size": 100
+  }
+}

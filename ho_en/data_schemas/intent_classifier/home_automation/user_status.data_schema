@@ -1,0 +1,52 @@
+{
+  "id": "status",
+  "fields": [
+    {
+      "id": "climate_up",
+      "type": "text",
+      "mturk_field": "UserStatusClimateUp"
+    },
+    {
+      "id": "light_up",
+      "type": "text",
+      "mturk_field": "UserStatusLightUp"
+    },
+    {
+      "id": "power_up",
+      "type": "text",
+      "mturk_field": "UserStatusPowerUp"
+    },
+    {
+      "id": "security_up",
+      "type": "text",
+      "mturk_field": "UserStatusSecurityUp"
+    },
+    {
+      "id": "climate_down",
+      "type": "text",
+      "mturk_field": "UserStatusClimateDown"
+    },
+    {
+      "id": "light_down",
+      "type": "text",
+      "mturk_field": "UserStatusLightDown"
+    },
+    {
+      "id": "power_down",
+      "type": "text",
+      "mturk_field": "UserStatusPowerDown"
+    },
+    {
+      "id": "security_down",
+      "type": "text",
+      "mturk_field": "UserStatusSecirityDown"
+    }
+  ],
+  "mturk_response_fields": [
+      "LockUnlockQuery"
+  ],
+  "data_synthesis": {
+    "context_trigger_ratio": 0.3,
+      "sample_size": 100
+  }
+}

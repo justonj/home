@@ -1,0 +1,102 @@
+{
+  "id": "increase_decrease",
+  "fields": [
+    {
+      "id": "name_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseName1"
+    },
+    {
+      "id": "group_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseGroup1"
+    },
+    {
+      "id": "type_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseType1"
+    },
+    {
+      "id": "name_group_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseNameGroup1"
+    },
+    {
+      "id": "name_type_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseNameType1"
+    },
+    {
+      "id": "group_type_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseTGroupType1"
+    },
+    {
+      "id": "name_group_type_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseNameGroupType1"
+    },
+    {
+      "id": "direction_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseDirection1"
+    },
+    {
+      "id": "step_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseStep1"
+    },
+    {
+      "id": "name_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseName2"
+    },
+    {
+      "id": "group_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseGroup2"
+    },
+    {
+      "id": "type_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseType2"
+    },
+    {
+      "id": "name_group_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseNameGroup2"
+    },
+    {
+      "id": "name_type_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseNameType2"
+    },
+    {
+      "id": "group_type_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseGroupType2"
+    },
+    {
+      "id": "name_group_type_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseNameGroupType2"
+    },
+    {
+      "id": "direction_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseDirection2"
+    },
+    {
+      "id": "step_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseStep2"
+    }
+  ],
+  "mturk_response_fields": [
+      "IncreaseDecreaseQuery"
+  ],
+  "data_synthesis": {
+      "context_trigger_ratio": 0.3,
+      "sample_size": 100
+  }
+}
