@@ -22,9 +22,9 @@
     "timer": "integer"
   },
   "optional": [
-    "is_on", "is_open", "is_locked", "is_connected", "is_pressed", "has_motion",
-    "has_liquid", "has_sound", "timer", "level", "speed", "temperature", "mode",
-    "color", "error_code"
+    "groups", "is_on", "is_open", "is_locked", "is_connected", "is_pressed",
+    "has_motion", "has_liquid", "has_sound", "timer", "level", "speed",
+    "temperature", "mode", "color", "error_code"
   ],
   "enable_context_list_triggers": true,
   "context_resolution_triggers" : ["that", "this", "device"]

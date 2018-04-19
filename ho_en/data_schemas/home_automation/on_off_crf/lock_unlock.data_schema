@@ -1,0 +1,92 @@
+{
+    "id": "lock_unlock",
+    "fields": [
+        {
+          "id": "name_1",
+          "type": "text",
+          "mturk_field": "LockUnlockName1"
+        },
+        {
+          "id": "group_1",
+          "type": "text",
+          "mturk_field": "LockUnlockGroup1"
+        },
+        {
+          "id": "type_1",
+          "type": "text",
+          "mturk_field": "LockUnlockType1"
+        },
+        {
+          "id": "name_group_1",
+          "type": "alias",
+          "mturk_field": "LockUnlockNameGroup1"
+        },
+        {
+          "id": "name_type_1",
+          "type": "alias",
+          "mturk_field": "LockUnlockNameType1"
+        },
+        {
+          "id": "group_type_1",
+          "type": "alias",
+          "mturk_field": "LockUnlockTGroupType1"
+        },
+        {
+          "id": "name_group_type_1",
+          "type": "alias",
+          "mturk_field": "LockUnlockNameGroupType1"
+        },
+        {
+          "id": "state_1",
+          "type": "text",
+          "mturk_field": "LockUnlockState1"
+        },
+        {
+          "id": "name_2",
+          "type": "text",
+          "mturk_field": "LockUnlockName2"
+        },
+        {
+          "id": "group_2",
+          "type": "text",
+          "mturk_field": "LockUnlockGroup2"
+        },
+        {
+          "id": "type_2",
+          "type": "text",
+          "mturk_field": "LockUnlockType2"
+        },
+        {
+          "id": "name_group_2",
+          "type": "alias",
+          "mturk_field": "LockUnlockNameGroup2"
+        },
+        {
+          "id": "name_type_2",
+          "type": "alias",
+          "mturk_field": "LockUnlockNameType2"
+        },
+        {
+          "id": "group_type_2",
+          "type": "alias",
+          "mturk_field": "LockUnlockGroupType2"
+        },
+        {
+          "id": "name_group_type_2",
+          "type": "alias",
+          "mturk_field": "LockUnlockNameGroupType2"
+        },
+        {
+          "id": "state_2",
+          "type": "text",
+          "mturk_field": "LockUnlockState2"
+        }
+    ],
+    "mturk_response_fields": [
+        "LockUnlockQuery"
+    ],
+    "data_synthesis": {
+        "context_trigger_ratio": 0.3,
+        "sample_size": 100
+    }
+}
