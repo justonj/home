@@ -59,6 +59,12 @@
       "type": "text"
     },
     {
+      "id": "name_group_2",
+      "type": "alias",
+      "alias_for": ["name_2", "group_2"],
+      "create_from_aliased_field": false
+    },
+    {
       "id": "name_type_2",
       "type": "alias",
       "alias_for": ["name_2", "type_2"],

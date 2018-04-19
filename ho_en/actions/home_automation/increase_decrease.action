@@ -14,10 +14,6 @@
       "type": "text"
     },
     {
-      "id": "direction_1",
-      "type": "text"
-    },
-    {
       "id": "name_group_1",
       "type": "alias",
       "alias_for": ["name_1", "group_1"],
@@ -34,6 +30,16 @@
       "type": "alias",
       "alias_for": ["type_1", "group_1"],
       "create_from_aliased_field": false
+    },
+    {
+      "id": "name_group_type_1",
+      "type": "alias",
+      "alias_for": ["name_1", "group_1", "type_1"],
+      "create_from_aliased_field": false
+    },
+    {
+      "id": "direction_1",
+      "type": "text"
     },
     {
       "id": "step_1",
@@ -59,6 +65,30 @@
     {
       "id": "direction_2",
       "type": "text"
+    },
+    {
+      "id": "name_group_2",
+      "type": "alias",
+      "alias_for": ["name_2", "group_2"],
+      "create_from_aliased_field": false
+    },
+    {
+      "id": "name_type_2",
+      "type": "alias",
+      "alias_for": ["name_2", "type_2"],
+      "create_from_aliased_field": false
+    },
+    {
+      "id": "type_group_2",
+      "type": "alias",
+      "alias_for": ["type_2", "group_2"],
+      "create_from_aliased_field": false
+    },
+    {
+      "id": "name_group_type_2",
+      "type": "alias",
+      "alias_for": ["name_2", "group_2", "type_2"],
+      "create_from_aliased_field": false
     },
     {
       "id": "devices_2",
