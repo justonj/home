@@ -2,7 +2,7 @@
   "model": "aneeda_en",
   "model_data": {
     "./models": {
-      "blank_en": {
+      "ho_en": {
         "clock_time_crf": {
           "clock_time_crf_180201_020151.model_file": {
             "file_checksum": "24535a4237605f807ccb3d94031de1bfbdb95f2e53af7408efe2faf5628f3b45",

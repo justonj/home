@@ -9,7 +9,7 @@
 
   "intent_hooks": [
     {
-      "model_name": "blank_en",
+      "model_name": "ho_en",
       "intent_id": "weather_find",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "model_name": "blank_en",
+      "model_name": "ho_en",
       "intent_id": "weather_set_alert",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [

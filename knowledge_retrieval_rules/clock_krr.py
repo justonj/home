@@ -9,7 +9,7 @@ import nlu_applications.blank.web_api_hooks.google as google
 
 class GetLocationTime(KnowledgeRetrievalRuleBase):
     intent_id = 'clock_time'
-    model_id = 'blank_en'
+    model_id = 'ho_en'
     fields_precondition = []  # type: List[str]
     result_fields = ['time']
 

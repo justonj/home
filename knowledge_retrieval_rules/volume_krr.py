@@ -5,7 +5,7 @@ from nlu.knowledge_base.knowledge_retrieval_manager import KnowledgeRetrievalRul
 
 class FormatVolume(KnowledgeRetrievalRuleBase):
     intent_id = 'volume_control'
-    model_id = 'blank_en'
+    model_id = 'ho_en'
     fields_precondition = []  # type: List[str]
     result_fields = ['volume_control']
     maximum_syn = ['maximum', 'max', 'high', 'top']

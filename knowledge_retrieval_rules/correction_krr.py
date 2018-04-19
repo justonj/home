@@ -25,7 +25,7 @@ def create_dialogue_state_from_previous(previous_state, new_query):
 
 class ApplyCorrection(KnowledgeRetrievalRuleBase):
     intent_id = 'correction'
-    model_id = 'blank_en'
+    model_id = 'ho_en'
     fields_precondition = ['new_value']
     rewrite_dialogue_state = True
 
@@ -273,7 +273,7 @@ class ApplyCorrection(KnowledgeRetrievalRuleBase):
 
 class GetCorrectionFields(KnowledgeRetrievalRuleBase):
     intent_id = 'correction'
-    model_id = 'blank_en'
+    model_id = 'ho_en'
     fields_precondition = []  # type: List[str]
     result_fields = ['correction_fields']
 
@@ -325,7 +325,7 @@ class GetCorrectionFields(KnowledgeRetrievalRuleBase):
 
 class ApplyCorrectionFromDialog(KnowledgeRetrievalRuleBase):
     intent_id = 'correction'
-    model_id = 'blank_en'
+    model_id = 'ho_en'
     fields_precondition = ['corrected_field', 'correction_fields']
     rewrite_dialogue_state = True
 

@@ -5,7 +5,7 @@ from nlu.knowledge_base.knowledge_retrieval_manager import KnowledgeRetrievalRul
 
 class ResolveResumePrompt(KnowledgeRetrievalRuleBase):
     intent_id = 'resume_prompt'
-    model_id = 'blank_en'
+    model_id = 'ho_en'
     fields_precondition = ['resume_yn']
     rewrite_dialogue_state = True
 
