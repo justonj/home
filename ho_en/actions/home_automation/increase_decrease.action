@@ -46,6 +46,10 @@
       "type": "text"
     },
     {
+      "id": "level_1",
+      "type": "text"
+    },
+    {
       "id": "devices_1",
       "type": "list<device>",
       "is_answer": true
@@ -64,6 +68,14 @@
     },
     {
       "id": "direction_2",
+      "type": "text"
+    },
+    {
+      "id": "step_2",
+      "type": "text"
+    },
+    {
+      "id": "level_2",
       "type": "text"
     },
     {
