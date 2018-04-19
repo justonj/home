@@ -29,7 +29,7 @@
     {
       "id": "group_type_1",
       "type": "alias",
-      "mturk_field": "OpenCloseTGroupType1"
+      "mturk_field": "OpenCloseGroupType1"
     },
     {
       "id": "name_group_type_1",

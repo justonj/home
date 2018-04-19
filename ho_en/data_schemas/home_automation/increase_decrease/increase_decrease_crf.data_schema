@@ -74,7 +74,7 @@
     {
       "id": "group_type_2",
       "type": "alias",
-      "mturk_field": "IncreaseDecreaseTGroupType2"
+      "mturk_field": "IncreaseDecreaseGroupType2"
     },
     {
       "id": "name_group_type_2",

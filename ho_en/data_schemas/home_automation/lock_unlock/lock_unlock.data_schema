@@ -29,7 +29,7 @@
     {
       "id": "group_type_1",
       "type": "alias",
-      "mturk_field": "LockUnlockTGroupType1"
+      "mturk_field": "LockUnlockGroupType1"
     },
     {
       "id": "name_group_type_1",

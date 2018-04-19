@@ -29,7 +29,7 @@
     {
       "id": "group_type",
       "type": "alias",
-      "mturk_field": "StatusTGroupType1"
+      "mturk_field": "StatusGroupType1"
     },
     {
       "id": "name_group_type",

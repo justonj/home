@@ -29,7 +29,7 @@
     {
       "id": "group_type_1",
       "type": "alias",
-      "mturk_field": "SetTGroupType1"
+      "mturk_field": "SetSetType1"
     },
     {
       "id": "name_group_type_1",
@@ -69,7 +69,7 @@
     {
       "id": "group_type_2",
       "type": "alias",
-      "mturk_field": "SetTGroupType2"
+      "mturk_field": "SetGroupType2"
     },
     {
       "id": "name_group_type_2",
