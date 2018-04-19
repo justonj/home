@@ -2,7 +2,7 @@
   "schema": {
     "type": "text",
     "name": "text",
-    "groups": "list<group>",
+    "groups": "array",
     "state": "text"
   },
   "optional": ["state"],
