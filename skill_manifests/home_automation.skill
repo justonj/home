@@ -8,8 +8,8 @@
   },
   "intent_hooks": [
     {
-      "model_name": "blank_en",
-      "intent_id": "on",
+      "model_name": "ho_en",
+      "intent_id": "on_off",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
         {
@@ -27,8 +27,8 @@
       ]
     },
     {
-      "model_name": "blank_en",
-      "intent_id": "off",
+      "model_name": "ho_en",
+      "intent_id": "open_close",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
         {
@@ -46,8 +46,8 @@
       ]
     },
     {
-      "model_name": "blank_en",
-      "intent_id": "increase",
+      "model_name": "ho_en",
+      "intent_id": "increase_decrease",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
         {
@@ -65,26 +65,7 @@
       ]
     },
     {
-      "model_name": "blank_en",
-      "intent_id": "decrease",
-      "field_precondition": "DIALOGUE_COMPLETE",
-      "result_fields": [
-        {
-          "field_id": "devices",
-          "field_type": "list"
-        },
-        {
-          "field_id": "skill_exception",
-          "field_type": "exception"
-        },
-        {
-          "field_id": "http_error",
-          "field_type": "http_error"
-        }
-      ]
-    },
-    {
-      "model_name": "blank_en",
+      "model_name": "ho_en",
       "intent_id": "set",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -103,7 +84,7 @@
       ]
     },
     {
-      "model_name": "blank_en",
+      "model_name": "ho_en",
       "intent_id": "status",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
