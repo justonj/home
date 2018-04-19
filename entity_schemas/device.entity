@@ -3,9 +3,29 @@
     "type": "text",
     "name": "text",
     "groups": "array",
-    "state": "text"
+    "color": "text",
+    "error_code": "integer",
+    "is_on": "boolean",
+    "is_open": "boolean",
+    "is_locked": "boolean",
+    "is_connected": "boolean",
+    "is_pressed": "boolean",
+    "has_motion": "boolean",
+    "has_liquid": "booean",
+    "has_sound": "boolean",
+    "level": "number",
+    "manufacturer": "text",
+    "mode": "text",
+    "model": "text",
+    "speed": "number",
+    "temperature": "float",
+    "timer": "integer"
   },
-  "optional": ["state"],
+  "optional": [
+    "is_on", "is_open", "is_locked", "is_connected", "is_pressed", "has_motion",
+    "has_liquid", "has_sound", "timer", "level", "speed", "temperature", "mode",
+    "color", "error_code"
+  ],
   "enable_context_list_triggers": true,
   "context_resolution_triggers" : ["that", "this", "device"]
 }
