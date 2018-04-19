@@ -1,0 +1,11 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text",
+    "groups": "list<group>",
+    "state": "text"
+  },
+  "optional": ["state"],
+  "enable_context_list_triggers": true,
+  "context_resolution_triggers" : ["that", "this", "device"]
+}

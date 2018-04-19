@@ -1,0 +1,77 @@
+{
+  "id": "set",
+  "fields": [
+    {
+      "id": "name_1",
+      "type": "text"
+    },
+    {
+      "id": "group_1",
+      "type": "text"
+    },
+    {
+      "id": "type_1",
+      "type": "text"
+    },
+    {
+      "id": "direction_1",
+      "type": "text"
+    },
+    {
+      "id": "name_group_1",
+      "type": "alias",
+      "alias_for": ["name_1", "group_1"],
+      "create_from_aliased_field": false
+    },
+    {
+      "id": "name_type_1",
+      "type": "alias",
+      "alias_for": ["name_1", "type_1"],
+      "create_from_aliased_field": false
+    },
+    {
+      "id": "type_group_1",
+      "type": "alias",
+      "alias_for": ["type_1", "group_1"],
+      "create_from_aliased_field": false
+    },
+    {
+      "id": "value_1",
+      "type": "text"
+    },
+    {
+      "id": "devices_1",
+      "type": "list<device>",
+      "is_answer": true
+    },
+    {
+      "id": "name_2",
+      "type": "text"
+    },
+    {
+      "id": "group_2",
+      "type": "text"
+    },
+    {
+      "id": "type_2",
+      "type": "text"
+    },
+    {
+      "id": "direction_2",
+      "type": "text"
+    },
+    {
+      "id": "devices_2",
+      "type": "list<device>",
+      "is_answer": true
+    },
+    {
+      "id": "skill_exception",
+      "type": "exception"
+    },
+    {
+      "id": "http_error",
+      "type": "http_error"
+    }
+  ]
+}
