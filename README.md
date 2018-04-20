@@ -19,12 +19,12 @@ Use a FRESH CHECKOUT of the NLU core and this application. Check them out under 
 
 ```
 $PATH_TO_DEV_DIR/nlu
-$PATH_TO_DEV_DIR/blank
+$PATH_TO_DEV_DIR/ho
 ```
 
 Ensure the env directory is populated with
     - nlu.env (nlu-specific environment)
-    - blank.env (this-application-specific environment)
+    - ho.env (this-application-specific environment)
     - postgres.env (env needed by the postgres image at launch)
 
 Then:

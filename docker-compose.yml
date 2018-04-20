@@ -9,7 +9,7 @@ services:
       - POSTGRES_HOST=db
     volumes:
       - ../nlu:/nlu
-      - .:/nlu/nlu_applications/blank
+      - .:/nlu/nlu_applications/ho
       - ./config/default.yaml:/nlu/config/setup.yaml
     links:
       - db
@@ -22,7 +22,7 @@ services:
     image: quay.io/iamplus/nlu-postgres-docker:master
     environment:
       - NLU_DB=nlu
-      - APP_DB=blank
+      - APP_DB=ho
       - POSTGRES_PASSWORD=password
       - POSTGRES_USER=iamplus_dev
       - POSTGRES_DB=nlu

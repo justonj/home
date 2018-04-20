@@ -1,1 +1,1 @@
-blank = nlu_applications.blank.application:load_application
+ho = nlu_applications.ho.application:load_application

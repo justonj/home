@@ -1,5 +1,5 @@
 from app_manager import get_application
-from nlu_applications.blank.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
+from nlu_applications.ho.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
 import json
 
 class UserPreferencesManager(UserDataManager):
