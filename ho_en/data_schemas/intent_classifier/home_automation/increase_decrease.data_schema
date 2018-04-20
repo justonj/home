@@ -47,6 +47,11 @@
       "mturk_field": "IncreaseDecreaseStep1"
     },
     {
+      "id": "level_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseLevel1"
+    },
+    {
       "id": "name_2",
       "type": "text",
       "mturk_field": "IncreaseDecreaseName2"
@@ -90,6 +95,11 @@
       "id": "step_2",
       "type": "text",
       "mturk_field": "IncreaseDecreaseStep2"
+    },
+    {
+      "id": "level_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseLevel2"
     }
   ],
   "mturk_response_fields": [
