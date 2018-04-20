@@ -38,7 +38,11 @@
       "create_from_aliased_field": false
     },
     {
-      "id": "state_1",
+      "id": "open_1",
+      "type": "text"
+    },
+    {
+      "id": "close_1",
       "type": "text"
     },
     {
@@ -83,7 +87,11 @@
       "create_from_aliased_field": false
     },
     {
-      "id": "state_2",
+      "id": "open_2",
+      "type": "text"
+    },
+    {
+      "id": "close_2",
       "type": "text"
     },
     {

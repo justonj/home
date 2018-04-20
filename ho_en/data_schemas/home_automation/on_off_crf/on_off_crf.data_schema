@@ -37,9 +37,14 @@
       "mturk_field": "OnOffTypeGroupName1"
     },
     {
-      "id": "state_1",
+      "id": "on_1",
       "type": "text",
-      "mturk_field": "OnOffState1"
+      "mturk_field": "OnOffOn1"
+    },
+    {
+      "id": "off_1",
+      "type": "text",
+      "mturk_field": "OnOffOff1"
     },
     {
       "id": "name_2",
@@ -77,10 +82,15 @@
       "mturk_field": "OnOffTypeGroupName2"
     },
     {
-      "id": "state_2",
+      "id": "on_2",
       "type": "text",
-      "mturk_field": "OnOffState2"
-    }
+      "mturk_field": "OnOffOn2"
+    },
+    {
+      "id": "off_2",
+      "type": "text",
+      "mturk_field": "OnOffOff2"
+    },
   ],
   "mturk_response_fields": [
       "OnOffQuery"

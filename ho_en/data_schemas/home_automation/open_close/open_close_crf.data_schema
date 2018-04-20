@@ -37,9 +37,14 @@
       "mturk_field": "OpenCloseTypeGroupName1"
     },
     {
-      "id": "state_1",
+      "id": "open_1",
       "type": "text",
-      "mturk_field": "OpenCloseState1"
+      "mturk_field": "OpenCloseOpen1"
+    },
+    {
+      "id": "close_1",
+      "type": "text",
+      "mturk_field": "OpenCloseClose1"
     },
     {
       "id": "name_2",
@@ -77,9 +82,14 @@
       "mturk_field": "OpenCloseTypeGroupName2"
     },
     {
-      "id": "state_2",
+      "id": "open_2",
       "type": "text",
-      "mturk_field": "OpenCloseState2"
+      "mturk_field": "OpenCloseOpen2"
+    },
+    {
+      "id": "close_2",
+      "type": "text",
+      "mturk_field": "OpenCloseClose2"
     }
   ],
   "mturk_response_fields": [

@@ -37,9 +37,14 @@
       "mturk_field": "LockUnlockTypeGroupName1"
     },
     {
-      "id": "state_1",
+      "id": "lock_1",
       "type": "text",
-      "mturk_field": "LockUnlockState1"
+      "mturk_field": "LockUnlockLock1"
+    },
+    {
+      "id": "unlock_1",
+      "type": "text",
+      "mturk_field": "LockUnlockUnlock1"
     },
     {
       "id": "name_2",
@@ -77,9 +82,14 @@
       "mturk_field": "LockUnlockTypeGroupName2"
     },
     {
-      "id": "state_2",
+      "id": "lock_2",
       "type": "text",
-      "mturk_field": "LockUnlockState2"
+      "mturk_field": "LockUnlockLock2"
+    },
+    {
+      "id": "unlock_2",
+      "type": "text",
+      "mturk_field": "LockUnlockUnlock2"
     }
   ],
   "mturk_response_fields": [

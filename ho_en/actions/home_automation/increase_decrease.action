@@ -38,7 +38,11 @@
       "create_from_aliased_field": false
     },
     {
-      "id": "direction_1",
+      "id": "increase_1",
+      "type": "text"
+    },
+    {
+      "id": "decrease_1",
       "type": "text"
     },
     {
@@ -91,7 +95,11 @@
       "create_from_aliased_field": false
     },
     {
-      "id": "direction_2",
+      "id": "increase_2",
+      "type": "text"
+    },
+    {
+      "id": "decrease_2",
       "type": "text"
     },
     {
