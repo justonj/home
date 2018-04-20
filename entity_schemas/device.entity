@@ -18,8 +18,8 @@
     "mode": "text",
     "model": "text",
     "speed": "number",
-    "temperature": "float",
-    "timer": "integer"
+    "temperature": "number",
+    "timer": "number"
   },
   "optional": [
     "groups", "is_on", "is_open", "is_locked", "is_connected", "is_pressed",
