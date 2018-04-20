@@ -19,22 +19,22 @@
     {
       "id": "name_group",
       "type": "alias",
-      "mturk_field": "StatusNameGroup1"
+      "mturk_field": "StatusGroupName1"
     },
     {
       "id": "name_type",
       "type": "alias",
-      "mturk_field": "StatusNameType1"
+      "mturk_field": "StatusTypeName1"
     },
     {
       "id": "group_type",
       "type": "alias",
-      "mturk_field": "StatusGroupType1"
+      "mturk_field": "StatusTypeGroup1"
     },
     {
       "id": "name_group_type",
       "type": "alias",
-      "mturk_field": "StatusNameGroupType1"
+      "mturk_field": "StatusTypeGroupName1"
     },
     {
       "id": "direction",
