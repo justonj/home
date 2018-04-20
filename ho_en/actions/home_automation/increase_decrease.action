@@ -67,18 +67,6 @@
       "type": "text"
     },
     {
-      "id": "direction_2",
-      "type": "text"
-    },
-    {
-      "id": "step_2",
-      "type": "text"
-    },
-    {
-      "id": "level_2",
-      "type": "text"
-    },
-    {
       "id": "name_group_2",
       "type": "alias",
       "alias_for": ["name_2", "group_2"],
@@ -101,6 +89,18 @@
       "type": "alias",
       "alias_for": ["name_2", "group_2", "type_2"],
       "create_from_aliased_field": false
+    },
+    {
+      "id": "direction_2",
+      "type": "text"
+    },
+    {
+      "id": "step_2",
+      "type": "text"
+    },
+    {
+      "id": "level_2",
+      "type": "text"
     },
     {
       "id": "devices_2",
