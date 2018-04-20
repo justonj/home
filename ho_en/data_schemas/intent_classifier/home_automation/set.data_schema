@@ -27,12 +27,12 @@
       "mturk_field": "SetTypeName1"
     },
     {
-      "id": "group_type_1",
+      "id": "type_group_1",
       "type": "alias",
       "mturk_field": "SetSetType1"
     },
     {
-      "id": "name_group_type_1",
+      "id": "type_group_name_1",
       "type": "alias",
       "mturk_field": "SetTypeGroupName1"
     },
@@ -67,7 +67,7 @@
       "mturk_field": "SetTypeName2"
     },
     {
-      "id": "group_type_2",
+      "id": "type_group_2",
       "type": "alias",
       "mturk_field": "SetTypeGroup2"
     },

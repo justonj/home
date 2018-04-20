@@ -4,52 +4,47 @@
     {
       "id": "name",
       "type": "text",
-      "mturk_field": "StatusName1"
+      "mturk_field": "StatusName"
     },
     {
       "id": "group",
       "type": "text",
-      "mturk_field": "StatusGroup1"
+      "mturk_field": "StatusGroup"
     },
     {
       "id": "type",
       "type": "text",
-      "mturk_field": "StatusType1"
+      "mturk_field": "StatusType"
     },
     {
-      "id": "name_group",
+      "id": "group_name",
       "type": "alias",
-      "mturk_field": "StatusGroupName1"
+      "mturk_field": "StatusGroupName"
     },
     {
-      "id": "name_type",
+      "id": "type_name",
       "type": "alias",
-      "mturk_field": "StatusTypeName1"
+      "mturk_field": "StatusTypeName"
     },
     {
-      "id": "group_type",
+      "id": "type_group",
       "type": "alias",
-      "mturk_field": "StatusTypeGroup1"
+      "mturk_field": "StatusTypeGroup"
     },
     {
-      "id": "name_group_type",
+      "id": "type_group_name",
       "type": "alias",
-      "mturk_field": "StatusTypeGroupName1"
-    },
-    {
-      "id": "direction",
-      "type": "text",
-      "mturk_field": "StatusDirection1"
+      "mturk_field": "StatusTypeGroupName"
     },
     {
       "id": "status",
       "type": "text",
-      "mturk_field": "StatusStep1"
+      "mturk_field": "StatusStep"
     },
     {
       "id": "all",
       "type": "text",
-      "mturk_field": "StatusAll1"
+      "mturk_field": "StatusAll"
     }
   ],
   "mturk_response_fields": [

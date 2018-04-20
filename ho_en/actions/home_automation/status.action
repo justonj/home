@@ -14,15 +14,15 @@
       "type": "text"
     },
     {
-      "id": "name_group",
+      "id": "group_name",
       "type": "alias",
-      "alias_for": ["name", "group"],
+      "alias_for": ["group", "name"],
       "create_from_aliased_field": false
     },
     {
-      "id": "name_type",
+      "id": "type_name",
       "type": "alias",
-      "alias_for": ["name", "type"],
+      "alias_for": ["type", "name"],
       "create_from_aliased_field": false
     },
     {
@@ -32,9 +32,9 @@
       "create_from_aliased_field": false
     },
     {
-      "id": "name_group_type",
+      "id": "type_group_name",
       "type": "alias",
-      "alias_for": ["name", "group", "type"],
+      "alias_for": ["type", "group", "name"],
       "create_from_aliased_field": false
     },
     {
