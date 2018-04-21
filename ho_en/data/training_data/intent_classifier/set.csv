@@ -1,4 +1,4 @@
-SetQuery,SetName1,SetGroup1,SetType1,SetGroupName1,SetTypeName1,SetTypeGroup1,SetTypeGroupName1,Value1,SetName2,SetGroup2,SetType2,SetGroupName2,SetTypeName2,SetTypeGroup2,SetTypeGroupName2,Value2
+SetQuery,SetName1,SetGroup1,SetType1,SetGroupName1,SetTypeName1,SetTypeGroup1,SetTypeGroupName1,SetValue1,SetName2,SetGroup2,SetType2,SetGroupName2,SetTypeName2,SetTypeGroup2,SetTypeGroupName2,SetValue2
 Set the lights to 50%,,,,,,,lights,50%,,,,,,,,
 Change the fan speed to 4,,,,,,,fan,4,,,,,,,,
 Set the timer on the microwave to 3 minutes,,,,,,Microwave,Timer,3 minutes,,,,,,,,
