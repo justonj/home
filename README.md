@@ -1,4 +1,4 @@
-## Skeleton NLU Application
+## Home automation NLU application
 
 ### Docker deploy instructions
 
