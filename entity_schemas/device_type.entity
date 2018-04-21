@@ -1,0 +1,12 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text",
+    "devices": "array"
+  },
+  "optional": ["devices"],
+  "enable_context_list_triggers": false,
+  "context_resolution_triggers" : [
+    "them", "these", "those", "type", "kind", "category"
+  ]
+}

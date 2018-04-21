@@ -1,0 +1,8 @@
+{
+  "schema": {
+    "type": "text",
+    "name": "text"
+  },
+  "enable_context_list_triggers": false,
+  "context_resolution_triggers" : ["it", "this", "that"]
+}

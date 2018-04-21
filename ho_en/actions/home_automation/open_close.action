@@ -3,15 +3,15 @@
   "fields": [
     {
       "id": "name_1",
-      "type": "text"
+      "type": "device_name"
     },
     {
       "id": "group_1",
-      "type": "text"
+      "type": "device_group"
     },
     {
       "id": "type_1",
-      "type": "text"
+      "type": "device_type"
     },
     {
       "id": "group_name_1",
@@ -52,15 +52,15 @@
     },
     {
       "id": "name_2",
-      "type": "text"
+      "type":"device_name"
     },
     {
       "id": "group_2",
-      "type": "text"
+      "type": "device_group"
     },
     {
       "id": "type_2",
-      "type": "text"
+      "type": "device_type"
     },
     {
       "id": "group_name_2",

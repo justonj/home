@@ -27,5 +27,5 @@
     "temperature", "mode", "color", "error_code"
   ],
   "enable_context_list_triggers": true,
-  "context_resolution_triggers" : ["that", "this", "device"]
+  "context_resolution_triggers" : ["it", "that", "this", "device"]
 }

@@ -3,17 +3,17 @@
   "fields": [
     {
       "id": "name_1",
-      "type": "text",
+      "type": "device_name",
       "mturk_field": "IncreaseDecreaseName1"
     },
     {
       "id": "group_1",
-      "type": "text",
+      "type": "device_group",
       "mturk_field": "IncreaseDecreaseGroup1"
     },
     {
       "id": "type_1",
-      "type": "text",
+      "type": "device_type",
       "mturk_field": "IncreaseDecreaseType1"
     },
     {
@@ -58,17 +58,17 @@
     },
     {
       "id": "name_2",
-      "type": "text",
+      "type":"device_name",
       "mturk_field": "IncreaseDecreaseName2"
     },
     {
       "id": "group_2",
-      "type": "text",
+      "type": "device_group",
       "mturk_field": "IncreaseDecreaseGroup2"
     },
     {
       "id": "type_2",
-      "type": "text",
+      "type": "device_type",
       "mturk_field": "IncreaseDecreaseType2"
     },
     {
