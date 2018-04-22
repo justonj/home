@@ -1,0 +1,7 @@
+priority,present,entity_values,unresolved,missing,awaiting field,home_en
+95,,,type_group_name,,type_group_name,Which do you mean: <type_goup_name.candidates>
+90,,,type_group_name,,,I don't know of any devices <type_goup_name>
+85,skill_exception,"[('skill_exception', 'not_found')]",,,,I don't know such devices
+80,skill_exception && device,"[('skill_exception', 'unsupported')]",,,,<device> does not provice a status
+75,skill_exception,"[('skill_exception', 'not_found')]",,,,These devices are not capable of being set
+70,type_group_name,,,,,<type_group_name.status>
