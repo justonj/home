@@ -3,6 +3,8 @@
     "type": "text",
     "name": "text"
   },
+  "factory_class": "web",
+  "url": "http://iamplus-skills-home-auto.herokuapp.com/resolve",
   "enable_context_list_triggers": false,
   "context_resolution_triggers" : ["it", "this", "that"]
 }

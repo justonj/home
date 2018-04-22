@@ -26,6 +26,8 @@
     "has_motion", "has_liquid", "has_sound", "timer", "level", "speed",
     "temperature", "mode", "color", "error_code"
   ],
+  "factory_class": "web",
+  "url": "http://iamplus-skills-home-auto.herokuapp.com/resolve",
   "enable_context_list_triggers": true,
   "context_resolution_triggers" : ["it", "that", "this", "device"]
 }
