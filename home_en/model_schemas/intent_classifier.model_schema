@@ -3,7 +3,8 @@
      "scope": "classify",
      "architecture": "intent_classifier",
      "evaluator": "classifier",
-     "segmentation_config": {"name":"intents",
+     "segmentation_config": {
+       "name":"intents",
        "field": "labels",
        "values":["*"],
        "false_field": "no_intent_found"
@@ -22,7 +23,7 @@
            "activation": "tanh",
            "batch_size": 750,
            "shuffle": true,
-           "epochs": 100,
+           "epochs": 20,
            "callbacks": ["TensorBoardCB", "history"]
        }
 }
