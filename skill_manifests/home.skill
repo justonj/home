@@ -1,10 +1,10 @@
 {
   "skill_id": "home",
   "url": {
-      "dev": "https://iamplus-skills-home-auto.herokuapp.com/retrieve",
-      "qa": "https://iamplus-skills-home-auto.herokuapp.com/retrieve",
-      "staging": "https://iamplus-skills-home-auto.herokuapp.com/retrieve",
-      "prod": "https://iamplus-skills-home-auto.herokuapp.com/retrieve"
+      "dev": "https://iamplus-skills-home-auto.herokuapp.com",
+      "qa": "https://iamplus-skills-home-auto.herokuapp.com",
+      "staging": "https://iamplus-skills-home-auto.herokuapp.com",
+      "prod": "https://iamplus-skills-home-auto.herokuapp.com"
   },
   "intent_hooks": [
     {
