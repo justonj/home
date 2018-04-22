@@ -14,15 +14,6 @@ class BlankApplication(app_manager.Application):
 
     def load_knowledge_retrieval_rules(self):
         from .knowledge_retrieval_rules import knowledge_retrieval_rules
-        from .knowledge_retrieval_rules import calendar_krr
-        from .knowledge_retrieval_rules import clock_krr
-        from .knowledge_retrieval_rules import correction_krr
-        from .knowledge_retrieval_rules import music_replay
-        from .knowledge_retrieval_rules import resume_krr
-        from .knowledge_retrieval_rules import volume_krr
-        from .knowledge_retrieval_rules import notification_krr
-        from .knowledge_retrieval_rules import recommendations_krr
-        from .knowledge_retrieval_rules import news_krr
         from .web_api_hooks import skill_hook_interfaces
 
     def load_routes(self):
