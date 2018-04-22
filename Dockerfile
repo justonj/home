@@ -5,9 +5,9 @@ WORKDIR /nlu
 # give the celery logs a place to live
 RUN mkdir -p /var/log/celery && mkdir -p /var/log/nlu
 
-COPY . ./nlu_applications/ho
+COPY . ./nlu_applications/home
 
-RUN pip3 install -I --force-reinstall -r ./nlu_applications/ho/requirements.txt
+RUN pip3 install -I --force-reinstall -r ./nlu_applications/home/requirements.txt
 
 # configure and install NLU application.
-RUN make config app=ho && make clean && make update-config && make update-modules && make install
+RUN make config app=home && make clean && make update-config && make update-modules && make install

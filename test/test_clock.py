@@ -31,7 +31,7 @@ GEOCODE_API = GOOGLE_API + 'geocode/json'
 @requests_mock.Mocker(kw='mock')
 class TestIntents:
     drm = None
-    model_name = 'ho_en'
+    model_name = 'home_en'
 
     def setup_class(self):
         # seed dialogues

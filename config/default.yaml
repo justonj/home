@@ -1,7 +1,7 @@
 # Default configuration for this NLU app
 
 ENVIRONMENT: dev
-APP_NAME: ho
+APP_NAME: home
 APP_VERSION: 0.1.0
 DEFAULT_SCHEMA_VERSION: '1'
 GUNICORN_WORKERS_COUNT: 1
@@ -24,7 +24,7 @@ PG_PASSWORD: password
 PG_PORT: 5432
 PG_USER: iamplus_dev
 PG_NLU_DB: nlu
-PG_APP_DB: ho
+PG_APP_DB: home
 
 # language
 DEFAULT_LANGUAGE: en

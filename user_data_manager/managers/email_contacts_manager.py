@@ -1,7 +1,7 @@
 from app_manager import get_application
 from nlu.tokenizer import normalize
 from psycopg2.extras import Json
-from nlu_applications.ho.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
+from nlu_applications.home.user_data_manager.user_data_manager import UserDataManager, register_user_data_manager
 
 
 class EmailContactsManager(UserDataManager):

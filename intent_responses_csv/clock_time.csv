@@ -1,4 +1,4 @@
-priority,awaiting_field,unresolved,missing,present,ho_en
+priority,awaiting_field,unresolved,missing,present,home_en
 10,clock_location,None,clock_location,None,For which location?
 ,clock_location,clock_location,,None,Please specify a valid location
 90,none,None,None,time && clock_location,It is <time> in <clock_location> right now

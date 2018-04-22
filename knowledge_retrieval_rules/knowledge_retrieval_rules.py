@@ -9,14 +9,14 @@ _movie_showtimes_fields = ['movie_listings']
 _movie_showtimes_entity_types = {'movie_listings': 'list<local_business>'}
 
 _get_movie_showtimes = WebHookRule(
-    'movies_showtimes', 'ho_en',
+    'movies_showtimes', 'home_en',
     _movie_showtimes_hook_id,
     _movie_showtimes_precondition,
     result_fields=_movie_showtimes_fields,
     entity_types=_movie_showtimes_entity_types)
 
 _get_origin_transport_book = WebHookRule(
-    'transport_taxi_book', 'ho_en',
+    'transport_taxi_book', 'home_en',
     'get_current_origin',
     [],
     result_fields=['origin'],
@@ -24,7 +24,7 @@ _get_origin_transport_book = WebHookRule(
     standard_output=False)
 
 _get_origin_transport_current_status = WebHookRule(
-    'transport_taxi_current_status', 'ho_en',
+    'transport_taxi_current_status', 'home_en',
     'get_current_origin',
     [],
     result_fields=['origin'],
@@ -32,7 +32,7 @@ _get_origin_transport_current_status = WebHookRule(
     standard_output=False)
 
 _get_origin_transport_estimate_fare = WebHookRule(
-    'transport_taxi_estimate_travel_fare', 'ho_en',
+    'transport_taxi_estimate_travel_fare', 'home_en',
     'get_current_origin',
     [],
     result_fields=['origin'],
@@ -40,7 +40,7 @@ _get_origin_transport_estimate_fare = WebHookRule(
     standard_output=False)
 
 _get_origin_transport_estimate_time = WebHookRule(
-    'transport_taxi_estimate_travel_time', 'ho_en',
+    'transport_taxi_estimate_travel_time', 'home_en',
     'get_current_origin',
     [],
     result_fields=['origin'],
@@ -48,7 +48,7 @@ _get_origin_transport_estimate_time = WebHookRule(
     standard_output=False)
 
 _get_origin_maps_nav_directions = WebHookRule(
-    'maps_nav_directions', 'ho_en',
+    'maps_nav_directions', 'home_en',
     'get_current_origin',
     [],
     result_fields=['origin'],
@@ -57,7 +57,7 @@ _get_origin_maps_nav_directions = WebHookRule(
 
 _get_origin_maps_nav_travel_time_to = WebHookRule(
     'maps_nav_travel_time_to',
-    'ho_en',
+    'home_en',
     'get_current_origin',
     [],
     result_fields=['origin'],
@@ -68,14 +68,14 @@ pool_result_fields = ['is_pool']
 pool_entity_types = {'is_pool': 'boolean'}
 
 _transport_taxi_book_is_pool = WebHookRule(
-    'transport_taxi_book', 'ho_en',
+    'transport_taxi_book', 'home_en',
     'transport_is_pool', ['taxi_service_id'],
     result_fields=pool_result_fields,
     entity_types=pool_entity_types,
     standard_output=False)
 
 _transport_taxi_estimate_fare_is_pool = WebHookRule(
-    'transport_taxi_estimate_travel_fare', 'ho_en',
+    'transport_taxi_estimate_travel_fare', 'home_en',
     'transport_is_pool', ['taxi_service_id'],
     result_fields=pool_result_fields,
     entity_types=pool_entity_types,
@@ -83,7 +83,7 @@ _transport_taxi_estimate_fare_is_pool = WebHookRule(
 
 
 _get_location_weather_find = WebHookRule(
-    'weather_find', 'ho_en',
+    'weather_find', 'home_en',
     'get_current_location',
     [],
     result_fields=['location'],
@@ -91,7 +91,7 @@ _get_location_weather_find = WebHookRule(
     standard_output=False)
 
 _get_location_weather_set_alert = WebHookRule(
-    'weather_set_alert', 'ho_en',
+    'weather_set_alert', 'home_en',
     'get_current_location',
     [],
     result_fields=['location'],
@@ -99,7 +99,7 @@ _get_location_weather_set_alert = WebHookRule(
     standard_output=False)
 
 _get_location_yelp_restaurants = WebHookRule(
-    'restaurant_search', 'ho_en',
+    'restaurant_search', 'home_en',
     'get_current_location',
     [],
     result_fields=['location'],
@@ -107,7 +107,7 @@ _get_location_yelp_restaurants = WebHookRule(
     standard_output=False)
 
 _get_location_yelp_business = WebHookRule(
-    'business_search', 'ho_en',
+    'business_search', 'home_en',
     'get_current_location',
     [],
     result_fields=['location'],
@@ -116,7 +116,7 @@ _get_location_yelp_business = WebHookRule(
 
 _restaurant_reservation_user_info = WebHookRule(
     'restaurant_reservation',
-    'ho_en',
+    'home_en',
     'ares_user_info',
     fields_precondition=['venue', 'num_people', 'date', 'time'],
     result_fields=['user_name', 'user_id', 'user_phone_number'],
@@ -130,7 +130,7 @@ _restaurant_reservation_user_info = WebHookRule(
 
 _start_ares_reservation = WebHookRule(
     'restaurant_reservation',
-    'ho_en',
+    'home_en',
     'start_ares_reservation',
     fields_precondition=['venue', 'num_people', 'date',
                          'time', 'user_id', 'user_phone_number'],
@@ -140,7 +140,7 @@ _start_ares_reservation = WebHookRule(
 
 _get_tv_channel_listing = WebHookRule(
     'tv_listings',
-    'ho_en',
+    'home_en',
     'get_tv_listing',
     fields_precondition=['channel', 'zipcode'],
     result_fields=['tv_listing', 'metadata'],
@@ -150,7 +150,7 @@ _get_tv_channel_listing = WebHookRule(
 
 _get_tv_genre_listing = WebHookRule(
     'tv_listings',
-    'ho_en',
+    'home_en',
     'get_tv_listing',
     fields_precondition=['genre', 'zipcode'],
     result_fields=['tv_listing', 'metadata'],
@@ -160,7 +160,7 @@ _get_tv_genre_listing = WebHookRule(
 
 _get_tv_cast_listing = WebHookRule(
     'tv_show_cast',
-    'ho_en',
+    'home_en',
     'get_tv_listing',
     fields_precondition=['show'],
     result_fields=['tv_listing', 'metadata'],
@@ -170,7 +170,7 @@ _get_tv_cast_listing = WebHookRule(
 
 _get_tv_description_listing = WebHookRule(
     'tv_show_description',
-    'ho_en',
+    'home_en',
     'get_tv_listing',
     fields_precondition=['show'],
     result_fields=['tv_listing', 'metadata'],
@@ -180,7 +180,7 @@ _get_tv_description_listing = WebHookRule(
 
 _get_tv_episode_summary_listing = WebHookRule(
     'tv_show_episode_summary',
-    'ho_en',
+    'home_en',
     'get_tv_listing',
     fields_precondition=['show'],
     result_fields=['tv_listing', 'metadata'],
@@ -190,7 +190,7 @@ _get_tv_episode_summary_listing = WebHookRule(
 
 _get_tv_show_airings_listing = WebHookRule(
     'tv_show_airings',
-    'ho_en',
+    'home_en',
     'get_tv_listing',
     fields_precondition=['show'],
     result_fields=['tv_listing', 'metadata'],
@@ -200,7 +200,7 @@ _get_tv_show_airings_listing = WebHookRule(
 
 _get_tv_streaming_search_listing = WebHookRule(
     'tv_streaming_search',
-    'ho_en',
+    'home_en',
     'get_tv_listing',
     fields_precondition=['show'],
     result_fields=['tv_listing', 'metadata'],
@@ -210,7 +210,7 @@ _get_tv_streaming_search_listing = WebHookRule(
 
 _get_business_address = WebHookRule(
     'business_address',
-    'ho_en',
+    'home_en',
     'get_local_business_address',
     fields_precondition=['business'],
     result_fields=['business_address'],
@@ -220,7 +220,7 @@ _get_business_address = WebHookRule(
 
 _get_business_reviews = WebHookRule(
     'business_reviews',
-    'ho_en',
+    'home_en',
     'get_local_business_reviews',
     fields_precondition=['business'],
     result_fields=['business_reviews'],
@@ -230,7 +230,7 @@ _get_business_reviews = WebHookRule(
 
 _get_business_rating = WebHookRule(
     'business_rating',
-    'ho_en',
+    'home_en',
     'get_local_business_rating',
     fields_precondition=['business'],
     result_fields=['business_rating'],
@@ -239,7 +239,7 @@ _get_business_rating = WebHookRule(
 
 _get_business_price = WebHookRule(
     'business_price',
-    'ho_en',
+    'home_en',
     'get_local_business_price',
     fields_precondition=['business'],
     result_fields=['business_price'],
@@ -248,7 +248,7 @@ _get_business_price = WebHookRule(
 
 _get_business_phone = WebHookRule(
     'business_phone',
-    'ho_en',
+    'home_en',
     'get_local_business_phone',
     fields_precondition=['business'],
     result_fields=['business_phone'],
@@ -257,7 +257,7 @@ _get_business_phone = WebHookRule(
 
 _get_business_hours = WebHookRule(
     'business_hours',
-    'ho_en',
+    'home_en',
     'get_local_business_hours',
     fields_precondition=['business'],
     result_fields=['business_hours'],
@@ -268,7 +268,7 @@ _get_business_hours = WebHookRule(
 
 _email_compose_account_present_rule = WebHookRule(
     'email_compose',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],
@@ -277,7 +277,7 @@ _email_compose_account_present_rule = WebHookRule(
 
 _email_compose_account_config_check_rule = WebHookRule(
    'email_compose',
-   'ho_en',
+   'home_en',
    'user_accounts_config_check',
    fields_precondition=[],
    result_fields=['is_any_email_acc_configured', 'email_from_account'],
@@ -287,7 +287,7 @@ _email_compose_account_config_check_rule = WebHookRule(
 
 _email_show_account_present_rule = WebHookRule(
     'email_show',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],
@@ -296,7 +296,7 @@ _email_show_account_present_rule = WebHookRule(
 
 _email_summarize_account_present_rule = WebHookRule(
     'email_summarize',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],
@@ -305,7 +305,7 @@ _email_summarize_account_present_rule = WebHookRule(
 
 _email_check_account_present_rule = WebHookRule(
     'email_check',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],
@@ -314,7 +314,7 @@ _email_check_account_present_rule = WebHookRule(
 
 _email_reply_account_present_rule = WebHookRule(
     'email_reply',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],
@@ -323,7 +323,7 @@ _email_reply_account_present_rule = WebHookRule(
 
 _calendar_check_account_present_rule = WebHookRule(
     'calendar_check_event',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],
@@ -332,7 +332,7 @@ _calendar_check_account_present_rule = WebHookRule(
 
 _calendar_create_account_present_rule = WebHookRule(
     'calendar_create_event',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],
@@ -341,7 +341,7 @@ _calendar_create_account_present_rule = WebHookRule(
 
 _calendar_show_account_present_rule = WebHookRule(
     'calendar_show_event',
-    'ho_en',
+    'home_en',
     'user_account_check',
     fields_precondition=[],
     result_fields=['email_error'],

@@ -1,0 +1,122 @@
+{
+  "id": "increase_decrease",
+  "fields": [
+    {
+      "id": "name_1",
+      "type": "device_name",
+      "mturk_field": "IncreaseDecreaseName1"
+    },
+    {
+      "id": "group_1",
+      "type": "device_group",
+      "mturk_field": "IncreaseDecreaseGroup1"
+    },
+    {
+      "id": "type_1",
+      "type": "device_type",
+      "mturk_field": "IncreaseDecreaseType1"
+    },
+    {
+      "id": "group_name_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseGroupName1"
+    },
+    {
+      "id": "type_name_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseTypeName1"
+    },
+    {
+      "id": "type_group_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseTypeGroup1"
+    },
+    {
+      "id": "type_group_name_1",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseTypeGroupName1"
+    },
+    {
+      "id": "increase_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseIncrease1"
+    },
+    {
+      "id": "decrease_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseDecrease1"
+    },
+    {
+      "id": "step_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseStep1"
+    },
+    {
+      "id": "level_1",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseLevel1"
+    },
+    {
+      "id": "name_2",
+      "type":"device_name",
+      "mturk_field": "IncreaseDecreaseName2"
+    },
+    {
+      "id": "group_2",
+      "type": "device_group",
+      "mturk_field": "IncreaseDecreaseGroup2"
+    },
+    {
+      "id": "type_2",
+      "type": "device_type",
+      "mturk_field": "IncreaseDecreaseType2"
+    },
+    {
+      "id": "group_name_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseGroupName2"
+    },
+    {
+      "id": "type_name_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseTypeName2"
+    },
+    {
+      "id": "type_group_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseTypeGroup2"
+    },
+    {
+      "id": "type_group_name_2",
+      "type": "alias",
+      "mturk_field": "IncreaseDecreaseTypeGroupName2"
+    },
+    {
+      "id": "increase_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseIncrease2"
+    },
+    {
+      "id": "decrease_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseDecrease2"
+    },
+    {
+      "id": "step_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseStep2"
+    },
+    {
+      "id": "level_2",
+      "type": "text",
+      "mturk_field": "IncreaseDecreaseLevel2"
+    }
+  ],
+  "mturk_response_fields": [
+      "IncreaseDecreaseQuery"
+  ],
+  "data_synthesis": {
+      "context_trigger_ratio": 0.3,
+      "sample_size": 100
+  }
+}

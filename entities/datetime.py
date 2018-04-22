@@ -12,7 +12,7 @@ from timestring import Range, TimestringInvalid
 from nlu import tokenizer
 from nlu.knowledge_base.entity_type_registry import register_entity_type
 from nlu.knowledge_base.entity_type_base import EntityTypeBase, DEFAULT_VALUE_KEY
-from nlu_applications.ho.entities.helpers_en.text_to_time import duration_text_to_minute, SHORT_TIME_UNITS, \
+from nlu_applications.home.entities.helpers_en.text_to_time import duration_text_to_minute, SHORT_TIME_UNITS, \
     LONG_TIME_UNITS, DAYS_OF_WEEK, MONTHS, TIME_LENGTH_MODIFIERS, MONTH_ORDINAL_DATES, MONTH_ORDINAL_DATES_TEXT
 from nlu.payload_utils import get_payload_timezone
 

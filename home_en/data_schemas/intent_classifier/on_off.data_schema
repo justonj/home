@@ -1,0 +1,102 @@
+{
+  "id": "on_off",
+  "fields": [
+    {
+      "id": "name_1",
+      "type": "device_name",
+      "mturk_field": "OnOffName1"
+    },
+    {
+      "id": "group_1",
+      "type": "device_group",
+      "mturk_field": "OnOffGroup1"
+    },
+    {
+      "id": "type_1",
+      "type": "device_type",
+      "mturk_field": "OnOffType1"
+    },
+    {
+      "id": "group_name_1",
+      "type": "alias",
+      "mturk_field": "OnOffGroupName1"
+    },
+    {
+      "id": "type_name_1",
+      "type": "alias",
+      "mturk_field": "OnOffTypeName1"
+    },
+    {
+      "id": "type_group_1",
+      "type": "alias",
+      "mturk_field": "OnOffTypeGroup1"
+    },
+    {
+      "id": "type_group_name_1",
+      "type": "alias",
+      "mturk_field": "OnOffTypeGroupName1"
+    },
+    {
+      "id": "on_1",
+      "type": "text",
+      "mturk_field": "OnOffOn1"
+    },
+    {
+      "id": "off_1",
+      "type": "text",
+      "mturk_field": "OnOffOff1"
+    },
+    {
+      "id": "name_2",
+      "type":"device_name",
+      "mturk_field": "OnOffName2"
+    },
+    {
+      "id": "group_2",
+      "type": "device_group",
+      "mturk_field": "OnOffGroup2"
+    },
+    {
+      "id": "type_2",
+      "type": "device_type",
+      "mturk_field": "OnOffType2"
+    },
+    {
+      "id": "group_name_2",
+      "type": "alias",
+      "mturk_field": "OnOffGroupName2"
+    },
+    {
+      "id": "type_name_2",
+      "type": "alias",
+      "mturk_field": "OnOffTypeName2"
+    },
+    {
+      "id": "type_group_2",
+      "type": "alias",
+      "mturk_field": "OnOffTypeGroup2"
+    },
+    {
+      "id": "type_group_name_2",
+      "type": "alias",
+      "mturk_field": "OnOffTypeGroupName2"
+    },
+    {
+      "id": "on_2",
+      "type": "text",
+      "mturk_field": "OnOffOn2"
+    },
+    {
+      "id": "off_2",
+      "type": "text",
+      "mturk_field": "OnOffOff2"
+    }
+  ],
+  "mturk_response_fields": [
+      "OnOffQuery"
+  ],
+  "data_synthesis": {
+      "context_trigger_ratio": 0.3,
+      "sample_size": 100
+  }
+}

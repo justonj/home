@@ -1,1 +1,1 @@
-ho = nlu_applications.ho.application:load_application
+home = nlu_applications.home.application:load_application

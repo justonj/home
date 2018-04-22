@@ -1,5 +1,5 @@
 {
-  "skill_id": "ho",
+  "skill_id": "home",
   "url": {
       "dev": "https://iamplus-skills-home-auto.herokuapp.com/retrieve",
       "qa": "https://iamplus-skills-home-auto.herokuapp.com/retrieve",
@@ -8,7 +8,7 @@
   },
   "intent_hooks": [
     {
-      "model_name": "ho_en",
+      "model_name": "home_en",
       "intent_id": "on_off",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -27,7 +27,7 @@
       ]
     },
     {
-      "model_name": "ho_en",
+      "model_name": "home_en",
       "intent_id": "open_close",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "model_name": "ho_en",
+      "model_name": "home_en",
       "intent_id": "lock_unlock",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "model_name": "ho_en",
+      "model_name": "home_en",
       "intent_id": "increase_decrease",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "model_name": "ho_en",
+      "model_name": "home_en",
       "intent_id": "set",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "model_name": "ho_en",
+      "model_name": "home_en",
       "intent_id": "status",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
@@ -122,7 +122,7 @@
       ]
     },
     {
-      "model_name": "ho_en",
+      "model_name": "home_en",
       "intent_id": "user_status",
       "field_precondition": "DIALOGUE_COMPLETE",
       "result_fields": [
