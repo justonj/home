@@ -13,7 +13,11 @@
       "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
-          "field_id": "devices",
+          "field_id": "devices_1",
+          "field_type": "list"
+        },
+        {
+          "field_id": "devices_2",
           "field_type": "list"
         },
         {
@@ -32,7 +36,11 @@
       "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
-          "field_id": "devices",
+          "field_id": "devices_1",
+          "field_type": "list"
+        },
+        {
+          "field_id": "devices_2",
           "field_type": "list"
         },
         {
@@ -51,7 +59,11 @@
       "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
-          "field_id": "devices",
+          "field_id": "devices_1",
+          "field_type": "list"
+        },
+        {
+          "field_id": "devices_2",
           "field_type": "list"
         },
         {
@@ -70,7 +82,11 @@
       "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
-          "field_id": "devices",
+          "field_id": "devices_1",
+          "field_type": "list"
+        },
+        {
+          "field_id": "devices_2",
           "field_type": "list"
         },
         {
@@ -89,7 +105,11 @@
       "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
-          "field_id": "devices",
+          "field_id": "devices_1",
+          "field_type": "list"
+        },
+        {
+          "field_id": "devices_2",
           "field_type": "list"
         },
         {
@@ -108,7 +128,11 @@
       "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
-          "field_id": "devices",
+          "field_id": "devices_1",
+          "field_type": "list"
+        },
+        {
+          "field_id": "devices_2",
           "field_type": "list"
         },
         {
@@ -127,7 +151,11 @@
       "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
-          "field_id": "devices",
+          "field_id": "devices_1",
+          "field_type": "list"
+        },
+        {
+          "field_id": "devices_2",
           "field_type": "list"
         },
         {
