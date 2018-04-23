@@ -1,5 +1,5 @@
 {
-  "id": "status",
+  "id": "user_status",
   "fields": [
     {
       "id": "climate_up",
