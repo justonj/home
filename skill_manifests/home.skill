@@ -10,10 +10,7 @@
     {
       "model_name": "home_en",
       "intent_id": "on_off",
-      "field_precondition": [
-        "type_group_name_1",
-        "DIALOGUE_COMPLETE"
-      ],
+      "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
           "field_id": "devices",
@@ -32,10 +29,7 @@
     {
       "model_name": "home_en",
       "intent_id": "open_close",
-      "field_precondition": [
-        "type_group_name_1",
-        "DIALOGUE_COMPLETE"
-      ],
+      "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
           "field_id": "devices",
@@ -54,10 +48,7 @@
     {
       "model_name": "home_en",
       "intent_id": "lock_unlock",
-      "field_precondition": [
-        "type_group_name_1",
-        "DIALOGUE_COMPLETE"
-      ],
+      "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
           "field_id": "devices",
@@ -76,10 +67,7 @@
     {
       "model_name": "home_en",
       "intent_id": "increase_decrease",
-      "field_precondition": [
-        "type_group_name_1",
-        "DIALOGUE_COMPLETE"
-      ],
+      "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
           "field_id": "devices",
@@ -98,10 +86,7 @@
     {
       "model_name": "home_en",
       "intent_id": "set",
-      "field_precondition": [
-        "type_group_name_1",
-        "DIALOGUE_COMPLETE"
-      ],
+      "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
           "field_id": "devices",
@@ -120,10 +105,7 @@
     {
       "model_name": "home_en",
       "intent_id": "status",
-      "field_precondition": [
-        "type_group_name_1",
-        "DIALOGUE_COMPLETE"
-      ],
+      "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
           "field_id": "devices",
@@ -142,10 +124,7 @@
     {
       "model_name": "home_en",
       "intent_id": "user_status",
-      "field_precondition": [
-        "type_group_name_1",
-        "DIALOGUE_COMPLETE"
-      ],
+      "field_precondition": ["type_group_name_1"],
       "result_fields": [
         {
           "field_id": "devices",
