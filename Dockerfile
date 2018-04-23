@@ -1,4 +1,4 @@
-FROM quay.io/iamplus/nlu:deployment
+FROM quay.io/iamplus/nlu:v0.24.1
 #FROM nlu-test
 
 WORKDIR /nlu
