@@ -6,8 +6,6 @@ class BlankApplication(app_manager.Application):
         pass
 
     def load_entities(self):
-        from .entities import address
-        from .entities import datetime
         from .entities import DescriptorType
         from .entities import phone_number
         from .entities import yes_no
