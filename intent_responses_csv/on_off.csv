@@ -9,11 +9,11 @@ priority,present,entity_values,unresolved,missing,awaiting field,home_en
 65,skill_exception && device_2,"[('skill_exception', 'unsupported_2')]",,,,<device_2> is not capable of being turned on or off
 60,skill_exception,"[('skill_exception', 'unsupported_1')]",,,,This device can't be turned on or off
 55,skill_exception,"[('skill_exception', 'unsupported_2')]",,,,This device can't be turned on or off
-50,devices_1 && on_1 && devices_2 && on_2,,,,,Turning on <devices_1> and <devices_2>
-45,devices_1 && off_1 && devices_2 && off_2,,,,,Turning off <devices_1> and <devices_2>
-40,devices_1 && on_1 && devices_2 && off_2,,,,,Turning on <devices_1> and turning off <devices_2>
-35,devices_1 && off_1 && devices_2 && on_2,,,,,Turning off <devices_1> and turning on <devices_2>
-30,devices_1 && on_1 && devices_2,,,,,Turning on <devices_1> and <devices_2>
-25,devices_1 && off_1 && devices_2,,,,,Turning off <devices_1> and <devices_2>
-20,devices_1 && on_1,,,,,Turning on <devices_1>
-15,devices_1 && off_1,,,,,Turning off <devices_1>
+50,type_group_name_1 && on_1 && type_group_name_2 && on_2,,,,,Turning on <type_group_name_1> and <type_group_name_2>
+45,type_group_name_1 && off_1 && type_group_name_2 && off_2,,,,,Turning off <type_group_name_1> and <type_group_name_2>
+40,type_group_name_1 && on_1 && type_group_name_2 && off_2,,,,,Turning on <type_group_name_1> and turning off <type_group_name_2>
+35,type_group_name_1 && off_1 && type_group_name_2 && on_2,,,,,Turning off <type_group_name_1> and turning on <type_group_name_2>
+30,type_group_name_1 && on_1 && type_group_name_2,,,,,Turning on <type_group_name_1> and <type_group_name_2>
+25,type_group_name_1 && off_1 && type_group_name_2,,,,,Turning off <type_group_name_1> and <type_group_name_2>
+20,type_group_name_1 && on_1,,,,,Turning on <type_group_name_1>
+15,type_group_name_1 && off_1,,,,,Turning off <type_group_name_1>

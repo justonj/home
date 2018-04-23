@@ -9,11 +9,11 @@ priority,present,entity_values,unresolved,missing,awaiting field,home_en
 65,skill_exception && device_2,"[('skill_exception', 'unsupported_2')]",,,,<device_1> is not capable of being opened and closed
 60,skill_exception,"[('skill_exception', 'unsupported_1')]",,,,<device_2> is not capable of being opened and closed
 55,skill_exception,"[('skill_exception', 'unsupported_2')]",,,,These devices are not capable of being opened and closed
-50,devices_1 && open_1 && devices_2 && open_2,,,,,Opening <devices_1> and <devices_2>
-45,devices_1 && close_1 && devices_2 && close_2,,,,,Closing <devices_1> and <devices_2>
-40,devices_1 && open_1 && devices_2 && close_2,,,,,Opening <devices_1> and closing <devices_2>
-35,devices_1 && close_1 && devices_2 && open_2,,,,,Closing <devices_1> and opening <devices_2>
-30,devices_1 && open_1 && devices_2,,,,,Opening <devices_1> and <devices_2>
-25,devices_1 && close_1 && devices_2,,,,,Closing <devices_1> and <devices_2>
-20,devices_1 && open_1,,,,,Opening <devices_1>
-15,devices_1 && close_1,,,,,Closing <devices_1>
+50,type_group_name_1 && open_1 && devices_2 && open_2,,,,,Opening <type_group_name_1> and <devices_2>
+45,type_group_name_1 && close_1 && devices_2 && close_2,,,,,Closing <type_group_name_1> and <devices_2>
+40,type_group_name_1 && open_1 && devices_2 && close_2,,,,,Opening <type_group_name_1> and closing <devices_2>
+35,type_group_name_1 && close_1 && devices_2 && open_2,,,,,Closing <type_group_name_1> and opening <devices_2>
+30,type_group_name_1 && open_1 && devices_2,,,,,Opening <type_group_name_1> and <devices_2>
+25,type_group_name_1 && close_1 && devices_2,,,,,Closing <type_group_name_1> and <devices_2>
+20,type_group_name_1 && open_1,,,,,Opening <type_group_name_1>
+15,type_group_name_1 && close_1,,,,,Closing <type_group_name_1>
