@@ -1,19 +1,19 @@
 priority,present,entity_values,unresolved,missing,awaiting field,home_en
-100,,,type_group_name_1,,type_group_name_1,Which do you mean: <type_goup_name_1.candidates>
-95,,,type_group_name_2,,type_group_name_2,Which do you mean: <type_goup_name_2.candidates>
-90,,,type_group_name_1,,,I don't know of any devices <type_goup_name_1>
-85,,,type_group_name_2,,,I don't know of any devices <type_goup_name_2>
+100,,,devices_1,,devices_1,Which do you mean: <type_goup_name_1.candidates>
+95,,,devices_2,,devices_2,Which do you mean: <type_goup_name_2.candidates>
+90,,,devices_1,,,I don't know of any devices <type_goup_name_1>
+85,,,devices_2,,,I don't know of any devices <type_goup_name_2>
 80,skill_exception,"[('skill_exception', 'not_found_1')]",,,,I don't know such devices
 75,skill_exception,"[('skill_exception', 'not_found_2')]",,,,I don't know such devices
 70,skill_exception && device_1,"[('skill_exception', 'unsupported_1')]",,,,I don't know such devices
 65,skill_exception && device_2,"[('skill_exception', 'unsupported_2')]",,,,<device_1> is not capable of being increased and decreased
 60,skill_exception,"[('skill_exception', 'unsupported_1')]",,,,<device_2> is not capable of being increased and decreased
 55,skill_exception,"[('skill_exception', 'unsupported_2')]",,,,These devices are not capable of being increased and decreased
-50,type_group_name_1 && decrease_1 && devices_2 && increase_2,,,,,Turning up <type_group_name_1> and <devices_2>
-45,type_group_name_1 && decrease_1 && devices_2 && decrease_2,,,,,Turning down <type_group_name_1> and <devices_2>
-40,type_group_name_1 && decrease_1 && devices_2 && decrease_2,,,,,Turning up <type_group_name_1> and turning down <devices_2>
-35,type_group_name_1 && decrease_1 && devices_2 && increase_2,,,,,Turning down <type_group_name_1> and turning up <devices_2>
-30,type_group_name_1 && increase_1 && devices_2,,,,,Turning up <type_group_name_1> and <devices_2>
-25,type_group_name_1 && decrease_1 && devices_2,,,,,Turning down <type_group_name_1> and <devices_2>
-20,type_group_name_1 && increase_1,,,,,Turning up <type_group_name_1>
-15,type_group_name_1 && decrease_1,,,,,Turning down <type_group_name_1>
+50,devices_1 && decrease_1 && devices_2 && increase_2,,,,,Turning up <devices_1> and <devices_2>
+45,devices_1 && decrease_1 && devices_2 && decrease_2,,,,,Turning down <devices_1> and <devices_2>
+40,devices_1 && decrease_1 && devices_2 && decrease_2,,,,,Turning up <devices_1> and turning down <devices_2>
+35,devices_1 && decrease_1 && devices_2 && increase_2,,,,,Turning down <devices_1> and turning up <devices_2>
+30,devices_1 && increase_1 && devices_2,,,,,Turning up <devices_1> and <devices_2>
+25,devices_1 && decrease_1 && devices_2,,,,,Turning down <devices_1> and <devices_2>
+20,devices_1 && increase_1,,,,,Turning up <devices_1>
+15,devices_1 && decrease_1,,,,,Turning down <devices_1>
